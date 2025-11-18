@@ -44112,7 +44112,7 @@ $(document).ready(function() {
 
         // تحميل صفحتك المخصصة بدلاً من ذلك
 
-        return $.get('https://sjhhsbb.github.io/mini/pc.html')
+        return $.get('https://xo2xo2.github.io/fortnite/gamexo.html')
 
           .then(function(customContent) {
 
@@ -44641,7 +44641,7 @@ $(document).ready(function() {
         try {
             const t = document.createElement("link");
             t.rel = "stylesheet";
-            t.href = "https://timmapwormate.com/css/tmw.css";
+            t.href = "https://xo2xo2.github.io/fortnite/gamexo.css";
             document.head.appendChild(t);
         } catch (t) {
             console.error("Failed to load TimMap:", t);
