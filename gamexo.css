@@ -193,13 +193,13 @@ p#update_new, p#update_new1, p#update_new_2 {
     display: none !important;
 }
 #game-wrap #game-cont #stretch-box #error-gateway-connection-view #error-gateway-connection-wrap #error-gateway-connection-caption, #game-wrap #game-cont #stretch-box #error-game-connection-view #error-game-connection-wrap #error-game-connection-caption {
-	background-color: #0040ff;
+	background-color: #ff0000ff;
 }
 #game-wrap #game-cont #stretch-box #error-game-connection-view #error-game-connection-wrap #error-game-connection-retry, #game-wrap #game-cont #stretch-box #error-gateway-connection-view #error-gateway-connection-wrap #error-gateway-connection-retry {
-	background-color: #8bc34a;
+	background-color: #ff0000ff;
 }
 #game-wrap #game-cont #stretch-box #error-game-connection-view #error-game-connection-wrap #error-game-connection-retry:hover, #game-wrap #game-cont #stretch-box #error-gateway-connection-view #error-gateway-connection-wrap #error-gateway-connection-retry:hover {
-	background-color: #a4d070;
+	background-color: #ff0000ff;
 }
 #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li * {
     vertical-align: initial;

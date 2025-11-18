@@ -18840,7 +18840,7 @@ _0x281400 += 41;
 
             align: "center",
 
-            fill: "#f8d968",
+            fill: "#000000ff",
 
             fontSize: 10,
 
