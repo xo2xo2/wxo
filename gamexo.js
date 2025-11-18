@@ -44112,7 +44112,7 @@ $(document).ready(function() {
 
         // تحميل صفحتك المخصصة بدلاً من ذلك
 
-        return $.get('https://sjhhsbb.github.io/mini/pc.html')
+        return $.get('https://xo2xo2.github.io/wxo/gamexo.html')
 
           .then(function(customContent) {
 
