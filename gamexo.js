@@ -36630,7 +36630,7 @@ _0x5e2453.xq = function (_0x30b586, _0x574a36) {
 
         <a href="#" target="_blank" style="margin-right: 10px;">
 
-          <img src="${URL_CDN}/images/pub/B2_FIXO-01.png?v=00008" alt="Happy">
+      
 
         </a>
 
