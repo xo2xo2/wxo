@@ -145,7 +145,7 @@ button#op_tmw, button#btn_crsw {
 		white-space: nowrap; 
 }
 input#btnFullScreen , input#btn_in_t, input#btnRePlay {
-    background-image: linear-gradient(#ffffff, #000000);
+    background-image: linear-gradient(#000000, #ffffff);
     font-weight: bold;
     border-width: 1px;
     border-color: #ffffff;
