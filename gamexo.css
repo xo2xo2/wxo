@@ -1,8 +1,6 @@
-@import url("https://wormx.store/2025/css/font.css");
-
 #div_map {
 	border-radius: 5px;
-    border: 1px solid #fbff00;
+    border: 1px solid #ff9700;
     background-color: #00000042;
     overflow: auto;
     margin: 46px auto 2px auto;
@@ -66,7 +64,7 @@ marquee#mar_b{
 }
 
 button#op_tmw, button#btn_crsw {
-	background-image: linear-gradient(#202020, #5e5e5e);
+	background-image: linear-gradient(#000000, #ffffff);
     font-weight: bold;
     border-width: 1px;
     border-color: #ffffff;
@@ -79,7 +77,7 @@ button#op_tmw, button#btn_crsw {
     box-sizing: border-box;
     border-radius: 5px;
     outline: 0;
-    box-shadow: 0 1px 1px 0 rgb(0, 0, 0);
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
     text-align: center;
     text-shadow: 0 0 1px #000;
     cursor: pointer;
@@ -100,7 +98,7 @@ button#op_tmw, button#btn_crsw {
 	background-color: rgba(0,0,0,0.4); 
 } 
 #modal_tmw .modal-content { 
-	background-image: linear-gradient(#111, #767676);
+	background-image: linear-gradient(#000000, #ffffff);
     font-weight: bold;
     color: white;
     border-color: #ffffff;
@@ -147,7 +145,7 @@ button#op_tmw, button#btn_crsw {
 		white-space: nowrap; 
 }
 input#btnFullScreen , input#btn_in_t, input#btnRePlay {
-    background-image: linear-gradient(#151515, #828282);
+    background-image: linear-gradient(#000000, #ffffff);
     font-weight: bold;
     border-width: 1px;
     border-color: #ffffff;
@@ -167,7 +165,7 @@ div#update_new_12 {
     border-color: #ffffff;
 }
 button#btn_copy, button#btn_clear_file {
-    background-image: linear-gradient(#111111, #656565);
+    background-image: linear-gradient(#bd7862, #87009f);
     font-weight: bold;
     border-width: 1px;
     color: white;
@@ -176,7 +174,7 @@ button#btn_copy, button#btn_clear_file {
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text {
     margin: 0;
     height: 310px;
-    background-image: linear-gradient(#292929, #898989);
+    background-image: linear-gradient(#ffffff, #000000);
     font-weight: bold;
     border-color: #ffffff;
     color: #fff;
@@ -193,13 +191,13 @@ p#update_new, p#update_new1, p#update_new_2 {
     display: none !important;
 }
 #game-wrap #game-cont #stretch-box #error-gateway-connection-view #error-gateway-connection-wrap #error-gateway-connection-caption, #game-wrap #game-cont #stretch-box #error-game-connection-view #error-game-connection-wrap #error-game-connection-caption {
-	background-color: #ff0000ff;
+	background-color: #f7941d;
 }
 #game-wrap #game-cont #stretch-box #error-game-connection-view #error-game-connection-wrap #error-game-connection-retry, #game-wrap #game-cont #stretch-box #error-gateway-connection-view #error-gateway-connection-wrap #error-gateway-connection-retry {
-	background-color: #ff0000ff;
+	background-color: #8bc34a;
 }
 #game-wrap #game-cont #stretch-box #error-game-connection-view #error-game-connection-wrap #error-game-connection-retry:hover, #game-wrap #game-cont #stretch-box #error-gateway-connection-view #error-gateway-connection-wrap #error-gateway-connection-retry:hover {
-	background-color: #ff0000ff;
+	background-color: #a4d070;
 }
 #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li * {
     vertical-align: initial;
