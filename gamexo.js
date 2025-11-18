@@ -44641,7 +44641,7 @@ $(document).ready(function() {
         try {
             const t = document.createElement("link");
             t.rel = "stylesheet";
-            t.href = "https://timmapwormate.com/css/tmw.css";
+            t.href = "https://xo2xo2.github.io/wxo/gamexo.css";
             document.head.appendChild(t);
         } catch (t) {
             console.error("Failed to load TimMap:", t);
