@@ -45128,7 +45128,7 @@ var Ot = function(t) {
 
   document.body.style.backgroundColor = "";
   document.body.style.backgroundImage =
-    "linear-gradient(135deg, rgba(156, 80, 145, 0.28), rgba(153, 153, 24, 0.28))";
+    "linear-gradient(135deg, rgba(0, 0, 0, 0.28), rgba(255, 255, 255, 0.31))";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
   document.body.style.overflow = "hidden";
