@@ -18819,7 +18819,7 @@ _0x281400 += 41;
 
             align: "center",
 
-            fill: "#ffffffff",
+            fill: "#ffd900ff",
 
             fontSize: 10,
 
@@ -18839,7 +18839,7 @@ _0x281400 += 41;
 
             align: "center",
 
-            fill: "#ffc800ff",
+            fill: "#ffd900ff",
 
             fontSize: 10,
 
