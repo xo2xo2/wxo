@@ -19133,7 +19133,7 @@ _0x281400 += 41;
 
       w2c2020.killTotal.y = 133;
 
-      w2c2020.clock = PIXI.Sprite.from("https://i.imgur.com/VPkrI9l.png");
+      w2c2020.clock = PIXI.Sprite.from("https://asserts.wormworld.io/images/clock.png");
 
       w2c2020.clock.width = 100;
 
