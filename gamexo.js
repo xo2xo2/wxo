@@ -18819,9 +18819,9 @@ _0x281400 += 41;
 
             align: "center",
 
-            fill: "#ffd900ff",
+            fill: "#ffe600ff",
 
-            fontSize: 10,
+            fontSize: 12,
 
             lineJoin: "round",
 
@@ -18839,9 +18839,9 @@ _0x281400 += 41;
 
             align: "center",
 
-            fill: "#ffd900ff",
+            fill: "#ffd600ff",
 
-            fontSize: 10,
+            fontSize: 12,
 
             lineJoin: "round",
 
@@ -18941,7 +18941,7 @@ _0x281400 += 41;
 
           align: "center",
 
-          fill: _0x3d2d94,
+          fill: "#ffffff",
 
           fontSize: 25,
 
@@ -19319,7 +19319,7 @@ _0x281400 += 41;
 
       w2c2020.containerCountInfo.addChild(w2c2020.killTotal);
 
-      w2c2020.labelRoom = new PIXI.Text("?", w2c2020.fontStyle.amarelo);
+      w2c2020.labelRoom = new PIXI.Text("WXO", w2c2020.fontStyle.amarelo);
 
       w2c2020.labelRoom.x = -50;
 
@@ -19327,7 +19327,7 @@ _0x281400 += 41;
 
       w2c2020.addRoom = function (_0x2fb5c9) {
 
-        w2c2020.labelRoom.text = _0x2fb5c9 || "?";
+        w2c2020.labelRoom.text = _0x2fb5c9 || "WXO";
 
       };
 
