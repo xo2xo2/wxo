@@ -25394,7 +25394,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 this.jh.alpha = 0.9;
 
-                this.jh.beginFill(16225317);
+                this.jh.beginFill(0xFFFFFF);
 
                 this.jh.drawCircle(0, 0, this.kh * 0.1);
 
@@ -37816,7 +37816,7 @@ _0x5e2453.xq = function (_0x30b586, _0x574a36) {
 
     <div>
 
-        <label>3 TOP SCORE</label>
+        <label>TOP 3</label>
 
         <input type="checkbox" id="onlytop" />
 
