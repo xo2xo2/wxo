@@ -25346,7 +25346,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 var _0x36537b = new _0x429afb.Graphics();
 
-                _0x36537b.beginFill(0xFFFFFF, 1);
+                _0x36537b.beginFill("black", 0.4);
 
                 _0x36537b.drawCircle(0, 0, this.kh);
 
