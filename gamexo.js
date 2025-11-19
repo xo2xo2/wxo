@@ -16391,7 +16391,7 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
       };
 
-      $("<button type=\"button\" id=\"mm-wwc\" style=\"float: right;line-height: 48px;width: 120px;background: #00ccff;color: #FFF;font-weight: bold;margin-right: 5px;border-radius: 7px; cursor: pointer;box-shadow: 0 0 8px 2px rgba(0, 200, 255, 0.5), 0 0 15px 4px rgba(0, 200, 255, 0.3);text-shadow: 0 0 3px rgba(0, 200, 255, 0.5);animation: mmwwcGlow 2s ease-in-out infinite;\">⚙️ Settings</button>").insertAfter("#mm-store");
+      $("<button type=\"button\" id=\"mm-wwc\" style=\"float: right;line-height: 48px;width: 70px;background: #00ccff;color: #FFF;font-weight: bold;margin-right: 5px;border-radius: 15px; cursor: pointer;box-shadow: 0 0 8px 2px rgba(0, 200, 255, 0.5), 0 0 15px 4px rgba(0, 200, 255, 0.3);text-shadow: 0 0 3px rgba(0, 200, 255, 0.5);animation: mmwwcGlow 2s ease-in-out infinite;\">⚙️</button>").insertAfter("#mm-store");
 
       $(".store-view-cont").append("<div id=\"idReplaceSkin\"></div>");
 
@@ -18819,13 +18819,13 @@ _0x281400 += 41;
 
             align: "center",
 
-            fill: "#f8d968",
+            fill: "#ffffffff",
 
             fontSize: 10,
 
             lineJoin: "round",
 
-            stroke: "red",
+            stroke: "",
 
             strokeThickness: 1,
 
@@ -18845,7 +18845,7 @@ _0x281400 += 41;
 
             lineJoin: "round",
 
-            stroke: "red",
+            stroke: "",
             
             strokeThickness: 1,
 
@@ -19319,7 +19319,7 @@ _0x281400 += 41;
 
       w2c2020.containerCountInfo.addChild(w2c2020.killTotal);
 
-      w2c2020.labelRoom = new PIXI.Text("wwc", w2c2020.fontStyle.amarelo);
+      w2c2020.labelRoom = new PIXI.Text("XO", w2c2020.fontStyle.amarelo);
 
       w2c2020.labelRoom.x = -50;
 
@@ -19327,7 +19327,7 @@ _0x281400 += 41;
 
       w2c2020.addRoom = function (_0x2fb5c9) {
 
-        w2c2020.labelRoom.text = _0x2fb5c9 || "wwc";
+        w2c2020.labelRoom.text = _0x2fb5c9 || "XO";
 
       };
 
