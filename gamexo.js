@@ -19319,7 +19319,7 @@ _0x281400 += 41;
 
       w2c2020.containerCountInfo.addChild(w2c2020.killTotal);
 
-      w2c2020.labelRoom = new PIXI.Text("XO", w2c2020.fontStyle.amarelo);
+      w2c2020.labelRoom = new PIXI.Text("?", w2c2020.fontStyle.amarelo);
 
       w2c2020.labelRoom.x = -50;
 
@@ -19327,7 +19327,7 @@ _0x281400 += 41;
 
       w2c2020.addRoom = function (_0x2fb5c9) {
 
-        w2c2020.labelRoom.text = _0x2fb5c9 || "XO";
+        w2c2020.labelRoom.text = _0x2fb5c9 || "?";
 
       };
 
