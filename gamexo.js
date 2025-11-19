@@ -18821,7 +18821,7 @@ _0x281400 += 41;
 
             fill: "#ffe600ff",
 
-            fontSize: 12,
+            fontSize: 10,
 
             lineJoin: "round",
 
@@ -18841,7 +18841,7 @@ _0x281400 += 41;
 
             fill: "#ffd600ff",
 
-            fontSize: 12,
+            fontSize: 10,
 
             lineJoin: "round",
 
@@ -18931,7 +18931,7 @@ _0x281400 += 41;
 
       };
 
-      var _0x34cbc5 = ["#FFD500", "#FFC75A", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
+      var _0x34cbc5 = ["#ffffffff", "#ffa600ff", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
 
       for (var _0x16d41d = 0; _0x16d41d < _0x34cbc5.length; _0x16d41d++) {
 
