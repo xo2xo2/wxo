@@ -30602,7 +30602,7 @@ _0x166b7d.prototype.Jf = function () {
 
               _0x4327d6.text(decoder.H("index.game.result.continue"));
 
-              _0x4327d6.html("Continue (Home)");
+              _0x4327d6.html("Continue");
 
               _0x4327d6.after("<div id='final-replay'>Respawn</div>");
 
@@ -30664,7 +30664,7 @@ _0x166b7d.prototype.Jf = function () {
 
                   $(this).css({
 
-                    "background": "#fa9d32"
+                    "background": "#af5e00ff"
 
                   });
 
