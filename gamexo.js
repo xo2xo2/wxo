@@ -17876,7 +17876,7 @@ if (bbs.hudSettings.mode == 1) {
 
 
 
-_0x281400 += 41;
+// _0x281400 += 41;
 
                 }
 
@@ -17884,7 +17884,7 @@ _0x281400 += 41;
 
             };
 
-            if (!bbs.display.customClock) {
+          //  if (!bbs.display.customClock) {
 
            //   _0x1f8817.og.af.ng.Tg.addChild(w2c2020.clock); 
 
@@ -17920,7 +17920,7 @@ _0x281400 += 41;
 
               var _0x70fc3e = _0x5e27a0[_0x26a66c] - parseInt((_0x342ec9 == 0.99 ? 1 : _0x342ec9) * _0x5e27a0[_0x26a66c] / 1);
 
-              var _0x5743cd = "clock_ad" + _0x26a66c;
+            //  var _0x5743cd = "clock_ad" + _0x26a66c;
 
               _0x2306da.rh[_0x26a66c].addChild(w2c2020.ptc[_0x5743cd]);
 
