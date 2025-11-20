@@ -1,3 +1,16 @@
+@import url("https://wormx.store/2025/css/font.css");
+
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
+
+    * {
+        font-family: vuonghiep;
+        }
+        
+
 #div_map {
 	border-radius: 5px;
     border: 1px solid #ff9700;
