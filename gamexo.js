@@ -1,18 +1,4 @@
-(function() {
-    const style = document.createElement('style');
-    style.innerHTML = `
-    @import url('https://wormx.store/2025/css/font.css');
 
-    * {
-        font-family: inherit !important;
-    }
-
-    html, body {
-        font-family: sans-serif !important;
-    }
-    `;
-    document.head.appendChild(style);
-})();
 var wwc_keycode = "073ded1edcedd11f60005ae969cabf11";
 
 
