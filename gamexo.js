@@ -25329,6 +25329,7 @@ _0x166b7d.prototype.Jf = function () {
               }
 
             };
+            // دائره الخريطه لنغير لون الخريطة من سطر رقم 25356
 
             var _0x5a38cc = function () {
 
@@ -25383,7 +25384,7 @@ _0x166b7d.prototype.Jf = function () {
 
 
             
-
+// لون دائره الصغيرة الذي يمثل مكان اللاعب
 
 
                 this.jh = new _0x429afb.Graphics();
@@ -25556,7 +25557,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 this.jg[_0xdda9a8].wh(1, "white");
 
-                this.jg[_0xdda9a8].xh("", decoder.H("index.game.leader.top10"), "(" + _0x4d1f77.dh.yh + " online)");
+                this.jg[_0xdda9a8].xh("", decoder.H("index.game.leader.top10"), "(" + _0x4d1f77.dh.yh + " Player)");
 
                 this.jg[_0xdda9a8].position.y = _0x1543ea;
 
