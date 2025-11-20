@@ -17876,7 +17876,7 @@ if (bbs.hudSettings.mode == 1) {
 
 
 
-// _0x281400 += 41;
+ _0x281400 += 41;
 
                 }
 
@@ -17884,23 +17884,23 @@ if (bbs.hudSettings.mode == 1) {
 
             };
 
-          //  if (!bbs.display.customClock) {
+            if (!bbs.display.customClock) {
 
-           //   _0x1f8817.og.af.ng.Tg.addChild(w2c2020.clock); 
+              _0x1f8817.og.af.ng.Tg.addChild(w2c2020.clock); 
 
             }
 
-         //   _0x1f8817.og.af.ng.Tg.addChild(w2c2020.containerCountInfo);
+            _0x1f8817.og.af.ng.Tg.addChild(w2c2020.containerCountInfo);
 
-       //     _0x1f8817.og.af.ng.Tg.addChild(w2c2020.containerHstop);
+            _0x1f8817.og.af.ng.Tg.addChild(w2c2020.containerHstop);
 
-          //  w2c2020.containerHstop.alpha = 0;
+            w2c2020.containerHstop.alpha = 0;
 
-          //  _0x1f8817.og.af.ng.Tg.addChild(w2c2020.containerHsRec);
+            _0x1f8817.og.af.ng.Tg.addChild(w2c2020.containerHsRec);
 
             w2c2020.containerHsRec.alpha = 0;
 
-           // _0x1f8817.og.af.ng.Tg.addChild(w2c2020.labelRoom);
+            _0x1f8817.og.af.ng.Tg.addChild(w2c2020.labelRoom);
 
             w2c2020.ptc = {};
 
@@ -17910,9 +17910,9 @@ if (bbs.hudSettings.mode == 1) {
 
              // _0x1a81ec = "clock_ad" + _0x240e1e;
 
-            //  w2c2020.ptc[_0x1a81ec] = new PIXI.Text(_0x5e27a0[_0x240e1e], w2c2020.fontStyle["tfc" + _0x240e1e]);
+              w2c2020.ptc[_0x1a81ec] = new PIXI.Text(_0x5e27a0[_0x240e1e], w2c2020.fontStyle["tfc" + _0x240e1e]);
 
-          //    w2c2020.ptc[_0x1a81ec].y = 66;
+              w2c2020.ptc[_0x1a81ec].y = 66;
 
             }
 
