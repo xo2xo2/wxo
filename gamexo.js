@@ -20534,9 +20534,9 @@ if (_0x3f5f45.key === "3") {
 
               r: window.runtimeHash,
 
-              b: "",
+              b: "https://gateway.wormate.io",
 
-              c: "",
+              c: "https://resources.wormate.io",
 
               d: "",
 
