@@ -30592,13 +30592,13 @@ _0x166b7d.prototype.Jf = function () {
 
             var _0x135ec7 = $("#final-share-fb");
 
-            var _0x480cd3 = $("#final-message");
+          //  var _0x480cd3 = $("#final-message");
 
             var _0x253636 = $("#final-score");
 
             var _0x421d66 = $("#final-place");
 
-            var _0x18a9ed = $("#final-board");
+          //  var _0x18a9ed = $("#final-board");
 
             var _0x2822cb = decoder.M(_0x232886.kf, function () {
 
