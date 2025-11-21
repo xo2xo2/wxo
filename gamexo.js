@@ -13094,7 +13094,6 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
         h: 1100
 
-
       }];
 
       (function (_0x7e16e) {
@@ -17919,7 +17918,7 @@ if (bbs.hudSettings.mode == 1) {
 
             for (_0x240e1e = 0; _0x240e1e < _0x5e27a0.length; _0x240e1e++) {
 
-             // _0x1a81ec = "clock_ad" + _0x240e1e;
+              _0x1a81ec = "clock_ad" + _0x240e1e;
 
               w2c2020.ptc[_0x1a81ec] = new PIXI.Text(_0x5e27a0[_0x240e1e], w2c2020.fontStyle["tfc" + _0x240e1e]);
 
@@ -17931,7 +17930,7 @@ if (bbs.hudSettings.mode == 1) {
 
               var _0x70fc3e = _0x5e27a0[_0x26a66c] - parseInt((_0x342ec9 == 0.99 ? 1 : _0x342ec9) * _0x5e27a0[_0x26a66c] / 1);
 
-            //  var _0x5743cd = "clock_ad" + _0x26a66c;
+              var _0x5743cd = "clock_ad" + _0x26a66c;
 
               _0x2306da.rh[_0x26a66c].addChild(w2c2020.ptc[_0x5743cd]);
 
