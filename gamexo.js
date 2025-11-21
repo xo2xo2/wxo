@@ -13088,7 +13088,7 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
         nome: "Um Husien",
 
-        uri: window.URL_CDN + "https://imgur.com/gjoDm5A.png",
+        uri: window.url + "https://imgur.com/gjoDm5A.png",
 
         w: 1100,
 
