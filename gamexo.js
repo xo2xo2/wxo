@@ -20274,7 +20274,7 @@ if (_0x3f5f45.key === "3") {
 
               } else if (_0x166f6c) {
 
-                return _0x5ba21e.createElementNS.call(_0x5ba21e, "http://www.w3.org/2000/svg", arguments[0]);
+                return _0x5ba21e.createElementNS.call(_0x5ba21e, "http://www.w3.org/2000/svg", arguments[0]);                                                                    
 
               } else {
 
@@ -20538,7 +20538,7 @@ if (_0x3f5f45.key === "3") {
 
               c: "https://resources.wormate.io",
 
-              d: "/images/linelogo-valday2023.png",
+              d: "",
 
               e: "/images/guest-avatar-valday2023.png",
 
