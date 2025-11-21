@@ -20534,17 +20534,17 @@ if (_0x3f5f45.key === "3") {
 
               r: window.runtimeHash,
 
-              b: "https://gateway.wormate.io",
+              b: "",
 
-              c: "https://resources.wormate.io",
+              c: "",
 
               d: "",
 
-              e: "/images/guest-avatar-valday2023.png",
+              e: "",
 
-              f: "/images/confetti-valday2023.png",
+              f: "",
 
-              g: "/images/bg-event-pattern-valday2023.png"
+              g: "",
 
             }
 
