@@ -12954,7 +12954,7 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
       window.URLSERV_WORMWORLD = _0x24c052 ? "http://localhost:3102" : "https://wormworld.io/extension";
 
-      window.URL_CDN = _0x24c052 ? "http://localhost:3000" : "https://asserts.wormworld.io";
+      window.URL_CDN = _0x24c052 ? "http://localhost:3000" : "https://asserts.wormworld.io";                                                                                          
 
       window.URL_CDN_B = _0x24c052 ? "localhost:3000" : "asserts.wormworld.io";
 
@@ -13083,6 +13083,17 @@ window.debugSectors = () => window.sectorSystem?.debug();
         w: 1100,
 
         h: 1100
+        
+      }, {
+
+        nome: "Um Husien",
+
+        uri: window.URL_CDN + "https://imgur.com/gjoDm5A.png",
+
+        w: 1100,
+
+        h: 1100
+
 
       }];
 
