@@ -8,6 +8,16 @@ setInterval(() => {
         }
     });
 }, 500);
+
+// حذف شعار mm-logo من اللعبة
+// حذف شعار mm-logo من اللعبة
+setInterval(() => {
+    const logo = document.querySelector('.mm-logo');
+    if (logo) {
+        logo.remove();
+        console.log("mm-logo removed");
+    }
+}, 300);
 var wwc_keycode = "073ded1edcedd11f60005ae969cabf11";
 
 
