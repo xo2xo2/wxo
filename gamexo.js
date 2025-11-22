@@ -37709,7 +37709,7 @@ _0x5e2453.xq = function (_0x30b586, _0x574a36) {
 
 
 
-<div style="position: relative; padding: 10px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 8px;">
+<div style="position: relative; padding: 10px; background: linear-gradient(135deg, #4c4c94ff 0%, #5d6a7eff 100%); border-radius: 22px;">
 
   <h2 style="text-align: center; color: #00ccff; margin: 0 0 12px 0; font-size: 18px; font-weight: bold; text-shadow: 0 0 8px rgba(0, 200, 255, 0.4);">🐛 WormXO ⚙️</h2>
 
