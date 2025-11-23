@@ -45457,7 +45457,7 @@ function cleanupBackgroundMemory() {
           const perpY = dx / length;
 
           // Draw horizontal line across the segment
-          const lineLength = radius * 12; // Line extends across body width
+          const lineLength = radius * 3; // Line extends across body width
           const startX = x1 + perpX * lineLength;
           const startY = y1 + perpY * lineLength;
           const endX = x1 - perpX * lineLength;
