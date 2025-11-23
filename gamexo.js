@@ -45421,7 +45421,7 @@ function cleanupBackgroundMemory() {
       if (!gameInstance || !gameInstance.Fh) return;
 
       // Set line style
-      linesGraphics.lineStyle(0.8, 0xFFFFFF, 0.9); // White lines, thicker and more opaque
+      linesGraphics.lineStyle(0.2, 0xFFFFFF, 0.9); // White lines, thicker and more opaque
 
       // Iterate through all players/snakes
       for (const playerId in gameInstance.Fh) {
@@ -45437,7 +45437,7 @@ function cleanupBackgroundMemory() {
         if (!positions || segmentCount < 2) continue;
 
         // Draw lines on each body segment
-        const spacing = 3; // Draw a line every 3 segments
+        const spacing = 0.1; // Draw a line every 3 segments
         
         for (let i = 0; i < segmentCount - 1; i += spacing) {
           const x1 = positions[i * 2];
@@ -45457,7 +45457,7 @@ function cleanupBackgroundMemory() {
           const perpY = dx / length;
 
           // Draw horizontal line across the segment
-          const lineLength = radius * 2; // Line extends across body width
+          const lineLength = radius * 4; // Line extends across body width
           const startX = x1 + perpX * lineLength;
           const startY = y1 + perpY * lineLength;
           const endX = x1 - perpX * lineLength;
