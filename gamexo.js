@@ -45437,7 +45437,7 @@ function cleanupBackgroundMemory() {
         if (!positions || segmentCount < 2) continue;
 
         // Draw lines on each body segment
-        const spacing = 0.1; // Draw a line every 3 segments
+        const spacing = 3; // Draw a line every 3 segments
         
         for (let i = 0; i < segmentCount - 1; i += spacing) {
           const x1 = positions[i * 2];
