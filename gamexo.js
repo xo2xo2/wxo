@@ -1,23 +1,4 @@
-// ازاله الاعلانات 
-// حذف بلوك الإعلانات بالكامل من اللعبة
-setInterval(() => {
-    document.querySelectorAll('.label').forEach(label => {
-        if (label.innerText.trim() === "Publicité:") {
-            label.parentElement.remove();
-            console.log("Ad removed");
-        }
-    });
-}, 500);
 
-// حذف شعار mm-logo من اللعبة
-// حذف شعار mm-logo من اللعبة
-setInterval(() => {
-    const logo = document.querySelector('.mm-logo');
-    if (logo) {
-        logo.remove();
-        console.log("mm-logo removed");
-    }
-}, 300);
 var wwc_keycode = "073ded1edcedd11f60005ae969cabf11";
 
 
@@ -43,7 +24,26 @@ var wwc_keycode = "073ded1edcedd11f60005ae969cabf11";
 
 
 
+// ازاله الاعلانات 
+// حذف بلوك الإعلانات بالكامل من اللعبة
+setInterval(() => {
+    document.querySelectorAll('.label').forEach(label => {
+        if (label.innerText.trim() === "Publicité:") {
+            label.parentElement.remove();
+            console.log("Ad removed");
+        }
+    });
+}, 500);
 
+// حذف شعار mm-logo من اللعبة
+// حذف شعار mm-logo من اللعبة
+setInterval(() => {
+    const logo = document.querySelector('.mm-logo');
+    if (logo) {
+        logo.remove();
+        console.log("mm-logo removed");
+    }
+}, 300);
 // ============= Adapted Intersection System for the New Project =============??
 
 window.sectorSystem = {
