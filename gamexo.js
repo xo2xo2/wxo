@@ -25425,7 +25425,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 this.jh.alpha = 0.9;
 
-                this.jh.beginFill(0xFFFFFF);
+                this.jh.beginFill(0xE49A43);
 
                 this.jh.drawCircle(0, 0, this.kh * 0.1);
 
