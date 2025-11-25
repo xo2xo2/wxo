@@ -16427,7 +16427,7 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
       $(".wear-view-cont").append("<div id=\"idWearViewCont\"></div>");
 
-      var _0x14afd1 = "display:none;position:relative;background:#FFF;padding:15px;max-width:680px;margin:10px auto;";
+      var _0x14afd1 = "display:none;position:relative;background:#rgb(255 255 255 / 0%);padding:15px;max-width:680px;margin:10px auto;";
 
       if (_wwc.ismobile) {
 
