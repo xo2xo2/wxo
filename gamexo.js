@@ -21970,7 +21970,7 @@ if (_0x3f5f45.key === "3") {
               this.pwrFlex = new _0x232886.la("flex_ability", newTexture, 156, 140, 87, 60, 170, 128.5, 128, 128);
 
               // Zigzag 2: Second custom image (LvJ1RxC - working)
-              var newTexture2 = _0x429afb.BaseTexture.from("https://i.imgur.com/LvJ1RxC.png");                                                                                                                 
+              var newTexture2 = _0x429afb.BaseTexture.from("https://i.imgur.com/LvJ1RxC.png");
               this.pwrFlex2 = new _0x232886.la("flex_ability2", newTexture2, 156, 4, 87, 74, 285, 63.5, 128, 128);
 
               // Zigzag 3: Third custom image
@@ -44929,7 +44929,7 @@ $(document).ready(function() {
                     }
                     var src;
                     if (val === '1') src = 'https://i.imgur.com/LFiCido.png';
-                    else if (val === '2') src = 'https://i.imgur.com/LvJ1Rx';
+                    else if (val === '2') src = 'https://i.imgur.com/LvJ1RxC.png';
                     else if (val === '3') src = 'https://wormup.in/assets/images/zigzagability1.png';
                     else src = 'https://wormup.in/assets/images/zigzagability.png';
                     if (img.src !== src) img.src = src;
@@ -45050,21 +45050,21 @@ $(document).ready(function() {
                     if (typeof window.$ === 'function') {
                         if (v === "1") {
                             if (!$("#zigzag_preview").length) {
-                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LFiCido.png" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
+                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LFiCido" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
                             } else {
-                                $("#zigzag_preview").attr("src", "https://i.imgur.com/LFiCido.png");
+                                $("#zigzag_preview").attr("src", "https://i.imgur.com/LFiCido");
                             }
                         } else if (v === "2") {
                             if (!$("#zigzag_preview").length) {
-                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LvJ1RxC.png" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
+                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LvJ1RxC" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
                             } else {
-                                $("#zigzag_preview").attr("src", "https://i.imgur.com/LvJ1RxC.png");
+                                $("#zigzag_preview").attr("src", "https://i.imgur.com/LvJ1RxC");
                             }
                         } else if (v === "3") {
                             if (!$("#zigzag_preview").length) {
-                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://wormup.in/assets/images/zigzagability1.png" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
+                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://wormup.in/assets/images/zigzagability1" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
                             } else {
-                                $("#zigzag_preview").attr("src", "https://wormup.in/assets/images/zigzagability1.png");
+                                $("#zigzag_preview").attr("src", "https://wormup.in/assets/images/zigzagability1");
                             }
                         } else {
                             $("#zigzag_preview").remove();
