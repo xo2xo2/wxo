@@ -44929,7 +44929,7 @@ $(document).ready(function() {
                     }
                     var src;
                     if (val === '1') src = 'https://i.imgur.com/LFiCido.png';
-                    else if (val === '2') src = 'https://i.imgur.com/LvJ1RxC.png';
+                    else if (val === '2') src = 'https://i.imgur.com/LvJ1Rx';
                     else if (val === '3') src = 'https://wormup.in/assets/images/zigzagability1.png';
                     else src = 'https://wormup.in/assets/images/zigzagability.png';
                     if (img.src !== src) img.src = src;
