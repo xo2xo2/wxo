@@ -21970,7 +21970,7 @@ if (_0x3f5f45.key === "3") {
               this.pwrFlex = new _0x232886.la("flex_ability", newTexture, 156, 140, 87, 60, 170, 128.5, 128, 128);
 
               // Zigzag 2: Second custom image (LvJ1RxC - working)
-              var newTexture2 = _0x429afb.BaseTexture.from("https://i.imgur.com/LvJ1Rx");                                                                                                                 
+              var newTexture2 = _0x429afb.BaseTexture.from("https://i.imgur.com/LvJ1RxC.png");                                                                                                                 
               this.pwrFlex2 = new _0x232886.la("flex_ability2", newTexture2, 156, 4, 87, 74, 285, 63.5, 128, 128);
 
               // Zigzag 3: Third custom image
