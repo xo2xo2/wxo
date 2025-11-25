@@ -1,15 +1,4 @@
-@import url("");
 
-
-::-webkit-scrollbar {
-    display: none;
-    }
-
-
-    * {
-        font-family: vuonghiep;
-        }
-        
 
 #div_map {
 	border-radius: 5px;
