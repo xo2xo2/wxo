@@ -41337,7 +41337,7 @@ window.HeadshotSimulator = HeadshotSimulator;
 
     // السكنات الافتراضية للتبديل - يمكن أن تكون أرقاماً أو نصوصاً مختلطة
 
-    const SKIN_IDS = [87, 131];
+    const SKIN_IDS = [131];
 
     
 
