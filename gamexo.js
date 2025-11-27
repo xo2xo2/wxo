@@ -19163,7 +19163,7 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.killTotal.y = 133;
 
-      w2c2020.clock = PIXI.Sprite.from("https://asserts.wormworld.io/images/clock.png");
+      w2c2020.clock = PIXI.Sprite.from("https://timmapwormate.com/images/store/clock.png");
 
       w2c2020.clock.width = 100;
 
@@ -30635,7 +30635,7 @@ _0x166b7d.prototype.Jf = function () {
 
               _0x4327d6.html("Continue");
 
-              _0x4327d6.after("<div id='final-replay'>Respawn</div>");
+              _0x4327d6.after("<div id='final-replay'>RePlay</div>");
 
               
 
@@ -30695,7 +30695,7 @@ _0x166b7d.prototype.Jf = function () {
 
                   $(this).css({
 
-                    "background": "#af5e00ff"
+                    "background": "#ff8800ff"
 
                   });
 
@@ -30722,7 +30722,7 @@ _0x166b7d.prototype.Jf = function () {
                 respawnFn();
 
               });
-
+ 
               $("html").keydown(function (_0x238c8c) {
 
                 if (_0x238c8c.keyCode === 32) {
