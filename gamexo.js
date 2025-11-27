@@ -45598,34 +45598,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 100);
   }, 1000);
 });
-
-
-
-
-
-
-
-
-
-// كود الفريمات
-    updateDisplays() {
-          if (!this.fpsDisplay || !this.cpuDisplay) {
-            return;
-          }
-          if (this.isFpsVisible) {
-            this.fpsDisplay.textContent = "FPS: " + this.fps;
-            if (this.fps >= 58) {
-              this.fpsDisplay.style.color = "white";
-            } else if (this.fps >= 30) {
-              this.fpsDisplay.style.color = "gold";
-            } else {
-              this.fpsDisplay.style.color = "red";
-            }
-            this.fpsDisplay.style.display = "block";
-          } else {
-            this.fpsDisplay.style.display = "none";
-          }
-},
-
-
-
