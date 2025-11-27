@@ -25383,7 +25383,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 _0x36537b.endFill();
 
-                _0x36537b.lineStyle(1, 0xD8B441, 0.80);
+                _0x36537b.lineStyle(1, 0xC49E2F, 0.80);
 
                 _0x36537b.drawCircle(0, 0, this.kh);
 
