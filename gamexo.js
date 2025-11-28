@@ -45598,3 +45598,32 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 100);
   }, 1000);
 });
+
+// ================================
+//  ZOOM LABEL NEXT TO THE KILL HUD
+// ================================
+
+w2c2020.zoomLabel = new PIXI.Text("x1.00", {
+    fontFamily: "Arial",
+    fontSize: 16,
+    fill: 0xffffff,
+    fontWeight: "bold"
+});
+
+// ضع النص بجانب كلمة KILL تماماً
+w2c2020.zoomLabel.x = w2c2020.label_kill.x + 70; 
+w2c2020.zoomLabel.y = w2c2020.label_kill.y + 2;
+
+w2c2020.container.addChild(w2c2020.zoomLabel);
+
+// قيمة الزوم
+let zoomValue = 1;
+
+// تحديث القيمة عند تدوير عجلة الماوس
+window.addEventListener("wheel", (e) => {
+    if (e.deltaY < 0) zoomValue += 0.25;
+    else zoomValue = Math.max(0.25, zoomValue - 0.25);
+
+    w2c2020.zoomLabel.text = "x" + zoomValue.toFixed(2);
+});
+
