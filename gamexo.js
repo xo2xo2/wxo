@@ -19169,6 +19169,16 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020['zoom']['y'] = 0x69;
 
+      // تحديث قيمة الزوم
+      
+      game.ticker.add(() => {
+       
+        let zoomValue = game.camScale || game.cameraScale || 1;
+       
+        w2c2020['zoom'].text = "x" + zoomValue.toFixed(2);
+       
+      });
+
       w2c2020.clock = PIXI.Sprite.from("https://timmapwormate.com/images/store/clock.png");
 
       w2c2020.clock.width = 100;
