@@ -19163,22 +19163,6 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.killTotal.y = 133;
 
-      w2c2020['zoom'] = new PIXI.Text('x1', w2c2020['fontStyle'][_0x4cd62d(0x8c4)]);
-      
-      w2c2020['zoom']['x'] = 0x52;
-
-      w2c2020['zoom']['y'] = 0x69;
-
-      // تحديث قيمة الزوم
-      
-      game.ticker.add(() => {
-       
-        let zoomValue = game.camScale || game.cameraScale || 1;
-       
-        w2c2020['zoom'].text = "x" + zoomValue.toFixed(2);
-       
-      });
-
       w2c2020.clock = PIXI.Sprite.from("https://timmapwormate.com/images/store/clock.png");
 
       w2c2020.clock.width = 100;
@@ -19365,7 +19349,7 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.containerCountInfo.addChild(w2c2020.killTotal);
 
-      w2c2020.labelRoom = new PIXI.Text("WXO", w2c2020.fontStyle.amarelo);
+      w2c2020.labelRoom = new PIXI.Text("?", w2c2020.fontStyle.amarelo);
 
       w2c2020.labelRoom.x = -50;
 
@@ -19373,7 +19357,7 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.addRoom = function (_0x2fb5c9) {
 
-        w2c2020.labelRoom.text = _0x2fb5c9 || "WXO";
+        w2c2020.labelRoom.text = _0x2fb5c9 || "?";
 
       };
 
