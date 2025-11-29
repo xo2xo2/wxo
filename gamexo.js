@@ -18961,7 +18961,7 @@ if (bbs.hudSettings.mode == 1) {
 
       };
 
-      var _0x34cbc5 = ["#ffffffff", "#ffffffff", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
+      var _0x34cbc5 = ["#ff0000ff", "#ffffffff", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
 
       for (var _0x16d41d = 0; _0x16d41d < _0x34cbc5.length; _0x16d41d++) {
 
@@ -19162,6 +19162,12 @@ if (bbs.hudSettings.mode == 1) {
       w2c2020.killTotal.x = 60;
 
       w2c2020.killTotal.y = 133;
+
+      w2c2020['zoom'] = new PIXI.Text('x1', w2c2020['fontStyle'][_0x4cd62d(0x8c4)]);
+      
+      w2c2020['zoom']['x'] = 0x52;
+
+      w2c2020['zoom']['y'] = 0x69;
 
       w2c2020.clock = PIXI.Sprite.from("https://timmapwormate.com/images/store/clock.png");
 
