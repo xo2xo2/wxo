@@ -45162,8 +45162,28 @@ $(".description-text").css("height", "300px");
 var Ot = function(t) {
 
   document.body.style.backgroundColor = "";
-  document.body.style.backgroundImage =
-    "linear-gradient(135deg, rgba(0, 0, 0, 0.63), rgba(155, 155, 155, 0.16))";
+document.body.style.background = `
+  radial-gradient(
+    circle,
+    rgb(14, 14, 17),
+    rgb(12, 26, 48),
+    rgb(28, 62, 66),
+    rgb(45, 106, 86),
+    rgb(65, 90, 122),
+    rgb(27, 27, 36)
+  )
+`;
+document.body.style.backgroundSize = "300% 300%";
+document.body.style.animation = "wormateMove 20s ease-in-out infinite";
+var style = document.createElement("style");
+style.innerHTML = `
+@keyframes wormateMove {
+  0%   { background-position: 0% 0%; }
+  50%  { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+`;
+document.head.appendChild(style);
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
   document.body.style.overflow = "hidden";
