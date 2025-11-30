@@ -18971,7 +18971,7 @@ if (bbs.hudSettings.mode == 1) {
 
           align: "center",
 
-          fill: "#0040ffff",
+          fill: "#ffef43ff",
 
           fontSize: 25,
 
