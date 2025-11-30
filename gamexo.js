@@ -13107,7 +13107,7 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
         nome: "Um Husien",
 
-        uri: window.URL_CDN + "wxo/umhusien.png",
+        uri: window.URL_CDN + "/wxo/umhusien.png",
 
         w: 1100,
 
