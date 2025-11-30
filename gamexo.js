@@ -18889,7 +18889,7 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#ff0000ff",
+            fill: "#ffffffff",
 
             fontSize: 9,
 
@@ -18907,7 +18907,7 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#000000ff",
+            fill: "#ffcc00ff",
 
             fontSize: 9,
 
@@ -18976,6 +18976,10 @@ if (bbs.hudSettings.mode == 1) {
           fontSize: 25,
 
           lineJoin: "round",
+
+          stroke: "#ffffffff",
+        
+          strokeThickness: 0.5,
 
           whiteSpace: "normal",
 
