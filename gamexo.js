@@ -13107,7 +13107,7 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
         nome: "Um Husien",
 
-        uri: window.URL_CDN + "/imgur.com/gjoDm5A.png",
+        uri: window.URL_CDN + "wxo/umhusien.png",
 
         w: 1100,
 
@@ -19179,13 +19179,13 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.containerHsRec = new PIXI.Container();
 
-      w2c2020.containerHsRec.x = -55;
+      w2c2020.containerHsRec.x = -52;
 
       w2c2020.containerHsRec.y = 270;
 
       w2c2020.containerHstop = new PIXI.Container();
 
-      w2c2020.containerHstop.x = -55;
+      w2c2020.containerHstop.x = -52;
 
       w2c2020.containerHstop.y = 170;
 
@@ -19205,7 +19205,7 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.titleRec = new PIXI.Text("Records (kb 0)", w2c2020.fontStyle.amarelo);
 
-      w2c2020.titleRec.y = -3;
+      w2c2020.titleRec.y = -5;
 
       for (var _0xc8cbb9 = 0; _0xc8cbb9 < 3; _0xc8cbb9++) {
 
