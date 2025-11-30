@@ -19267,9 +19267,9 @@ if (bbs.hudSettings.mode == 1) {
 
           for (var _0x92226d = 0; _0x92226d < _0x365892; _0x92226d++) {
 
-            var _0x20b9c7 = "--";
+            var _0x20b9c7 = "-xo-";
 
-            var _0x38f66e = "--";
+            var _0x38f66e = "-xo-";
 
             if (_0x11b4e8 && _0x11b4e8[_0x92226d]) {
 
