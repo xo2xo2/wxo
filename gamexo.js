@@ -18977,9 +18977,9 @@ if (bbs.hudSettings.mode == 1) {
 
           lineJoin: "round",
 
-          stroke: "#ffffffff",
+          stroke: "#000000ff",
         
-          strokeThickness: 0.5,
+          strokeThickness: 1,
 
           whiteSpace: "normal",
 
