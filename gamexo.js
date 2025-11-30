@@ -18869,13 +18869,13 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#ffe600ff",
+            fill: "#ffffffff",
 
             fontSize: 10,
 
             lineJoin: "round",
 
-            stroke: "#ffe600ff",
+            stroke: "#ffffffff",
             
             strokeThickness: 0.5,
 
@@ -18889,7 +18889,7 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#ffffffff",
+            fill: "#ff0000ff",
 
             fontSize: 9,
 
@@ -18907,7 +18907,7 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#fff",
+            fill: "#000000ff",
 
             fontSize: 9,
 
@@ -18925,7 +18925,7 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#fff",
+            fill: "#2bff00ff",
 
             fontSize: 8,
 
@@ -18961,7 +18961,7 @@ if (bbs.hudSettings.mode == 1) {
 
       };
 
-      var _0x34cbc5 = ["#ff0000ff", "#ffffffff", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
+      var _0x34cbc5 = ["#ff0000ff", "#00ffa6ff", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
 
       for (var _0x16d41d = 0; _0x16d41d < _0x34cbc5.length; _0x16d41d++) {
 
@@ -18971,7 +18971,7 @@ if (bbs.hudSettings.mode == 1) {
 
           align: "center",
 
-          fill: "#ffffff",
+          fill: "#0040ffff",
 
           fontSize: 25,
 
