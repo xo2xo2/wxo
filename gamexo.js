@@ -19205,7 +19205,7 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.titleRec = new PIXI.Text("Records (kb 0)", w2c2020.fontStyle.amarelo);
 
-      w2c2020.titleRec.y = -5;
+      w2c2020.titleRec.y = -3;
 
       for (var _0xc8cbb9 = 0; _0xc8cbb9 < 3; _0xc8cbb9++) {
 
@@ -19273,7 +19273,7 @@ if (bbs.hudSettings.mode == 1) {
 
             if (_0x11b4e8 && _0x11b4e8[_0x92226d]) {
 
-              _0x20b9c7 = _0x11b4e8[_0x92226d].nickname ? _0x11b4e8[_0x92226d].nickname.substring(0, 14) : "--";
+              _0x20b9c7 = _0x11b4e8[_0x92226d].nickname ? _0x11b4e8[_0x92226d].nickname.substring(0, 14) : "----";
 
               _0x38f66e = parseInt(_0x11b4e8[_0x92226d].score || 0);
 
@@ -19309,7 +19309,7 @@ if (bbs.hudSettings.mode == 1) {
 
         w2c2020.containerHsIndex.addChild(_0x29cb16);
 
-        var _0x18138f = new PIXI.Text("..", w2c2020.fontStyle.hsBranco);
+        var _0x18138f = new PIXI.Text("...", w2c2020.fontStyle.hsBranco);
 
         _0x18138f.x = 10;
 
