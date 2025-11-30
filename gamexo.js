@@ -13105,9 +13105,9 @@ window.debugSectors = () => window.sectorSystem?.debug();
         
       }, {
 
-        nome: "Um Husien",
+        nome: "ام حسين",
 
-        uri: window.URL_CDN + "/wxo/umhusien.png",
+        uri: window.URL_CDN + "wxo/umhusien1.jpg",
 
         w: 1100,
 
