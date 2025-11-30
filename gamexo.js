@@ -25387,7 +25387,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 _0x36537b.endFill();
 
-                _0x36537b.lineStyle(1.2, 0xF2C94C, 0.90);
+                _0x36537b.lineStyle(1.2, 0xF2C94C, 0.9);
 
                 _0x36537b.drawCircle(0, 0, this.kh);
 
@@ -45160,31 +45160,18 @@ setTimeout(function() {
 $(".description-text").css("height", "300px");
 
 var Ot = function(t) {
-
-  document.body.style.backgroundColor = "";
 document.body.style.background = `
-  radial-gradient(
-    circle,
-    rgb(14, 14, 17),
-    rgb(12, 26, 48),
-    rgb(28, 62, 66),
-    rgb(45, 106, 86),
-    rgb(65, 90, 122),
-    rgb(27, 27, 36)
+  radial-gradient(circle,
+    rgb(14,14,17),
+    rgb(12,26,48),
+    rgb(28,62,66),
+    rgb(42,86,86),
+    rgb(65,90,122),
+    rgb(27,27,36)
   )
 `;
 document.body.style.backgroundSize = "300% 300%";
-document.body.style.animation = "wormateMove 20s ease-in-out infinite";
-var style = document.createElement("style");
-style.innerHTML = `
-@keyframes wormateMove {
-  0%   { background-position: 0% 0%; }
-  50%  { background-position: 100% 100%; }
-  100% { background-position: 0% 0%; }
-}
-`;
-document.head.appendChild(style);
-  document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.animation = "wormateMove 2s linear infinite";
   document.body.style.backgroundSize = "cover";
   document.body.style.overflow = "hidden";
 
