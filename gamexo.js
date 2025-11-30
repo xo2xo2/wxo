@@ -45160,18 +45160,11 @@ setTimeout(function() {
 $(".description-text").css("height", "300px");
 
 var Ot = function(t) {
-document.body.style.background = `
-  radial-gradient(circle,
-    rgb(14,14,17),
-    rgb(12,26,48),
-    rgb(28,62,66),
-    rgb(42,86,86),
-    rgb(65,90,122),
-    rgb(27,27,36)
-  )
-`;
-document.body.style.backgroundSize = "300% 300%";
-document.body.style.animation = "wormateMove 2s linear infinite";
+
+document.body.style.backgroundColor = "";
+document.body.style.backgroundImage =
+  "linear-gradient(135deg, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28))";
+document.body.style.backgroundSize = "no-reqeat";
   document.body.style.backgroundSize = "cover";
   document.body.style.overflow = "hidden";
 
