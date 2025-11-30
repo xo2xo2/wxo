@@ -45163,7 +45163,7 @@ var Ot = function(t) {
 
 document.body.style.backgroundColor = "";
 document.body.style.backgroundImage =
-  "linear-gradient(135deg, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28))";
+  "linear-gradient(135deg, rgba(0, 0, 0, 0.71), rgba(255, 255, 255, 0.38))";
 document.body.style.backgroundSize = "no-reqeat";
   document.body.style.backgroundSize = "cover";
   document.body.style.overflow = "hidden";
