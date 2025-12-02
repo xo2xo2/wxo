@@ -13107,7 +13107,7 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
         nome: "ام حسين",
 
-        uri: window.URL_CDN + "/background/umhusien1.png",
+        uri: window.URL_CDN + "/backgrounds/umhusien1.png",
 
         w: 1100,
 
