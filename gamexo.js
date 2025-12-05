@@ -45179,6 +45179,37 @@ document.body.style.backgroundSize = "no-reqeat";
   }
   
 
+  vO5.wk = function () {
+  function f79() {
+    this.fn_o = f80;
+
+    this.ig = new vO8.k.n(
+      vO8.k.m.from("/images/bg-obstacle.png")
+    );
+
+    this.F_bg = new vO8.k.n(f80());
+
+    var confettiTexture = vO8.k.m.from(
+      "https://wormate.io/images/confetti-valday2025.png"
+    );
+
+    var bigConfetti = new vO8.k.n(
+      confettiTexture,
+      new vO8.k.r(0, 0, 256, 256)
+    );
+
+    var smallConfetti = new vO8.k.n(
+      confettiTexture,
+      new vO8.k.r(352, 96, 64, 64)
+    );
+
+    this.jg = Array(16);
+    for (var i = 0; i < this.jg.length; i++) {
+      this.jg[i] = i % 2 === 0 ? bigConfetti : smallConfetti;
+    }
+  }
+};
+
   var confettiURL = "https://timmapwormate.com/images/store/confetti-tmw.png";
   
 
