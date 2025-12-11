@@ -16911,7 +16911,7 @@ mbf.mbf_cambiar = function () {
 
       
 
-$("#mm-advice-cont").html("<div class=\"wormworld-connect-count-b32\" style=\"display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 2px;\">\n    <input type=\"button\" value=\"F.SCREEN\" id=\"btnFullScreen\" style=\"margin-top:5px;width:100%;height: 35px; borer-width: 0px\" />\n    <input type=\"button\" value=\"RESPAWN\" onclick=\"respawnFn()\" style=\"background-image: linear-gradient(#111111, #ffffff); font-weight: bold; border-width: 0px; border-color: #ffffff; color: #fff; border-radius: 5px; margin-top: 5px; width: 100%; height: 35px;\" />\n    </div>");
+//$("#mm-advice-cont").html("<div class=\"wormworld-connect-count-b32\" style=\"display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 2px;\">\n    <input type=\"button\" value=\"F.SCREEN\" id=\"btnFullScreen\" style=\"margin-top:5px;width:100%;height: 35px; borer-width: 0px\" />\n    <input type=\"button\" value=\"RESPAWN\" onclick=\"respawnFn()\" style=\"background-image: linear-gradient(#111111, #ffffff); font-weight: bold; border-width: 0px; border-color: #ffffff; color: #fff; border-radius: 5px; margin-top: 5px; width: 100%; height: 35px;\" />\n    </div>");
 
 
 
@@ -18649,7 +18649,7 @@ if (bbs.hudSettings.mode == 1) {
 
             };
 
-            var _0x112500 = "SKIN_" + _0x53f8a4.id + "__xo";
+            var _0x112500 = "SKIN_" + _0x53f8a4.id + "___Z";
 
             var _0x2bb95c = {
 
@@ -18961,7 +18961,7 @@ if (bbs.hudSettings.mode == 1) {
 
       };
 
-      var _0x34cbc5 = ["#d0ff00ff", "#ffbb00ff", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
+      var _0x34cbc5 = ["#ffbb00ff", "#ffbb00ff", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
 
       for (var _0x16d41d = 0; _0x16d41d < _0x34cbc5.length; _0x16d41d++) {
 
@@ -25387,7 +25387,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 _0x36537b.endFill();
 
-                _0x36537b.lineStyle(1, 0xF9D03A, 0.85);
+                _0x36537b.lineStyle(1.5, 0xF4A300, 0.85);
 
                 _0x36537b.drawCircle(0, 0, this.kh);
 
