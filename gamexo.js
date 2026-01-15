@@ -18857,7 +18857,7 @@ if (bbs.hudSettings.mode == 1) {
 
             stroke: "#ffe600ff",
 
-            strokeThickness: 0.3,
+            strokeThickness: 0.1,
 
             whiteSpace: "normal",
 
