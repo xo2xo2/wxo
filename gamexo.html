@@ -11,7 +11,396 @@
 
 
 
-
+<script>
+          if (window.servers && window.servers.Api_listServer && window.servers.Api_listServer.length > 0) {
+            let v1149 = window.currentDisplayMode || "timmap";
+            window.servers.Api_listServer.forEach(p936 => {
+              let v1150 = null;
+              if (v1149 === "timmap" && p936.timmap) {
+                v1150 = p936.timmap;
+              } else if (v1149 === "wormworld" && p936.wormworld) {
+                v1150 = p936.wormworld;
+              }
+              if (v1150 && vO56[p936.region]) {
+                p936.displayNumber = v1150;
+                vO56[p936.region].push(p936);
+              }
+            });
+            Object.keys(vO56).forEach(p937 => {
+              const v1151 = vO56[p937];
+              const v1152 = vO54[p937];
+              if (v1151.length > 0) {
+                v1151.sort((p938, p939) => (p938.displayNumber || 0) - (p939.displayNumber || 0));
+                for (let vLN0149 = 0; vLN0149 < v1151.length; vLN0149++) {
+                  const v1153 = v1151[vLN0149];
+                  const v1154 = v1153.displayNumber;
+                  const v1155 = v1153.image || vO14.s_l + "/images/cors-proxy.phpimg=flg/default-server.png";
+                  const v1156 = v1153.imageUrl || "";
+                  const v1157 = $("<div></div>").addClass("selectSala").attr({
+                    id: p937,
+                    value: v1153.serverUrl,
+                    "data-server-name": v1153.name || "Server " + v1154,
+                    "data-region-name": v1152,
+                    "data-region-flag": vO55[p937],
+                    "data-server-number": v1154,
+                    "data-server-image": v1155
+                  });
+                  const v1158 = v1156 && v1156.trim() !== "";
+                  const v1159 = $("<div></div>").addClass("server-image");
+                  if (v1158) {
+                    const v1160 = v1153.name || "Server " + v1154;
+                    v1159.addClass("server-image-with-link").data("url", v1156).attr("data-server-name", v1160);
+                    v1159.on("click", function (p940) {
+                      p940.stopPropagation();
+                      const v1161 = $(this).data("url");
+                      if (v1161) {
+                        window.open(v1161, "_blank");
+                      }
+                    });
+                    v1159.hover(function () {
+                      const v1162 = $(this).data("server-name");
+                      $("#server-link-tooltip").remove();
+                      $("<div id=\"server-link-tooltip\"></div>").text("Visit " + v1162 + " page").css({
+                        position: "fixed",
+                        background: "rgba(0,0,0,0.9)",
+                        color: "white",
+                        padding: "5px 10px",
+                        "border-radius": "4px",
+                        "font-size": "11px",
+                        "white-space": "nowrap",
+                        "z-index": "99999",
+                        "pointer-events": "none",
+                        "box-shadow": "0 0 5px rgba(0,0,0,0.5)"
+                      }).appendTo("body");
+                      const v1163 = $(this).offset();
+                      const v1164 = $(this).width();
+                      const v1165 = $(this).height();
+                      const v1166 = $("#server-link-tooltip").outerWidth();
+                      $("#server-link-tooltip").css({
+                        left: v1163.left + v1164 / 2 - v1166 / 2,
+                        top: v1163.top + v1165 + 10
+                      }).fadeIn(200);
+                    }, function () {
+                      $("#server-link-tooltip").fadeOut(200, function () {
+                        $(this).remove();
+                      });
+                    });
+                  }
+                  v1159.append($("<img>").attr("src", v1155));
+                  const v1167 = $("<div></div>").addClass("server-info").append($("<span></span>").addClass("server-number").text(v1154 + "."), $("<span></span>").addClass("server-name").text(v1153.name || "Server " + v1154));
+                  const v1168 = $("<div></div>").addClass("server-region").text(v1152 + " " + v1154);
+                  const v1169 = $("<div></div>").addClass("server-status").append($("<span></span>").addClass("green-dot"));
+                  const v1170 = $("<div></div>").addClass("server-score");
+                  v1157.append(v1159, v1167, v1168, v1169, v1170);
+                  $(".servers-" + p937).append(v1157);
+                  v1157.click(function () {
+                    const v1171 = $(this).attr("data-region-name");
+                    const v1172 = $(this).attr("data-server-number");
+                    const v1173 = $(this).attr("value");
+                    const v1174 = $(this).attr("data-region-flag");
+                    const v1175 = $(this).attr("data-server-image");
+                    const v1176 = v1171 + " " + v1172;
+                    window.realServerName = v1176;
+                    window.selectedServerInfo = {
+                      regionName: v1171,
+                      serverNumber: v1172,
+                      regionFlag: v1174,
+                      serverImage: v1175,
+                      displayName: v1176
+                    };
+                    $("#port_id_s").val(v1173);
+                    $("#port_name_s").val(v1176);
+                    $("#port_id").val($("#port_id_s").val());
+                    $("#port_name").val($("#port_name_s").val());
+                    try {
+                      const v1177 = JSON.parse(localStorage.getItem("SaveGamewft") || "{}");
+                      v1177.realServerName = v1176;
+                      localStorage.setItem("SaveGamewft", JSON.stringify(v1177));
+                    } catch (e63) {
+                      console.error("خطأ في حفظ اسم السيرفر:", e63);
+                    }
+                    if (typeof vO3 !== "undefined") {
+                      if (vO3.containerImgS && vO3.onclickServer) {
+                        vO3.containerImgS.texture = vO3.onclickServer;
+                      }
+                    }
+                    if (typeof retundFlagError === "function") {
+                      retundFlagError();
+                    }
+                    window.server_url = v1173;
+                    $("#mm-action-play").click();
+                    $("#adbl-continue").click();
+                    setTimeout(f158, 500);
+                    setTimeout(f158, 2000);
+                  });
+                }
+              } else {
+                $(".servers-" + p937).append("\n            <div style=\"text-align:center; padding:20px; color:#aaa;\">\n              No servers available in this region\n            </div>\n          ");
+              }
+            });
+          } else {
+            $(".servers-peru, .servers-mexico, .servers-eeuu, .servers-canada, .servers-germania, .servers-francia, .servers-singapur, .servers-japon, .servers-australia, .servers-granbretana").html("\n        <div style=\"text-align:center; padding:20px; color:#aaa;\">\n          Loading servers... Please wait.\n        </div>\n      ");
+          }
+          _0x4c9ec5();
+        
+        function f157(p941) {
+          if (p941 >= 1000000) {
+            return (p941 / 1000000).toFixed(2) + "M";
+          } else if (p941 >= 1000) {
+            return (p941 / 1000).toFixed(1) + "K";
+          } else {
+            return p941.toFixed(0);
+          }
+        }
+        function f158() {
+          if (!window.realServerName) {
+            return;
+          }
+          document.querySelectorAll("text, span, div").forEach(p942 => {
+            const v1178 = p942.textContent || "";
+            if (v1178.includes("wss://") || v1178.includes(".wormate.io") || v1178.includes("/wormy") || v1178.match(/[a-z]+-\d+/i)) {
+              p942.textContent = window.realServerName;
+              if (p942.text !== undefined) {
+                p942.text = window.realServerName;
+              }
+            }
+          });
+          if (window.mapText && window.mapText.text !== undefined) {
+            window.mapText.text = window.realServerName;
+          }
+        }
+        function f159() {
+          try {
+            const v1179 = window.savedData || window.savedData;
+            if (v1179 && typeof v1179.Bq === "function") {
+              const v1180 = v1179.Bq;
+              v1179.Bq = function (p943, p944) {
+                const v1181 = v1180.apply(this, arguments);
+                setTimeout(function () {
+                  try {
+                    const v1182 = window.realServerName || function () {
+                      try {
+                        const v1183 = JSON.parse(localStorage.getItem("SaveGamewft") || "{}");
+                        return v1183.realServerName || "";
+                      } catch (e64) {
+                        return "";
+                      }
+                    }();
+                    if (window.mapText && window.mapText.text && v1182) {
+                      window.mapText.text = v1182;
+                    }
+                  } catch (e65) {
+                    console.error("خطأ في تحديث عرض اسم السيرفر:", e65);
+                  }
+                }, 100);
+                return v1181;
+              };
+              console.log("✅ تم تعديل دالة عرض اسم السيرفر بنجاح");
+            }
+          } catch (e66) {
+            console.error("❌ خطأ في تعديل دالة عرض اسم السيرفر:", e66);
+          }
+        }
+        window._0x4c9ec5 = function () {
+          fetch("https://wormmedia.xyz:4000/api/live-scores?t=" + Date.now()).then(p945 => p945.json()).then(p946 => {
+            if (p946 && p946.success && Array.isArray(p946.data)) {
+              $(".selectSala").each(function () {
+                const v$19 = $(this);
+                const v1184 = v$19.attr("value").trim();
+                const v1185 = p946.data.find(p947 => p947.serverUrl === v1184);
+                v$19.find(".green-dot").css("display", "none");
+                if (v1185 && v1185.YT.length > 0) {
+                  v$19.data("YT", JSON.stringify(v1185.YT));
+                  const v1186 = v1185.YT[0];
+                  const vF157 = f157(v1186.score);
+                  const v1187 = v1186.score >= 1000000;
+                  v$19.find(".server-score").html("<span class=\"score-display " + (v1187 ? "million" : "regular") + "\">" + vF157 + "</span>");
+                  const v1188 = v1185.YT.filter(p948 => p948.score >= 1000000).length;
+                  if (v1188 >= 4) {
+                    v$19.find(".green-dot").css("display", "block");
+                  }
+                } else {
+                  v$19.find(".server-score").html("-");
+                }
+              });
+            }
+          }).catch(p949 => console.error("API error:", p949));
+        };
+        function f160() {
+          $(document).on("mouseenter", ".server-score", function (p950) {
+            $(".player-tooltip").remove();
+            const v1189 = $(this).closest(".selectSala");
+            const v1190 = v1189.data("YT");
+            if (!v1190) {
+              return;
+            }
+            let vA21 = [];
+            try {
+              vA21 = typeof v1190 === "string" ? JSON.parse(v1190) : v1190;
+            } catch (e67) {
+              return;
+            }
+            if (!vA21 || !vA21.length) {
+              return;
+            }
+            let vLStable = "<table>";
+            const v1191 = Math.min(vA21.length, 10);
+            for (let vLN0150 = 0; vLN0150 < v1191; vLN0150++) {
+              const v1192 = vA21[vLN0150];
+              vLStable += "<tr>\n          <td class=\"rank\">" + (vLN0150 + 1) + "-</td>\n          <td class=\"name\">" + (v1192.name || "Player_" + v1192.id) + "</td>\n          <td class=\"score\">" + f157(v1192.score) + "</td>\n        </tr>";
+            }
+            vLStable += "</table>";
+            const v1193 = $("<div class=\"player-tooltip\"></div>").html(vLStable).css({
+              top: p950.pageY + 10,
+              left: p950.pageX + 10
+            });
+            $("body").append(v1193);
+            $(this).data("tooltip", v1193);
+          });
+          $(document).on("mouseleave", ".server-score", function () {
+            const v1194 = $(this).data("tooltip");
+            if (v1194) {
+              setTimeout(function () {
+                v1194.remove();
+              }, 100);
+            }
+          });
+          $(document).on("mousemove", ".server-score", function (p951) {
+            const v1195 = $(this).data("tooltip");
+            if (v1195) {
+              v1195.css({
+                top: p951.pageY + 10,
+                left: p951.pageX + 10
+              });
+            }
+          });
+        }
+        $("#sort-toggle").on({
+          mouseenter: function (p952) {
+            var v$20 = $("#custom-tooltip");
+            var v1196 = $(this).offset();
+            var v1197 = $(this).outerWidth();
+            var v1198 = v$20.outerWidth();
+            v$20.css({
+              left: v1196.left + v1197 / 2 - v1198 / 2,
+              top: v1196.top + 30
+            }).fadeIn(200);
+          },
+          mouseleave: function () {
+            $("#custom-tooltip").fadeOut(200);
+          }
+        });
+        $("#sort-toggle").click(function () {
+          if (window.currentDisplayMode === "timmap") {
+            window.currentDisplayMode = "wormworld";
+            $(this).addClass("wormworld").text("WormWorld Servers");
+            $(".server-number").css("color", "#00a8ff");
+          } else {
+            window.currentDisplayMode = "timmap";
+            $(this).removeClass("wormworld").text("Timmap Servers");
+            $(".server-number").css("color", "#f00");
+          }
+          f156();
+          setTimeout(function () {
+            if (window.currentDisplayMode === "wormworld") {
+              $(".server-number").css("color", "#00a8ff");
+            } else {
+              $(".server-number").css("color", "#f00");
+            }
+          }, 100);
+        });
+        function f161(p953) {
+          if (!window.servers || !window.servers.Api_listServer || window.servers.Api_listServer.length === 0) {
+            return;
+          }
+          $(".selectSala").hide();
+          Object.keys(regionNames).forEach(p954 => {
+            const v1199 = window.servers.Api_listServer.filter(p955 => p955.region === p954);
+            if (v1199.length > 0) {
+              const v1200 = v1199.filter(p956 => {
+                if (p953 === "timmap") {
+                  return p956.timmap;
+                } else {
+                  return p956.wormworld;
+                }
+              });
+              v1200.sort((p957, p958) => {
+                const v1201 = p953 === "timmap" ? p957.timmap || 0 : p957.wormworld || 0;
+                const v1202 = p953 === "timmap" ? p958.timmap || 0 : p958.wormworld || 0;
+                return v1201 - v1202;
+              });
+              v1200.forEach(p959 => {
+                const v1203 = p953 === "timmap" ? p959.timmap : p959.wormworld;
+                const v1204 = ".selectSala[value=\"" + p959.serverUrl + "\"]";
+                const v$21 = $(v1204);
+                if (v$21.length) {
+                  v$21.find(".server-number").text(v1203 + ".");
+                  v$21.find(".server-region").text(v$21.attr("data-region-name") + " " + v1203);
+                  v$21.attr("data-server-number", v1203);
+                  if ($(".servers-" + p954).is(":visible")) {
+                    v$21.show();
+                  }
+                }
+              });
+            }
+          });
+        }
+        function f162() {
+          if (window.currentDisplayMode === "wormworld") {
+            $(".server-number").css("color", "#00a8ff");
+          } else {
+            $(".server-number").css("color", "#f00");
+          }
+        }
+        $(".ui-tab").on("click", f155);
+        $(".flag").click(function () {
+          let v1205 = $(this).attr("value");
+          if (typeof theoKzObjects !== "undefined") {
+            theoKzObjects.flag = v1205;
+          }
+          if (typeof vO3 !== "undefined" && vO3.containerImgS) {
+            vO3.containerImgS.texture = vO3.onclickServer;
+          }
+          if (typeof retundFlagError === "function") {
+            retundFlagError();
+          }
+        });
+        f155();
+        f160();
+        f159();
+        f151().then(p960 => {
+          if (p960) {
+            f156();
+            setTimeout(function () {
+              let vLN0151 = 0;
+              let vSetInterval = setInterval(function () {
+                if (vLN0151 >= 6) {
+                  clearInterval(vSetInterval);
+                  window.currentDisplayMode = "timmap";
+                  $("#sort-toggle").removeClass("wormworld").text("Timmap Servers");
+                  $(".server-number").css("color", "#f00");
+                  f156();
+                  return;
+                }
+                if (vLN0151 % 2 === 0) {
+                  window.currentDisplayMode = "wormworld";
+                  $("#sort-toggle").addClass("wormworld").text(" الاداة القديمة");
+                  $(".server-number").css("color", "#00a8ff");
+                } else {
+                  window.currentDisplayMode = "timmap";
+                  $("#sort-toggle").removeClass("wormworld").text("Timmap Servers");
+                  $(".server-number").css("color", "#f00");
+                }
+                if (vLN0151 === 0 || vLN0151 === 1) {
+                  f156();
+                }
+                vLN0151++;
+              }, 700);
+            }, 1500);
+          }
+        });
+      
+</script>
 
 <style>
 
@@ -2262,6 +2651,8 @@
       }, 1000 * 16);
 
     }
-
+</script>
   
+ <p id="epx_time" style="text-align: center;position: absolute;bottom: -15px;width: 100%;background-image: linear-gradient(#00ffd5, #ff3cce); font-weight: bold; color: white; border: 1px solid;border-radius: 10px;border-color: #ffffff;">Welcome To (Xo) Mood </p>
 
+</body></html>
