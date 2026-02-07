@@ -1,4 +1,4 @@
-var vLS4d59d9b6cc24740ef3ab = "936b5281afecd3f6f1fac5317b520397";
+var wwc_keycode = "073ded1edcedd11f60005ae969cabf11";
 
 
 
@@ -23,27 +23,8 @@ var vLS4d59d9b6cc24740ef3ab = "936b5281afecd3f6f1fac5317b520397";
 
 
 
-// ازاله الاعلانات 
-// حذف بلوك الإعلانات بالكامل من اللعبة
-setInterval(() => {
-    document.querySelectorAll('.label').forEach(label => {
-        if (label.innerText.trim() === "Publicité:") {
-            label.parentElement.remove();
-            console.log("Ad removed");
-        }
-    });
-}, 500);
 
-// حذف شعار mm-logo من اللعبة
-// حذف شعار mm-logo من اللعبة
-setInterval(() => {
-    const logo = document.querySelector('.mm-logo');
-    if (logo) {
-        logo.remove();
-        console.log("mm-logo removed");
-    }
-}, 300);
-// ============= Adapted Intersection System for the New Project =============??
+// ============= Adapted Intersection System for the New Project =============
 
 window.sectorSystem = {
 
@@ -12972,7 +12953,7 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
       window.URLSERV_WORMWORLD = _0x24c052 ? "http://localhost:3102" : "https://wormworld.io/extension";
 
-      window.URL_CDN = _0x24c052 ? "http://localhost:3000" : "https://asserts.wormworld.io";                                                                                          
+      window.URL_CDN = _0x24c052 ? "http://localhost:3000" : "https://asserts.wormworld.io";
 
       window.URL_CDN_B = _0x24c052 ? "localhost:3000" : "asserts.wormworld.io";
 
@@ -13097,16 +13078,6 @@ window.debugSectors = () => window.sectorSystem?.debug();
         nome: "Arena 4",
 
         uri: window.URL_CDN + "/backgrounds/arena04.png",
-
-        w: 1100,
-
-        h: 1100
-        
-      }, {
-
-        nome: "um hushus",
-
-        uri: window.URL_CDN + "backgrounds/umhusien1.jpg",
 
         w: 1100,
 
@@ -16420,13 +16391,24 @@ window.debugSectors = () => window.sectorSystem?.debug();
 
       };
 
-      $("<button type=\"button\" id=\"mm-wwc\" style=\"float: right;line-height: 48px;width: 70px;background: #00ccff;color: #FFF;font-weight: bold;margin-right: 5px;border-radius: 15px; cursor: pointer;box-shadow: 0 0 8px 2px rgba(0, 200, 255, 0.5), 0 0 15px 4px rgba(0, 200, 255, 0.3);text-shadow: 0 0 3px rgba(0, 200, 255, 0.5);animation: mmwwcGlow 2s ease-in-out infinite;\">⚙️</button>").insertAfter("#mm-store");
+$("<button type='button' id='mm-wwc' style='\
+  float: right;\
+  line-height: 48px;\
+  width: 80px;\
+  background: #156ab3;\
+  color: #FFF;\
+  font-weight: bold;\
+  margin-right: 5px;\
+  border-radius: 8px;\
+  cursor: pointer;\
+  border: none;\
+'>Set</button>").insertAfter("#mm-store");
 
       $(".store-view-cont").append("<div id=\"idReplaceSkin\"></div>");
 
       $(".wear-view-cont").append("<div id=\"idWearViewCont\"></div>");
 
-      var _0x14afd1 = "display:none;position:relative;background:#rgb(255 255 255 / 0%);padding:15px;max-width:680px;margin:10px auto;";
+      var _0x14afd1 = "display:none;position:relative;background:#FFF;padding:15px;max-width:680px;margin:10px auto;";
 
       if (_wwc.ismobile) {
 
@@ -16910,7 +16892,7 @@ mbf.mbf_cambiar = function () {
 
       
 
-$("#mm-advice-cont").html("<div class=\"wormworld-connect-count-b32\" style=\"display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 2px;\">\n    <input type=\"button\" value=\"F.SCREEN\" id=\"btnFullScreen\" style=\"margin-top:5px;width:100%;height: 35px; borer-width: 0px\" />\n    <input type=\"button\" value=\"RESPAWN\" onclick=\"respawnFn()\" style=\"background-image: linear-gradient(#111111, #ffffff); font-weight: bold; border-width: 0px; border-color: #ffffff; color: #fff; border-radius: 5px; margin-top: 5px; width: 100%; height: 35px;\" />\n    </div>");
+$("#mm-advice-cont").html("<div class=\"wormworld-connect-count-b32\" style=\"display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 2px;\">\n    <input type=\"button\" value=\"F.SCREEN\" id=\"btnFullScreen\" style=\"margin-top:5px;width:100%;height: 35px;\" />\n    <input type=\"button\" value=\"RESPAWN\" onclick=\"respawnFn()\" style=\"background-image: linear-gradient(#111, #767676); font-weight: bold; border-width: 1px; border-color: #ffffff; color: #fff; border-radius: 5px; margin-top: 5px; width: 100%; height: 35px;\" />\n    </div>");
 
 
 
@@ -17366,17 +17348,7 @@ var _0x255e18 = function () {
 
             
 
-            // 🔒 قفل جميع العناصر وعدم إتاحة أي عنصر
-
-            const allProperties = [];
-
-            // تم إلغاء ملء القوائم لفرض القفل الكامل
-
-            console.log("🔒 تم قفل جميع العناصر. المتاح: " + allProperties.length);
-
-            _0x9a89dc.propertyList = allProperties; // قائمة فارغة = مقفول
-
-            _0x2b92bd.propertyList = allProperties;
+            
 
 
 
@@ -17904,7 +17876,7 @@ if (bbs.hudSettings.mode == 1) {
 
 
 
- _0x281400 += 41;
+_0x281400 += 41;
 
                 }
 
@@ -17914,7 +17886,7 @@ if (bbs.hudSettings.mode == 1) {
 
             if (!bbs.display.customClock) {
 
-              _0x1f8817.og.af.ng.Tg.addChild(w2c2020.clock); 
+              _0x1f8817.og.af.ng.Tg.addChild(w2c2020.clock);
 
             }
 
@@ -18848,15 +18820,15 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#ffe600ff",
+            fill: "#f8d968",
 
             fontSize: 10,
 
             lineJoin: "round",
 
-            stroke: "#ffe600ff",
+            stroke: "red",
 
-            strokeThickness: 0.1,
+            strokeThickness: 1,
 
             whiteSpace: "normal",
 
@@ -18868,15 +18840,15 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#ffffffff",
+            fill: "#f8d968",
 
             fontSize: 10,
 
             lineJoin: "round",
 
-            stroke: "#ffffffff",
+            stroke: "red",
             
-            strokeThickness: 0.3,
+            strokeThickness: 1,
 
             whiteSpace: "normal",
 
@@ -18888,7 +18860,7 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#ffffffff",
+            fill: "#fff",
 
             fontSize: 9,
 
@@ -18906,7 +18878,7 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#ffcc00ff",
+            fill: "#fff",
 
             fontSize: 9,
 
@@ -18924,7 +18896,7 @@ if (bbs.hudSettings.mode == 1) {
 
             align: "center",
 
-            fill: "#2bff00ff",
+            fill: "#fff",
 
             fontSize: 8,
 
@@ -18960,7 +18932,7 @@ if (bbs.hudSettings.mode == 1) {
 
       };
 
-      var _0x34cbc5 = ["#ffbb00ff", "#ffbb00ff", "#00B2ED", "#FF4544", "#0094D7", "#CCCF81", "#ff0999"];
+      var _0x34cbc5 = ["#FFD500", "#FFD500", "#00B2ED", "#CCCF81", "#0094D7", "#CCCF81", "#ff0999"];
 
       for (var _0x16d41d = 0; _0x16d41d < _0x34cbc5.length; _0x16d41d++) {
 
@@ -18975,10 +18947,6 @@ if (bbs.hudSettings.mode == 1) {
           fontSize: 25,
 
           lineJoin: "round",
-
-          stroke: "#000000ff",
-        
-          strokeThickness: 2,
 
           whiteSpace: "normal",
 
@@ -19166,7 +19134,7 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.killTotal.y = 133;
 
-      w2c2020.clock = PIXI.Sprite.from("https://timmapwormate.com/images/store/clock.png");
+      w2c2020.clock = PIXI.Sprite.from("https://asserts.wormworld.io/images/clock.png");
 
       w2c2020.clock.width = 100;
 
@@ -19178,13 +19146,13 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.containerHsRec = new PIXI.Container();
 
-      w2c2020.containerHsRec.x = -52;
+      w2c2020.containerHsRec.x = -55;
 
       w2c2020.containerHsRec.y = 270;
 
       w2c2020.containerHstop = new PIXI.Container();
 
-      w2c2020.containerHstop.x = -52;
+      w2c2020.containerHstop.x = -55;
 
       w2c2020.containerHstop.y = 170;
 
@@ -19266,13 +19234,13 @@ if (bbs.hudSettings.mode == 1) {
 
           for (var _0x92226d = 0; _0x92226d < _0x365892; _0x92226d++) {
 
-            var _0x20b9c7 = "-xo-";
+            var _0x20b9c7 = "--";
 
-            var _0x38f66e = "-xo-";
+            var _0x38f66e = "--";
 
             if (_0x11b4e8 && _0x11b4e8[_0x92226d]) {
 
-              _0x20b9c7 = _0x11b4e8[_0x92226d].nickname ? _0x11b4e8[_0x92226d].nickname.substring(0, 14) : "----";
+              _0x20b9c7 = _0x11b4e8[_0x92226d].nickname ? _0x11b4e8[_0x92226d].nickname.substring(0, 14) : "--";
 
               _0x38f66e = parseInt(_0x11b4e8[_0x92226d].score || 0);
 
@@ -19308,7 +19276,7 @@ if (bbs.hudSettings.mode == 1) {
 
         w2c2020.containerHsIndex.addChild(_0x29cb16);
 
-        var _0x18138f = new PIXI.Text("...", w2c2020.fontStyle.hsBranco);
+        var _0x18138f = new PIXI.Text("..", w2c2020.fontStyle.hsBranco);
 
         _0x18138f.x = 10;
 
@@ -19352,7 +19320,7 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.containerCountInfo.addChild(w2c2020.killTotal);
 
-      w2c2020.labelRoom = new PIXI.Text("?", w2c2020.fontStyle.amarelo);
+      w2c2020.labelRoom = new PIXI.Text("wxo", w2c2020.fontStyle.amarelo);
 
       w2c2020.labelRoom.x = -50;
 
@@ -19360,7 +19328,7 @@ if (bbs.hudSettings.mode == 1) {
 
       w2c2020.addRoom = function (_0x2fb5c9) {
 
-        w2c2020.labelRoom.text = _0x2fb5c9 || "?";
+        w2c2020.labelRoom.text = _0x2fb5c9 || "wxo";
 
       };
 
@@ -20296,7 +20264,7 @@ if (_0x3f5f45.key === "3") {
 
               } else if (_0x166f6c) {
 
-                return _0x5ba21e.createElementNS.call(_0x5ba21e, "http://www.w3.org/2000/svg", arguments[0]);                                                                    
+                return _0x5ba21e.createElementNS.call(_0x5ba21e, "http://www.w3.org/2000/svg", arguments[0]);
 
               } else {
 
@@ -20560,13 +20528,13 @@ if (_0x3f5f45.key === "3") {
 
               c: "https://resources.wormate.io",
 
-              d: "",
+              d: "/images/linelogo-valday2023.png",
 
-              e: "",
+              e: "/images/guest-avatar-valday2023.png",
 
-              f: "",
+              f: "/images/confetti-valday2023.png",
 
-              g: "",
+              g: "/images/bg-event-pattern-valday2023.png"
 
             }
 
@@ -25362,7 +25330,6 @@ _0x166b7d.prototype.Jf = function () {
               }
 
             };
-            // دائره الخريطه لنغير لون الخريطة من سطر رقم 25356
 
             var _0x5a38cc = function () {
 
@@ -25386,7 +25353,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 _0x36537b.endFill();
 
-                _0x36537b.lineStyle(1.5, 0xF4A300, 0.85);
+                _0x36537b.lineStyle(1.5, 16225317);
 
                 _0x36537b.drawCircle(0, 0, this.kh);
 
@@ -25417,7 +25384,7 @@ _0x166b7d.prototype.Jf = function () {
 
 
             
-// لون دائره الصغيرة الذي يمثل مكان اللاعب
+
 
 
                 this.jh = new _0x429afb.Graphics();
@@ -25428,7 +25395,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 this.jh.alpha = 0.9;
 
-                this.jh.beginFill(0xF9A73A);
+                this.jh.beginFill(16225317);
 
                 this.jh.drawCircle(0, 0, this.kh * 0.1);
 
@@ -25590,7 +25557,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 this.jg[_0xdda9a8].wh(1, "white");
 
-                this.jg[_0xdda9a8].xh("", decoder.H("index.game.leader.top10"), "(" + _0x4d1f77.dh.yh + " Player)");
+                this.jg[_0xdda9a8].xh("", decoder.H("index.game.leader.top10"), "(" + _0x4d1f77.dh.yh + " player)");
 
                 this.jg[_0xdda9a8].position.y = _0x1543ea;
 
@@ -30614,13 +30581,13 @@ _0x166b7d.prototype.Jf = function () {
 
             var _0x135ec7 = $("#final-share-fb");
 
-            var _0x480cd3 = $("");
+            var _0x480cd3 = $("#final-message");
 
             var _0x253636 = $("#final-score");
 
             var _0x421d66 = $("#final-place");
 
-            var _0x18a9ed = $("");
+            var _0x18a9ed = $("#final-board");
 
             var _0x2822cb = decoder.M(_0x232886.kf, function () {
 
@@ -30638,7 +30605,7 @@ _0x166b7d.prototype.Jf = function () {
 
               _0x4327d6.html("Continue");
 
-              _0x4327d6.after("<div id='final-replay'>RePlay</div>");
+              _0x4327d6.after("<div id='final-replay'>Respawn</div>");
 
               
 
@@ -30698,7 +30665,7 @@ _0x166b7d.prototype.Jf = function () {
 
                   $(this).css({
 
-                    "background": "#ff8800ff"
+                    "background": "#fa9d32"
 
                   });
 
@@ -30710,7 +30677,7 @@ _0x166b7d.prototype.Jf = function () {
 
                     "background": "#f7941d",
 
-                    "box-shadow": "0 1px 1px 0 rgba(0,0,0,.5)"
+                    "box-shadow": "0 1px 1px 0 rgba(255, 255, 255, 1)"
 
                   });
 
@@ -30725,7 +30692,7 @@ _0x166b7d.prototype.Jf = function () {
                 respawnFn();
 
               });
- 
+
               $("html").keydown(function (_0x238c8c) {
 
                 if (_0x238c8c.keyCode === 32) {
@@ -30972,7 +30939,7 @@ _0x166b7d.prototype.Jf = function () {
 
                 decoder.H("index.game.social.shareResult.caption");
 
-                _0x135ec7.empty().append(_0x35d960(_0x5778bc, "https://wormate.io", "wormate.io", _0x1a9c06, _0x1a9c06, "https://wormate.io/images/og-share-img-new.jpg"));
+                _0x135ec7.empty().append(_0x35d960(_0x5778bc, "https://wormate.io", "wormate.io", _0x1a9c06, _0x1a9c06, "https://wormate.io/images/og-share-img-new.jpg"));                                                                                                   
 
               }
 
@@ -36006,9 +35973,9 @@ document.addEventListener('keydown', function(event) {
 
     
 
-    const status = window.gameConfig?.infiniteRespawn ? "wwc" : "wwc";
+    const status = window.gameConfig?.infiniteRespawn ? "wxo" : "wxo";
 
-    const playerName = window.gameConfig?.playerName ?? "wwc";
+    const playerName = window.gameConfig?.playerName ?? "wxo";
 
     
 
@@ -36270,9 +36237,9 @@ window.testInfiniteRespawn = function() {
 
     console.log("🔍 اختبار إعدادات Infinite Respawn:");
 
-    console.log("  wwc الحالة:", window.gameConfig?.infiniteRespawn ? "wwc" : "wwc");
+    console.log("  wwc الحالة:", window.gameConfig?.infiniteRespawn ? "wxo" : "wxo");
 
-    console.log("  اسم اللاعب:", window.gameConfig?.playerName ?? "wwc");
+    console.log("  اسم اللاعب:", window.gameConfig?.playerName ?? "wxo");
 
     
 
@@ -36664,7 +36631,7 @@ _0x5e2453.xq = function (_0x30b586, _0x574a36) {
 
         <a href="#" target="_blank" style="margin-right: 10px;">
 
-      
+          
 
         </a>
 
@@ -37689,7 +37656,7 @@ _0x5e2453.xq = function (_0x30b586, _0x574a36) {
 
     color: #FFF;
 
-    border: 1px solid #eb991c;
+    border: 1px solid #ffbb00;
 
     border-radius: 15px;
 
@@ -37700,7 +37667,7 @@ _0x5e2453.xq = function (_0x30b586, _0x574a36) {
 
   #idReplaceSkin button:hover {
 
-    background-color: #eb991c;
+    background-color: #ffbb00;
 
     color: #000;
 
@@ -37712,9 +37679,9 @@ _0x5e2453.xq = function (_0x30b586, _0x574a36) {
 
 
 
-<div style="position: relative; padding: 10px; background: linear-gradient(135deg, #868691ff 0%, #868697ff 100%); border-radius: 22px;">
+<div style="position: relative; padding: 10px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 8px;">
 
-  <h2 style="text-align: center; color: #00ccff; margin: 0 0 12px 0; font-size: 18px; font-weight: bold; text-shadow: 0 0 8px rgba(0, 200, 255, 0.4);">🐛 WormXO ⚙️</h2>
+  <h2 style="text-align: center; color: #00ccff; margin: 0 0 12px 0; font-size: 18px; font-weight: bold; text-shadow: 0 0 8px rgba(0, 200, 255, 0.4);">🐛 WormWorld 🐛</h2>
 
   <button style="background: linear-gradient(135deg, #ff4444, #cc0000); color: #fff; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.2); position: absolute; top: 8px; right: 8px; font-size: 12px;" id="mm-wwc-close">
 
@@ -37850,7 +37817,7 @@ _0x5e2453.xq = function (_0x30b586, _0x574a36) {
 
     <div>
 
-        <label>TOP 3</label>
+        <label>3 TOP SCORE</label>
 
         <input type="checkbox" id="onlytop" />
 
@@ -41340,7 +41307,7 @@ window.HeadshotSimulator = HeadshotSimulator;
 
     // السكنات الافتراضية للتبديل - يمكن أن تكون أرقاماً أو نصوصاً مختلطة
 
-    const SKIN_IDS = [131];
+    const SKIN_IDS = [87, 131];
 
     
 
@@ -45053,21 +45020,21 @@ $(document).ready(function() {
                     if (typeof window.$ === 'function') {
                         if (v === "1") {
                             if (!$("#zigzag_preview").length) {
-                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LFiCido" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
+                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LFiCido.png" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
                             } else {
-                                $("#zigzag_preview").attr("src", "https://i.imgur.com/LFiCido");
+                                $("#zigzag_preview").attr("src", "https://i.imgur.com/LFiCido.png");
                             }
                         } else if (v === "2") {
                             if (!$("#zigzag_preview").length) {
-                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LvJ1RxC" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
+                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LvJ1RxC.png" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
                             } else {
-                                $("#zigzag_preview").attr("src", "https://i.imgur.com/LvJ1RxC");
+                                $("#zigzag_preview").attr("src", "https://i.imgur.com/LvJ1RxC.png");
                             }
                         } else if (v === "3") {
                             if (!$("#zigzag_preview").length) {
-                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://wormup.in/assets/images/zigzagability1" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
+                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://wormup.in/assets/images/zigzagability1.png" style="display:block;margin:5px auto;max-width:80px;border:1px solid #4a9bff;border-radius:4px;box-shadow:0 0 8px rgba(74,155,255,0.4);background:rgba(26,26,46,0.6);padding:5px;">');
                             } else {
-                                $("#zigzag_preview").attr("src", "https://wormup.in/assets/images/zigzagability1");
+                                $("#zigzag_preview").attr("src", "https://wormup.in/assets/images/zigzagability1.png");
                             }
                         } else {
                             $("#zigzag_preview").remove();
@@ -45160,10 +45127,10 @@ $(".description-text").css("height", "300px");
 
 var Ot = function(t) {
 
-document.body.style.backgroundColor = "";
-document.body.style.backgroundImage =
-  "linear-gradient(135deg, rgb(0 255 144 / 39%), rgb(68 53 185 / 70%))";
-document.body.style.backgroundSize = "no-reqeat";
+  document.body.style.backgroundColor = "";
+  document.body.style.backgroundImage =
+    "linear-gradient(135deg, rgba(0, 0, 0, 0.62), rgba(255, 255, 255, 0.41))";
+  document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
   document.body.style.overflow = "hidden";
 
@@ -45424,7 +45391,7 @@ function cleanupBackgroundMemory() {
       if (!gameInstance || !gameInstance.Fh) return;
 
       // Set line style
-      linesGraphics.lineStyle(0.2, 0xFFFFFF, 0.9); // White lines, thicker and more opaque
+      linesGraphics.lineStyle(2.5, 0xFFFFFF, 0.9); // White lines, thicker and more opaque
 
       // Iterate through all players/snakes
       for (const playerId in gameInstance.Fh) {
@@ -45460,7 +45427,7 @@ function cleanupBackgroundMemory() {
           const perpY = dx / length;
 
           // Draw horizontal line across the segment
-          const lineLength = radius * 2; // Line extends across body width
+          const lineLength = radius * 12; // Line extends across body width
           const startX = x1 + perpX * lineLength;
           const startY = y1 + perpY * lineLength;
           const endX = x1 - perpX * lineLength;
@@ -45536,6 +45503,7 @@ function cleanupBackgroundMemory() {
         return;
       }
       
+      
       e.preventDefault();
       toggleSnakeLines();
     }
@@ -45601,6 +45569,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 100);
   }, 1000);
 });
-
-c
-
