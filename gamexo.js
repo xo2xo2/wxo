@@ -1,4 +1,4 @@
-var wwc_keycode = "073ded1edcedd11f60005ae969cabf11";
+var vLS4d59d9b6cc24740ef3ab = "073ded1edcedd11f60005ae969cabf11";
 
 
 
@@ -45525,47 +45525,5 @@ document.addEventListener('DOMContentLoaded', function() {
     const clearBtn = document.querySelector('button[onclick*="fileSkin.value"]');
     const fileInput = document.getElementById('fileSkin');
     
-    // Copy button feedback
-    if (copyBtn && idInput) {
-      copyBtn.addEventListener('click', function() {
-        const originalText = this.textContent;
-        this.textContent = 'Copied!';
-        this.style.backgroundColor = '#4CAF50';
-        this.style.boxShadow = '0 0 20px #4f4';
-        
-        setTimeout(() => {
-          this.textContent = originalText;
-          this.style.backgroundColor = '#910e91';
-          this.style.boxShadow = '0 0 10px #f0f';
-        }, 2000);
-      });
-    }
-    
-    // File input change handler
-    if (fileInput) {
-      fileInput.addEventListener('change', function() {
-        const file = this.files[0];
-        if (file) {
-          console.log('Selected file:', file.name);
-        }
-      });
-    }
-    
-    // Pulsing glow animation for copy button
-    let glowStrength = 10;
-    let growing = true;
-    
-    setInterval(() => {
-      if (copyBtn && copyBtn.style.backgroundColor === 'rgb(145, 14, 145)') {
-        if (growing) {
-          glowStrength += 0.5;
-          if (glowStrength >= 20) growing = false;
-        } else {
-          glowStrength -= 0.5;
-          if (glowStrength <= 10) growing = true;
-        }
-        copyBtn.style.boxShadow = `0 0 ${glowStrength}px #f0f`;
-      }
-    }, 100);
-  }, 1000);
+})();
 });
