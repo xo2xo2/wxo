@@ -15572,4 +15572,120 @@ document.querySelector(".mm-event-cont")?.style.setProperty("display", "none", "
 document.querySelector(".mm-logo")?.style.setProperty("display", "none", "important"),
 document.querySelector(".mm-event-cont + span")?.style.setProperty("display", "none", "important"),
 function() {
-}(),   
+    try {
+        if (document.getElementById("btnRePlay"))
+            return;
+        var t = document.createElement("button");
+        t.id = "respawn-btn-overlay",
+        t.textContent = "Respawn",
+        t.setAttribute("aria-label", "Respawn"),
+        
+        t.addEventListener("click", (function(t) {
+            t.preventDefault(),
+            t.stopPropagation(),
+            function() {
+                try {
+                    if (window._wwc && "function" == typeof window._wwc.respawn)
+                        return void window._wwc.respawn()
+                } catch (t) {}
+                try {
+                    var t = new KeyboardEvent("keydown",{
+                        key: "5",
+                        code: "Digit5",
+                        keyCode: 53,
+                        which: 53,
+                        bubbles: !0
+                    })
+                      , e = new KeyboardEvent("keyup",{
+                        key: "5",
+                        code: "Digit5",
+                        keyCode: 53,
+                        which: 53,
+                        bubbles: !0
+                    });
+                    document.dispatchEvent(t),
+                    document.dispatchEvent(e)
+                } catch (t) {}
+            }()
+        }
+        ), !0);
+        var e = document.createElement("button");
+        e.id = "btnFullScreen",
+        e.textContent = "Full Screen",
+        e.setAttribute("aria-label", "Full Screen"),
+        [e.style.zIndex,e.style.padding,e.style.borderRadius,e.style.border,e.style.background,e.style.color,e.style.boxShadow,e.style.cursor,e.style.fontFamily,e.style.fontSize] = ["99999", "10px 14px", "8px", "0", "#333", "#fff", "0 2px 8px rgba(0,0,0,0.25)", "pointer", "inherit", "14px"],
+        e.addEventListener("click", (function(t) {
+            t.preventDefault(),
+            t.stopPropagation(),
+            function() {
+                try {
+                    var t = document.getElementById("game-wrap") || document.documentElement;
+                    if (document.fullscreenElement)
+                        return void (document.exitFullscreen && document.exitFullscreen());
+                    t.requestFullscreen ? t.requestFullscreen() : t.webkitRequestFullscreen ? t.webkitRequestFullscreen() : t.msRequestFullscreen && t.msRequestFullscreen()
+                } catch (t) {}
+            }()
+        }
+        ), !0);
+        var n = function(n) {
+            
+            t.parentNode && t.parentNode.insertBefore(e, t.nextSibling)
+        }
+          , o = document.getElementById("mm-action-play");
+        if (o && o.parentNode)
+            n(o);
+        else {
+            
+            document.body.appendChild(e);
+            var i = new MutationObserver((function() {
+                var t = document.getElementById("mm-action-play");
+                if (t && t.parentNode && document.getElementById("respawn-btn-overlay"))
+                    try {
+                        n(t),
+                        i.disconnect()
+                    } catch (t) {}
+            }
+            ));
+            try {
+                i.observe(document.body, {
+                    childList: !0,
+                    subtree: !0
+                })
+            } catch (t) {}
+        }
+    } catch (t) {}
+}(),
+function() {
+    try {
+        if (document.getElementById("fps-overlay"))
+            return;
+        var t = document.createElement("div");
+        t.id = "fps-overlay",
+        t.textContent = "FPS: --",
+        t.style.position = "fixed",
+        t.style.left = "8px",
+        t.style.top = "8px",
+        t.style.zIndex = "99999",
+        t.style.padding = "4px 6px",
+        t.style.borderRadius = "4px",
+        t.style.background = "rgba(0,0,0,0.55)",
+        t.style.color = "#7CFC00",
+        t.style.fontFamily = "monospace",
+        t.style.fontSize = "12px",
+        t.style.pointerEvents = "none",
+        document.body.appendChild(t);
+        var e = 0
+          , n = performance.now();
+        requestAnimationFrame((function o(i) {
+            if (e += 1,
+            i - n >= 1e3) {
+                var r = Math.round(1e3 * e / (i - n));
+                t.textContent = "FPS: " + r,
+                e = 0,
+                n = i
+            }
+            requestAnimationFrame(o)
+        }
+        ))
+    } catch (t) {}
+}();
