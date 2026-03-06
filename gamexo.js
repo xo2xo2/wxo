@@ -5916,6 +5916,18 @@ var vLS4d59d9b6cc24740ef3ab = "073ded1edcedd11f60005ae969cabf11";
                 K()
             }
             ,
+
+              $("#mm-advice-cont").html("<div class=\"wormworld-connect-count-b32\" style=\"display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 2px;\">\n    <input type=\"button\" value=\"F.SCREEN\" id=\"btnFullScreen\" style=\"margin-top:5px;width:100%;height: 35px; borer-width: 0px\" />\n    <input type=\"button\" value=\"RESPAWN\" onclick=\"respawnFn()\" style=\"background-image: linear-gradient(#00ffc7, #ff47fc); font-weight: bold;font-size: 13px; border-width: 0px; border-color: #ffffff; color: #fff; border-radius: 5px; margin-top: 5px; width: 100%; height: 35px;\" />\n    </div>");
+const btn = document.getElementById("btnFullScreen");
+
+btn.onclick = () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+};
+              
             $('<button type="button" id="mm-wwc" >⚙️</button>').insertAfter("#mm-store"),
             $(".store-view-cont").append('<div id="idReplaceSkin"></div>'),
             $(".wear-view-cont").append('<div id="idWearViewCont"></div>');
@@ -15613,7 +15625,7 @@ function() {
         e.id = "btnFullScreen",
         e.textContent = "Full Screen",
         e.setAttribute("aria-label", "Full Screen"),
-        [e.style.zIndex,e.style.padding,e.style.borderRadius,e.style.border,e.style.background,e.style.color,e.style.boxShadow,e.style.cursor,e.style.fontFamily,e.style.fontSize] = ["99999", "10px 14px", "8px", "0", "#333", "#fff", "0 2px 8px rgba(0,0,0,0.25)", "pointer", "inherit", "14px"],
+        [e.style.zIndex,e.style.padding,e.style.borderRadius,e.style.border,e.style.background,e.style.color,e.style.boxShadow,e.style.cursor,e.style.fontFamily,e.style.fontSize] = [""],
         e.addEventListener("click", (function(t) {
             t.preventDefault(),
             t.stopPropagation(),
