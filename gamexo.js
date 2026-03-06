@@ -5929,6 +5929,12 @@ btn.onclick = () => {
 };
               
             $('<button type="button" id="mm-wwc" >⚙️</button>').insertAfter("#mm-store"),
+   $("<button type=\"button\" id=\"mm-wwc\" \">⚙️</button>").insertAfter("#mm-store");
+      $("<button type=\"button\" id=\"xo-button\" \">💡</button>").insertAfter("#mm-store");
+      document.getElementById('xo-button').addEventListener('click', function() {
+    window.open('https://wormworld.io/skinlab/', '_blank');
+    }
+ );           
             $(".store-view-cont").append('<div id="idReplaceSkin"></div>'),
             $(".wear-view-cont").append('<div id="idWearViewCont"></div>');
             var z = "display:none;position:relative;background:#000;padding:15px;max-width:680px;margin:10px auto;";
