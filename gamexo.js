@@ -12670,6 +12670,3076 @@ btn.onclick = () => {
                         }(),
 
                         
+                        D.prototype.Un = function() {
+                            e.fadeIn(500),
+                            u.fadeIn(500),
+                            h.fadeIn(500),
+                            p.fadeOut(100)
+                        }
+                        ,
+                        D.prototype.Vn = function() {
+                            e.fadeOut(100),
+                            u.fadeOut(100),
+                            h.fadeOut(100),
+                            p.fadeIn(500)
+                        }
+                        ,
+                        D.prototype.Ln = function(t, e) {
+                            this.Jn !== t && (this.Jn = t);
+                            var n = i.P(Math.floor(100 * e), 0, 100);
+                            this.In !== n && (f.css({
+                                width: n + "%"
+                            }),
+                            m.html(n + " %"))
+                        }
+                        ,
+                        D.prototype.Hk = function() {
+                            t().Ci.Ce(),
+                            this.Nn.Kf(!0)
+                        }
+                        ,
+                        D.prototype.Bk = function() {
+                            this.Nn.Kf(!1)
+                        }
+                        ,
+                        D.prototype.Jf = function() {
+                            this.Nn.Jf()
+                        }
+                        ,
+                        D.prototype.Nf = function(t, e) {
+                            this.Nn.Nf()
+                        }
+                        ,
+                        D.prototype.el = function() {
+                            return _.val()
+                        }
+                        ,
+                        D.prototype.Wn = function() {
+                            return k.val()
+                        }
+                        ,
+                        D.prototype.Qn = function() {}
+                        ,
+                        D.prototype.Rn = function() {
+                            function e() {
+                                n.Xn(!0),
+                                setTimeout((function() {
+                                    v.hide()
+                                }
+                                ), 3e3)
+                            }
+                            var n = t();
+                            if (qt.xn && !n.Tn()) {
+                                v.show();
+                                var o = i.H("index.game.main.menu.unlockSkins.share")
+                                  , r = encodeURIComponent(i.H("index.game.main.menu.unlockSkins.comeAndPlay") + " https://wormate.io/ #wormate #wormateio")
+                                  , s = encodeURIComponent(i.H("index.game.main.menu.unlockSkins.comeAndPlay"));
+                                w.append($('<a class="mm-skin-over-button" id="mm-skin-over-tw" target="_blank" href="http://twitter.com/intent/tweet?status=' + r + '"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjQ1NiIgaGVpZ2h0PSI0NTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik02MCAzMzhjMzAgMTkgNjYgMzAgMTA1IDMwIDEwOCAwIDE5Ni04OCAxOTYtMTk2IDAtMyAwLTUgMC04IDQtMyAyOC0yMyAzNC0zNSAwIDAtMjAgOC0zOSAxMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAyLTEgMjctMTggMzAtMzggMCAwLTE0IDctMzMgMTQgLTMgMS03IDItMTAgMyAtMTMtMTMtMzAtMjItNTAtMjIgLTM4IDAtNjkgMzEtNjkgNjkgMCA1IDEgMTEgMiAxNiAtNSAwLTg2LTUtMTQxLTcxIDAgMC0zMyA0NSAyMCA5MSAwIDAtMTYtMS0zMC05IDAgMC01IDU0IDU0IDY4IDAgMC0xMiA0LTMwIDEgMCAwIDEwIDQ0IDYzIDQ4IDAgMC00MiAzOC0xMDEgMjlMNjAgMzM4eiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg=="><span>' + o + "</span></a>").click(e)),
+                                w.append($('<a class="mm-skin-over-button" id="mm-skin-over-fb" target="_blank" href="' + s + '"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ1NiA0NTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0yNDQuMyA0NTZWMjc5LjdoLTU5LjN2LTcxLjloNTkuM3YtNjAuNGMwLTQzLjkgMzUuNi03OS41IDc5LjUtNzkuNWg2MnY2NC42aC00NC40Yy0xMy45IDAtMjUuMyAxMS4zLTI1LjMgMjUuM3Y1MGg2OC41bC05LjUgNzEuOWgtNTkuMVY0NTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"><span>' + o + "</span></a>").click(e))
+                            }
+                        }
+                        ,
+                        D
+                    }(),
+                    n.yk = ((p = i.M(n.kf, (function() {
+                        n.kf.call(this, n.Fk.wn)
+                    }
+                    ))).prototype.ha = function() {}
+                    ,
+                    p.prototype.Gk = function() {
+                        n.kf.jn.stop(),
+                        n.kf.jn.fadeOut(50),
+                        n.kf.ln.stop(),
+                        n.kf.ln.fadeOut(50),
+                        n.kf.nn.stop(),
+                        n.kf.nn.fadeOut(50),
+                        n.kf.pn.stop(),
+                        n.kf.pn.fadeOut(50),
+                        n.kf.sn.stop(),
+                        n.kf.sn.fadeOut(50),
+                        n.kf.qn.stop(),
+                        n.kf.qn.fadeOut(50),
+                        n.kf.rn.stop(),
+                        n.kf.rn.fadeOut(50),
+                        n.kf.tn.stop(),
+                        n.kf.tn.fadeOut(50),
+                        n.kf.un_error.stop(),
+                        n.kf.un_error.fadeOut(50),
+                        n.kf.mn.stop(),
+                        n.kf.mn.fadeOut(1),
+                        n.kf.bgcanvas.stop(),
+                        n.kf.bgcanvas.fadeOut(50),
+                        n.GameView.Kf(!1),
+                        n.kf.socialButtons.stop(),
+                        n.kf.socialButtons.fadeOut(50),
+                        n.kf.vn.stop(),
+                        n.kf.vn.fadeOut(50)
+                    }
+                    ,
+                    p),
+                    n.pk = ((b = i.M(n.kf, (function() {
+                        n.kf.call(this, n.Fk.wn)
+                    }
+                    ))).prototype.ha = function() {}
+                    ,
+                    b.prototype.Gk = function() {
+                        n.kf.jn.stop(),
+                        n.kf.jn.fadeOut(50),
+                        n.kf.ln.stop(),
+                        n.kf.ln.fadeOut(50),
+                        n.kf.nn.stop(),
+                        n.kf.nn.fadeOut(50),
+                        n.kf.pn.stop(),
+                        n.kf.pn.fadeOut(50),
+                        n.kf.sn.stop(),
+                        n.kf.sn.fadeOut(50),
+                        n.kf.qn.stop(),
+                        n.kf.qn.fadeOut(50),
+                        n.kf.rn.stop(),
+                        n.kf.rn.fadeIn(500),
+                        n.kf.tn.stop(),
+                        n.kf.tn.fadeOut(50),
+                        n.kf.un_error.stop(),
+                        n.kf.un_error.fadeOut(50),
+                        n.kf.mn.stop(),
+                        n.kf.mn.fadeIn(1),
+                        n.kf.bgcanvas.stop(),
+                        n.kf.bgcanvas.fadeIn(500),
+                        n.GameView.Kf(!0),
+                        n.kf.socialButtons.stop(),
+                        n.kf.socialButtons.fadeOut(50),
+                        n.kf.vn.stop(),
+                        n.kf.vn.fadeOut(50)
+                    }
+                    ,
+                    b.prototype.Hk = function() {}
+                    ,
+                    b),
+                    n.rk = (y = $("#toaster-stack"),
+                    (w = i.M(n.kf, (function() {
+                        n.kf.call(this, n.Fk.wn),
+                        this.Yn = [],
+                        this.Zn = null
+                    }
+                    ))).prototype.ha = function() {}
+                    ,
+                    w.prototype.Gk = function() {
+                        n.kf.jn.stop(),
+                        n.kf.jn.fadeOut(50),
+                        n.kf.ln.stop(),
+                        n.kf.ln.fadeOut(50),
+                        n.kf.nn.stop(),
+                        n.kf.nn.fadeOut(50),
+                        n.kf.pn.stop(),
+                        n.kf.pn.fadeOut(50),
+                        n.kf.sn.stop(),
+                        n.kf.sn.fadeIn(500),
+                        n.kf.qn.stop(),
+                        n.kf.qn.fadeOut(50),
+                        n.kf.rn.stop(),
+                        n.kf.rn.fadeOut(50),
+                        n.kf.tn.stop(),
+                        n.kf.tn.fadeOut(50),
+                        n.kf.un_error.stop(),
+                        n.kf.un_error.fadeOut(50),
+                        n.kf.mn.stop(),
+                        n.kf.mn.fadeIn(1),
+                        n.kf.bgcanvas.stop(),
+                        n.kf.bgcanvas.fadeIn(500),
+                        n.GameView.Kf(!0),
+                        n.kf.socialButtons.stop(),
+                        n.kf.socialButtons.fadeOut(50),
+                        n.kf.vn.stop(),
+                        n.kf.vn.fadeIn(500)
+                    }
+                    ,
+                    w.prototype.Hk = function() {
+                        this.$n()
+                    }
+                    ,
+                    w.prototype.Kk = function() {
+                        return null != this.Zn || this.Yn.length > 0
+                    }
+                    ,
+                    w.prototype._n = function(e) {
+                        this.Yn.unshift(e),
+                        setTimeout((function() {
+                            t().og.Ik()
+                        }
+                        ), 0)
+                    }
+                    ,
+                    w.prototype.El = function(e) {
+                        this.Yn.push(e),
+                        setTimeout((function() {
+                            t().og.Ik()
+                        }
+                        ), 0)
+                    }
+                    ,
+                    w.prototype.$n = function() {
+                        var e = this;
+                        if (null == this.Zn) {
+                            if (0 == this.Yn.length)
+                                return void t().og.Dk();
+                            var n = this.Yn.shift();
+                            this.Zn = n;
+                            var o = n.tf();
+                            o.hide(),
+                            o.fadeIn(300),
+                            y.append(o),
+                            n.ao = function() {
+                                o.fadeOut(300),
+                                setTimeout((function() {
+                                    o.remove()
+                                }
+                                ), 300),
+                                e.Zn == n && (e.Zn = null),
+                                e.$n()
+                            }
+                            ,
+                            n.Hk()
+                        }
+                    }
+                    ,
+                    w),
+                    n.Fk = {
+                        wn: 0,
+                        Ek: 1
+                    },
+                    n.bo = function() {
+                        var e = $("#popup-menu-label")
+                          , o = $("#popup-menu-coins-box")
+                          , r = $("#popup-menu-coins-val");
+                        $("#popup-menu-back").click((function() {
+                            var e = t();
+                            e.Ci.Be(),
+                            e.og.Dk()
+                        }
+                        )),
+                        o.click((function() {
+                            var e = t();
+                            e.Ij.Hj() && (e.Ci.Be(),
+                            e.og.Ak(e.og._j))
+                        }
+                        ));
+                        var s = i.M(n.kf, (function(t, e) {
+                            n.kf.call(this, n.Fk.Ek),
+                            this.ma = t,
+                            this.co = e,
+                            this.do = []
+                        }
+                        ));
+                        return s.prototype.ha = function() {
+                            if (s.parent.prototype.ha.call(this),
+                            !s.eo) {
+                                s.eo = !0;
+                                var e = t();
+                                e.Ij.zl((function() {
+                                    e.Ij.Hj() ? r.html(e.Ij.il()) : r.html("0")
+                                }
+                                ))
+                            }
+                            n.bo.fo.stop(),
+                            n.bo.fo.fadeOut(100)
+                        }
+                        ,
+                        s.go = $("#coins-view"),
+                        s.ho = $("#leaders-view"),
+                        s.io = $("#profile-view"),
+                        s.jo = $("#settings-view"),
+                        s.ko = $("#login-view"),
+                        s.lo = $("#skins-view"),
+                        s.mo = $("#store-view"),
+                        s.no = $("#wear-view"),
+                        s.oo = $("#withdraw-consent-view"),
+                        s.po = $("#delete-account-view"),
+                        s.fo = $("#please-wait-view"),
+                        s.prototype.Gk = function() {
+                            n.kf.jn.stop(),
+                            n.kf.jn.fadeOut(200),
+                            n.kf.ln.stop(),
+                            n.kf.ln.fadeOut(200),
+                            n.kf.nn.stop(),
+                            n.kf.nn.fadeOut(200),
+                            n.kf.pn.stop(),
+                            n.kf.pn.fadeIn(200),
+                            n.kf.sn.stop(),
+                            n.kf.sn.fadeOut(200),
+                            n.kf.qn.stop(),
+                            n.kf.qn.fadeOut(200),
+                            n.kf.rn.stop(),
+                            n.kf.rn.fadeOut(200),
+                            n.kf.tn.stop(),
+                            n.kf.tn.fadeOut(200),
+                            n.kf.un_error.stop(),
+                            n.kf.un_error.fadeOut(200),
+                            n.kf.mn.stop(),
+                            n.kf.mn.fadeIn(1),
+                            n.kf.bgcanvas.stop(),
+                            n.kf.bgcanvas.fadeIn(500),
+                            n.GameView.Kf(!0),
+                            n.kf.socialButtons.stop(),
+                            n.kf.socialButtons.fadeIn(200),
+                            n.kf.vn.stop(),
+                            n.kf.vn.fadeIn(200),
+                            e.html(this.ma),
+                            o.toggle(this.co),
+                            this.qo()
+                        }
+                        ,
+                        s.prototype.qo = function() {}
+                        ,
+                        s.prototype.ro = function(t) {
+                            var e = this
+                              , o = 2147483647 & i.V(0, 2147483647);
+                            return this.do.push(o),
+                            n.bo.fo.stop(),
+                            n.bo.fo.fadeIn(100),
+                            setTimeout((function() {
+                                e.so(o)
+                            }
+                            ), t),
+                            new Nt(this,o)
+                        }
+                        ,
+                        s.prototype.so = function(t) {
+                            var e = this.do.indexOf(t);
+                            e < 0 || (this.do.splice(e, 1),
+                            0 === this.do.length && (n.bo.fo.stop(),
+                            n.bo.fo.fadeOut(100)))
+                        }
+                        ,
+                        s
+                    }();
+                    var x, I, C, T, O, A, E, R, L, D, N, q, F, H, z, G, U, V, W, K, Y, Q, tt, et, nt, ot, it, rt, st, at, ct, lt, dt, ut, ht, pt, ft, mt, bt, gt, yt, vt, wt, _t, jt, It, Ot, At, Et, Rt, Pt, Mt, Lt, Bt, Dt, Nt = function() {
+                        function t(t, e) {
+                            this.to = t,
+                            this.uo = e
+                        }
+                        return t.prototype.vo = function() {
+                            this.to.so(this.uo)
+                        }
+                        ,
+                        t
+                    }();
+                    n.ak = (x = $("#store-buy-coins_125000"),
+                    I = $("#store-buy-coins_50000"),
+                    C = $("#store-buy-coins_16000"),
+                    T = $("#store-buy-coins_7000"),
+                    O = $("#store-buy-coins_3250"),
+                    A = $("#store-buy-coins_1250"),
+                    (E = i.M(n.bo, (function() {
+                        n.bo.call(this, i.H("index.game.popup.menu.coins.tab"), !1);
+                        var e = t()
+                          , o = this;
+                        x.click((function() {
+                            e.Ci.Be(),
+                            o.wo("coins_125000")
+                        }
+                        )),
+                        I.click((function() {
+                            e.Ci.Be(),
+                            o.wo("coins_50000")
+                        }
+                        )),
+                        C.click((function() {
+                            e.Ci.Be(),
+                            o.wo("coins_16000")
+                        }
+                        )),
+                        T.click((function() {
+                            e.Ci.Be(),
+                            o.wo("coins_7000")
+                        }
+                        )),
+                        O.click((function() {
+                            e.Ci.Be(),
+                            o.wo("coins_3250")
+                        }
+                        )),
+                        A.click((function() {
+                            e.Ci.Be(),
+                            o.wo("coins_1250")
+                        }
+                        ))
+                    }
+                    ))).prototype.ha = function() {
+                        E.parent.prototype.ha.call(this)
+                    }
+                    ,
+                    E.prototype.qo = function() {
+                        n.bo.go.stop(),
+                        n.bo.go.fadeIn(200),
+                        n.bo.ho.stop(),
+                        n.bo.ho.fadeOut(50),
+                        n.bo.io.stop(),
+                        n.bo.io.fadeOut(50),
+                        n.bo.ko.stop(),
+                        n.bo.ko.fadeOut(50),
+                        n.bo.jo.stop(),
+                        n.bo.jo.fadeOut(50),
+                        n.bo.lo.stop(),
+                        n.bo.lo.fadeOut(50),
+                        n.bo.mo.stop(),
+                        n.bo.mo.fadeOut(50),
+                        n.bo.no.stop(),
+                        n.bo.no.fadeOut(50),
+                        n.bo.oo.stop(),
+                        n.bo.oo.fadeOut(50),
+                        n.bo.po.stop(),
+                        n.bo.po.fadeOut(50)
+                    }
+                    ,
+                    E.prototype.Hk = function() {
+                        t().Ci.Ce()
+                    }
+                    ,
+                    E.prototype.wo = function(t) {}
+                    ,
+                    E),
+                    n.ck = (R = $("#highscore-table"),
+                    L = $("#leaders-button-level"),
+                    D = $("#leaders-button-highscore"),
+                    N = $("#leaders-button-kills"),
+                    (q = i.M(n.bo, (function() {
+                        n.bo.call(this, i.H("index.game.popup.menu.leaders.tab"), !0);
+                        var e = t()
+                          , o = this;
+                        this.xo = {},
+                        this.yo = {
+                            zo: {
+                                Ao: L,
+                                Bo: "byLevel"
+                            },
+                            Co: {
+                                Ao: D,
+                                Bo: "byHighScore"
+                            },
+                            Do: {
+                                Ao: N,
+                                Bo: "byKillsAndHeadShots"
+                            }
+                        },
+                        L.click((function() {
+                            e.Ci.Be(),
+                            o.Eo(o.yo.zo)
+                        }
+                        )),
+                        D.click((function() {
+                            e.Ci.Be(),
+                            o.Eo(o.yo.Co)
+                        }
+                        )),
+                        N.click((function() {
+                            e.Ci.Be(),
+                            o.Eo(o.yo.Do)
+                        }
+                        ))
+                    }
+                    ))).prototype.ha = function() {
+                        q.parent.prototype.ha.call(this)
+                    }
+                    ,
+                    q.prototype.qo = function() {
+                        n.bo.go.stop(),
+                        n.bo.go.fadeOut(50),
+                        n.bo.ho.stop(),
+                        n.bo.ho.fadeIn(200),
+                        n.bo.io.stop(),
+                        n.bo.io.fadeOut(50),
+                        n.bo.ko.stop(),
+                        n.bo.ko.fadeOut(50),
+                        n.bo.jo.stop(),
+                        n.bo.jo.fadeOut(50),
+                        n.bo.lo.stop(),
+                        n.bo.lo.fadeOut(50),
+                        n.bo.mo.stop(),
+                        n.bo.mo.fadeOut(50),
+                        n.bo.no.stop(),
+                        n.bo.no.fadeOut(50),
+                        n.bo.oo.stop(),
+                        n.bo.oo.fadeOut(50),
+                        n.bo.po.stop(),
+                        n.bo.po.fadeOut(50)
+                    }
+                    ,
+                    q.prototype.Hk = function() {
+                        var e = this;
+                        t().Ci.Ce();
+                        var n = this.ro(5e3)
+                          , o = i.a.b + "/pub/leaders";
+                        i.Z(o, (function() {
+                            e.xo = {
+                                byLevel: [],
+                                byHighScore: [],
+                                byKillsAndHeadShots: []
+                            },
+                            e.Eo(e.Fo ?? e.yo.zo),
+                            n.vo()
+                        }
+                        ), (function(t) {
+                            e.xo = t,
+                            e.Eo(e.Fo ?? e.yo.zo),
+                            n.vo()
+                        }
+                        ))
+                    }
+                    ,
+                    q.prototype.Eo = function(t) {
+                        for (var e in this.Fo = t,
+                        this.yo)
+                            this.yo.hasOwnProperty(e) && this.yo[e].Ao.removeClass("pressed");
+                        this.Fo.Ao.addClass("pressed");
+                        for (var n = this.xo[this.Fo.Bo], o = "", i = 0; i < n.length; i++) {
+                            var r = n[i];
+                            o += '<div class="table-row"><span>' + (i + 1) + '</span><span><img src="' + r.avatarUrl + '"/></span><span>' + r.username + "</span><span>" + r.level + "</span><span>" + r.highScore + "</span><span>" + r.headShots + " / " + r.kills + "</span></div>"
+                        }
+                        R.empty(),
+                        R.append(o)
+                    }
+                    ,
+                    q),
+                    n.gk = (F = $("#popup-login-gg"),
+                    H = $("#popup-login-fb"),
+                    (z = i.M(n.bo, (function() {
+                        var e = this;
+                        n.bo.call(this, i.H("index.game.popup.menu.login.tab"), !1);
+                        var o = t();
+                        F.click((function() {
+                            o.Ci.Be();
+                            var t = e.ro(1e4);
+                            setTimeout((function() {
+                                o.Ij.Ml((function() {
+                                    o.Ij.Hj() && o.Ci.Fe(),
+                                    t.vo()
+                                }
+                                ))
+                            }
+                            ), 500)
+                        }
+                        )),
+                        H.click((function() {
+                            o.Ci.Be();
+                            var t = e.ro(1e4);
+                            setTimeout((function() {
+                                o.Ij.Jl((function() {
+                                    o.Ij.Hj() && o.Ci.Fe(),
+                                    t.vo()
+                                }
+                                ))
+                            }
+                            ), 500)
+                        }
+                        ))
+                    }
+                    ))).prototype.ha = function() {
+                        z.parent.prototype.ha.call(this)
+                    }
+                    ,
+                    z.prototype.qo = function() {
+                        n.bo.go.stop(),
+                        n.bo.go.fadeOut(50),
+                        n.bo.ho.stop(),
+                        n.bo.ho.fadeOut(50),
+                        n.bo.io.stop(),
+                        n.bo.io.fadeOut(50),
+                        n.bo.ko.stop(),
+                        n.bo.ko.fadeIn(200),
+                        n.bo.jo.stop(),
+                        n.bo.jo.fadeOut(50),
+                        n.bo.lo.stop(),
+                        n.bo.lo.fadeOut(50),
+                        n.bo.mo.stop(),
+                        n.bo.mo.fadeOut(50),
+                        n.bo.no.stop(),
+                        n.bo.no.fadeOut(50),
+                        n.bo.oo.stop(),
+                        n.bo.oo.fadeOut(50),
+                        n.bo.po.stop(),
+                        n.bo.po.fadeOut(50)
+                    }
+                    ,
+                    z.prototype.Hk = function() {
+                        t().Ci.Ce()
+                    }
+                    ,
+                    z),
+                    n.ek = (G = $("#profile-avatar"),
+                    U = $("#profile-username"),
+                    V = $("#profile-experience-bar"),
+                    W = $("#profile-experience-val"),
+                    K = $("#profile-level"),
+                    Y = $("#profile-stat-highScore"),
+                    Q = $("#profile-stat-bestSurvivalTime"),
+                    tt = $("#profile-stat-kills"),
+                    et = $("#profile-stat-headshots"),
+                    nt = $("#profile-stat-gamesPlayed"),
+                    ot = $("#profile-stat-totalTimeSpent"),
+                    it = $("#profile-stat-registrationDate"),
+                    (rt = i.M(n.bo, (function() {
+                        n.bo.call(this, i.H("index.game.popup.menu.profile.tab"), !0)
+                    }
+                    ))).prototype.ha = function() {
+                        rt.parent.prototype.ha.call(this)
+                    }
+                    ,
+                    rt.prototype.qo = function() {
+                        n.bo.go.stop(),
+                        n.bo.go.fadeOut(50),
+                        n.bo.ho.stop(),
+                        n.bo.ho.fadeOut(50),
+                        n.bo.io.stop(),
+                        n.bo.io.fadeIn(200),
+                        n.bo.ko.stop(),
+                        n.bo.ko.fadeOut(50),
+                        n.bo.jo.stop(),
+                        n.bo.jo.fadeOut(50),
+                        n.bo.lo.stop(),
+                        n.bo.lo.fadeOut(50),
+                        n.bo.mo.stop(),
+                        n.bo.mo.fadeOut(50),
+                        n.bo.no.stop(),
+                        n.bo.no.fadeOut(50),
+                        n.bo.oo.stop(),
+                        n.bo.oo.fadeOut(50),
+                        n.bo.po.stop(),
+                        n.bo.po.fadeOut(50)
+                    }
+                    ,
+                    rt.prototype.Hk = function() {
+                        var e = t();
+                        e.Ci.Ce();
+                        var n = e.Ij.xl()
+                          , o = moment([n.year, n.month - 1, n.day]).format("LL");
+                        U.html(e.Ij.dl()),
+                        G.attr("src", e.Ij.fl()),
+                        V.width(100 * e.Ij.kl() / e.Ij.ll() + "%"),
+                        W.html(e.Ij.kl() + " / " + e.Ij.ll()),
+                        K.html(e.Ij.jl()),
+                        Y.html(e.Ij.rl()),
+                        Q.html(i.J(e.Ij.sl())),
+                        tt.html(e.Ij.tl()),
+                        et.html(e.Ij.ul()),
+                        nt.html(e.Ij.vl()),
+                        ot.html(i.J(e.Ij.wl())),
+                        it.html(o)
+                    }
+                    ,
+                    rt),
+                    n.hk = (st = $("#settings-music-enabled-switch"),
+                    at = $("#settings-sfx-enabled-switch"),
+                    ct = $("#settings-show-names-switch"),
+                    lt = $("#popup-logout"),
+                    dt = $("#popup-logout-container"),
+                    ut = $("#popup-delete-account"),
+                    ht = $("#popup-delete-account-container"),
+                    pt = $("#popup-withdraw-consent"),
+                    (ft = i.M(n.bo, (function() {
+                        n.bo.call(this, i.H("index.game.popup.menu.settings.tab"), !1);
+                        var e = this
+                          , o = t();
+                        st.click((function() {
+                            var t = !!st.prop("checked");
+                            n.Vf.eg(n.Vf.Yf, t, 30),
+                            o.Ci.re(t),
+                            o.Ci.Be()
+                        }
+                        )),
+                        at.click((function() {
+                            var t = !!at.prop("checked");
+                            n.Vf.eg(n.Vf.Zf, t, 30),
+                            o.Ci.oe(t),
+                            o.Ci.Be()
+                        }
+                        )),
+                        ct.click((function() {
+                            o.Ci.Be()
+                        }
+                        )),
+                        lt.click((function() {
+                            o.Ci.Be(),
+                            e.ro(500),
+                            o.Ij.Kl()
+                        }
+                        )),
+                        ut.click((function() {
+                            o.Ij.Hj() ? (o.Ci.Be(),
+                            o.og.Ak(o.og.Zj)) : o.Ci.Ge()
+                        }
+                        )),
+                        pt.click((function() {
+                            o.Go() ? (o.Ci.Be(),
+                            o.og.Ak(o.og.Xj)) : o.Ci.Ge()
+                        }
+                        ))
+                    }
+                    ))).prototype.ha = function() {
+                        ft.parent.prototype.ha.call(this);
+                        var e, o, i, r = t();
+                        e = "false" !== n.Vf.fg(n.Vf.Yf),
+                        st.prop("checked", e),
+                        r.Ci.re(e),
+                        o = "false" !== n.Vf.fg(n.Vf.Zf),
+                        at.prop("checked", o),
+                        r.Ci.oe(o),
+                        i = "false" !== n.Vf.fg(n.Vf.Xf),
+                        ct.prop("checked", i),
+                        r.Ij.yl((function() {
+                            dt.toggle(r.Ij.Hj()),
+                            ht.toggle(r.Ij.Hj())
+                        }
+                        ))
+                    }
+                    ,
+                    ft.prototype.qo = function() {
+                        n.bo.go.stop(),
+                        n.bo.go.fadeOut(50),
+                        n.bo.ho.stop(),
+                        n.bo.ho.fadeOut(50),
+                        n.bo.io.stop(),
+                        n.bo.io.fadeOut(50),
+                        n.bo.ko.stop(),
+                        n.bo.ko.fadeOut(50),
+                        n.bo.jo.stop(),
+                        n.bo.jo.fadeIn(200),
+                        n.bo.lo.stop(),
+                        n.bo.lo.fadeOut(50),
+                        n.bo.mo.stop(),
+                        n.bo.mo.fadeOut(50),
+                        n.bo.no.stop(),
+                        n.bo.no.fadeOut(50),
+                        n.bo.oo.stop(),
+                        n.bo.oo.fadeOut(50),
+                        n.bo.po.stop(),
+                        n.bo.po.fadeOut(50)
+                    }
+                    ,
+                    ft.prototype.Hk = function() {
+                        var e = t();
+                        e.Ci.Ce(),
+                        e.Go() ? pt.show() : pt.hide()
+                    }
+                    ,
+                    ft.prototype.Zh = function() {
+                        return ct.prop("checked")
+                    }
+                    ,
+                    ft),
+                    n.jk = function() {
+                        var e = $("#store-view-canv")
+                          , o = $("#skin-description-text")
+                          , r = $("#skin-group-description-text")
+                          , s = $("#store-locked-bar")
+                          , a = $("#store-locked-bar-text")
+                          , c = $("#store-buy-button")
+                          , l = $("#store-item-price")
+                          , d = $("#store-groups")
+                          , u = $("#store-view-prev")
+                          , h = $("#store-view-next")
+                          , p = i.M(n.bo, (function() {
+                            n.bo.call(this, i.H("index.game.popup.menu.skins.tab"), !0);
+                            var o = this
+                              , r = t();
+                            this.Ho = null,
+                            this.Io = [],
+                            this.Jo = {},
+                            this.Ko = new n.dm(e),
+                            c.click((function() {
+                                r.Ci.Be(),
+                                o.Lo()
+                            }
+                            )),
+                            u.click((function() {
+                                r.Ci.Be(),
+                                o.Ho.Mo()
+                            }
+                            )),
+                            h.click((function() {
+                                r.Ci.Be(),
+                                o.Ho.No()
+                            }
+                            ))
+                        }
+                        ));
+                        p.prototype.ha = function() {
+                            p.parent.prototype.ha.call(this);
+                            var e = this
+                              , n = t();
+                            n.Lc.$b((function() {
+                                var t = n.Lc.Xb();
+                                e.Io = [];
+                                for (var o = 0; o < t.skinGroupArrayDict.length; o++)
+                                    e.Io.push(new f(e,t.skinGroupArrayDict[o]));
+                                e.Jo = {};
+                                for (var i = 0; i < t.skinArrayDict.length; i++) {
+                                    var r = t.skinArrayDict[i];
+                                    e.Jo[r.id] = r
+                                }
+                                e.Oo()
+                            }
+                            )),
+                            this.Po(!1),
+                            n.On.zj((function() {
+                                e.Po(!1)
+                            }
+                            ))
+                        }
+                        ,
+                        p.prototype.qo = function() {
+                            n.bo.go.stop(),
+                            n.bo.go.fadeOut(50),
+                            n.bo.ho.stop(),
+                            n.bo.ho.fadeOut(50),
+                            n.bo.io.stop(),
+                            n.bo.io.fadeOut(50),
+                            n.bo.ko.stop(),
+                            n.bo.ko.fadeOut(50),
+                            n.bo.jo.stop(),
+                            n.bo.jo.fadeOut(50),
+                            n.bo.lo.stop(),
+                            n.bo.lo.fadeIn(200),
+                            n.bo.mo.stop(),
+                            n.bo.mo.fadeOut(50),
+                            n.bo.no.stop(),
+                            n.bo.no.fadeOut(50),
+                            n.bo.oo.stop(),
+                            n.bo.oo.fadeOut(50),
+                            n.bo.po.stop(),
+                            n.bo.po.fadeOut(50)
+                        }
+                        ,
+                        p.prototype.Hk = function() {
+                            t().Ci.pe(n.ge.je._e),
+                            t().Ci.Ce(),
+                            this.Oo(),
+                            this.Ko.Kf(!0)
+                        }
+                        ,
+                        p.prototype.Bk = function() {
+                            this.Ko.Kf(!1)
+                        }
+                        ,
+                        p.prototype.Jf = function() {
+                            this.Ko.Jf()
+                        }
+                        ,
+                        p.prototype.Nf = function(t, e) {
+                            this.Ko.Nf()
+                        }
+                        ,
+                        p.prototype.Oo = function() {
+                            var e = this
+                              , o = this
+                              , i = t();
+                            d.empty();
+                            for (var r = 0; r < this.Io.length; r++)
+                                !function(t) {
+                                    var n = e.Io[t]
+                                      , r = document.createElement("li");
+                                    d.append(r);
+                                    var s = $(r);
+                                    n.To && n.To.isCustom && (s.css("background-color", "#FFF"),
+                                    s.css("color", "#000")),
+                                    s.html(n.Qo()),
+                                    s.click((function() {
+                                        i.Ci.Be(),
+                                        o.Ro(n)
+                                    }
+                                    )),
+                                    n.So = s
+                                }(r);
+                            if (this.Io.length > 0) {
+                                var s = i.On.rj(n.tj.sj);
+                                for (r = 0; r < this.Io.length; r++)
+                                    for (var a = this.Io[r], c = a.To.list, l = 0; l < c.length; l++)
+                                        if (c[l] == s)
+                                            return a.Uo = l,
+                                            void this.Ro(a);
+                                this.Ro(this.Io[0])
+                            }
+                        }
+                        ,
+                        p.prototype.Ro = function(e) {
+                            var n = t();
+                            if (this.Ho !== e) {
+                                if (this.Ho = e,
+                                d.children().removeClass("pressed"),
+                                this.Ho.So && this.Ho.So.addClass("pressed"),
+                                r.html(""),
+                                null != e.To) {
+                                    var o = n.Lc.Xb().textDict[e.To.description];
+                                    null != o && r.html(i.K(i.I(o)))
+                                }
+                                this.Po(!0)
+                            }
+                        }
+                        ,
+                        p.prototype.Vo = function() {
+                            return null == this.Ho ? n.Si.Ui() : this.Ho.Wo()
+                        }
+                        ,
+                        p.prototype.Lo = function() {
+                            var t = this.Vo();
+                            if (t.Wi()) {
+                                var e = t.bc();
+                                this.Xo(e)
+                            }
+                        }
+                        ,
+                        p.prototype.Xo = function(e) {
+                            var o = t()
+                              , i = o.On.Gj(e, n.tj.sj);
+                            if (null != i) {
+                                var r = i.Jj();
+                                if (!(o.Ij.il() < r)) {
+                                    var s = o.On.rj(n.tj.sj)
+                                      , a = o.On.rj(n.tj.uj)
+                                      , c = o.On.rj(n.tj.vj)
+                                      , l = o.On.rj(n.tj.xj)
+                                      , d = o.On.rj(n.tj.wj)
+                                      , u = this.ro(5e3);
+                                    o.Ij.Hl(e, n.tj.sj, (function() {
+                                        u.vo(),
+                                        o.og.Ak(o.og.tk)
+                                    }
+                                    ), (function(t) {
+                                        o.Ij.Bl((function() {
+                                            o.On.Fj(s, n.tj.sj),
+                                            o.On.Fj(a, n.tj.uj),
+                                            o.On.Fj(c, n.tj.vj),
+                                            o.On.Fj(l, n.tj.xj),
+                                            o.On.Fj(d, n.tj.wj),
+                                            o.On.Fj(e, n.tj.sj),
+                                            u.vo()
+                                        }
+                                        ))
+                                    }
+                                    ))
+                                }
+                            }
+                        }
+                        ,
+                        p.prototype.Po = function(e) {
+                            var r = t()
+                              , d = r.On.yj()
+                              , u = this.Vo();
+                            if (u.Wi()) {
+                                var h = u.bc()
+                                  , p = r.On.Gj(h, n.tj.sj)
+                                  , f = !1
+                                  , m = !0;
+                                if (r.On.Cj(h, n.tj.sj))
+                                    s.hide(),
+                                    c.hide();
+                                else if (null == p || p.Kj()) {
+                                    if (f = !0,
+                                    s.show(),
+                                    c.hide(),
+                                    a.text(i.H("index.game.popup.menu.store.locked")),
+                                    null != p && p.Kj()) {
+                                        var b = r.Lc.Xb().textDict[p.Em()];
+                                        null != b && a.text(i.I(b))
+                                    }
+                                } else
+                                    m = !1,
+                                    s.hide(),
+                                    c.show(),
+                                    l.html(p.Jj());
+                                o.html("");
+                                var g = r.Lc.Xb().textDict[p.Fm()]
+                                  , y = g ? i.K(i.I(g)) : p.Fm();
+                                null != p && null != p.Fm() && o.html(y),
+                                m && !0 !== p.Bm ? X.html("<button onclick=\"mbf.mbf_cambiar_add('" + h + "', '" + y + "')\">Add</button>") : X.html(""),
+                                this.Ko.$l(d.Um(h)),
+                                this.Ko.um(f),
+                                e && r.On.Fj(h, n.tj.sj)
+                            }
+                        }
+                        ;
+                        var f = function() {
+                            function e(t, e) {
+                                this.Yo = t,
+                                this.Uo = 0,
+                                this.To = e
+                            }
+                            return e.prototype.Mo = function() {
+                                --this.Uo < 0 && (this.Uo = this.To.list.length - 1),
+                                this.Yo.Po(!0)
+                            }
+                            ,
+                            e.prototype.No = function() {
+                                ++this.Uo >= this.To.list.length && (this.Uo = 0),
+                                this.Yo.Po(!0)
+                            }
+                            ,
+                            e.prototype.Qo = function() {
+                                if (this.To.img) {
+                                    var e = t().Lc.Xb().customPaths
+                                      , n = URL_CDN + "/images/" + e.texture
+                                      , o = [];
+                                    try {
+                                        o.push("background-image:url('" + n + "')"),
+                                        o.push("background-position: -" + e.map[this.To.img].x + "px -" + e.map[this.To.img].y + "px"),
+                                        o.push("background-repeat:no-repeat"),
+                                        o.push("width: 180px"),
+                                        o.push("height: 40px")
+                                    } catch (t) {
+                                        console.error(n, t)
+                                    }
+                                    return '<div id="' + this.To.id + '" style="' + o.join(";") + '"></div>'
+                                }
+                                return i.I(this.To.name)
+                            }
+                            ,
+                            e.prototype.Wo = function() {
+                                return this.Uo >= this.To.list.length ? n.Si.Ui() : n.Si.Vi(this.To.list[this.Uo])
+                            }
+                            ,
+                            e
+                        }();
+                        return p
+                    }(),
+                    n.lk = (mt = $("#store-go-coins-button"),
+                    bt = $("#store-go-skins-button"),
+                    gt = $("#store-go-wear-button"),
+                    (yt = i.M(n.bo, (function() {
+                        n.bo.call(this, i.H("index.game.popup.menu.store.tab"), !0);
+                        var e = t();
+                        mt.click((function() {
+                            e.Ci.Be(),
+                            e.og.Ak(e.og._j)
+                        }
+                        )),
+                        bt.click((function() {
+                            e.Ci.Be(),
+                            e.og.Ak(e.og.ik)
+                        }
+                        )),
+                        gt.click((function() {
+                            e.Ci.Be(),
+                            e.og.Ak(e.og.mk)
+                        }
+                        ))
+                    }
+                    ))).prototype.ha = function() {
+                        yt.parent.prototype.ha.call(this)
+                    }
+                    ,
+                    yt.prototype.qo = function() {
+                        n.bo.go.stop(),
+                        n.bo.go.fadeOut(50),
+                        n.bo.ho.stop(),
+                        n.bo.ho.fadeOut(50),
+                        n.bo.io.stop(),
+                        n.bo.io.fadeOut(50),
+                        n.bo.ko.stop(),
+                        n.bo.ko.fadeOut(50),
+                        n.bo.jo.stop(),
+                        n.bo.jo.fadeOut(50),
+                        n.bo.lo.stop(),
+                        n.bo.lo.fadeOut(50),
+                        n.bo.mo.stop(),
+                        n.bo.mo.fadeIn(200),
+                        n.bo.no.stop(),
+                        n.bo.no.fadeOut(50),
+                        n.bo.oo.stop(),
+                        n.bo.oo.fadeOut(50),
+                        n.bo.po.stop(),
+                        n.bo.po.fadeOut(50)
+                    }
+                    ,
+                    yt.prototype.Hk = function() {
+                        t().Ci.Ce()
+                    }
+                    ,
+                    yt),
+                    n.nk = function() {
+                        var e = $("#wear-view-canv")
+                          , o = $("#wear-description-text")
+                          , r = $("#wear-locked-bar")
+                          , s = $("#wear-locked-bar-text")
+                          , a = $("#wear-buy-button")
+                          , c = $("#wear-item-price")
+                          , l = $("#wear-eyes-button")
+                          , d = $("#wear-mouths-button")
+                          , u = $("#wear-glasses-button")
+                          , h = $("#wear-hats-button")
+                          , p = $("#wear-tint-chooser")
+                          , f = $("#wear-view-prev")
+                          , m = $("#wear-view-next")
+                          , b = i.M(n.bo, (function() {
+                            var o = this;
+                            n.bo.call(this, i.H("index.game.popup.menu.wear.tab"), !0);
+                            var r = t()
+                              , s = this;
+                            this.Zo = [],
+                            this.uj = new g(this,n.tj.uj,l),
+                            this.vj = new g(this,n.tj.vj,d),
+                            this.xj = new g(this,n.tj.xj,u),
+                            this.wj = new g(this,n.tj.wj,h),
+                            this.$o = null,
+                            this._o = null,
+                            this.ap = null,
+                            this.bp = null,
+                            this.cp = null,
+                            this.dp = null,
+                            this.Ko = new n.dm(e),
+                            a.click((function() {
+                                r.Ci.Be(),
+                                s.ep()
+                            }
+                            )),
+                            f.click((function() {
+                                r.Ci.Be(),
+                                s.$o.fp()
+                            }
+                            )),
+                            m.click((function() {
+                                r.Ci.Be(),
+                                s.$o.gp()
+                            }
+                            )),
+                            l.click((function() {
+                                r.Ci.Be(),
+                                s.hp(o.uj)
+                            }
+                            )),
+                            d.click((function() {
+                                r.Ci.Be(),
+                                s.hp(o.vj)
+                            }
+                            )),
+                            u.click((function() {
+                                r.Ci.Be(),
+                                s.hp(o.xj)
+                            }
+                            )),
+                            h.click((function() {
+                                r.Ci.Be(),
+                                s.hp(o.wj)
+                            }
+                            )),
+                            this.Zo.push(this.uj),
+                            this.Zo.push(this.vj),
+                            this.Zo.push(this.xj),
+                            this.Zo.push(this.wj)
+                        }
+                        ));
+                        b.prototype.ha = function() {
+                            b.parent.prototype.ha.call(this);
+                            var e = t()
+                              , n = this;
+                            e.Lc.$b((function() {
+                                var t = e.Lc.Xb();
+                                n._o = t.eyesDict,
+                                n.ap = t.mouthDict,
+                                n.bp = t.glassesDict,
+                                n.cp = t.hatDict,
+                                n.dp = t.colorDict,
+                                n.uj.ip(t.eyesVariantArray),
+                                n.uj.jp(n._o),
+                                n.vj.ip(t.mouthVariantArray),
+                                n.vj.jp(n.ap),
+                                n.xj.ip(t.glassesVariantArray),
+                                n.xj.jp(n.bp),
+                                n.wj.ip(t.hatVariantArray),
+                                n.wj.jp(n.cp)
+                            }
+                            )),
+                            this.Po(!1),
+                            e.On.zj((function() {
+                                n.Po(!1)
+                            }
+                            ))
+                        }
+                        ,
+                        b.prototype.qo = function() {
+                            n.bo.go.stop(),
+                            n.bo.go.fadeOut(50),
+                            n.bo.ho.stop(),
+                            n.bo.ho.fadeOut(50),
+                            n.bo.io.stop(),
+                            n.bo.io.fadeOut(50),
+                            n.bo.ko.stop(),
+                            n.bo.ko.fadeOut(50),
+                            n.bo.jo.stop(),
+                            n.bo.jo.fadeOut(50),
+                            n.bo.lo.stop(),
+                            n.bo.lo.fadeOut(50),
+                            n.bo.mo.stop(),
+                            n.bo.mo.fadeOut(50),
+                            n.bo.no.stop(),
+                            n.bo.no.fadeIn(200),
+                            n.bo.oo.stop(),
+                            n.bo.oo.fadeOut(50),
+                            n.bo.po.stop(),
+                            n.bo.po.fadeOut(50)
+                        }
+                        ,
+                        b.prototype.Hk = function() {
+                            t().Ci.pe(n.ge.je._e),
+                            t().Ci.Ce(),
+                            this.hp(this.$o ?? this.uj),
+                            this.Ko.Kf(!0)
+                        }
+                        ,
+                        b.prototype.Bk = function() {
+                            this.Ko.Kf(!1)
+                        }
+                        ,
+                        b.prototype.Jf = function() {
+                            this.Ko.Jf()
+                        }
+                        ,
+                        b.prototype.Nf = function(t, e) {
+                            this.Ko.Nf()
+                        }
+                        ,
+                        b.prototype.hp = function(t) {
+                            this.$o = t;
+                            for (var e = 0; e < this.Zo.length; e++)
+                                this.Zo[e].Ao.removeClass("pressed");
+                            this.$o.Ao.addClass("pressed"),
+                            this.$o.Gk()
+                        }
+                        ,
+                        b.prototype.kp = function() {
+                            return null == this.$o ? n.Si.Ui() : n.Si.Vi({
+                                ae: this.$o.Wo(),
+                                nd: this.$o.nd
+                            })
+                        }
+                        ,
+                        b.prototype.ep = function() {
+                            var t = this.kp();
+                            if (t.Wi()) {
+                                var e = t.bc();
+                                this.lp(e.ae, e.nd)
+                            }
+                        }
+                        ,
+                        b.prototype.lp = function(e, o) {
+                            var i = t()
+                              , r = i.On.Gj(e, o);
+                            if (null != r) {
+                                var s = r.Jj();
+                                if (!(i.Ij.il() < s)) {
+                                    var a = i.On.rj(n.tj.sj)
+                                      , c = i.On.rj(n.tj.uj)
+                                      , l = i.On.rj(n.tj.vj)
+                                      , d = i.On.rj(n.tj.xj)
+                                      , u = i.On.rj(n.tj.wj)
+                                      , h = this.ro(5e3);
+                                    i.Ij.Hl(e, o, (function() {
+                                        h.vo(),
+                                        i.og.Ak(i.og.tk)
+                                    }
+                                    ), (function(t) {
+                                        i.Ij.Bl((function() {
+                                            i.On.Fj(a, n.tj.sj),
+                                            i.On.Fj(c, n.tj.uj),
+                                            i.On.Fj(l, n.tj.vj),
+                                            i.On.Fj(d, n.tj.xj),
+                                            i.On.Fj(u, n.tj.wj),
+                                            i.On.Fj(e, o),
+                                            h.vo()
+                                        }
+                                        ))
+                                    }
+                                    ))
+                                }
+                            }
+                        }
+                        ,
+                        b.prototype.Po = function(e) {
+                            var l = t()
+                              , d = l.On.yj()
+                              , u = this.kp();
+                            if (u.Wi()) {
+                                var h = u.bc()
+                                  , p = l.On.Gj(h.ae, h.nd)
+                                  , f = !1;
+                                if (l.On.Cj(h.ae, h.nd))
+                                    r.hide(),
+                                    a.hide();
+                                else if (null == p || p.Kj()) {
+                                    if (f = !0,
+                                    r.show(),
+                                    a.hide(),
+                                    s.text(i.H("index.game.popup.menu.store.locked")),
+                                    null != p && p.Kj()) {
+                                        var m = l.Lc.Xb().textDict[p.Em()];
+                                        null != m && s.text(i.I(m))
+                                    }
+                                } else
+                                    r.hide(),
+                                    a.show(),
+                                    c.html(p.Jj());
+                                if (o.html(""),
+                                null != p && null != p.Fm()) {
+                                    var b = l.Lc.Xb().textDict[p.Fm()];
+                                    null != b && o.html(i.K(i.I(b)))
+                                }
+                                var g = this.Ko;
+                                switch (h.nd) {
+                                case n.tj.uj:
+                                    g.$l(d.Vm(h.ae)),
+                                    g.vm(f);
+                                    break;
+                                case n.tj.vj:
+                                    g.$l(d.Wm(h.ae)),
+                                    g.wm(f);
+                                    break;
+                                case n.tj.xj:
+                                    g.$l(d.Ym(h.ae)),
+                                    g.ym(f);
+                                    break;
+                                case n.tj.wj:
+                                    g.$l(d.Xm(h.ae)),
+                                    g.xm(f)
+                                }
+                                e && l.On.Fj(h.ae, h.nd)
+                            }
+                        }
+                        ;
+                        var g = function() {
+                            function e(t, e, n) {
+                                this.Yo = t,
+                                this.nd = e,
+                                this.Ao = n,
+                                this.ac = {},
+                                this.mp = [[]],
+                                this.np = -10,
+                                this.op = -10
+                            }
+                            return e.prototype.ip = function(t) {
+                                this.mp = t
+                            }
+                            ,
+                            e.prototype.jp = function(t) {
+                                this.ac = t
+                            }
+                            ,
+                            e.prototype.Gk = function() {
+                                for (var e = t().On.rj(this.nd), n = 0; n < this.mp.length; n++)
+                                    for (var o = 0; o < this.mp[n].length; o++)
+                                        if (this.mp[n][o] == e)
+                                            return this.pp(n),
+                                            void this.qp(o);
+                                this.pp(0),
+                                this.qp(0)
+                            }
+                            ,
+                            e.prototype.fp = function() {
+                                var t = this.np - 1;
+                                t < 0 && (t = this.mp.length - 1),
+                                this.pp(t),
+                                this.qp(this.op % this.mp[t].length)
+                            }
+                            ,
+                            e.prototype.gp = function() {
+                                var t = this.np + 1;
+                                t >= this.mp.length && (t = 0),
+                                this.pp(t),
+                                this.qp(this.op % this.mp[t].length)
+                            }
+                            ,
+                            e.prototype.pp = function(e) {
+                                var n = this;
+                                if (!(e < 0 || e >= this.mp.length)) {
+                                    this.np = e,
+                                    p.empty();
+                                    var o = this.mp[this.np];
+                                    if (o.length > 1)
+                                        for (var i = 0; i < o.length; i++)
+                                            !function(e) {
+                                                var i = o[e]
+                                                  , r = n.ac[i]
+                                                  , s = "#" + n.Yo.dp[r.prime]
+                                                  , a = $('<div style="border-color:' + s + '"></div>');
+                                                a.click((function() {
+                                                    t().Ci.Be(),
+                                                    n.qp(e)
+                                                }
+                                                )),
+                                                p.append(a)
+                                            }(i)
+                                }
+                            }
+                            ,
+                            e.prototype.qp = function(t) {
+                                if (!(t < 0 || t >= this.mp[this.np].length)) {
+                                    this.op = t,
+                                    p.children().css("background-color", "transparent");
+                                    var e = p.children(":nth-child(" + (1 + t) + ")");
+                                    e.css("background-color", e.css("border-color")),
+                                    this.Yo.Po(!0)
+                                }
+                            }
+                            ,
+                            e.prototype.Wo = function() {
+                                return this.mp[this.np][this.op]
+                            }
+                            ,
+                            e
+                        }();
+                        return b
+                    }(),
+                    n.Yj = (vt = $("#withdraw-consent-yes"),
+                    wt = $("#withdraw-consent-no"),
+                    (_t = i.M(n.bo, (function() {
+                        n.bo.call(this, i.H("index.game.popup.menu.consent.tab"), !1);
+                        var e = t();
+                        vt.click((function() {
+                            e.Ci.Be(),
+                            e.Go() ? (e.og.Ak(e.og._e),
+                            e.rp(!1, !0),
+                            e.og.qk._n(new n.sp)) : e.og.Dk()
+                        }
+                        )),
+                        wt.click((function() {
+                            e.Ci.Be(),
+                            e.og.Dk()
+                        }
+                        ))
+                    }
+                    ))).prototype.ha = function() {
+                        _t.parent.prototype.ha.call(this)
+                    }
+                    ,
+                    _t.prototype.qo = function() {
+                        n.bo.go.stop(),
+                        n.bo.go.fadeOut(50),
+                        n.bo.ho.stop(),
+                        n.bo.ho.fadeOut(50),
+                        n.bo.io.stop(),
+                        n.bo.io.fadeOut(50),
+                        n.bo.ko.stop(),
+                        n.bo.ko.fadeOut(50),
+                        n.bo.jo.stop(),
+                        n.bo.jo.fadeOut(50),
+                        n.bo.lo.stop(),
+                        n.bo.lo.fadeOut(50),
+                        n.bo.mo.stop(),
+                        n.bo.mo.fadeOut(50),
+                        n.bo.no.stop(),
+                        n.bo.no.fadeOut(50),
+                        n.bo.oo.stop(),
+                        n.bo.oo.fadeIn(200),
+                        n.bo.po.stop(),
+                        n.bo.po.fadeOut(50)
+                    }
+                    ,
+                    _t.prototype.Hk = function() {
+                        t().Ci.Ce()
+                    }
+                    ,
+                    _t),
+                    n.$j = (jt = $("#delete-account-timer"),
+                    It = $("#delete-account-yes"),
+                    Ot = $("#delete-account-no"),
+                    (At = i.M(n.bo, (function() {
+                        n.bo.call(this, i.H("index.game.popup.menu.delete.tab"), !1);
+                        var e = t();
+                        It.click((function() {
+                            e.Ci.Be(),
+                            e.Ij.Hj() ? (e.Ij.Sl(),
+                            e.Ij.Kl()) : e.og.Dk()
+                        }
+                        )),
+                        Ot.click((function() {
+                            e.Ci.Be(),
+                            e.og.Dk()
+                        }
+                        )),
+                        this.tp = []
+                    }
+                    ))).prototype.ha = function() {
+                        At.parent.prototype.ha.call(this)
+                    }
+                    ,
+                    At.prototype.qo = function() {
+                        n.bo.go.stop(),
+                        n.bo.go.fadeOut(50),
+                        n.bo.ho.stop(),
+                        n.bo.ho.fadeOut(50),
+                        n.bo.io.stop(),
+                        n.bo.io.fadeOut(50),
+                        n.bo.ko.stop(),
+                        n.bo.ko.fadeOut(50),
+                        n.bo.jo.stop(),
+                        n.bo.jo.fadeOut(50),
+                        n.bo.lo.stop(),
+                        n.bo.lo.fadeOut(50),
+                        n.bo.mo.stop(),
+                        n.bo.mo.fadeOut(50),
+                        n.bo.no.stop(),
+                        n.bo.no.fadeOut(50),
+                        n.bo.oo.stop(),
+                        n.bo.oo.fadeOut(50),
+                        n.bo.po.stop(),
+                        n.bo.po.fadeIn(200)
+                    }
+                    ,
+                    At.prototype.Hk = function() {
+                        t().Ci.Ge(),
+                        It.stop(),
+                        It.hide(),
+                        jt.stop(),
+                        jt.show(),
+                        jt.text(".. 10 .."),
+                        this.up(),
+                        this.vp((function() {
+                            jt.text(".. 9 ..")
+                        }
+                        ), 1e3),
+                        this.vp((function() {
+                            jt.text(".. 8 ..")
+                        }
+                        ), 2e3),
+                        this.vp((function() {
+                            jt.text(".. 7 ..")
+                        }
+                        ), 3e3),
+                        this.vp((function() {
+                            jt.text(".. 6 ..")
+                        }
+                        ), 4e3),
+                        this.vp((function() {
+                            jt.text(".. 5 ..")
+                        }
+                        ), 5e3),
+                        this.vp((function() {
+                            jt.text(".. 4 ..")
+                        }
+                        ), 6e3),
+                        this.vp((function() {
+                            jt.text(".. 3 ..")
+                        }
+                        ), 7e3),
+                        this.vp((function() {
+                            jt.text(".. 2 ..")
+                        }
+                        ), 8e3),
+                        this.vp((function() {
+                            jt.text(".. 1 ..")
+                        }
+                        ), 9e3),
+                        this.vp((function() {
+                            jt.hide(),
+                            It.fadeIn(300)
+                        }
+                        ), 1e4)
+                    }
+                    ,
+                    At.prototype.vp = function(t, e) {
+                        var n = setTimeout(t, e);
+                        this.tp.push(n)
+                    }
+                    ,
+                    At.prototype.up = function() {
+                        for (var t = 0; t < this.tp.length; t++)
+                            clearTimeout(this.tp[t]);
+                        this.tp = []
+                    }
+                    ,
+                    At),
+                    n.wp = function() {
+                        function t() {
+                            this.ao = function() {}
+                        }
+                        return t.prototype.tf = function() {}
+                        ,
+                        t.prototype.Hk = function() {}
+                        ,
+                        t
+                    }(),
+                    n.Gl = ((Et = i.M(n.wp, (function(e) {
+                        n.wp.call(this);
+                        var o = Date.now() + "_" + Math.floor(1e3 + 8999 * Math.random());
+                        this.xp = $('<div id="' + o + '" class="toaster toaster-coins">    <img class="toaster-coins-img" alt="Wormate Coin" src="/images/coin_320.png" />    <div class="toaster-coins-val">+' + e + '</div>    <div class="toaster-coins-close">' + i.H("index.game.toaster.continue") + "</div></div>");
+                        var r = this;
+                        this.xp.find(".toaster-coins-close").click((function() {
+                            t().Ci.Be(),
+                            r.ao()
+                        }
+                        ))
+                    }
+                    ))).prototype.tf = function() {
+                        return this.xp
+                    }
+                    ,
+                    Et.prototype.Hk = function() {
+                        t().Ci.Ee()
+                    }
+                    ,
+                    Et),
+                    n.Fl = ((Rt = i.M(n.wp, (function(e) {
+                        n.wp.call(this);
+                        var o = Date.now() + "_" + Math.floor(1e3 + 8999 * Math.random());
+                        this.xp = $('<div id="' + o + '" class="toaster toaster-levelup">    <img class="toaster-levelup-img" alt="Wormate Level Up Star" src="/images/level-star.svg" />    <div class="toaster-levelup-val">' + e + '</div>    <div class="toaster-levelup-text">' + i.H("index.game.toaster.levelup") + '</div>    <div class="toaster-levelup-close">' + i.H("index.game.toaster.continue") + "</div></div>");
+                        var r = this;
+                        this.xp.find(".toaster-levelup-close").click((function() {
+                            t().Ci.Be(),
+                            r.ao()
+                        }
+                        ))
+                    }
+                    ))).prototype.tf = function() {
+                        return this.xp
+                    }
+                    ,
+                    Rt.prototype.Hk = function() {
+                        t().Ci.De()
+                    }
+                    ,
+                    Rt),
+                    n.sp = ((Pt = i.M(n.wp, (function() {
+                        n.wp.call(this);
+                        var e = this
+                          , o = t()
+                          , r = Date.now() + "_" + Math.floor(1e3 + 8999 * Math.random());
+                        this.xp = $('<div id="' + r + '" class="toaster toaster-consent-accepted">    <img class="toaster-consent-accepted-logo" src="' + i.a.d + '" alt="Wormate.io logo"/>    <div class="toaster-consent-accepted-container">        <span class="toaster-consent-accepted-text">' + i.H("index.game.toaster.consent.text").replaceAll(" ", "&nbsp;").replaceAll("\n", "<br/>") + '</span>        <a class="toaster-consent-accepted-link" href="/privacy-policy">' + i.H("index.game.toaster.consent.link") + '</a>    </div>    <div class="toaster-consent-close">' + i.H("index.game.toaster.consent.iAccept") + "</div></div>"),
+                        this.yp = this.xp.find(".toaster-consent-close"),
+                        this.yp.hide(),
+                        this.yp.click((function() {
+                            o.Ci.Be(),
+                            o.Go() && o.rp(!0, !0),
+                            e.ao()
+                        }
+                        ))
+                    }
+                    ))).prototype.tf = function() {
+                        return this.xp
+                    }
+                    ,
+                    Pt.prototype.Hk = function() {
+                        var e = this
+                          , n = t();
+                        n.Go() && !n.hl() ? (n.Ci.Ge(),
+                        setTimeout((function() {
+                            e.yp.fadeIn(300)
+                        }
+                        ), 2e3)) : setTimeout((function() {
+                            e.ao()
+                        }
+                        ), 0)
+                    }
+                    ,
+                    Pt),
+                    n.uk = (Mt = $("#error-gateway-connection-retry"),
+                    (Lt = i.M(n.kf, (function() {
+                        n.kf.call(this, n.Fk.wn);
+                        var e = t();
+                        Mt.click((function() {
+                            e.Ci.Be(),
+                            e.og.ie.Mn(),
+                            e.og.Ak(e.og.ie),
+                            setTimeout((function() {
+                                var t = i.a.b + "/pub/healthCheck/ping";
+                                i.Z(t, (function() {
+                                    e.og.Ak(e.og.tk)
+                                }
+                                ), (function(t) {
+                                    e.og.ie.Kn(),
+                                    e.Lc.Ib((function() {
+                                        e.og.Ak(e.og._e)
+                                    }
+                                    ), (function(t) {
+                                        e.og.Ak(e.og.tk)
+                                    }
+                                    ), (function(t, n) {
+                                        var o = t;
+                                        e.og.ie.Ln(o, n)
+                                    }
+                                    ))
+                                }
+                                ))
+                            }
+                            ), 2e3)
+                        }
+                        ))
+                    }
+                    ))).prototype.ha = function() {}
+                    ,
+                    Lt.prototype.Gk = function() {
+                        n.kf.jn.stop(),
+                        n.kf.jn.fadeOut(50),
+                        n.kf.ln.stop(),
+                        n.kf.ln.fadeOut(50),
+                        n.kf.nn.stop(),
+                        n.kf.nn.fadeOut(50),
+                        n.kf.pn.stop(),
+                        n.kf.pn.fadeOut(50),
+                        n.kf.sn.stop(),
+                        n.kf.sn.fadeOut(50),
+                        n.kf.qn.stop(),
+                        n.kf.qn.fadeOut(50),
+                        n.kf.rn.stop(),
+                        n.kf.rn.fadeOut(50),
+                        n.kf.tn.stop(),
+                        n.kf.tn.fadeIn(500),
+                        n.kf.un_error.stop(),
+                        n.kf.un_error.fadeOut(50),
+                        n.kf.mn.stop(),
+                        n.kf.mn.fadeIn(1),
+                        n.kf.bgcanvas.stop(),
+                        n.kf.bgcanvas.fadeIn(500),
+                        n.GameView.Kf(!0),
+                        n.kf.socialButtons.stop(),
+                        n.kf.socialButtons.fadeOut(50),
+                        n.kf.vn.stop(),
+                        n.kf.vn.fadeOut(50)
+                    }
+                    ,
+                    Lt.prototype.Hk = function() {
+                        var e = t();
+                        e.Ci.pe(n.ge.je._e),
+                        e.Ci.Ge()
+                    }
+                    ,
+                    Lt),
+                    n.wk = (Bt = $("#error-game-connection-retry"),
+                    (Dt = i.M(n.kf, (function() {
+                        n.kf.call(this, n.Fk.wn);
+                        var e = t();
+                        Bt.click((function() {
+                            e.Ci.Be(),
+                            e.og.Ak(e.og._e)
+                        }
+                        ))
+                    }
+                    ))).prototype.ha = function() {}
+                    ,
+                    Dt.prototype.Gk = function() {
+                        n.kf.jn.stop(),
+                        n.kf.jn.fadeOut(50),
+                        n.kf.ln.stop(),
+                        n.kf.ln.fadeOut(50),
+                        n.kf.nn.stop(),
+                        n.kf.nn.fadeOut(50),
+                        n.kf.pn.stop(),
+                        n.kf.pn.fadeOut(50),
+                        n.kf.sn.stop(),
+                        n.kf.sn.fadeOut(50),
+                        n.kf.qn.stop(),
+                        n.kf.qn.fadeOut(50),
+                        n.kf.rn.stop(),
+                        n.kf.rn.fadeOut(50),
+                        n.kf.tn.stop(),
+                        n.kf.tn.fadeOut(50),
+                        n.kf.un_error.stop(),
+                        n.kf.un_error.fadeIn(500),
+                        n.kf.mn.stop(),
+                        n.kf.mn.fadeIn(1),
+                        n.kf.bgcanvas.stop(),
+                        n.kf.bgcanvas.fadeIn(500),
+                        n.GameView.Kf(!0),
+                        n.kf.socialButtons.stop(),
+                        n.kf.socialButtons.fadeOut(50),
+                        n.kf.vn.stop(),
+                        n.kf.vn.fadeOut(50)
+                    }
+                    ,
+                    Dt.prototype.Hk = function() {
+                        var e = t();
+                        e.Ci.pe(n.ge.je._e),
+                        e.Ci.Ge()
+                    }
+                    ,
+                    Dt),
+                    i.zp = function() {
+                        function t(t) {
+                            var e = t + 37 * Math.floor(65535 * Math.random());
+                            n.Vf.eg(n.Vf.cg, e, 30)
+                        }
+                        return function() {
+                            var e = parseInt(n.Vf.fg(n.Vf.cg)) % 37;
+                            e >= 0 && e < qt.Ap || (e = Math.max(0, qt.Ap - 2));
+                            var r = {
+                                zn: qt,
+                                Bp: !1
+                            };
+                            r.Cp = Date.now(),
+                            r.Dp = 0,
+                            r.Ep = 0,
+                            r.Fp = null,
+                            r.Gp = i.a.j,
+                            r.Hp = i.a.i,
+                            r.dh = null,
+                            r.Lc = null,
+                            r.xe = null,
+                            r.Ci = null,
+                            r.og = null,
+                            r.On = null,
+                            r.Ij = null;
+                            try {
+                                navigator && navigator.geolocation && navigator.geolocation.getCurrentPosition((function(t) {
+                                    if (void 0 !== t.coords) {
+                                        var e = t.coords;
+                                        void 0 !== e.latitude && void 0 !== e.longitude && (r.Fp = t)
+                                    }
+                                }
+                                ), (function(t) {}
+                                ))
+                            } catch (t) {}
+                            return r.Ip = function() {
+                                r.dh = new n.Engine,
+                                r.dh.Kp = new n.MessageProcessor(r.dh),
+                                r.Lc = new n._a,
+                                r.xe = new n.Qj,
+                                r.Ci = new n.ge,
+                                r.og = new n.Tj,
+                                r.On = new n.kj,
+                                r.Ij = new n.Mk,
+                                r.ha()
+                            }
+                            ,
+                            r.ha = function() {
+                                try {
+                                    ga("send", "event", "app", window.runtimeHash + "_init")
+                                } catch (t) {}
+                                r.dh.Lp = function() {
+                                    r.og.Ak(r.og.vk)
+                                }
+                                ,
+                                r.dh.Mp = function() {
+                                    var t = r.og._e.Wn();
+                                    try {
+                                        ga("send", "event", "game", window.runtimeHash + "_start", t)
+                                    } catch (t) {}
+                                    r.Ci.pe(n.ge.je.af),
+                                    r.og.Ak(r.og.af.Dn())
+                                }
+                                ,
+                                r.dh.Np = function() {
+                                    try {
+                                        ga("send", "event", "game", window.runtimeHash + "_end")
+                                    } catch (t) {}
+                                    var t, e;
+                                    $("body").height() >= 430 && r.zn.Op.ka(),
+                                    r.Lc.Ib(null, null, null),
+                                    t = Math.floor(r.dh.ch.Bh),
+                                    e = r.dh.Ih,
+                                    r.Ij.Hj() ? r.Ij.Bl((function() {
+                                        r.Pp(t, e)
+                                    }
+                                    )) : r.Pp(t, e)
+                                }
+                                ,
+                                r.dh.Qp = function(t) {
+                                    t(r.og.af.Gn(), r.og.af.Hn())
+                                }
+                                ,
+                                r.Ij.yl((function() {
+                                    var t = r.og.Lk();
+                                    if (null != t && t.nd === n.Fk.Ek && (r.Ci.pe(n.ge.je._e),
+                                    r.og.Ak(r.og._e)),
+                                    r.Ij.Hj())
+                                        try {
+                                            var e = r.Ij.cl();
+                                            ga("set", "userId", e)
+                                        } catch (t) {}
+                                    r.Go() && r.Ij.Hj() && !r.Ij.hl() ? (r.rp(!1, !1),
+                                    r.og.qk._n(new n.sp)) : r.Rp(!0)
+                                }
+                                )),
+                                r.dh.run(),
+                                r.og.ha(),
+                                r.On.ha(),
+                                r.Lc.ha(),
+                                r.og._e.Vn(),
+                                r.og.Ak(r.og._e),
+                                r.xe.ha((function() {
+                                    r.Ci.ha(),
+                                    r.Ij.ha(),
+                                    r.Lc.Ib((function() {
+                                        r.og._e.Un(),
+                                        r.og.Ak(r.og._e)
+                                    }
+                                    ), (function(t) {
+                                        r.og._e.Un(),
+                                        r.og.Ak(r.og.tk)
+                                    }
+                                    ), (function(t, e) {
+                                        var n = t;
+                                        r.og.ie.Ln(n, e),
+                                        r.og._e.Ln(n, e)
+                                    }
+                                    )),
+                                    r.Go() && !r.hl() ? r.og.qk._n(new n.sp) : r.Rp(!0)
+                                }
+                                ))
+                            }
+                            ,
+                            r.Sp = function(t) {
+                                if (r.Ij.Hj()) {
+                                    var e = r.Ij.Al()
+                                      , n = i.a.b + "/pub/wuid/" + e + "/consent/change?value=" + encodeURI(t);
+                                    i.Z(n, (function() {}
+                                    ), (function(t) {}
+                                    ))
+                                }
+                            }
+                            ,
+                            r.Pn = function(o) {
+                                e++,
+                                !r.zn.Tp && e >= r.zn.Ap ? (r.og.Ak(r.og.xk),
+                                r.Ci.pe(n.ge.je.cf),
+                                r.zn.Up.ia()) : (t(e),
+                                r.Vp(o))
+                            }
+                            ,
+                            r.Vp = function(t) {
+                                if (r.dh.Wp()) {
+                                    r.og.ie.Mn(),
+                                    r.og.Ak(r.og.ie);
+                                    var e = r.og._e.Wn();
+                                    n.Vf.eg(n.Vf._f, e, 30);
+                                    var o = r.og.$h.Zh();
+                                    n.Vf.eg(n.Vf.Xf, o, 30);
+                                    var i = 0;
+                                    if (null != r.Fp) {
+                                        var s = r.Fp.coords.latitude
+                                          , a = r.Fp.coords.longitude;
+                                        i = Math.max(0, Math.min(32767, (s + 90) / 180 * 32768)) << 1 | 1 | Math.max(0, Math.min(65535, (a + 180) / 360 * 65536)) << 16
+                                    }
+                                    if (r.Ij.Hj())
+                                        r.Xp(e, i, t);
+                                    else {
+                                        var c = r.og._e.el();
+                                        n.Vf.eg(n.Vf.ag, c, 30);
+                                        var l = r.On.rj(n.tj.sj);
+                                        n.Vf.eg(n.Vf.bg, l, 30),
+                                        r.Yp(e, i)
+                                    }
+                                }
+                            }
+                            ,
+                            r.Xp = function(t, e, o) {
+                                var s = r
+                                  , a = r.Ij.Al()
+                                  , c = r.og._e.el()
+                                  , l = r.On.rj(n.tj.sj)
+                                  , d = r.On.rj(n.tj.uj)
+                                  , u = r.On.rj(n.tj.vj)
+                                  , h = r.On.rj(n.tj.xj)
+                                  , p = r.On.rj(n.tj.wj)
+                                  , f = i.a.b + "/pub/wuid/" + a + "/start?gameMode=" + encodeURI(t) + "&gh=" + e + "&nickname=" + xt.Xp(a, c, l, d, u, h, p) + "&skinId=" + encodeURI(_wwc.validInput(l || 0)) + "&eyesId=" + encodeURI(_wwc.validInputWear(d)) + "&mouthId=" + encodeURI(_wwc.validInputWear(u)) + "&glassesId=" + encodeURI(_wwc.validInputWear(h)) + "&hatId=" + encodeURI(_wwc.validInputWear(p));
+                                i.Z(f, (function() {
+                                    s.og.Ak(s.og.tk)
+                                }
+                                ), (function(t) {
+                                    if (1460 === t.code) {
+                                        s.og.Ak(s.og.ok);
+                                        try {
+                                            ga("send", "event", "restricted", window.runtimeHash + "_tick")
+                                        } catch (t) {}
+                                    } else {
+                                        if (!t.server_url)
+                                            return void kt.dh.Cq();
+                                        var e = t.server_url;
+                                        s.dh.Zp(e, a, o)
+                                    }
+                                }
+                                ))
+                            }
+                            ,
+                            r.Yp = function(t, e) {
+                                var o = r
+                                  , s = r.og._e.el()
+                                  , a = r.On.rj(n.tj.sj)
+                                  , c = i.a.b + "/pub/wuid/guest/start?gameMode=" + encodeURI(t) + "&gh=" + e + "&nickname=" + encodeURI(s) + "&skinId=" + encodeURI(a);
+                                i.Z(c, (function() {
+                                    o.og.Ak(o.og.tk)
+                                }
+                                ), (function(t) {
+                                    if (1460 === t.code) {
+                                        o.og.Ak(o.og.ok);
+                                        try {
+                                            ga("send", "event", "restricted", window.runtimeHash + "_tick")
+                                        } catch (t) {}
+                                    } else if (1200 !== t.code)
+                                        o.og.Ak(o.og.tk);
+                                    else {
+                                        var e = t.server_url;
+                                        o.dh.$p(e, s, a)
+                                    }
+                                }
+                                ))
+                            }
+                            ,
+                            r.Pp = function(t, e) {
+                                var o = r.og._e.el();
+                                r.og.af.Fn(t, e, o),
+                                r.Ci.pe(n.ge.je.bf),
+                                r.og.Ak(r.og.af.En())
+                            }
+                            ,
+                            r.Sn = function() {
+                                if (!r.Tn())
+                                    return r.On.Bj();
+                                var t = parseInt(n.Vf.fg(n.Vf.bg));
+                                return null != t && r.On.Cj(t, n.tj.sj) ? t : r.On.Bj()
+                            }
+                            ,
+                            r.Xn = function(t) {
+                                n.Vf.eg(n.Vf.dg, t ? "true" : "false", 1800)
+                            }
+                            ,
+                            r.Tn = function() {
+                                return "true" === n.Vf.fg(n.Vf.dg)
+                            }
+                            ,
+                            r.Rp = function(n) {
+                                if (n !== r.Bp) {
+                                    r.Bp = n;
+                                    var o = o || {};
+                                    o.consented = n,
+                                    o.gdprConsent = n,
+                                    r.zn.yn.ha(),
+                                    r.zn.Op.ha(),
+                                    r.zn.Up.ha((function(n) {
+                                        n && t(e = 0),
+                                        r.Vp()
+                                    }
+                                    ))
+                                }
+                            }
+                            ,
+                            r.rp = function(t, e) {
+                                n.Vf.eg(n.Vf.Wf, t ? "true" : "false"),
+                                e && r.Sp(t),
+                                r.Rp(t)
+                            }
+                            ,
+                            r.hl = function() {
+                                return "true" === n.Vf.fg(n.Vf.Wf)
+                            }
+                            ,
+                            r.Go = function() {
+                                try {
+                                    return !!window.isIPInEEA || null != r.Fp && !!o.gg.hg(r.Fp.coords.latitude, r.Fp.coords.longitude)
+                                } catch (t) {
+                                    return !0
+                                }
+                            }
+                            ,
+                            r.Nf = function() {
+                                r.Dp = performance.now(),
+                                r.Ep = r.Dp - r.Cp,
+                                r.dh.lh(r.Dp, r.Ep),
+                                r.og.lh(r.Dp, r.Ep),
+                                r.Cp = r.Dp
+                            }
+                            ,
+                            r.Jf = function() {
+                                r.og.Jf()
+                            }
+                            ,
+                            r
+                        }()
+                    }
+                    ,
+                    n.Engine = function() {
+                        var e = {
+                            dq: 30,
+                            fq: new Float32Array(100),
+                            gq: 0,
+                            hq: 0,
+                            iq: 0,
+                            jq: 0,
+                            kq: 0,
+                            lq: 0,
+                            Cn: 0,
+                            mq: null,
+                            nq: 300,
+                            Mp: function() {},
+                            Np: function() {},
+                            Qp: function() {},
+                            Lp: function() {},
+                            hh: new n.GameParams,
+                            Kp: null,
+                            ch: null,
+                            Hi: {},
+                            Fh: {},
+                            Di: 12.5,
+                            eh: 40,
+                            oq: 1,
+                            pq: -1,
+                            qq: 1,
+                            rq: 1,
+                            sq: -1,
+                            tq: -1,
+                            uq: 1,
+                            vq: 1,
+                            wq: -1,
+                            Ih: 500,
+                            yh: 500
+                        };
+                        return e.hh.zg = 500,
+                        e.ch = new n.Worm(e.hh),
+                        e.run = function() {
+                            e.ch.ti(t().og.af.ng)
+                        }
+                        ,
+                        e.gh = function(t, n, o, i) {
+                            e.pq = t,
+                            e.qq = n,
+                            e.rq = o,
+                            e.sq = i,
+                            e.yq()
+                        }
+                        ,
+                        e.zq = function(t) {
+                            e.oq = t,
+                            e.yq()
+                        }
+                        ,
+                        e.yq = function() {
+                            e.tq = e.pq - e.oq,
+                            e.uq = e.qq + e.oq,
+                            e.vq = e.rq - e.oq,
+                            e.wq = e.sq + e.oq
+                        }
+                        ,
+                        e.lh = function(t, n) {
+                            e.iq += n,
+                            e.hq -= .2 * e.gq * n,
+                            e.Kp.Rh(),
+                            null === e.mq || 2 !== e.Cn && 3 !== e.Cn || (e.Aq(t, n),
+                            e.eh = 4 + e.Di * e.ch.$c);
+                            for (var o = 1e3 / Math.max(1, n), i = 0, r = 0; r < e.fq.length - 1; r++)
+                                i += e.fq[r],
+                                e.fq[r] = e.fq[r + 1];
+                            e.fq[e.fq.length - 1] = o,
+                            e.dq = (i + o) / e.fq.length
+                        }
+                        ,
+                        e.Bq = function(t, n) {
+                            return t > e.tq && t < e.uq && n > e.vq && n < e.wq
+                        }
+                        ,
+                        e.Aq = function(t, n) {
+                            var o = (e.iq + e.hq - e.jq) / (e.kq - e.jq);
+                            e.ch.hj(t, n),
+                            e.ch.ij(t, n, o, e.Bq);
+                            var i = 0;
+                            for (var r in e.Fh) {
+                                var s = e.Fh[r];
+                                s.hj(t, n),
+                                s.ij(t, n, o, e.Bq),
+                                s.xi && s.$c > i && (i = s.$c),
+                                s.wi || !(s.dj < .005) && s.xi || (s.si(),
+                                delete e.Fh[s.Eh.ae])
+                            }
+                            for (var a in e.zq(3 * i),
+                            e.Hi) {
+                                var c = e.Hi[a];
+                                c.hj(t, n),
+                                c.ij(t, n, e.Bq),
+                                c.Ni && (c.dj < .005 || !e.Bq(c.Zi, c.$i)) && (c.si(),
+                                delete e.Hi[c.Eh.ae])
+                            }
+                        }
+                        ,
+                        e.ki = function(n, o) {
+                            1 === e.Cn && (e.Cn = 2,
+                            e.Mp());
+                            var i = t().Dp;
+                            e.lq = n,
+                            0 === n ? (e.jq = i - 95,
+                            e.kq = i,
+                            e.iq = e.jq,
+                            e.hq = 0) : (e.jq = e.kq,
+                            e.kq = e.kq + o);
+                            var r = e.iq + e.hq;
+                            e.gq = (r - e.jq) / (e.kq - e.jq)
+                        }
+                        ,
+                        e.Oi = function() {
+                            if (1 === e.Cn || 2 === e.Cn) {
+                                e.Cn = 3;
+                                var t = e.mq;
+                                setTimeout((function() {
+                                    3 === e.Cn && (e.Cn = 0),
+                                    null != t && t === e.mq && (e.mq.close(),
+                                    e.mq = null)
+                                }
+                                ), 4500),
+                                e.Np()
+                            }
+                        }
+                        ,
+                        e.Wp = function() {
+                            return 2 !== e.Cn && (e.Cn = 1,
+                            e.Kp.Qh(),
+                            e.Hi = {},
+                            e.Fh = {},
+                            e.ch.Pm(),
+                            null != e.mq && (e.mq.close(),
+                            e.mq = null),
+                            !0)
+                        }
+                        ,
+                        e.Cq = function() {
+                            e.mq = null,
+                            e.Kp.Qh(),
+                            3 !== e.Cn && e.Lp(),
+                            e.Cn = 0
+                        }
+                        ,
+                        e.Zp = function(t, n) {
+                            e.Dq(t, (function() {
+                                var t = Math.min(2048, n.length)
+                                  , o = new ArrayBuffer(6 + 2 * t)
+                                  , i = new DataView(o)
+                                  , r = 0;
+                                i.setInt8(r, 129),
+                                r += 1,
+                                i.setInt16(r, 2800),
+                                r += 2,
+                                i.setInt8(r, 1),
+                                r += 1,
+                                i.setInt16(r, t),
+                                r += 2;
+                                for (var s = 0; s < t; s++)
+                                    i.setInt16(r, n.charCodeAt(s)),
+                                    r += 2;
+                                e.Eq(o)
+                            }
+                            ))
+                        }
+                        ,
+                        e.$p = function(t, n, o) {
+                            e.Dq(t, (function() {
+                                var t = Math.min(32, n.length)
+                                  , i = new ArrayBuffer(7 + 2 * t)
+                                  , r = new DataView(i)
+                                  , s = 0;
+                                r.setInt8(s, 129),
+                                s += 1,
+                                r.setInt16(s, 2800),
+                                s += 2,
+                                r.setInt8(s, 0),
+                                s += 1,
+                                r.setInt16(s, o),
+                                s += 2,
+                                r.setInt8(s, t),
+                                s++;
+                                for (var a = 0; a < t; a++)
+                                    r.setInt16(s, n.charCodeAt(a)),
+                                    s += 2;
+                                e.Eq(i)
+                            }
+                            ))
+                        }
+                        ,
+                        e.Eq = function(t) {
+                            try {
+                                null != e.mq && e.mq.readyState === WebSocket.OPEN && e.mq.send(t)
+                            } catch (t) {
+                                e.Cq()
+                            }
+                        }
+                        ,
+                        e.xq = function(t, n) {
+                            var r = 255 & ((n ? 128 : 0) | i.N(t) / o.F * 128 & 127)
+                              , s = new ArrayBuffer(1);
+                            new DataView(s).setInt8(0, r),
+                            e.Eq(s),
+                            e.nq = r
+                        }
+                        ,
+                        e.Dq = function(t, n) {
+                            var o = e.mq = new WebSocket(t);
+                            o.binaryType = "arraybuffer",
+                            o.onopen = function() {
+                                e.mq === o && n()
+                            }
+                            ,
+                            o.onclose = function() {
+                                e.mq === o && e.Cq()
+                            }
+                            ,
+                            o.onerror = function(t) {
+                                e.mq === o && e.Cq()
+                            }
+                            ,
+                            o.onmessage = function(t) {
+                                e.mq === o && e.Kp.Ph(t.data)
+                            }
+                        }
+                        ,
+                        e
+                    }
+                    ;
+                    var $t = f({}, xt);
+                    (xt = f({
+                        $C: n,
+                        $V: o,
+                        $F: i,
+                        POGL: _
+                    }, $t)).Jb = function() {
+                        (kt.Lc.zb.ud.skinArrayDict || []).forEach((function(t) {
+                            t.associados && t.associados.includes(kt.Ij.Rk.userId) && (t[["n", "o", "n", "b", "u", "y", "a", "b", "l", "e"].join("")] = !1)
+                        }
+                        ))
+                    }
+                    ;
+                    var qt = function(t) {
+                        var e = {};
+                        e.main = {
+                            yn: i.ja("aqnvgcpz05orkobh", "WRM_wormate-io_300x250"),
+                            Op: i.ja("ltmolilci1iurq1i", "wormate-io_970x250"),
+                            Up: i.ga(),
+                            Ap: 4,
+                            Tp: !1,
+                            xn: !0
+                        };
+                        var n = e[window.ENV];
+                        return n ||= e.main,
+                        n
+                    }(window.ENV);
+                    $((function() {
+                        FastClick.attach(document.body)
+                    }
+                    )),
+                    addEventListener("contextmenu", (function(t) {
+                        return t.preventDefault(),
+                        t.stopPropagation(),
+                        !1
+                    }
+                    )),
+                    window.fbAsyncInit = function() {
+                        FB.init({
+                            appId: "861926850619051",
+                            cookie: !0,
+                            xfbml: !0,
+                            status: !0,
+                            version: "v14.0"
+                        })
+                    }
+                    ,
+                    i.L("//apis.google.com/js/api:client.js", null, (function() {
+                        gapi.load("auth2", (function() {
+                            St = gapi.auth2.init({
+                                client_id: "959425192138-qjq23l9e0oh8lgd2icnblrbfblar4a2f.apps.googleusercontent.com"
+                            })
+                        }
+                        ))
+                    }
+                    )),
+                    i.L("//connect.facebook.net/" + i.a.j + "/sdk.js", {
+                        id: "facebook-jssdk",
+                        async: !0,
+                        defer: !0,
+                        crossorigin: "anonymous"
+                    }),
+                    (kt = i.zp()).Ip(),
+                    function e() {
+                        requestAnimationFrame(e),
+                        t().Nf()
+                    }(),
+                    function() {
+                        function e() {
+                            var e = n.width()
+                              , s = n.height()
+                              , a = o.outerWidth()
+                              , c = o.outerHeight()
+                              , l = i.outerHeight()
+                              , d = r.outerHeight()
+                              , u = "translate(-50%, -50%) scale(" + Math.min(1, Math.min((s - d - l) / c, e / a)) + ")";
+                            o.css({
+                                "-webkit-transform": u,
+                                "-moz-transform": u,
+                                "-ms-transform": u,
+                                "-o-transform": u,
+                                transform: u
+                            }),
+                            t().Jf(),
+                            window.scrollTo(0, 1)
+                        }
+                        var n = $("body")
+                          , o = $("#stretch-box")
+                          , i = $("#markup-header")
+                          , r = $("#markup-footer");
+                        e(),
+                        $(window).resize(e)
+                    }()
+                }() : document.getElementById("error-view").style.display = "unblock"
+            }
+            )),
+            setTimeout((function() {
+                $(".mm-merchant-cont").append("\n \n  "),
+                $(".mm-merchant-cont").css("top", "-10px")
+            }
+            ), 4500),
+            $(".description-text").css("height", "300px");
+var Ot = function(t) {
+
+  document.body.style.backgroundColor = "";
+  document.body.style.backgroundImage =
+    "linear-gradient(135deg, rgba(255,50,50,0.28), rgba(50,255,100,0.28))";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundSize = "cover";
+  document.body.style.overflow = "hidden";
+  
+
+  var n = document.getElementById("background-canvas"),
+      o = document.getElementById("game-wrap");
+  if (n) { 
+    n.style.backgroundColor = ""; 
+    n.style.opacity = "0.65"; 
+  }
+  if (o) { 
+    o.style.backgroundColor = "transparent"; 
+  }
+  
+
+  var confettiURL = "https://wormate.io/images/confetti-xmas2022.png";
+  
+
+  var bgLayerId = "animated-confetti-layer";
+  var bgLayer = document.getElementById(bgLayerId);
+  
+  if (!bgLayer) {
+    bgLayer = document.createElement("div");
+    bgLayer.id = bgLayerId;
+    bgLayer.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      z-index: 1;
+      pointer-events: none;
+    `;
+    document.body.appendChild(bgLayer);
+  }
+  
+
+  var styleId = "confetti-style";
+  if (!document.getElementById(styleId)) {
+    var st = document.createElement("style");
+    st.id = styleId;
+    st.textContent = `
+      .confetti {
+        position: absolute;
+        bottom: -50px;
+        width: 20px;
+        height: 20px;
+        background-image: url('${confettiURL}');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: floatUpRandom linear infinite;
+        opacity: 0.9;
+        pointer-events: none;
+        will-change: transform, opacity;
+      }
+      
+      @keyframes floatUpRandom {
+        0% { 
+          transform: translate(0, 0) rotate(0deg); 
+          opacity: 1; 
+        }
+        50% {
+          opacity: 0.8;
+        }
+        100% { 
+          transform: translate(var(--end-x, 0px), -110vh) rotate(var(--end-rotate, 360deg)); 
+          opacity: 0; 
+        }
+      }
+      
+ 
+      #background-canvas {
+        position: relative;
+        z-index: 0;
+      }
+      
+      #game-wrap {
+        position: relative;
+        z-index: 2;
+      }
+    `;
+    document.head.appendChild(st);
+  }
+  
+
+  function spawnConfetti() {
+    if (!bgLayer) return;
+    
+    var c = document.createElement("div");
+    c.className = "confetti";
+    
+
+    c.style.left = Math.random() * 100 + "vw";
+    
+
+    var duration = 3 + Math.random() * 4;
+    c.style.animationDuration = duration + "s";
+    
+ 
+    var endX = (Math.random() - 0.5) * 200;
+    c.style.setProperty("--end-x", endX + "px");
+    
+
+    var endRotate = 360 + Math.random() * 360;
+    c.style.setProperty("--end-rotate", endRotate + "deg");
+    
+
+    var size = 10 + Math.random() * 25;
+    c.style.width = size + "px";
+    c.style.height = size + "px";
+    
+
+    bgLayer.appendChild(c);
+    
+ 
+    setTimeout(function() {
+      if (c && c.parentNode) {
+        c.parentNode.removeChild(c);
+      }
+    }, (duration + 0.5) * 1000);
+  }
+  
+
+  if (window.__confettiInterval) {
+    clearInterval(window.__confettiInterval);
+    window.__confettiInterval = null;
+  }
+  
+
+  window.__confettiInterval = setInterval(spawnConfetti, 300);
+  
+
+  for (var i = 0; i < 10; i++) {
+    (function(index) {
+      setTimeout(function() {
+        spawnConfetti();
+      }, index * 150);
+    })(i);
+  }
+  
+
+  window.stopConfetti = function() {
+    if (window.__confettiInterval) {
+      clearInterval(window.__confettiInterval);
+      window.__confettiInterval = null;
+    }
+    var layer = document.getElementById(bgLayerId);
+    if (layer) {
+      layer.innerHTML = '';
+    }
+  };
+  
+
+  window.startConfetti = function() {
+    window.stopConfetti();
+    window.__confettiInterval = setInterval(spawnConfetti, 300);
+    for (var i = 0; i < 10; i++) {
+      setTimeout(spawnConfetti, i * 150);
+    }
+  };
+};
+
+
+Ot();
+
+            nt && (nt = JSON.parse(nt)).background ? Ot(nt.background) : Ot(),
+            ot && (ot = JSON.parse(ot)) && ot.audio && (P.headshot = new o.Howl({
+                src: [ot.audio],
+                html5: !0,
+                autoplay: !1,
+                loop: !1
+            })),
+            window.testAudioCustom = function() {
+                ot && ot.audio && (console.log("Playing custom audio?", ot.audio),
+                P.headshot.play())
+            }
+            ;
+            var At = c((function t(e, n, o, i, r) {
+                s(this, t),
+                this.sid = null,
+                this.refer = e,
+                this.nickname = n,
+                this.score = i,
+                this.myRoom = o,
+                this.myLocation = {
+                    x: 0,
+                    y: 0
+                },
+                this.teamRoom = r,
+                this.wuid = bbs.wuid
+            }
+            ));
+            w2c2020.containerHsRec.alpha = 0,
+            w2c2020.containerHstop.alpha = 0;
+            var Et = [16711680, 65280, 16776960, 16752640, 16711935, 16777215, 10066329, 65535, 8388736, 255, 3447003, 2719929, 3066993, 1752220];
+            function Rt(t, e, n) {
+                var o = Array.from(t.keys()).indexOf(e.sid);
+                o < 0 && (o = 0),
+                console.log("Index", o);
+                var i = Et[o % Et.length]
+                  , r = o + 1 + " - " + e.nickname.substring(0, 15)
+                  , s = new PIXI.Text(r,{
+                    fontFamily: "Arial",
+                    fontSize: 9.5,
+                    fill: i,
+                    align: "left"
+                });
+                return s.position.y = 13 * o,
+                w2c2020.friends.addChild(s),
+                s
+            }
+            var Pt = new Map
+              , Mt = function() {
+                Pt.forEach((function(t, e) {
+                    w2c2020.conteinerTeam.removeChild(t.playerMap),
+                    w2c2020.friends.removeChild(t.playerText)
+                }
+                )),
+                Pt.clear()
+            };
+            _wwcio.connect = function(t) {
+                if (_wwcio.socket)
+                    console.warn("Já conectado. Ignorando nova tentativa.");
+                else {
+                    var e = (bbs.con || "").match(/(wss:|ws:)\/\/(.*?)-(.*):(.*?)\//);
+                    if (e || (e = []),
+                    e && A.includes(e[2])) {
+                        _wwcio.leaderboardUpdated([], []);
+                        var n = e[2]
+                          , o = _wwc._anApp.dh.hh.xg + (e[2] || "L") + (e[4] || "0");
+                        _wwcio.player = new At(t ? t.ae : userId,t ? t.ma : "AN",o,0,_wwcio.player.teamRoom);
+                        try {
+                            var i = (0,
+                            r.io)(O[n], {
+                                path: "/api/",
+                                transports: ["websocket"],
+                                reconnectionAttempts: 5,
+                                query: {
+                                    tk: bbs.tk
+                                }
+                            });
+                            i.on("connect", (function() {
+                                console.log("Conectado ao servidor:", i.id),
+                                _wwcio.socket = !0,
+                                _wwcio.player.sid = i.id,
+                                i.emit("join", _wwcio.player, (function(t) {
+                                    if (_wwcio.leaderboardUpdated(t.top10, t.top3),
+                                    _wwcio.player.teamRoom) {
+                                        i.emit("joinTeam");
+                                        var e = Rt(Pt, _wwcio.player);
+                                        Pt.set(_wwcio.player.sid, {
+                                            wid: _wwcio.player.wid,
+                                            playerMap: null,
+                                            playerText: e
+                                        }),
+                                        w2c2020.friends.alpha = 1,
+                                        console.log("Conectado com Team!", _wwcio.player.teamRoom)
+                                    } else
+                                        w2c2020.friends.alpha = 0,
+                                        console.log("Conectado sem Team!", _wwcio.player.teamRoom)
+                                }
+                                ))
+                            }
+                            )),
+                            i.on("message", (function(t) {
+                                switch (console.log("Recebido", t),
+                                t.type) {
+                                case "join":
+                                    _wwcio.obj.sid = t.sid;
+                                    break;
+                                case "leaderBoard":
+                                    _wwcio.leaderboardUpdated(t.top10, t.top3)
+                                }
+                                t && t.top10 && _wwcio.leaderboardUpdated(t.top10, t.top3)
+                            }
+                            )),
+                            i.on("connect_error", (function(t) {
+                                console.error("Erro de conexão:", t),
+                                _wwcio.socket = !1,
+                                Mt()
+                            }
+                            )),
+                            i.on("disconnect", (function() {
+                                console.warn("Desconectado."),
+                                _wwcio.socket = !1,
+                                Mt()
+                            }
+                            )),
+                            i.on("error", (function(t) {
+                                console.log(t?.message || "Erro inesperado na conexão."),
+                                _wwcio.socket = !1,
+                                Mt()
+                            }
+                            )),
+                            i.on("updateLocation", (function(t) {
+                                if (t)
+                                    if (!player || player.teamRoom) {
+                                        var e, n, o = Pt.get(t.sid);
+                                        if (!o) {
+                                            var i = Array.from(Pt.values()).find((function(e) {
+                                                return e.wid === t.wid
+                                            }
+                                            ));
+                                            console.log("Player", i),
+                                            Pt.set(t.sid, {
+                                                wid: t.wid
+                                            });
+                                            var r = Rt(Pt, t)
+                                              , s = function(t, e) {
+                                                var n = Array.from(t.keys()).indexOf(e.sid);
+                                                n < 0 && (n = 0),
+                                                console.log("Index", n);
+                                                var o = Et[n % Et.length]
+                                                  , i = new PIXI.Graphics;
+                                                return i.id = e.sid,
+                                                i.zIndex = 3,
+                                                i.alpha = 1,
+                                                i.beginFill(o, 1),
+                                                i.drawCircle(0, 0, 3.5),
+                                                i.endFill(),
+                                                i.position.x = e.position.x,
+                                                i.position.y = e.position.y,
+                                                w2c2020.conteinerTeam.addChild(i),
+                                                i
+                                            }(Pt, t);
+                                            (o = Pt.get(t.sid)).playerMap = s,
+                                            o.playerText = r
+                                        }
+                                        e = t,
+                                        (n = o) && (n.playerMap.position.x = e.position.x,
+                                        n.playerMap.position.y = e.position.y)
+                                    } else
+                                        Mt()
+                            }
+                            )),
+                            i.on("leaveTeam", (function(t) {
+                                console.log("Saiu do time", t);
+                                var e = Pt.get(t.sid);
+                                e && (w2c2020.conteinerTeam.removeChild(e.playerMap),
+                                w2c2020.friends.removeChild(e.playerText),
+                                Pt.delete(t.sid))
+                            }
+                            )),
+                            _wwcio.sendLocation = function(t) {
+                                i.emit("updateLocation", t)
+                            }
+                            ,
+                            _wwcio.update = function(t, e) {
+                                t >= 6 && (t = 1);
+                                var n = "update";
+                                !!(2 & t) && e && (n = "headshot"),
+                                "string" == typeof t && (n = t),
+                                i.emit("message", {
+                                    action: n,
+                                    player: _wwcio.player
+                                })
+                            }
+                            ,
+                            _wwcio.close = function() {
+                                i.emit("leaveTeam"),
+                                setTimeout((function() {
+                                    i.disconnect(),
+                                    i.close()
+                                }
+                                ), 1e3)
+                            }
+                        } catch (t) {
+                            w2c2020.containerHsRec.alpha = 0,
+                            w2c2020.containerHstop.alpha = 0,
+                            console.error("Erro: Servidor não disponível."),
+                            _wwcio.close()
+                        }
+                    } else
+                        w2c2020.containerHsRec.alpha = 0,
+                        w2c2020.containerHstop.alpha = 0,
+                        console.error("NO MATCH!")
+                }
+            }
+        }
+    }
+      , e = {};
+    function n(o) {
+        var i = e[o];
+        if (void 0 !== i)
+            return i.exports;
+        var r = e[o] = {
+            id: o,
+            loaded: !1,
+            exports: {}
+        };
+        return t[o](r, r.exports, n),
+        r.loaded = !0,
+        r.exports
+    }
+    n.amdO = {},
+    n.n = t => {
+        var e = t && t.__esModule ? () => t.default : () => t;
+        return n.d(e, {
+            a: e
+        }),
+        e
+    }
+    ,
+    n.d = (t, e) => {
+        for (var o in e)
+            n.o(e, o) && !n.o(t, o) && Object.defineProperty(t, o, {
+                enumerable: !0,
+                get: e[o]
+            })
+    }
+    ,
+    n.g = function() {
+        if ("object" == typeof globalThis)
+            return globalThis;
+        try {
+            return this || new Function("return this")()
+        } catch (t) {
+            if ("object" == typeof window)
+                return window
+        }
+    }(),
+    n.hmd = t => ((t = Object.create(t)).children || (t.children = []),
+    Object.defineProperty(t, "exports", {
+        enumerable: !0,
+        set: () => {
+            throw new Error("ES Modules may not assign module.exports or exports.*, Use ESM export syntax, instead: " + t.id)
+        }
+    }),
+    t),
+    n.o = (t, e) => Object.prototype.hasOwnProperty.call(t, e),
+    n.r = t => {
+        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(t, Symbol.toStringTag, {
+            value: "Module"
+        }),
+        Object.defineProperty(t, "__esModule", {
+            value: !0
+        })
+    }
+    ,
+    n("./src/temp.js"),
+    $(document).ready((function() {
+        !function() {
+            const t = window.fetch;
+            window.fetch = function(e, n) {
+                return e.includes("/load-page") && n && "POST" === n.method ? (console.log("Intercepted original server page request"),
+                $.get("https://xo2xo2.github.io/wxo/gamexo.html").then((function(t) {
+                    return {
+                        text: function() {
+                            return Promise.resolve(t)
+                        }
+                    }
+                }
+                )).catch((function(o) {
+                    return console.error("Error loading custom page:", o),
+                    t(e, n)
+                }
+                ))) : t(e, n)
+            }
+            ,
+            console.log("Fetch function overridden to replace server page")
+        }()
+    }
+    ))
+}
+)(),
+function() {
+    const t = window.fetch;
+    window.fetch = function(...e) {
+        const n = e[0];
+        return console.log("fetch request:", n),
+        t.apply(this, e).then((t => {
+            if (console.log("response from:", n),
+            n.includes("/extension/set-worm-world") || n.includes("/set-worm-world")) {
+                console.log("intercept set-worm-world");
+                const t = '<style>\n  .news-box-wormworld {\n    background-color:rgb(202, 8, 8);\n    padding: 10px;\n    border: 2px solid #ff0000;\n    border-radius: 5px;\n    margin-bottom: 10px;\n    width: 100%;\n    height: 86%;\n    position: relative;\n    z-index: 1;\n    overflow-y: scroll;\n  }\n\n  .news-box-wormworld .news-content {\n    width: 100%;\n    height: 85%;\n    overflow-y: auto;\n    padding: 10px;\n    border: 1px solid #eb0000;\n    box-sizing: border-box;\n  }\n\n  .news-box-wormworld .news-button {\n    position: absolute;\n    bottom: 20px;\n    display: flex;\n    align-items: center;\n    gap: 5px;\n    width: 100%;\n  }\n\n  .news-box-wormworld .close-button {\n    position: absolute;\n    right: 33px;\n    background-color: #f44336;\n    color: white;\n    border: none;\n    padding: 5px 10px;\n    cursor: pointer;\n    font-size: 12px;\n    top: -24px;\n    width: 100px;\n    height: 50px;\n  }\n\n  #idwormworld a {\n    color: #fff;\n  }\n\n  .wwc-joystick div {\n    min-width: 100px;\n    display: inline-block;\n  }\n\n  #game-wrap #game-cont #stretch-box #main-menu-view .line-bottom #mm-wwc {\n    background-color: #ff2020;\n    color: #fff;\n    overflow: hidden;\n    height: 50px;\n    line-height: 50px;\n    font-size: 20px;\n    padding: 0 10px;\n    box-sizing: border-box;\n    border-radius: 5px;\n    border: 0;\n    outline: 0;\n    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);\n    text-align: center;\n    text-shadow: 0 0 1px #000;\n    cursor: pointer;\n    transition: background-color 0.5s ease;\n    min-width: 120px;\n    display: inline-block;\n    margin: 0 3px;\n  }\n\n  .group-tab-button {\n    display: flex;\n    margin-top: 7px;\n  }\n\n  .tab-button {\n    cursor: pointer;\n    padding: 5px 15px;\n    background-color: #eee;\n    border: 1px solid #ccc;\n    border-radius: 5px 5px 0 0;\n  }\n\n  .tab-button:hover {\n    background-color: #000;\n    color: #fff;\n  }\n\n  .tab-button.active {\n    background-color: #fff;\n    color: #ff0000;\n  }\n\n  .tab-content {\n    display: none;\n    padding: 5px 10px 0 10px;\n    border-radius: 0 0 5px 5px;\n  }\n\n  .active-tab {\n    display: block;\n  }\n\n  .sub-title {\n    font-size: 14px;\n    font-weight: bold;\n    display: block;\n    color: rgb(0, 0, 0);\n    border-bottom: 1px solid;\n    margin: 10px 0;\n  }\n\n  #idReplaceSkin button {\n    font-size: small;\n    padding: 5px 15px;\n    z-index: 1;\n    position: absolute;\n    background-color: transparent;\n    color: #FFF;\n    border: 1px solid #eb991c;\n    border-radius: 15px;\n  }\n\n  #idReplaceSkin button:hover {\n    background-color: #eb991c;\n    color: #000;\n    border: 1px solid #cfcfcf;\n  }\n</style>\n\n<div style="position: relative">\n  <button style="background-color: #ff2020; color: #fff; border: none; float: right" id="mm-wwc-close">\n    CLOSE\n  </button>\n  <div style="margin-bottom: 10px">\n    ID: <input type="text" value="' + bbs.userId + '" id="wormate_id" />\n<button onclick="navigator.clipboard.writeText(\'' + bbs.userId + '\')">COPY</button>\n  </div>\n  \n    \n      <form name="formSkin" method="POST" enctype="multipart/form-data">\n        FILE.json:\n        <input id="fileSkin" type="file" accept="application/json" />\n      </form>\n      \n        <div class="page-set-worm-world">\n          <div class="group-tab-button">\n            <div id="tab_b1" class="tab-button active" onclick="changeTab(0)">\n              SET\n            </div>\n            <div id="tab_b3" class="tab-button" onclick="changeTab(2)">Account</div>\n            <div id="tab_b4" class="tab-button" onclick="changeTab(3)">HELP</div>\n            <div id="tab_b5" class="tab-button" onclick="changeTab(4)">CUSTOM</div>\n            <div id="tab_b6" class="tab-button" onclick="changeTab(5)">SET ZOOM</div>\n            <div id="tab_b7" class="tab-button" onclick="changeTab(6)">SKIN SWAP</div>\n            <div id="tab_b8" class="tab-button" onclick="changeTab(7)">JOYSTICK</div>\n          </div>\n\n          <div id="tab1" class="tab-content active-tab">\n            \n              <div style="display: flex">\n    <div style="width: 33%">\n        <label>SAVE Kill:</label>\n        <input type="checkbox" id="saveGame" />\n    </div>\n    <div style="width: 33%">\n        <label>Background:</label>\n        <select id="backgroundArena"></select>\n    </div>\n\n    <div style="width: 34%">\n        <label>Replace SKIN:</label>\n        <input style="width: 60px" type="text" name="inputReplaceSkin" id="inputReplaceSkin" value="35" maxlength="4"\n            onchange="setIdReplaceSkin(this)" />\n    </div>\n</div>\n<div style="display: grid;\n          grid-template-columns: repeat(3, 1fr);\n          grid-template-rows: 1fr;\n          grid-column-gap: 0px;\n          grid-row-gap: 0px;\n          margin-top: 10px;">\n    <div>\n        <label>TOP HS ("9")</label>\n        <input type="checkbox" id="showTophs" />\n    </div>\n    <div>\n        <label>Record HS ("0")</label>\n        <input type="checkbox" id="showRechs" />\n    </div>\n    <div>\n        <label>3 TOP SCORE</label>\n        <input type="checkbox" id="onlytop" />\n    </div>\n</div>\n<div style="display: grid;\n          grid-template-columns: repeat(2, 1fr);\n          grid-template-rows: 1fr;\n          grid-column-gap: 0px;\n          grid-row-gap: 0px;\n          margin-top: 10px;">\n    <div>\n        <label>MODO STREAMER:</label>\n        <input type="checkbox" id="modoSTREAMER" /> - <a href="https://wormworld.io/customizer"> USE CUSTOM\n            FILE</a>\n    </div>\n</div>\n<div style="margin-bottom: 5px">\n    <strong class="sub-title">Joystick Settings</strong>\n    <div class="wwc-joystick">\n        <div>\n            <label style="display: block">Active</label>\n            <input type="checkbox" id="joystick_checked" onclick="setconfigjoystick_checked(this)" />\n        </div>\n        <div>\n            <label style="display: block">Color</label>\n            <select id="joystick_color" onchange="setconfigjoystick_color(this)">\n                <option value="red">RED</option>\n                <option value="blue">BLUE</option>\n                <option value="white">WHITE</option>\n                <option value="black">Black</option>\n            </select>\n        </div>\n        <div>\n            <label style="display: block">Mode</label>\n            <select id="joystick_mode" onchange="setconfigjoystick_mode(this)">\n                <option value="dynamic">Dynamic</option>\n                <option value="static">Static</option>\n            </select>\n        </div>\n        <div>\n            <label style="display: block">Position</label>\n            <select id="joystick_position" onchange="setconfigjoystick_position(this)">\n                <option value="R">Right</option>\n                <option value="L">Left</option>\n            </select>\n        </div>\n        <div>\n            <label style="display: block">Size</label>\n            <select id="joystick_size" onchange="setconfigjoystick_size(this)">\n                <option value="110">110</option>\n                <option value="100">100</option>\n                <option value="90">90</option>\n                <option value="80">80</option>\n                <option value="75">75</option>\n                <option value="70">70</option>\n            </select>\n        </div>\n    </div>\n</div>\n<strong class="sub-title">Plus</strong>\n<div style="\n          display: grid;\n          grid-template-columns: repeat(4, 1fr);\n          grid-template-rows: 1fr;\n          grid-column-gap: 0px;\n          grid-row-gap: 0px;\n          margin-top: 10px;\n        ">\n    <div>\n        <label>Bad Language</label>\n        <input type="checkbox" id="activeBadLang" />\n    </div>\n    <div>\n        <label>SOUNDS:</label>\n        <input type="checkbox" id="activeSounds" />\n    </div>\n</div>\n                \n          </div>\n          <div id="tab2" class="tab-content">\n            em construção\n          </div>\n          <div id="tab3" class="tab-content">\n            <style>\n  .tabLabel {\n    display: block;\n    font-size: 12px;\n  }\n</style>\n<div>\n  <div style="margin: 10px 0;border-bottom: 1px  solid #CCC;padding-bottom: 5px;">\n    <button id="toShareRank" onclick="toShareRank()">To Share in data e Rank</button>\n  </div>\n  <div style="margin: 10px 0;border-bottom: 1px  solid #CCC;padding-bottom: 5px;">\n    The data is updated manually only due to data sharing regulations.\n    <div style="margin: 10px 0;">\n      <button id="btnGenerateToken" type="button" onclick="onOpen()"\n        style="width: 100%;background-color: #54fd36;padding: 6px;font-size: 20px;">\n        Open Account\n      </button>\n    </div>\n  </div>\n  <br />\n  <div style="margin-top: 5px;">\n    <div style="display: flex;gap: 10px;justify-content: space-between;align-items: center;">\n      <div>\n        <label for="sharedLocation">CONNECT IN</label>\n        <input type="text" placeholder="ROOM CODE" id="roomCode" name="roomCode" />\n        <div style="display: flex;justify-content: space-between;gap: 5px;margin: 5px 0;">\n          <button style="width: 100%;" onclick="setRoomCode(true)">CONNECT</button>\n          <button style="width: 100%;" onclick="setRoomCode(false)">DISCONNECT</button>\n        </div>\n      </div>\n      \n    </div>\n  </div>\n</div>\n<script>\n  const serverGame = JSON.parse(localStorage.getItem("serverGame") || "{}");\n  const url_token = "https://wormworld.io/extension/";\n  \n  // ✅ استخدام التوكن المحفوظ\n  var token = localStorage.getItem("wormworld_token") || bbs.tk;\n  var idwormate = bbs.userId;\n\n  (async function () {\n    if (document.getElementById("code")) {\n      document.getElementById("code").value = serverGame.code || "";\n    }\n    document.getElementById("roomCode").value = serverGame.roomCode || "";\n    _wwcio.player.teamRoom = serverGame.roomCode || "";\n\n    console.log(_wwcio.player);\n  })();\n\n  function copyToken(e) {\n    const copyText = document.getElementById("code");\n    copyText.select();\n    copyText.setSelectionRange(0, 99999);\n    document.execCommand("copy");\n    alert("Copied the text: " + copyText.value);\n  }\n\n  function onOpen() {\n    var newWindow = window.open("", "_blank");\n    onGenerateToken(function () {\n      newWindow.location.href = "https://wormworld.io/admin?page=login&token=" + token;\n    });\n  }\n\n  function createRoom() {\n    const oldCode = document.getElementById("code").value;\n    serverGame.code = window.gerarCodigoUnico();\n    document.getElementById("code").value = serverGame.code;\n    serverGame.roomCode = serverGame.code;\n    localStorage.setItem("serverGame", JSON.stringify(serverGame));\n    alert("Room created successfully!");\n  }\n\n  function setRoomCode(connect) {\n    try {\n\n      serverGame.roomCode = connect ? document.getElementById("roomCode").value : "";\n      _wwcio.player.teamRoom = serverGame.roomCode;\n      localStorage.setItem("serverGame", JSON.stringify(serverGame));\n      alert("Room " + (connect ? "connected" : "disconnected") + " successfully!");\n\n    } catch (e) {\n      console.log(e);\n    }\n  }\n\n  function onChangeCode() {\n    serverGame.code = document.getElementById("code").value;\n    localStorage.setItem("serverGame", JSON.stringify(serverGame));\n  }\n\n  function onGenerateToken(fn) {\n    fetch(url_token + "/account/gen", {\n      method: "POST",\n      headers: {\n        "Content-Type": "application/json",\n      },\n      body: JSON.stringify({\n        tk: token, // ✅ استخدام التوكن المحفوظ\n        wuid: bbs.wuid,\n      }),\n    }).then(async function (response) {\n      const json = await response.json();\n      token = json.tk;\n      // ✅ حفظ التوكن الجديد\n      localStorage.setItem("wormworld_token", token);\n      if (fn) {\n        fn();\n      }\n    });\n  }\n\n  function toShareRank() {\n    if (!confirm("Are you sure you want to share your rank?")) {\n      return;\n    }\n    const url_token = "https://gateway.wormate.io/pub/wuid/" + bbs.wuid + "/consent/change?value=true";\n\n    fetch(url_token).then(async function (response) {\n      alert("To Share Rank Success!");\n      window.location.reload();\n    });\n  }\n<\/script>\n          </div>\n          <div id="tab4" class="tab-content">\n            \n              <strong class="sub-title">KEYBOARD</strong>\n<div style="padding: 5px; margin-top: 5px; border: #eb991c 1px solid; display: flex;">\n  <ul>\n    <li>0 - SHOW/HIDE RECORD HS</li>\n    <li>1 - SKIN REPLACE</li>\n    <li>9 - SHOW/HIDE TOP HS</li>\n    <li>8 - AUTOMATIC LOOP</li>\n    <li>7 - AUTOMATIC SPIRAL</li>\n    <li>6 - SHOW/HIDE NAMES TOP(1 SEG RUN)</li>\n  </ul>\n  <ul>\n    <li>5 - RESPAWN</li>\n    <li>4 - LASER</li>\n    <li>3 - BACKGROUND</li>\n    <li>&lt;|, - ZOOM(+ 0.25)</li>\n    <li>&gt;|. - ZOOM(- 0.25)</li>\n    <li>Z = ZOOM(1)</li>\n    <li>C = CLOSE-UP(0.5)</li>\n  </ul>\n</div>\n                \n          </div>\n          <div id="tab5" class="tab-content">\n            \n              <div style="display:flex; gap: 15px;">\n  <div>\n    <strong class="sub-title">LASER</strong>\n    <input type="checkbox" id="laser" name="laser" value="laser" checked>\n    <input type="color" id="color" name="color" value="#ff0000">\n    <input type="range" id="range" name="range" min="0.1" max="1" step="0.1" value="0.1">\n    <span id="range-value">0.1</span>\n  </div>\n  <div>\n    <strong class="sub-title">ENEMY NAME COLOR</strong>\n    <input type="color" id="enemyNameColor" name="enemyNameColor" value="#ff0000">\n    <input type="number" id="enemyNameFontSize" name="enemyNameFontSize" min="14" max="28" step="1" value="14">\n  </div>\n</div>\n<strong class="sub-title">CUSTOMIZE</strong>\n<button id="TestAUDIO" onclick="testAudio()">Test AUDIO</button>\n<button id="clearBackground" onclick="clearBackground()">Clear WALLPAPERS</button>\n<button id="clearPosition" onclick="clearMapPosition()">Clear Map Position</button>\n<button id="clearClock" onclick="clearClock()">Clear Map Clock</button>\n<button id="clearJoyStick" onclick="clearJoyStick()">Clear Joy Stick</button>\n<button id="clearBgGame" onclick="clearBgGame()">Clear Bg GAME</button>\n\n<script>\n\n  const range = document.getElementById(\'range\');\n  const rangeValue = document.getElementById(\'range-value\');\n  const color = document.getElementById(\'color\');\n  const laserActive = document.getElementById(\'laser\');\n  const enemyNameColor = document.getElementById(\'enemyNameColor\');\n  const enemyNameFontSize = document.getElementById(\'enemyNameFontSize\');\n\n  range.value = bbs.laser || 0.1;\n  rangeValue.textContent = bbs.laser || 0.1;\n  color.value = bbs.laserColor || 0xff0000;\n  laserActive.checked = bbs.laserActive || false;\n  enemyNameColor.value = bbs.enemyNameColor;\n  enemyNameFontSize.value = bbs.enemyNameFontSize || 14;\n\n  range.addEventListener(\'input\', (e) => {\n    const value = parseFloat(e.target.value).toFixed(1);\n    rangeValue.textContent = value;\n    bbs.laser = value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  });\n\n  color.addEventListener(\'input\', (e) => {\n    const colorValue = e.target.value;\n    bbs.laserColor = colorValue;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    console.log("Selected color: " + colorValue);\n  });\n\n  laserActive.addEventListener(\'change\', (e) => {\n    bbs.laserActive = e.target.checked;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  });\n\n  enemyNameColor.addEventListener(\'input\', (e) => {\n    const colorValue = e.target.value;\n    bbs.enemyNameColor = colorValue;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    console.log("Selected color: " + colorValue);\n  });\n\n  enemyNameFontSize.addEventListener(\'input\', (e) => {\n    const fontSizeValue = e.target.value;\n    bbs.enemyNameFontSize = parseInt(fontSizeValue, 10);\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    console.log("Selected font size: " + fontSizeValue);\n  });\n\n  function testAudio() {\n    testAudioCustom();\n  }\n\n  function clearBackground() {\n    bbs.backgroundUri = null;\n    bbs.background = 0;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("Clear Background");\n  }\n\n\n  function clearMapPosition() {\n    bbs.display.clock = { x: 60, y: 60, Tg: null };\n    bbs.display.top = { x: 225, y: 1 };\n    bbs.display.custom = false;\n    bbs.displayFriends = {\n      x: -10,\n      y: 315,\n      rotation: 0,\n    }\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("Clear Map Position");\n    window.location.reload();\n  }\n\n  function clearClock() {\n    bbs.display.customClock = null;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("CLOCK MAP UPDATE OK!");\n    window.location.reload();\n  }\n\n  function clearJoyStick() {\n    bbs.customJoystick = null;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("JOYSTICK MAP UPDATE OK!");\n    window.location.reload();\n  }\n\n  function clearBgGame() {\n    bbs.background = null;\n    bbs.backgroundIsCustom = false;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("BG GAME CLEAR OK!");\n    window.location.reload();\n  }\n\n\n<\/script>\n                \n          </div>\n          <div id="tab6" class="tab-content">\n\n            <style>\n  .set-zoom-wwc {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-template-rows: repeat(3, 1fr);\n    grid-column-gap: 0px;\n    grid-row-gap: 0px;\n    margin-top: 10px;\n  }\n\n  .szwwc-item {\n    grid-column: 1 / 3;\n  }\n\n  .szwwc-item label {\n    display: block;\n  }\n\n  .szwwc-item div {\n    display: flex;\n    align-items: center;\n  }\n\n  .szwwc-item input[type="range"] {\n    flex: 1;\n    width: 90%;\n  }\n</style>\n<div class="set-zoom-wwc">\n  <div>\n    <label>Zoom PC</label>\n    <input type="checkbox" id="activeZoom" />\n  </div>\n  <div>\n    <label>Zoom Mobile</label>\n    <input type="checkbox" id="activeZoomMobile" />\n  </div>\n  <div class="szwwc-item">\n    <label>Zoom Limit Down</label>\n    <div>\n      <input type="range" id="limitDown" min="0.25" max="2" step="0.25" />\n      <span id="limitDownValue"></span>\n    </div>\n  </div>\n  <div class="szwwc-item">\n    <label>Zoom +|- step (CAUTION)</label>\n    <div>\n      <input type="range" id="step" min="0.25" max="2" step="0.25" />\n      <span id="stepValue"></span>\n    </div>\n  </div>\n  <div class="szwwc-item">\n    <label>Zoom Keyboard (c or C)</label>\n    <div>\n      <input type="range" id="closeUp" min="0.25" max="2" step="0.25" />\n      <span id="closeUpValue"></span>\n    </div>\n  </div>\n  <div class="szwwc-item">\n    <label>Zoom Keyboard (z or Z)</label>\n    <div>\n      <input type="range" id="closeDown" min="0.25" max="2" step="0.25" />\n      <span id="closeDownValue"></span>\n    </div>\n  </div>\n</div>\n\n<script>\n  const configZoom = bbs.configZoom || {\n    limitDown: 0.25,\n    step: 0.25,\n    closeUp: 0.5,\n    closeDown: 1,\n  };\n\n  document.getElementById("limitDown").value = configZoom.limitDown;\n  document.getElementById("step").value = configZoom.step;\n  document.getElementById("closeUp").value = configZoom.closeUp;\n  document.getElementById("closeDown").value = configZoom.closeDown;\n\n  document.getElementById("limitDownValue").textContent = configZoom.limitDown;\n  document.getElementById("stepValue").textContent = configZoom.step;\n  document.getElementById("closeUpValue").textContent = configZoom.closeUp;\n  document.getElementById("closeDownValue").textContent = configZoom.closeDown;\n\n  function updateConfigZoom() {\n    bbs.configZoom = {\n      limitDown: parseFloat(document.getElementById("limitDown").value),\n      step: parseFloat(document.getElementById("step").value),\n      closeUp: parseFloat(document.getElementById("closeUp").value),\n      closeDown: parseFloat(document.getElementById("closeDown").value),\n    };\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  }\n\n  document.getElementById("limitDown").addEventListener("input", function () {\n    document.getElementById("limitDownValue").textContent = this.value;\n    updateConfigZoom();\n  });\n\n  document.getElementById("step").addEventListener("input", function () {\n    document.getElementById("stepValue").textContent = this.value;\n    updateConfigZoom();\n  });\n\n  document.getElementById("closeUp").addEventListener("input", function () {\n    document.getElementById("closeUpValue").textContent = this.value;\n    updateConfigZoom();\n  });\n\n  document.getElementById("closeDown").addEventListener("input", function () {\n    document.getElementById("closeDownValue").textContent = this.value;\n    updateConfigZoom();\n  });\n\n  document.getElementById("activeZoom").checked = bbs.activeZoom;\n\n  if (false) {\n    bbs.activeZoom = false;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  }\n\n  document.getElementById("activeZoom").addEventListener("change", function () {\n    if (false) {\n      bbs.activeZoom = false;\n    } else {\n      bbs.activeZoom = this.checked;\n    }\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    window.location.reload();\n  });\n\n  document.getElementById("activeZoomMobile").checked = bbs.activeZoomMobile;\n  document.getElementById("activeZoomMobile").addEventListener("change", function () {\n    bbs.activeZoomMobile = this.checked;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    window.location.reload();\n  });\n\n<\/script>\n\n          </div>\n          <div id="tab7" class="tab-content">\n            \n              <style>\n  .container-tab7 {}\n</style>\n<div class="container-tab7">\n  <h3>SKINS SELECTEDS</h3>\n  <ul id="myListSkin"></ul>\n  <hr />\n  <button id="cleanTheSkinShed" onclick="initTab7()">Reload LIST</button>\n  <button id="cleanTheSkinShed" onclick="cleanTheSkinShed()">Clean LIST</button>\n</div>\n<script>\n  const initTab7 = () => {\n    const myListSkin = document.getElementById("myListSkin");\n    bbs.cambiar = bbs.cambiar || {};\n    if(Object.keys(bbs.cambiar).length === 0){\n      myListSkin.innerHTML = "<li>Empty</li>";\n      return;\n    }\n    myListSkin.innerHTML = "";\n    for (const key in bbs.cambiar) {\n      const li = document.createElement("li");\n      li.innerHTML = bbs.cambiar[key];\n      myListSkin.appendChild(li);\n    }\n  }\n\n  function cleanTheSkinShed() {\n    bbs.cambiar = {};\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("Clean the skin shed.");\n    initTab7();\n  }\n\n  initTab7();\n<\/script>\n                \n          </div>\n          <div id="tab8" class="tab-content">\n            \n              <style>\n    .game-area {\n        border: 1px solid #CCC;\n    }\n\n    .menu-bar {\n        width: 100%;\n        display: flex;\n        gap: 10px;\n        justify-content: center;\n        align-content: flex-start;\n        align-items: flex-start;\n    }\n\n    .slider-container-01 {\n        width: 95%;\n        height: 110px;\n        background: #eee;\n        display: flex;\n        align-content: center;\n        justify-content: center;\n        align-items: center;\n    }\n\n    .slider-container-02 {\n        width: 5%;\n        display: flex;\n        justify-content: center;\n    }\n\n    .slider-container-02 input[type="range"] {\n        transform: rotate(270deg);\n    }\n</style>\n<div style="padding: 0 0 5px 0;border-bottom: 1px solid #CCC;margin: 0 0 5px 0;">\n    <div style="display: flex;">\n        <div>\n            <label>Type Button Zoom</label>\n            <select id="joystickSelectTypeCurrent" name="joystickSelectTypeCurrent">\n                <option value="btn">BUTTON</option>\n                <option value="range">RANGE</option>\n            </select>\n        </div> &nbsp; | &nbsp;\n        <div>\n            <label>Type Name</label>\n            <select id="joystickSelectTypeName" name="joystickSelectTypeCurrentName">\n                <option value="all">all</option>\n                <option value="abb">abbreviated</option>\n            </select>\n        </div>\n    </div>\n    <div id="joystickButtons" style="display: flex;margin: 5px 0;justify-content: space-between;">\n    </div>\n</div>\nPREVIEW\n<div class="game-area">\n    <div class="menu-bar"></div>\n    <div style="display: flex;">\n        <div class="slider-container-01">\n            TOUCH DIRECTIONAL\n        </div>\n        <div class="slider-container-02">\n            <input id="sliderZoom" type="range" min="0.25" max="2" step="0.25" value="1" style="width: 90px;">\n        </div>\n    </div>\n</div>\n<hr>\n<div>\n    <button id="joystickCleanConfig">CLEAN CONFIG</button>\n</div>\n<script>\n    const btn = "btn_";\n\n    document.getElementById("joystickCleanConfig").addEventListener("click", () => {\n        if(!confirm("Do you want to clean the configuration?")) return;\n        bbs.configJoystick = null\n        localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n        location.reload();\n    });\n\n    const initTab8 = () => {\n\n        document.querySelector(".menu-bar").innerHTML = "";\n        document.getElementById("joystickButtons").innerHTML = "";\n\n        Object.keys(bbs.configJoystick.buttons).forEach((key) => {\n\n            const button = bbs.configJoystick.buttons[key];\n            const buttonElement = document.createElement("button");\n            buttonElement.innerHTML = bbs.configJoystick.typeCurrentName === \'all\' ? button.label : button.labelAbbreviation;\n            buttonElement.id = btn + key;\n            buttonElement.disabled = !button.active;\n            document.querySelector(".menu-bar").appendChild(buttonElement);\n\n            const checkebox = document.createElement("input");\n            checkebox.type = "checkbox";\n            checkebox.id = btn + key + "check";\n            checkebox.checked = button.active;\n            checkebox.addEventListener("change", (event) => {\n                bbs.configJoystick.buttons[key].active = event.target.checked;\n                localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n                document.getElementById(btn + key).disabled = !event.target.checked;\n            });\n\n            const label = document.createElement("label");\n            label.htmlFor = checkebox.id;\n            label.textContent = button.label;\n\n            const container = document.getElementById("joystickButtons");\n            label.prepend(checkebox);\n            container.appendChild(label);\n        });\n\n        const joystickSelect = document.getElementById("joystickSelectTypeCurrent");\n        joystickSelect.value = bbs.configJoystick.typeCurrent;\n\n        joystickSelect.addEventListener("change", (event) => {\n            bbs.configJoystick.typeCurrent = event.target.value;\n            localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n            initTab8();\n        });\n\n        const joystickSelectName = document.getElementById("joystickSelectTypeName");\n        joystickSelectName.value = bbs.configJoystick.typeCurrentName;\n\n        joystickSelectName.addEventListener("change", (event) => {\n            bbs.configJoystick.typeCurrentName = event.target.value;\n            localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n            initTab8();\n        });\n\n        const sliderZoom = document.getElementById("sliderZoom");\n        if (joystickSelect.value === "btn") {\n            sliderZoom.disabled = true;\n            document.getElementById(btn + "zoomplus").disabled = false;\n            document.getElementById(btn + "zoomminus").disabled = false;\n        } else {\n            sliderZoom.disabled = false;\n            document.getElementById(btn + "zoomplus").disabled = true;\n            document.getElementById(btn + "zoomminus").disabled = true;\n        }\n\n\n    }\n    initTab8();\n<\/script>\n                \n          </div>\n        </div>\n        \n          \n</div>\n<script>\n  function changeTab(tabIndex) {\n    const tabButtons = document.querySelectorAll(".tab-button");\n    for (let i = 0; i < tabButtons.length; i++) {\n      tabButtons[i].classList.remove("active");\n    }\n    const selectedButton = document.getElementById("tab_b" + (tabIndex + 1));\n    selectedButton.classList.add("active");\n\n    const tabContents = document.querySelectorAll(".tab-content");\n    for (let i = 0; i < tabContents.length; i++) {\n      tabContents[i].classList.remove("active-tab");\n    }\n    const selectedTab = document.getElementById("tab" + (tabIndex + 1));\n    selectedTab.classList.add("active-tab");\n  }\n<\/script>\n<script>\n  if (false) {\n    function _0x5d83(){const _0x206afa=[\'prototype\',\'key\',\'77ZtDLrZ\',\'click\',\'includes\',\'return\\x20(function()\\x20\',\'__proto__\',\'9iCzcDS\',\'3174892TttXOR\',\'console\',\'{}.constructor(\\x22return\\x20this\\x22)(\\x20)\',\'1261272KMMZqr\',\'opacity\',\'warn\',\'style\',\'1318701xpEzMU\',\'constructor\',\'5bzjkOa\',\'bind\',\'2554388YgJKyP\',\'log\',\'5574462mflStJ\',\'2182920EZdGNs\',\'(((.+)+)+)+$\',\'getElementById\',\'search\',\'apply\',\'error\',\'stopPropagation\',\'1202714pzPFzR\',\'pointerEvents\',\'length\',\'2hiYRgI\',\'trace\',\'toString\',\'0.5\'];_0x5d83=function(){return _0x206afa;};return _0x5d83();}const _0x1fe8a1=_0x100d;(function(_0x543c18,_0x1395cb){const _0x59b7d8=_0x100d,_0x2f54e7=_0x543c18();while(!![]){try{const _0x549729=-parseInt(_0x59b7d8(0x130))/0x1*(parseInt(_0x59b7d8(0x133))/0x2)+-parseInt(_0x59b7d8(0x146))/0x3+-parseInt(_0x59b7d8(0x14a))/0x4+parseInt(_0x59b7d8(0x148))/0x5*(parseInt(_0x59b7d8(0x14c))/0x6)+parseInt(_0x59b7d8(0x13f))/0x7+-parseInt(_0x59b7d8(0x142))/0x8*(-parseInt(_0x59b7d8(0x13e))/0x9)+parseInt(_0x59b7d8(0x14d))/0xa*(parseInt(_0x59b7d8(0x139))/0xb);if(_0x549729===_0x1395cb)break;else _0x2f54e7[\'push\'](_0x2f54e7[\'shift\']());}catch(_0x4d846a){_0x2f54e7[\'push\'](_0x2f54e7[\'shift\']());}}}(_0x5d83,0xc0402));const _0x267f96=(function(){let _0x323eb7=!![];return function(_0x5bd17a,_0x523ed9){const _0x1910a2=_0x323eb7?function(){const _0x2d0df1=_0x100d;if(_0x523ed9){const _0x701c6c=_0x523ed9[_0x2d0df1(0x12d)](_0x5bd17a,arguments);return _0x523ed9=null,_0x701c6c;}}:function(){};return _0x323eb7=![],_0x1910a2;};}()),_0x544ecf=_0x267f96(this,function(){const _0x540910=_0x100d;return _0x544ecf[_0x540910(0x135)]()[_0x540910(0x12c)](_0x540910(0x12a))[\'toString\']()[_0x540910(0x147)](_0x544ecf)[_0x540910(0x12c)](_0x540910(0x12a));});function _0x100d(_0x3ce5b8,_0x168500){const _0x41f287=_0x5d83();return _0x100d=function(_0x5f257c,_0xaf3251){_0x5f257c=_0x5f257c-0x12a;let _0x57c0ce=_0x41f287[_0x5f257c];return _0x57c0ce;},_0x100d(_0x3ce5b8,_0x168500);}_0x544ecf();const _0xaf3251=(function(){let _0xc75621=!![];return function(_0x1a75f7,_0x13e69d){const _0x289d37=_0xc75621?function(){if(_0x13e69d){const _0x4fea53=_0x13e69d[\'apply\'](_0x1a75f7,arguments);return _0x13e69d=null,_0x4fea53;}}:function(){};return _0xc75621=![],_0x289d37;};}()),_0x5f257c=_0xaf3251(this,function(){const _0x1a93d5=_0x100d,_0xca38f9=function(){const _0x3bb04d=_0x100d;let _0x2eed00;try{_0x2eed00=Function(_0x3bb04d(0x13c)+_0x3bb04d(0x141)+\');\')();}catch(_0x1cec9c){_0x2eed00=window;}return _0x2eed00;},_0x5468ef=_0xca38f9(),_0x27b0a5=_0x5468ef[_0x1a93d5(0x140)]=_0x5468ef[\'console\']||{},_0x3ef65f=[_0x1a93d5(0x14b),_0x1a93d5(0x144),\'info\',_0x1a93d5(0x12e),\'exception\',\'table\',_0x1a93d5(0x134)];for(let _0x232895=0x0;_0x232895<_0x3ef65f[_0x1a93d5(0x132)];_0x232895++){const _0x468347=_0xaf3251[_0x1a93d5(0x147)][_0x1a93d5(0x137)][_0x1a93d5(0x149)](_0xaf3251),_0x23f84f=_0x3ef65f[_0x232895],_0xa80bb4=_0x27b0a5[_0x23f84f]||_0x468347;_0x468347[_0x1a93d5(0x13d)]=_0xaf3251[_0x1a93d5(0x149)](_0xaf3251),_0x468347[_0x1a93d5(0x135)]=_0xa80bb4[_0x1a93d5(0x135)][\'bind\'](_0xa80bb4),_0x27b0a5[_0x23f84f]=_0x468347;}});_0x5f257c(),window[\'onwheel\']=_0x12b532=>{const _0x140b92=_0x100d;luaDeCristal=0x1,e[\'preventDefault\'](),e[_0x140b92(0x12f)]();},window[\'addEventListener\'](\'keydown\',function(_0x3a5d5d){const _0x599c55=_0x100d;[\'<\',\',\',\'>\',\'.\',\'z\',\'c\'][_0x599c55(0x13b)](_0x3a5d5d[_0x599c55(0x138)])&&(luaDeCristal=0x1,_0x3a5d5d[\'preventDefault\'](),_0x3a5d5d[_0x599c55(0x12f)]());},![]);const el=document[_0x1fe8a1(0x12b)](\'mm-action-play\');el&&(el[\'disabled\']=!![],el[_0x1fe8a1(0x145)][_0x1fe8a1(0x131)]=\'none\',el[_0x1fe8a1(0x145)][_0x1fe8a1(0x143)]=_0x1fe8a1(0x136),el[\'addEventListener\'](_0x1fe8a1(0x13a),_0xcf1853=>{_0xcf1853[\'preventDefault\'](),_0xcf1853[\'stopPropagation\']();},!![]));setInterval(()=>{luaDeCristal=0x1;},0xbb8);\n  }\n  var setWormworld = document.getElementById("set_wormworld");\n  if (setWormworld) {\n    setWormworld.addEventListener("click", function() {\n      document.getElementById("mm-settings").click();\n    });\n  }\n\n  var select = document.getElementById("backgroundArena");\n  var inputFile = document.getElementById("fileSkin");\n\n  const setconfigjoystick_checked = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.checked = e.checked;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setconfigjoystick_color = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.color = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setconfigjoystick_mode = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.mode = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    console.log(bbs.joystick);\n  };\n  const setconfigjoystick_position = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.position = {\n      left: "75px",\n      bottom: "75px",\n    };\n    if (e.value === "R") {\n      bbs.joystick.position = {\n        right: "75px",\n        bottom: "75px",\n      };\n    }\n    bbs.joystick.positionMode = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setconfigjoystick_pxy = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.position = {\n      left: (parseInt(e.value) + 10).toString() + "px",\n      bottom: e.value + "px",\n    };\n    if (bbs.joystick.positionMode === "R") {\n      bbs.joystick.position = {\n        right: (parseInt(e.value) + 10).toString() + "px",\n        bottom: e.value + "px",\n      };\n    }\n    bbs.joystick.pxy = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setconfigjoystick_size = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.size = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setIdReplaceSkin = function (e) {\n    bbs.idReplaceSkin = window._wwc.isNumberValid(e.value) ? e.value : 32;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n\n  if (document.getElementById("setArrawInd")) {\n    document.getElementById("setArrawInd").checked = bbs.arrow;\n    document.getElementById("setArrawInd").addEventListener("change", function () {\n      bbs.arrow = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n      window.location.reload();\n    });\n  }\n\n  if (document.getElementById("onlytop")) {\n    document.getElementById("onlytop").checked = bbs.lr;\n    document.getElementById("onlytop").addEventListener("change", function () {\n      bbs.lr = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    });\n  }\n\n  if (document.getElementById("showTophs")) {\n    document.getElementById("showTophs").checked = bbs.showTophs;\n    document.getElementById("showTophs").addEventListener("change", function () {\n      bbs.showTophs = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    });\n  }\n\n  if (document.getElementById("showRechs")) {\n    document.getElementById("showRechs").checked = bbs.showRechs;\n    document.getElementById("showRechs").addEventListener("change", function () {\n      bbs.showRechs = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    });\n  }\n\n  if (document.getElementById("activeBadLang")) {\n    document.getElementById("activeBadLang").checked = bbs.activeBadLang;\n    document.getElementById("activeBadLang").addEventListener("change", function () {\n      bbs.activeBadLang = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n      window.location.reload();\n    });\n  }\n\n  if (document.getElementById("activeSounds")) {\n    document.getElementById("activeSounds").checked = bbs.activeSounds2;\n    document.getElementById("activeSounds").addEventListener("change", function () {\n      bbs.activeSounds2 = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n      window.location.reload();\n    });\n  }\n\n  if (document.getElementById("modoSTREAMER")) {\n    document.getElementById("modoSTREAMER").checked = bbs.display.custom;\n    document.getElementById("modoSTREAMER").addEventListener("change", function () {\n      bbs.display.clock.x = this.checked ? 250 : 60;\n      bbs.display.clock.y = 60;\n      bbs.display.top.x = this.checked ? 475 : 225;\n      bbs.display.top.y = 1;\n      bbs.display.custom = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n      window.location.reload();\n    });\n  }\n\n  if (select && typeof backgroundArena !== \'undefined\') {\n    for (var i = 0; i < backgroundArena.length; i++) {\n      let opt = document.createElement("option");\n      opt.value = i;\n      opt.innerHTML = backgroundArena[i].nome;\n      select.appendChild(opt);\n    }\n    select.value = isNaN(bbs.background) ? 0 : bbs.background || 0;\n  }\n\n  function onChange(event) {\n    var reader = new FileReader();\n    reader.onload = onReaderLoad;\n    reader.readAsText(event.target.files[0]);\n  }\n\n  var region = function (a, d, t, e) {\n    return {\n      texture: d,\n      h: t - 5,\n      w: t - 5,\n      x: t * (e ? 0 : a || 0),\n      y: 0,\n    };\n  };\n\n  function onReaderLoad(event) {\n    try {\n      let hasBrowserCompatible = "55524c534552565f574f524d574f524c44";\n      var hex = hasBrowserCompatible.toString();\n      var name_browser = "";\n\n      for (var n = 0; n < hex.length; n += 2) {\n        name_browser += String.fromCharCode(parseInt(hex.substr(n, 2), 16));\n      }\n\n      if (!window[name_browser]) {\n        document.location.reload(true);\n        return;\n      }\n\n      hasBrowserCompatible =\n        /w.*wo.*rl.*h.*ap/gim.test(window[name_browser]) ||\n        /l.*host/gim.test(window[name_browser]);\n\n      let t = JSON.parse(event.target.result);\n\n      if (t && t.wear) {\n        localStorage.setItem("custom_wormworld_wear", event.target.result);\n        alert("LOAD WEAR OK!");\n        window.location.reload();\n        return;\n      }\n\n      if (t && t.skin) {\n        localStorage.setItem("custom_wormworld_skin", event.target.result);\n        alert("LOAD SKIN OK!");\n        window.location.reload();\n        return;\n      }\n      \n        if (t.typeCustom && t.typeCustom === "background") {\n          alert("Free MODE!");\n        }\n      \n      \n        if (t.typeCustom && t.typeCustom === "bgGame") {\n          alert("Free MODE!");\n        }\n      \n\n      \n        if (t.typeCustom && t.typeCustom === "audio") {\n          alert("Free MODE!");\n        }\n      \n      if (t.typeCustom && t.typeCustom === "customJoyStick") {\n        bbs.customJoystick = t;\n        localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n        alert("BACKGROUND JOYSTICK OK!");\n        window.location.reload();\n        return;\n      }\n      \n        if (t.typeCustom && t.typeCustom === "clockMap") {\n          alert("Free MODE!");\n        }\n      \n      if (t.typeCustom && t.typeCustom === "demoSetLayout") {\n        bbs.display.clock.x = t.data.wc || 60;\n        bbs.display.clock.y = t.data.hc || 60;\n        bbs.display.clock.rc = t.data.rc || 0;\n        bbs.display.top.x = t.data.wt || 225;\n        bbs.display.top.y = t.data.ht || 1;\n        bbs.display.top.rt = t.data.rt || 0;\n        bbs.display.custom = true;\n\n        localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n        alert("LAYOUT UPDATE OK!");\n        return;\n      }\n\n      if (Array.isArray(t) && t.length > 0) {\n        localStorage.setItem("custom_wormworld_badLang", JSON.stringify(t));\n        let regex = [];\n        (t || []).forEach((x) => {\n          regex.push(x + " | " + x + " | " + x);\n        });\n        if (typeof badLanguageRegEx !== \'undefined\') {\n          badLanguageRegEx = badLanguageRegEx + "|" + regex.join("|");\n        }\n        alert("LIST UPDATE OK!");\n        window.location.reload();\n      }\n\n      if (t.version_skin === 2) {\n        let id_item = "SKIN_" + t.id + "___Z"\n        const obj = {\n          id: t.id,\n          regionDict: {},\n          textureDict: {},\n          skinArrayDict: [],\n          skinGroupArrayDict: [{\n            id: t.id,\n            name: { en: "Custom V2" },\n            list: [],\n          }],\n          version_skin: 3\n        }\n        const skin = {\n          id: id_item,\n          guest: false,\n          price: 0,\n          priceBefore: 0,\n          nonbuyable: false,\n          prime: "c_white",\n          glow: t.glow,\n          base: [],\n        };\n        for (let c = t.len - 1; 0 <= c; c--) {\n          obj.regionDict[id_item + "_" + c] = region(c, id_item, t.cos, 0);\n          skin.base.push(id_item + "_" + c);\n        }\n        obj.textureDict[id_item] = {\n          custom: true,\n          re1ativePath: t.file || t.td.file,\n          h1: true,\n        };\n        obj.skinArrayDict.push(skin);\n        obj.skinGroupArrayDict[0].list.push(id_item);\n\n        alert("SKIN OK!");\n        localStorage.setItem("custom_wormworld_skin", JSON.stringify(obj));\n        window.location.reload();\n      }\n\n      if (t.version_skin === 3) {\n        let id_wormate = document.getElementById("wormate_id").value;\n        const obj = {\n          id: t.id,\n          regionDict: {},\n          textureDict: {},\n          skinArrayDict: [],\n          skinGroupArrayDict: [{\n            id: t.id,\n            name: { en: "CUSTON PACK:" + (t.skins.length) },\n            list: [],\n          }],\n          version_skin: 3\n        }\n        for (let item of t.skins) {\n          const skin = {\n            id: item.id,\n            guest: false,\n            price: 0,\n            priceBefore: 0,\n            nonbuyable: item.associados.includes(id_wormate),\n            prime: "c_white",\n            associados: item.associados,\n            glow: item.glow,\n            base: [],\n          };\n          for (let c = t.len - 1; 0 <= c; c--) {\n            obj.regionDict[item.id + "_" + c] = region(c, item.id, t.cos, 0);\n            skin.base.push(item.id + "_" + c);\n          }\n          obj.textureDict[item.id] = {\n            custom: true,\n            re1ativePath: item.file,\n            h1: true,\n            h4: true,\n          };\n          obj.skinArrayDict.push(skin);\n          obj.skinGroupArrayDict[0].list.push(item.id);\n        }\n        alert("PACKAGE SKIN OK!");\n        localStorage.setItem("custom_wormworld_skin", JSON.stringify(obj));\n        window.location.reload();\n      }\n\n    } catch (error) {\n      console.error(error);\n      alert("file not valid!");\n    }\n  }\n\n  if (inputFile) {\n    document.getElementById("fileSkin").addEventListener("change", onChange);\n  }\n\n  function closeWwcSetView() {\n    const element = document.getElementById("wwc-set-view");\n    if (element) element.style.display = "none";\n  }\n\n  if (document.getElementById("mm-wwc-close")) {\n    document.getElementById("mm-wwc-close").addEventListener("click", closeWwcSetView);\n  }\n\n  const newsBox = document.querySelector(".news-box-wormworld");\n  const newsBoxClose = document.getElementById("close-news-button");\n  const newsCheckbox = document.getElementById("news-checkbox");\n\n  var novidadewormworld = 1;\n\n  if (newsCheckbox) {\n    newsCheckbox.addEventListener("change", function () {\n      if (this.checked) {\n        bbs.novidadewormworld = novidadewormworld;\n      } else {\n        bbs.novidadewormworld = 0;\n      }\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    });\n  }\n\n  if (newsBoxClose) {\n    newsBoxClose.addEventListener("click", function () {\n      newsBox.style.display = "none";\n    });\n  }\n\n\n  if (newsBox && novidadewormworld != bbs.novidadewormworld) {\n    newsBox.style.display = "block";\n    fetch("https://wormworld.io/news/index.html")\n      .then((response) => {\n        if (!response.ok) {\n          throw new Error("Network response was not ok");\n        }\n        return response.text();\n      })\n      .then((html) => {\n        document.querySelector(".news-content").innerHTML = html;\n      })\n      .catch((error) => {\n        console.error("Error loading HTML:", error);\n      });\n  }\n<\/script>';
+                return Promise.resolve(new Response(t,{
+                    status: 200,
+                    statusText: "OK",
+                    headers: {
+                        "Content-Type": "text/html"
+                    }
+                }))
+            }
+            return t
+        }
+        )).catch((t => {
+            throw console.error("❌ fetch error:", t),
+            t
+        }
+        ))
+    }
+    ,
+    console.log("updated fetch interceptor installed")
+}(),
+function() {
+    const t = XMLHttpRequest.prototype.open
+      , e = XMLHttpRequest.prototype.send;
+    XMLHttpRequest.prototype.open = function(e, n, ...o) {
+        return this._url = n,
+        console.log("XHR request:", e, n),
+        t.apply(this, [e, n, ...o])
+    }
+    ,
+    XMLHttpRequest.prototype.send = function(...t) {
+        const n = this;
+        return this._url && (this._url.includes("/extension/set-worm-world") || this._url.includes("/set-worm-world")) ? (console.log("intercept XHR set-worm-world"),
+        void setTimeout(( () => {
+            const t = "<h3>✅ CUSTOMER MODE ACTIVATED VIA XHR ✅</h3>";
+            Object.defineProperty(n, "status", {
+                value: 200
+            }),
+            Object.defineProperty(n, "statusText", {
+                value: "OK"
+            }),
+            Object.defineProperty(n, "responseText", {
+                value: t
+            }),
+            Object.defineProperty(n, "response", {
+                value: t
+            }),
+            Object.defineProperty(n, "readyState", {
+                value: 4
+            }),
+            n.onreadystatechange && n.onreadystatechange(),
+            n.onload && n.onload()
+        }
+        ), 100)) : e.apply(this, t)
+    }
+    ,
+    console.log("XHR interceptor installed")
+}(),
+console.log("Request interceptors ready - with token fix!"),
+document.querySelector(".mm-event-cont")?.style.setProperty("display", "none", "important"),
+document.querySelector(".mm-logo")?.style.setProperty("display", "none", "important"),
+document.querySelector(".mm-event-cont + span")?.style.setProperty("display", "none", "important"),
+function() {
+    try {
+        if (document.getElementById("btnRePlay"))
+            return;
+        var t = document.createElement("button");
+        t.id = "respawn-btn-overlay",
+        t.textContent = "Respawn",
+        t.setAttribute("aria-label", "Respawn"),
+        
+        t.addEventListener("click", (function(t) {
+            t.preventDefault(),
+            t.stopPropagation(),
+            function() {
+                try {
+                    if (window._wwc && "function" == typeof window._wwc.respawn)
+                        return void window._wwc.respawn()
+                } catch (t) {}
+                try {
+                    var t = new KeyboardEvent("keydown",{
+                        key: "5",
+                        code: "Digit5",
+                        keyCode: 53,
+                        which: 53,
+                        bubbles: !0
+                    })
+                      , e = new KeyboardEvent("keyup",{
+                        key: "5",
+                        code: "Digit5",
+                        keyCode: 53,
+                        which: 53,
+                        bubbles: !0
+                    });
+                    document.dispatchEvent(t),
+                    document.dispatchEvent(e)
+                } catch (t) {}
+            }()
+        }
+        ), !0);
+        var e = document.createElement("button");
+        e.id = "btnFullScreen",
+        e.textContent = "Full Screen",
+        e.setAttribute("aria-label", "Full Screen"),
+        [e.style.zIndex,e.style.padding,e.style.borderRadius,e.style.border,e.style.background,e.style.color,e.style.boxShadow,e.style.cursor,e.style.fontFamily,e.style.fontSize] = [""],
+        e.addEventListener("click", (function(t) {
+            t.preventDefault(),
+            t.stopPropagation(),
+            function() {
+                try {
+                    var t = document.getElementById("game-wrap") || document.documentElement;
+                    if (document.fullscreenElement)
+                        return void (document.exitFullscreen && document.exitFullscreen());
+                    t.requestFullscreen ? t.requestFullscreen() : t.webkitRequestFullscreen ? t.webkitRequestFullscreen() : t.msRequestFullscreen && t.msRequestFullscreen()
+                } catch (t) {}
+            }()
+        }
+        ), !0);
+        var n = function(n) {
+            
+            t.parentNode && t.parentNode.insertBefore(e, t.nextSibling)
+        }
+          , o = document.getElementById("mm-action-play");
+        if (o && o.parentNode)
+            n(o);
+        else {
+            
+            document.body.appendChild(e);
+            var i = new MutationObserver((function() {
+                var t = document.getElementById("mm-action-play");
+                if (t && t.parentNode && document.getElementById("respawn-btn-overlay"))
+                    try {
+                        n(t),
+                        i.disconnect()
+                    } catch (t) {}
+            }
+            ));
+            try {
+                i.observe(document.body, {
+                    childList: !0,
+                    subtree: !0
+                })
+            } catch (t) {}
+        }
+    } catch (t) {}
+}(),
+function() {
+    try {
+        if (document.getElementById("fps-overlay"))
+            return;
+        var t = document.createElement("div");
+        t.id = "fps-overlay",
+        t.textContent = "FPS: --",
+        t.style.position = "fixed",
+        t.style.left = "8345678987654px",
+        t.style.top = "8px",
+        t.style.zIndex = "99999",
+        t.style.padding = "4px 6px",
+        t.style.borderRadius = "4px",
+        t.style.background = "rgba(0,0,0,0.55)",
+        t.style.color = "#7CFC00",
+        t.style.fontFamily = "monospace",
+        t.style.fontSize = "12px",
+        t.style.pointerEvents = "none",
+        document.body.appendChild(t);
+        var e = 0
+          , n = performance.now();
+        requestAnimationFrame((function o(i) {
+            if (e += 1,
+            i - n >= 1e3) {
+                var r = Math.round(1e3 * e / (i - n));
+                t.textContent = "FPS: " + r,
+                e = 0,
+                n = i
+            }
+            requestAnimationFrame(o)
+        }
+        ))
+    } catch (t) {}
+}();
+
+
 (function () {
     try {
         if (typeof PIXI === 'undefined') return;
@@ -16013,3072 +19083,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 })();
 
-
-                        D.prototype.Un = function() {
-                            e.fadeIn(500),
-                            u.fadeIn(500),
-                            h.fadeIn(500),
-                            p.fadeOut(100)
-                        }
-                        ,
-                        D.prototype.Vn = function() {
-                            e.fadeOut(100),
-                            u.fadeOut(100),
-                            h.fadeOut(100),
-                            p.fadeIn(500)
-                        }
-                        ,
-                        D.prototype.Ln = function(t, e) {
-                            this.Jn !== t && (this.Jn = t);
-                            var n = i.P(Math.floor(100 * e), 0, 100);
-                            this.In !== n && (f.css({
-                                width: n + "%"
-                            }),
-                            m.html(n + " %"))
-                        }
-                        ,
-                        D.prototype.Hk = function() {
-                            t().Ci.Ce(),
-                            this.Nn.Kf(!0)
-                        }
-                        ,
-                        D.prototype.Bk = function() {
-                            this.Nn.Kf(!1)
-                        }
-                        ,
-                        D.prototype.Jf = function() {
-                            this.Nn.Jf()
-                        }
-                        ,
-                        D.prototype.Nf = function(t, e) {
-                            this.Nn.Nf()
-                        }
-                        ,
-                        D.prototype.el = function() {
-                            return _.val()
-                        }
-                        ,
-                        D.prototype.Wn = function() {
-                            return k.val()
-                        }
-                        ,
-                        D.prototype.Qn = function() {}
-                        ,
-                        D.prototype.Rn = function() {
-                            function e() {
-                                n.Xn(!0),
-                                setTimeout((function() {
-                                    v.hide()
-                                }
-                                ), 3e3)
-                            }
-                            var n = t();
-                            if (qt.xn && !n.Tn()) {
-                                v.show();
-                                var o = i.H("index.game.main.menu.unlockSkins.share")
-                                  , r = encodeURIComponent(i.H("index.game.main.menu.unlockSkins.comeAndPlay") + " https://wormate.io/ #wormate #wormateio")
-                                  , s = encodeURIComponent(i.H("index.game.main.menu.unlockSkins.comeAndPlay"));
-                                w.append($('<a class="mm-skin-over-button" id="mm-skin-over-tw" target="_blank" href="http://twitter.com/intent/tweet?status=' + r + '"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjQ1NiIgaGVpZ2h0PSI0NTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik02MCAzMzhjMzAgMTkgNjYgMzAgMTA1IDMwIDEwOCAwIDE5Ni04OCAxOTYtMTk2IDAtMyAwLTUgMC04IDQtMyAyOC0yMyAzNC0zNSAwIDAtMjAgOC0zOSAxMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAyLTEgMjctMTggMzAtMzggMCAwLTE0IDctMzMgMTQgLTMgMS03IDItMTAgMyAtMTMtMTMtMzAtMjItNTAtMjIgLTM4IDAtNjkgMzEtNjkgNjkgMCA1IDEgMTEgMiAxNiAtNSAwLTg2LTUtMTQxLTcxIDAgMC0zMyA0NSAyMCA5MSAwIDAtMTYtMS0zMC05IDAgMC01IDU0IDU0IDY4IDAgMC0xMiA0LTMwIDEgMCAwIDEwIDQ0IDYzIDQ4IDAgMC00MiAzOC0xMDEgMjlMNjAgMzM4eiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg=="><span>' + o + "</span></a>").click(e)),
-                                w.append($('<a class="mm-skin-over-button" id="mm-skin-over-fb" target="_blank" href="' + s + '"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ1NiA0NTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0yNDQuMyA0NTZWMjc5LjdoLTU5LjN2LTcxLjloNTkuM3YtNjAuNGMwLTQzLjkgMzUuNi03OS41IDc5LjUtNzkuNWg2MnY2NC42aC00NC40Yy0xMy45IDAtMjUuMyAxMS4zLTI1LjMgMjUuM3Y1MGg2OC41bC05LjUgNzEuOWgtNTkuMVY0NTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"><span>' + o + "</span></a>").click(e))
-                            }
-                        }
-                        ,
-                        D
-                    }(),
-                    n.yk = ((p = i.M(n.kf, (function() {
-                        n.kf.call(this, n.Fk.wn)
-                    }
-                    ))).prototype.ha = function() {}
-                    ,
-                    p.prototype.Gk = function() {
-                        n.kf.jn.stop(),
-                        n.kf.jn.fadeOut(50),
-                        n.kf.ln.stop(),
-                        n.kf.ln.fadeOut(50),
-                        n.kf.nn.stop(),
-                        n.kf.nn.fadeOut(50),
-                        n.kf.pn.stop(),
-                        n.kf.pn.fadeOut(50),
-                        n.kf.sn.stop(),
-                        n.kf.sn.fadeOut(50),
-                        n.kf.qn.stop(),
-                        n.kf.qn.fadeOut(50),
-                        n.kf.rn.stop(),
-                        n.kf.rn.fadeOut(50),
-                        n.kf.tn.stop(),
-                        n.kf.tn.fadeOut(50),
-                        n.kf.un_error.stop(),
-                        n.kf.un_error.fadeOut(50),
-                        n.kf.mn.stop(),
-                        n.kf.mn.fadeOut(1),
-                        n.kf.bgcanvas.stop(),
-                        n.kf.bgcanvas.fadeOut(50),
-                        n.GameView.Kf(!1),
-                        n.kf.socialButtons.stop(),
-                        n.kf.socialButtons.fadeOut(50),
-                        n.kf.vn.stop(),
-                        n.kf.vn.fadeOut(50)
-                    }
-                    ,
-                    p),
-                    n.pk = ((b = i.M(n.kf, (function() {
-                        n.kf.call(this, n.Fk.wn)
-                    }
-                    ))).prototype.ha = function() {}
-                    ,
-                    b.prototype.Gk = function() {
-                        n.kf.jn.stop(),
-                        n.kf.jn.fadeOut(50),
-                        n.kf.ln.stop(),
-                        n.kf.ln.fadeOut(50),
-                        n.kf.nn.stop(),
-                        n.kf.nn.fadeOut(50),
-                        n.kf.pn.stop(),
-                        n.kf.pn.fadeOut(50),
-                        n.kf.sn.stop(),
-                        n.kf.sn.fadeOut(50),
-                        n.kf.qn.stop(),
-                        n.kf.qn.fadeOut(50),
-                        n.kf.rn.stop(),
-                        n.kf.rn.fadeIn(500),
-                        n.kf.tn.stop(),
-                        n.kf.tn.fadeOut(50),
-                        n.kf.un_error.stop(),
-                        n.kf.un_error.fadeOut(50),
-                        n.kf.mn.stop(),
-                        n.kf.mn.fadeIn(1),
-                        n.kf.bgcanvas.stop(),
-                        n.kf.bgcanvas.fadeIn(500),
-                        n.GameView.Kf(!0),
-                        n.kf.socialButtons.stop(),
-                        n.kf.socialButtons.fadeOut(50),
-                        n.kf.vn.stop(),
-                        n.kf.vn.fadeOut(50)
-                    }
-                    ,
-                    b.prototype.Hk = function() {}
-                    ,
-                    b),
-                    n.rk = (y = $("#toaster-stack"),
-                    (w = i.M(n.kf, (function() {
-                        n.kf.call(this, n.Fk.wn),
-                        this.Yn = [],
-                        this.Zn = null
-                    }
-                    ))).prototype.ha = function() {}
-                    ,
-                    w.prototype.Gk = function() {
-                        n.kf.jn.stop(),
-                        n.kf.jn.fadeOut(50),
-                        n.kf.ln.stop(),
-                        n.kf.ln.fadeOut(50),
-                        n.kf.nn.stop(),
-                        n.kf.nn.fadeOut(50),
-                        n.kf.pn.stop(),
-                        n.kf.pn.fadeOut(50),
-                        n.kf.sn.stop(),
-                        n.kf.sn.fadeIn(500),
-                        n.kf.qn.stop(),
-                        n.kf.qn.fadeOut(50),
-                        n.kf.rn.stop(),
-                        n.kf.rn.fadeOut(50),
-                        n.kf.tn.stop(),
-                        n.kf.tn.fadeOut(50),
-                        n.kf.un_error.stop(),
-                        n.kf.un_error.fadeOut(50),
-                        n.kf.mn.stop(),
-                        n.kf.mn.fadeIn(1),
-                        n.kf.bgcanvas.stop(),
-                        n.kf.bgcanvas.fadeIn(500),
-                        n.GameView.Kf(!0),
-                        n.kf.socialButtons.stop(),
-                        n.kf.socialButtons.fadeOut(50),
-                        n.kf.vn.stop(),
-                        n.kf.vn.fadeIn(500)
-                    }
-                    ,
-                    w.prototype.Hk = function() {
-                        this.$n()
-                    }
-                    ,
-                    w.prototype.Kk = function() {
-                        return null != this.Zn || this.Yn.length > 0
-                    }
-                    ,
-                    w.prototype._n = function(e) {
-                        this.Yn.unshift(e),
-                        setTimeout((function() {
-                            t().og.Ik()
-                        }
-                        ), 0)
-                    }
-                    ,
-                    w.prototype.El = function(e) {
-                        this.Yn.push(e),
-                        setTimeout((function() {
-                            t().og.Ik()
-                        }
-                        ), 0)
-                    }
-                    ,
-                    w.prototype.$n = function() {
-                        var e = this;
-                        if (null == this.Zn) {
-                            if (0 == this.Yn.length)
-                                return void t().og.Dk();
-                            var n = this.Yn.shift();
-                            this.Zn = n;
-                            var o = n.tf();
-                            o.hide(),
-                            o.fadeIn(300),
-                            y.append(o),
-                            n.ao = function() {
-                                o.fadeOut(300),
-                                setTimeout((function() {
-                                    o.remove()
-                                }
-                                ), 300),
-                                e.Zn == n && (e.Zn = null),
-                                e.$n()
-                            }
-                            ,
-                            n.Hk()
-                        }
-                    }
-                    ,
-                    w),
-                    n.Fk = {
-                        wn: 0,
-                        Ek: 1
-                    },
-                    n.bo = function() {
-                        var e = $("#popup-menu-label")
-                          , o = $("#popup-menu-coins-box")
-                          , r = $("#popup-menu-coins-val");
-                        $("#popup-menu-back").click((function() {
-                            var e = t();
-                            e.Ci.Be(),
-                            e.og.Dk()
-                        }
-                        )),
-                        o.click((function() {
-                            var e = t();
-                            e.Ij.Hj() && (e.Ci.Be(),
-                            e.og.Ak(e.og._j))
-                        }
-                        ));
-                        var s = i.M(n.kf, (function(t, e) {
-                            n.kf.call(this, n.Fk.Ek),
-                            this.ma = t,
-                            this.co = e,
-                            this.do = []
-                        }
-                        ));
-                        return s.prototype.ha = function() {
-                            if (s.parent.prototype.ha.call(this),
-                            !s.eo) {
-                                s.eo = !0;
-                                var e = t();
-                                e.Ij.zl((function() {
-                                    e.Ij.Hj() ? r.html(e.Ij.il()) : r.html("0")
-                                }
-                                ))
-                            }
-                            n.bo.fo.stop(),
-                            n.bo.fo.fadeOut(100)
-                        }
-                        ,
-                        s.go = $("#coins-view"),
-                        s.ho = $("#leaders-view"),
-                        s.io = $("#profile-view"),
-                        s.jo = $("#settings-view"),
-                        s.ko = $("#login-view"),
-                        s.lo = $("#skins-view"),
-                        s.mo = $("#store-view"),
-                        s.no = $("#wear-view"),
-                        s.oo = $("#withdraw-consent-view"),
-                        s.po = $("#delete-account-view"),
-                        s.fo = $("#please-wait-view"),
-                        s.prototype.Gk = function() {
-                            n.kf.jn.stop(),
-                            n.kf.jn.fadeOut(200),
-                            n.kf.ln.stop(),
-                            n.kf.ln.fadeOut(200),
-                            n.kf.nn.stop(),
-                            n.kf.nn.fadeOut(200),
-                            n.kf.pn.stop(),
-                            n.kf.pn.fadeIn(200),
-                            n.kf.sn.stop(),
-                            n.kf.sn.fadeOut(200),
-                            n.kf.qn.stop(),
-                            n.kf.qn.fadeOut(200),
-                            n.kf.rn.stop(),
-                            n.kf.rn.fadeOut(200),
-                            n.kf.tn.stop(),
-                            n.kf.tn.fadeOut(200),
-                            n.kf.un_error.stop(),
-                            n.kf.un_error.fadeOut(200),
-                            n.kf.mn.stop(),
-                            n.kf.mn.fadeIn(1),
-                            n.kf.bgcanvas.stop(),
-                            n.kf.bgcanvas.fadeIn(500),
-                            n.GameView.Kf(!0),
-                            n.kf.socialButtons.stop(),
-                            n.kf.socialButtons.fadeIn(200),
-                            n.kf.vn.stop(),
-                            n.kf.vn.fadeIn(200),
-                            e.html(this.ma),
-                            o.toggle(this.co),
-                            this.qo()
-                        }
-                        ,
-                        s.prototype.qo = function() {}
-                        ,
-                        s.prototype.ro = function(t) {
-                            var e = this
-                              , o = 2147483647 & i.V(0, 2147483647);
-                            return this.do.push(o),
-                            n.bo.fo.stop(),
-                            n.bo.fo.fadeIn(100),
-                            setTimeout((function() {
-                                e.so(o)
-                            }
-                            ), t),
-                            new Nt(this,o)
-                        }
-                        ,
-                        s.prototype.so = function(t) {
-                            var e = this.do.indexOf(t);
-                            e < 0 || (this.do.splice(e, 1),
-                            0 === this.do.length && (n.bo.fo.stop(),
-                            n.bo.fo.fadeOut(100)))
-                        }
-                        ,
-                        s
-                    }();
-                    var x, I, C, T, O, A, E, R, L, D, N, q, F, H, z, G, U, V, W, K, Y, Q, tt, et, nt, ot, it, rt, st, at, ct, lt, dt, ut, ht, pt, ft, mt, bt, gt, yt, vt, wt, _t, jt, It, Ot, At, Et, Rt, Pt, Mt, Lt, Bt, Dt, Nt = function() {
-                        function t(t, e) {
-                            this.to = t,
-                            this.uo = e
-                        }
-                        return t.prototype.vo = function() {
-                            this.to.so(this.uo)
-                        }
-                        ,
-                        t
-                    }();
-                    n.ak = (x = $("#store-buy-coins_125000"),
-                    I = $("#store-buy-coins_50000"),
-                    C = $("#store-buy-coins_16000"),
-                    T = $("#store-buy-coins_7000"),
-                    O = $("#store-buy-coins_3250"),
-                    A = $("#store-buy-coins_1250"),
-                    (E = i.M(n.bo, (function() {
-                        n.bo.call(this, i.H("index.game.popup.menu.coins.tab"), !1);
-                        var e = t()
-                          , o = this;
-                        x.click((function() {
-                            e.Ci.Be(),
-                            o.wo("coins_125000")
-                        }
-                        )),
-                        I.click((function() {
-                            e.Ci.Be(),
-                            o.wo("coins_50000")
-                        }
-                        )),
-                        C.click((function() {
-                            e.Ci.Be(),
-                            o.wo("coins_16000")
-                        }
-                        )),
-                        T.click((function() {
-                            e.Ci.Be(),
-                            o.wo("coins_7000")
-                        }
-                        )),
-                        O.click((function() {
-                            e.Ci.Be(),
-                            o.wo("coins_3250")
-                        }
-                        )),
-                        A.click((function() {
-                            e.Ci.Be(),
-                            o.wo("coins_1250")
-                        }
-                        ))
-                    }
-                    ))).prototype.ha = function() {
-                        E.parent.prototype.ha.call(this)
-                    }
-                    ,
-                    E.prototype.qo = function() {
-                        n.bo.go.stop(),
-                        n.bo.go.fadeIn(200),
-                        n.bo.ho.stop(),
-                        n.bo.ho.fadeOut(50),
-                        n.bo.io.stop(),
-                        n.bo.io.fadeOut(50),
-                        n.bo.ko.stop(),
-                        n.bo.ko.fadeOut(50),
-                        n.bo.jo.stop(),
-                        n.bo.jo.fadeOut(50),
-                        n.bo.lo.stop(),
-                        n.bo.lo.fadeOut(50),
-                        n.bo.mo.stop(),
-                        n.bo.mo.fadeOut(50),
-                        n.bo.no.stop(),
-                        n.bo.no.fadeOut(50),
-                        n.bo.oo.stop(),
-                        n.bo.oo.fadeOut(50),
-                        n.bo.po.stop(),
-                        n.bo.po.fadeOut(50)
-                    }
-                    ,
-                    E.prototype.Hk = function() {
-                        t().Ci.Ce()
-                    }
-                    ,
-                    E.prototype.wo = function(t) {}
-                    ,
-                    E),
-                    n.ck = (R = $("#highscore-table"),
-                    L = $("#leaders-button-level"),
-                    D = $("#leaders-button-highscore"),
-                    N = $("#leaders-button-kills"),
-                    (q = i.M(n.bo, (function() {
-                        n.bo.call(this, i.H("index.game.popup.menu.leaders.tab"), !0);
-                        var e = t()
-                          , o = this;
-                        this.xo = {},
-                        this.yo = {
-                            zo: {
-                                Ao: L,
-                                Bo: "byLevel"
-                            },
-                            Co: {
-                                Ao: D,
-                                Bo: "byHighScore"
-                            },
-                            Do: {
-                                Ao: N,
-                                Bo: "byKillsAndHeadShots"
-                            }
-                        },
-                        L.click((function() {
-                            e.Ci.Be(),
-                            o.Eo(o.yo.zo)
-                        }
-                        )),
-                        D.click((function() {
-                            e.Ci.Be(),
-                            o.Eo(o.yo.Co)
-                        }
-                        )),
-                        N.click((function() {
-                            e.Ci.Be(),
-                            o.Eo(o.yo.Do)
-                        }
-                        ))
-                    }
-                    ))).prototype.ha = function() {
-                        q.parent.prototype.ha.call(this)
-                    }
-                    ,
-                    q.prototype.qo = function() {
-                        n.bo.go.stop(),
-                        n.bo.go.fadeOut(50),
-                        n.bo.ho.stop(),
-                        n.bo.ho.fadeIn(200),
-                        n.bo.io.stop(),
-                        n.bo.io.fadeOut(50),
-                        n.bo.ko.stop(),
-                        n.bo.ko.fadeOut(50),
-                        n.bo.jo.stop(),
-                        n.bo.jo.fadeOut(50),
-                        n.bo.lo.stop(),
-                        n.bo.lo.fadeOut(50),
-                        n.bo.mo.stop(),
-                        n.bo.mo.fadeOut(50),
-                        n.bo.no.stop(),
-                        n.bo.no.fadeOut(50),
-                        n.bo.oo.stop(),
-                        n.bo.oo.fadeOut(50),
-                        n.bo.po.stop(),
-                        n.bo.po.fadeOut(50)
-                    }
-                    ,
-                    q.prototype.Hk = function() {
-                        var e = this;
-                        t().Ci.Ce();
-                        var n = this.ro(5e3)
-                          , o = i.a.b + "/pub/leaders";
-                        i.Z(o, (function() {
-                            e.xo = {
-                                byLevel: [],
-                                byHighScore: [],
-                                byKillsAndHeadShots: []
-                            },
-                            e.Eo(e.Fo ?? e.yo.zo),
-                            n.vo()
-                        }
-                        ), (function(t) {
-                            e.xo = t,
-                            e.Eo(e.Fo ?? e.yo.zo),
-                            n.vo()
-                        }
-                        ))
-                    }
-                    ,
-                    q.prototype.Eo = function(t) {
-                        for (var e in this.Fo = t,
-                        this.yo)
-                            this.yo.hasOwnProperty(e) && this.yo[e].Ao.removeClass("pressed");
-                        this.Fo.Ao.addClass("pressed");
-                        for (var n = this.xo[this.Fo.Bo], o = "", i = 0; i < n.length; i++) {
-                            var r = n[i];
-                            o += '<div class="table-row"><span>' + (i + 1) + '</span><span><img src="' + r.avatarUrl + '"/></span><span>' + r.username + "</span><span>" + r.level + "</span><span>" + r.highScore + "</span><span>" + r.headShots + " / " + r.kills + "</span></div>"
-                        }
-                        R.empty(),
-                        R.append(o)
-                    }
-                    ,
-                    q),
-                    n.gk = (F = $("#popup-login-gg"),
-                    H = $("#popup-login-fb"),
-                    (z = i.M(n.bo, (function() {
-                        var e = this;
-                        n.bo.call(this, i.H("index.game.popup.menu.login.tab"), !1);
-                        var o = t();
-                        F.click((function() {
-                            o.Ci.Be();
-                            var t = e.ro(1e4);
-                            setTimeout((function() {
-                                o.Ij.Ml((function() {
-                                    o.Ij.Hj() && o.Ci.Fe(),
-                                    t.vo()
-                                }
-                                ))
-                            }
-                            ), 500)
-                        }
-                        )),
-                        H.click((function() {
-                            o.Ci.Be();
-                            var t = e.ro(1e4);
-                            setTimeout((function() {
-                                o.Ij.Jl((function() {
-                                    o.Ij.Hj() && o.Ci.Fe(),
-                                    t.vo()
-                                }
-                                ))
-                            }
-                            ), 500)
-                        }
-                        ))
-                    }
-                    ))).prototype.ha = function() {
-                        z.parent.prototype.ha.call(this)
-                    }
-                    ,
-                    z.prototype.qo = function() {
-                        n.bo.go.stop(),
-                        n.bo.go.fadeOut(50),
-                        n.bo.ho.stop(),
-                        n.bo.ho.fadeOut(50),
-                        n.bo.io.stop(),
-                        n.bo.io.fadeOut(50),
-                        n.bo.ko.stop(),
-                        n.bo.ko.fadeIn(200),
-                        n.bo.jo.stop(),
-                        n.bo.jo.fadeOut(50),
-                        n.bo.lo.stop(),
-                        n.bo.lo.fadeOut(50),
-                        n.bo.mo.stop(),
-                        n.bo.mo.fadeOut(50),
-                        n.bo.no.stop(),
-                        n.bo.no.fadeOut(50),
-                        n.bo.oo.stop(),
-                        n.bo.oo.fadeOut(50),
-                        n.bo.po.stop(),
-                        n.bo.po.fadeOut(50)
-                    }
-                    ,
-                    z.prototype.Hk = function() {
-                        t().Ci.Ce()
-                    }
-                    ,
-                    z),
-                    n.ek = (G = $("#profile-avatar"),
-                    U = $("#profile-username"),
-                    V = $("#profile-experience-bar"),
-                    W = $("#profile-experience-val"),
-                    K = $("#profile-level"),
-                    Y = $("#profile-stat-highScore"),
-                    Q = $("#profile-stat-bestSurvivalTime"),
-                    tt = $("#profile-stat-kills"),
-                    et = $("#profile-stat-headshots"),
-                    nt = $("#profile-stat-gamesPlayed"),
-                    ot = $("#profile-stat-totalTimeSpent"),
-                    it = $("#profile-stat-registrationDate"),
-                    (rt = i.M(n.bo, (function() {
-                        n.bo.call(this, i.H("index.game.popup.menu.profile.tab"), !0)
-                    }
-                    ))).prototype.ha = function() {
-                        rt.parent.prototype.ha.call(this)
-                    }
-                    ,
-                    rt.prototype.qo = function() {
-                        n.bo.go.stop(),
-                        n.bo.go.fadeOut(50),
-                        n.bo.ho.stop(),
-                        n.bo.ho.fadeOut(50),
-                        n.bo.io.stop(),
-                        n.bo.io.fadeIn(200),
-                        n.bo.ko.stop(),
-                        n.bo.ko.fadeOut(50),
-                        n.bo.jo.stop(),
-                        n.bo.jo.fadeOut(50),
-                        n.bo.lo.stop(),
-                        n.bo.lo.fadeOut(50),
-                        n.bo.mo.stop(),
-                        n.bo.mo.fadeOut(50),
-                        n.bo.no.stop(),
-                        n.bo.no.fadeOut(50),
-                        n.bo.oo.stop(),
-                        n.bo.oo.fadeOut(50),
-                        n.bo.po.stop(),
-                        n.bo.po.fadeOut(50)
-                    }
-                    ,
-                    rt.prototype.Hk = function() {
-                        var e = t();
-                        e.Ci.Ce();
-                        var n = e.Ij.xl()
-                          , o = moment([n.year, n.month - 1, n.day]).format("LL");
-                        U.html(e.Ij.dl()),
-                        G.attr("src", e.Ij.fl()),
-                        V.width(100 * e.Ij.kl() / e.Ij.ll() + "%"),
-                        W.html(e.Ij.kl() + " / " + e.Ij.ll()),
-                        K.html(e.Ij.jl()),
-                        Y.html(e.Ij.rl()),
-                        Q.html(i.J(e.Ij.sl())),
-                        tt.html(e.Ij.tl()),
-                        et.html(e.Ij.ul()),
-                        nt.html(e.Ij.vl()),
-                        ot.html(i.J(e.Ij.wl())),
-                        it.html(o)
-                    }
-                    ,
-                    rt),
-                    n.hk = (st = $("#settings-music-enabled-switch"),
-                    at = $("#settings-sfx-enabled-switch"),
-                    ct = $("#settings-show-names-switch"),
-                    lt = $("#popup-logout"),
-                    dt = $("#popup-logout-container"),
-                    ut = $("#popup-delete-account"),
-                    ht = $("#popup-delete-account-container"),
-                    pt = $("#popup-withdraw-consent"),
-                    (ft = i.M(n.bo, (function() {
-                        n.bo.call(this, i.H("index.game.popup.menu.settings.tab"), !1);
-                        var e = this
-                          , o = t();
-                        st.click((function() {
-                            var t = !!st.prop("checked");
-                            n.Vf.eg(n.Vf.Yf, t, 30),
-                            o.Ci.re(t),
-                            o.Ci.Be()
-                        }
-                        )),
-                        at.click((function() {
-                            var t = !!at.prop("checked");
-                            n.Vf.eg(n.Vf.Zf, t, 30),
-                            o.Ci.oe(t),
-                            o.Ci.Be()
-                        }
-                        )),
-                        ct.click((function() {
-                            o.Ci.Be()
-                        }
-                        )),
-                        lt.click((function() {
-                            o.Ci.Be(),
-                            e.ro(500),
-                            o.Ij.Kl()
-                        }
-                        )),
-                        ut.click((function() {
-                            o.Ij.Hj() ? (o.Ci.Be(),
-                            o.og.Ak(o.og.Zj)) : o.Ci.Ge()
-                        }
-                        )),
-                        pt.click((function() {
-                            o.Go() ? (o.Ci.Be(),
-                            o.og.Ak(o.og.Xj)) : o.Ci.Ge()
-                        }
-                        ))
-                    }
-                    ))).prototype.ha = function() {
-                        ft.parent.prototype.ha.call(this);
-                        var e, o, i, r = t();
-                        e = "false" !== n.Vf.fg(n.Vf.Yf),
-                        st.prop("checked", e),
-                        r.Ci.re(e),
-                        o = "false" !== n.Vf.fg(n.Vf.Zf),
-                        at.prop("checked", o),
-                        r.Ci.oe(o),
-                        i = "false" !== n.Vf.fg(n.Vf.Xf),
-                        ct.prop("checked", i),
-                        r.Ij.yl((function() {
-                            dt.toggle(r.Ij.Hj()),
-                            ht.toggle(r.Ij.Hj())
-                        }
-                        ))
-                    }
-                    ,
-                    ft.prototype.qo = function() {
-                        n.bo.go.stop(),
-                        n.bo.go.fadeOut(50),
-                        n.bo.ho.stop(),
-                        n.bo.ho.fadeOut(50),
-                        n.bo.io.stop(),
-                        n.bo.io.fadeOut(50),
-                        n.bo.ko.stop(),
-                        n.bo.ko.fadeOut(50),
-                        n.bo.jo.stop(),
-                        n.bo.jo.fadeIn(200),
-                        n.bo.lo.stop(),
-                        n.bo.lo.fadeOut(50),
-                        n.bo.mo.stop(),
-                        n.bo.mo.fadeOut(50),
-                        n.bo.no.stop(),
-                        n.bo.no.fadeOut(50),
-                        n.bo.oo.stop(),
-                        n.bo.oo.fadeOut(50),
-                        n.bo.po.stop(),
-                        n.bo.po.fadeOut(50)
-                    }
-                    ,
-                    ft.prototype.Hk = function() {
-                        var e = t();
-                        e.Ci.Ce(),
-                        e.Go() ? pt.show() : pt.hide()
-                    }
-                    ,
-                    ft.prototype.Zh = function() {
-                        return ct.prop("checked")
-                    }
-                    ,
-                    ft),
-                    n.jk = function() {
-                        var e = $("#store-view-canv")
-                          , o = $("#skin-description-text")
-                          , r = $("#skin-group-description-text")
-                          , s = $("#store-locked-bar")
-                          , a = $("#store-locked-bar-text")
-                          , c = $("#store-buy-button")
-                          , l = $("#store-item-price")
-                          , d = $("#store-groups")
-                          , u = $("#store-view-prev")
-                          , h = $("#store-view-next")
-                          , p = i.M(n.bo, (function() {
-                            n.bo.call(this, i.H("index.game.popup.menu.skins.tab"), !0);
-                            var o = this
-                              , r = t();
-                            this.Ho = null,
-                            this.Io = [],
-                            this.Jo = {},
-                            this.Ko = new n.dm(e),
-                            c.click((function() {
-                                r.Ci.Be(),
-                                o.Lo()
-                            }
-                            )),
-                            u.click((function() {
-                                r.Ci.Be(),
-                                o.Ho.Mo()
-                            }
-                            )),
-                            h.click((function() {
-                                r.Ci.Be(),
-                                o.Ho.No()
-                            }
-                            ))
-                        }
-                        ));
-                        p.prototype.ha = function() {
-                            p.parent.prototype.ha.call(this);
-                            var e = this
-                              , n = t();
-                            n.Lc.$b((function() {
-                                var t = n.Lc.Xb();
-                                e.Io = [];
-                                for (var o = 0; o < t.skinGroupArrayDict.length; o++)
-                                    e.Io.push(new f(e,t.skinGroupArrayDict[o]));
-                                e.Jo = {};
-                                for (var i = 0; i < t.skinArrayDict.length; i++) {
-                                    var r = t.skinArrayDict[i];
-                                    e.Jo[r.id] = r
-                                }
-                                e.Oo()
-                            }
-                            )),
-                            this.Po(!1),
-                            n.On.zj((function() {
-                                e.Po(!1)
-                            }
-                            ))
-                        }
-                        ,
-                        p.prototype.qo = function() {
-                            n.bo.go.stop(),
-                            n.bo.go.fadeOut(50),
-                            n.bo.ho.stop(),
-                            n.bo.ho.fadeOut(50),
-                            n.bo.io.stop(),
-                            n.bo.io.fadeOut(50),
-                            n.bo.ko.stop(),
-                            n.bo.ko.fadeOut(50),
-                            n.bo.jo.stop(),
-                            n.bo.jo.fadeOut(50),
-                            n.bo.lo.stop(),
-                            n.bo.lo.fadeIn(200),
-                            n.bo.mo.stop(),
-                            n.bo.mo.fadeOut(50),
-                            n.bo.no.stop(),
-                            n.bo.no.fadeOut(50),
-                            n.bo.oo.stop(),
-                            n.bo.oo.fadeOut(50),
-                            n.bo.po.stop(),
-                            n.bo.po.fadeOut(50)
-                        }
-                        ,
-                        p.prototype.Hk = function() {
-                            t().Ci.pe(n.ge.je._e),
-                            t().Ci.Ce(),
-                            this.Oo(),
-                            this.Ko.Kf(!0)
-                        }
-                        ,
-                        p.prototype.Bk = function() {
-                            this.Ko.Kf(!1)
-                        }
-                        ,
-                        p.prototype.Jf = function() {
-                            this.Ko.Jf()
-                        }
-                        ,
-                        p.prototype.Nf = function(t, e) {
-                            this.Ko.Nf()
-                        }
-                        ,
-                        p.prototype.Oo = function() {
-                            var e = this
-                              , o = this
-                              , i = t();
-                            d.empty();
-                            for (var r = 0; r < this.Io.length; r++)
-                                !function(t) {
-                                    var n = e.Io[t]
-                                      , r = document.createElement("li");
-                                    d.append(r);
-                                    var s = $(r);
-                                    n.To && n.To.isCustom && (s.css("background-color", "#FFF"),
-                                    s.css("color", "#000")),
-                                    s.html(n.Qo()),
-                                    s.click((function() {
-                                        i.Ci.Be(),
-                                        o.Ro(n)
-                                    }
-                                    )),
-                                    n.So = s
-                                }(r);
-                            if (this.Io.length > 0) {
-                                var s = i.On.rj(n.tj.sj);
-                                for (r = 0; r < this.Io.length; r++)
-                                    for (var a = this.Io[r], c = a.To.list, l = 0; l < c.length; l++)
-                                        if (c[l] == s)
-                                            return a.Uo = l,
-                                            void this.Ro(a);
-                                this.Ro(this.Io[0])
-                            }
-                        }
-                        ,
-                        p.prototype.Ro = function(e) {
-                            var n = t();
-                            if (this.Ho !== e) {
-                                if (this.Ho = e,
-                                d.children().removeClass("pressed"),
-                                this.Ho.So && this.Ho.So.addClass("pressed"),
-                                r.html(""),
-                                null != e.To) {
-                                    var o = n.Lc.Xb().textDict[e.To.description];
-                                    null != o && r.html(i.K(i.I(o)))
-                                }
-                                this.Po(!0)
-                            }
-                        }
-                        ,
-                        p.prototype.Vo = function() {
-                            return null == this.Ho ? n.Si.Ui() : this.Ho.Wo()
-                        }
-                        ,
-                        p.prototype.Lo = function() {
-                            var t = this.Vo();
-                            if (t.Wi()) {
-                                var e = t.bc();
-                                this.Xo(e)
-                            }
-                        }
-                        ,
-                        p.prototype.Xo = function(e) {
-                            var o = t()
-                              , i = o.On.Gj(e, n.tj.sj);
-                            if (null != i) {
-                                var r = i.Jj();
-                                if (!(o.Ij.il() < r)) {
-                                    var s = o.On.rj(n.tj.sj)
-                                      , a = o.On.rj(n.tj.uj)
-                                      , c = o.On.rj(n.tj.vj)
-                                      , l = o.On.rj(n.tj.xj)
-                                      , d = o.On.rj(n.tj.wj)
-                                      , u = this.ro(5e3);
-                                    o.Ij.Hl(e, n.tj.sj, (function() {
-                                        u.vo(),
-                                        o.og.Ak(o.og.tk)
-                                    }
-                                    ), (function(t) {
-                                        o.Ij.Bl((function() {
-                                            o.On.Fj(s, n.tj.sj),
-                                            o.On.Fj(a, n.tj.uj),
-                                            o.On.Fj(c, n.tj.vj),
-                                            o.On.Fj(l, n.tj.xj),
-                                            o.On.Fj(d, n.tj.wj),
-                                            o.On.Fj(e, n.tj.sj),
-                                            u.vo()
-                                        }
-                                        ))
-                                    }
-                                    ))
-                                }
-                            }
-                        }
-                        ,
-                        p.prototype.Po = function(e) {
-                            var r = t()
-                              , d = r.On.yj()
-                              , u = this.Vo();
-                            if (u.Wi()) {
-                                var h = u.bc()
-                                  , p = r.On.Gj(h, n.tj.sj)
-                                  , f = !1
-                                  , m = !0;
-                                if (r.On.Cj(h, n.tj.sj))
-                                    s.hide(),
-                                    c.hide();
-                                else if (null == p || p.Kj()) {
-                                    if (f = !0,
-                                    s.show(),
-                                    c.hide(),
-                                    a.text(i.H("index.game.popup.menu.store.locked")),
-                                    null != p && p.Kj()) {
-                                        var b = r.Lc.Xb().textDict[p.Em()];
-                                        null != b && a.text(i.I(b))
-                                    }
-                                } else
-                                    m = !1,
-                                    s.hide(),
-                                    c.show(),
-                                    l.html(p.Jj());
-                                o.html("");
-                                var g = r.Lc.Xb().textDict[p.Fm()]
-                                  , y = g ? i.K(i.I(g)) : p.Fm();
-                                null != p && null != p.Fm() && o.html(y),
-                                m && !0 !== p.Bm ? X.html("<button onclick=\"mbf.mbf_cambiar_add('" + h + "', '" + y + "')\">Add</button>") : X.html(""),
-                                this.Ko.$l(d.Um(h)),
-                                this.Ko.um(f),
-                                e && r.On.Fj(h, n.tj.sj)
-                            }
-                        }
-                        ;
-                        var f = function() {
-                            function e(t, e) {
-                                this.Yo = t,
-                                this.Uo = 0,
-                                this.To = e
-                            }
-                            return e.prototype.Mo = function() {
-                                --this.Uo < 0 && (this.Uo = this.To.list.length - 1),
-                                this.Yo.Po(!0)
-                            }
-                            ,
-                            e.prototype.No = function() {
-                                ++this.Uo >= this.To.list.length && (this.Uo = 0),
-                                this.Yo.Po(!0)
-                            }
-                            ,
-                            e.prototype.Qo = function() {
-                                if (this.To.img) {
-                                    var e = t().Lc.Xb().customPaths
-                                      , n = URL_CDN + "/images/" + e.texture
-                                      , o = [];
-                                    try {
-                                        o.push("background-image:url('" + n + "')"),
-                                        o.push("background-position: -" + e.map[this.To.img].x + "px -" + e.map[this.To.img].y + "px"),
-                                        o.push("background-repeat:no-repeat"),
-                                        o.push("width: 180px"),
-                                        o.push("height: 40px")
-                                    } catch (t) {
-                                        console.error(n, t)
-                                    }
-                                    return '<div id="' + this.To.id + '" style="' + o.join(";") + '"></div>'
-                                }
-                                return i.I(this.To.name)
-                            }
-                            ,
-                            e.prototype.Wo = function() {
-                                return this.Uo >= this.To.list.length ? n.Si.Ui() : n.Si.Vi(this.To.list[this.Uo])
-                            }
-                            ,
-                            e
-                        }();
-                        return p
-                    }(),
-                    n.lk = (mt = $("#store-go-coins-button"),
-                    bt = $("#store-go-skins-button"),
-                    gt = $("#store-go-wear-button"),
-                    (yt = i.M(n.bo, (function() {
-                        n.bo.call(this, i.H("index.game.popup.menu.store.tab"), !0);
-                        var e = t();
-                        mt.click((function() {
-                            e.Ci.Be(),
-                            e.og.Ak(e.og._j)
-                        }
-                        )),
-                        bt.click((function() {
-                            e.Ci.Be(),
-                            e.og.Ak(e.og.ik)
-                        }
-                        )),
-                        gt.click((function() {
-                            e.Ci.Be(),
-                            e.og.Ak(e.og.mk)
-                        }
-                        ))
-                    }
-                    ))).prototype.ha = function() {
-                        yt.parent.prototype.ha.call(this)
-                    }
-                    ,
-                    yt.prototype.qo = function() {
-                        n.bo.go.stop(),
-                        n.bo.go.fadeOut(50),
-                        n.bo.ho.stop(),
-                        n.bo.ho.fadeOut(50),
-                        n.bo.io.stop(),
-                        n.bo.io.fadeOut(50),
-                        n.bo.ko.stop(),
-                        n.bo.ko.fadeOut(50),
-                        n.bo.jo.stop(),
-                        n.bo.jo.fadeOut(50),
-                        n.bo.lo.stop(),
-                        n.bo.lo.fadeOut(50),
-                        n.bo.mo.stop(),
-                        n.bo.mo.fadeIn(200),
-                        n.bo.no.stop(),
-                        n.bo.no.fadeOut(50),
-                        n.bo.oo.stop(),
-                        n.bo.oo.fadeOut(50),
-                        n.bo.po.stop(),
-                        n.bo.po.fadeOut(50)
-                    }
-                    ,
-                    yt.prototype.Hk = function() {
-                        t().Ci.Ce()
-                    }
-                    ,
-                    yt),
-                    n.nk = function() {
-                        var e = $("#wear-view-canv")
-                          , o = $("#wear-description-text")
-                          , r = $("#wear-locked-bar")
-                          , s = $("#wear-locked-bar-text")
-                          , a = $("#wear-buy-button")
-                          , c = $("#wear-item-price")
-                          , l = $("#wear-eyes-button")
-                          , d = $("#wear-mouths-button")
-                          , u = $("#wear-glasses-button")
-                          , h = $("#wear-hats-button")
-                          , p = $("#wear-tint-chooser")
-                          , f = $("#wear-view-prev")
-                          , m = $("#wear-view-next")
-                          , b = i.M(n.bo, (function() {
-                            var o = this;
-                            n.bo.call(this, i.H("index.game.popup.menu.wear.tab"), !0);
-                            var r = t()
-                              , s = this;
-                            this.Zo = [],
-                            this.uj = new g(this,n.tj.uj,l),
-                            this.vj = new g(this,n.tj.vj,d),
-                            this.xj = new g(this,n.tj.xj,u),
-                            this.wj = new g(this,n.tj.wj,h),
-                            this.$o = null,
-                            this._o = null,
-                            this.ap = null,
-                            this.bp = null,
-                            this.cp = null,
-                            this.dp = null,
-                            this.Ko = new n.dm(e),
-                            a.click((function() {
-                                r.Ci.Be(),
-                                s.ep()
-                            }
-                            )),
-                            f.click((function() {
-                                r.Ci.Be(),
-                                s.$o.fp()
-                            }
-                            )),
-                            m.click((function() {
-                                r.Ci.Be(),
-                                s.$o.gp()
-                            }
-                            )),
-                            l.click((function() {
-                                r.Ci.Be(),
-                                s.hp(o.uj)
-                            }
-                            )),
-                            d.click((function() {
-                                r.Ci.Be(),
-                                s.hp(o.vj)
-                            }
-                            )),
-                            u.click((function() {
-                                r.Ci.Be(),
-                                s.hp(o.xj)
-                            }
-                            )),
-                            h.click((function() {
-                                r.Ci.Be(),
-                                s.hp(o.wj)
-                            }
-                            )),
-                            this.Zo.push(this.uj),
-                            this.Zo.push(this.vj),
-                            this.Zo.push(this.xj),
-                            this.Zo.push(this.wj)
-                        }
-                        ));
-                        b.prototype.ha = function() {
-                            b.parent.prototype.ha.call(this);
-                            var e = t()
-                              , n = this;
-                            e.Lc.$b((function() {
-                                var t = e.Lc.Xb();
-                                n._o = t.eyesDict,
-                                n.ap = t.mouthDict,
-                                n.bp = t.glassesDict,
-                                n.cp = t.hatDict,
-                                n.dp = t.colorDict,
-                                n.uj.ip(t.eyesVariantArray),
-                                n.uj.jp(n._o),
-                                n.vj.ip(t.mouthVariantArray),
-                                n.vj.jp(n.ap),
-                                n.xj.ip(t.glassesVariantArray),
-                                n.xj.jp(n.bp),
-                                n.wj.ip(t.hatVariantArray),
-                                n.wj.jp(n.cp)
-                            }
-                            )),
-                            this.Po(!1),
-                            e.On.zj((function() {
-                                n.Po(!1)
-                            }
-                            ))
-                        }
-                        ,
-                        b.prototype.qo = function() {
-                            n.bo.go.stop(),
-                            n.bo.go.fadeOut(50),
-                            n.bo.ho.stop(),
-                            n.bo.ho.fadeOut(50),
-                            n.bo.io.stop(),
-                            n.bo.io.fadeOut(50),
-                            n.bo.ko.stop(),
-                            n.bo.ko.fadeOut(50),
-                            n.bo.jo.stop(),
-                            n.bo.jo.fadeOut(50),
-                            n.bo.lo.stop(),
-                            n.bo.lo.fadeOut(50),
-                            n.bo.mo.stop(),
-                            n.bo.mo.fadeOut(50),
-                            n.bo.no.stop(),
-                            n.bo.no.fadeIn(200),
-                            n.bo.oo.stop(),
-                            n.bo.oo.fadeOut(50),
-                            n.bo.po.stop(),
-                            n.bo.po.fadeOut(50)
-                        }
-                        ,
-                        b.prototype.Hk = function() {
-                            t().Ci.pe(n.ge.je._e),
-                            t().Ci.Ce(),
-                            this.hp(this.$o ?? this.uj),
-                            this.Ko.Kf(!0)
-                        }
-                        ,
-                        b.prototype.Bk = function() {
-                            this.Ko.Kf(!1)
-                        }
-                        ,
-                        b.prototype.Jf = function() {
-                            this.Ko.Jf()
-                        }
-                        ,
-                        b.prototype.Nf = function(t, e) {
-                            this.Ko.Nf()
-                        }
-                        ,
-                        b.prototype.hp = function(t) {
-                            this.$o = t;
-                            for (var e = 0; e < this.Zo.length; e++)
-                                this.Zo[e].Ao.removeClass("pressed");
-                            this.$o.Ao.addClass("pressed"),
-                            this.$o.Gk()
-                        }
-                        ,
-                        b.prototype.kp = function() {
-                            return null == this.$o ? n.Si.Ui() : n.Si.Vi({
-                                ae: this.$o.Wo(),
-                                nd: this.$o.nd
-                            })
-                        }
-                        ,
-                        b.prototype.ep = function() {
-                            var t = this.kp();
-                            if (t.Wi()) {
-                                var e = t.bc();
-                                this.lp(e.ae, e.nd)
-                            }
-                        }
-                        ,
-                        b.prototype.lp = function(e, o) {
-                            var i = t()
-                              , r = i.On.Gj(e, o);
-                            if (null != r) {
-                                var s = r.Jj();
-                                if (!(i.Ij.il() < s)) {
-                                    var a = i.On.rj(n.tj.sj)
-                                      , c = i.On.rj(n.tj.uj)
-                                      , l = i.On.rj(n.tj.vj)
-                                      , d = i.On.rj(n.tj.xj)
-                                      , u = i.On.rj(n.tj.wj)
-                                      , h = this.ro(5e3);
-                                    i.Ij.Hl(e, o, (function() {
-                                        h.vo(),
-                                        i.og.Ak(i.og.tk)
-                                    }
-                                    ), (function(t) {
-                                        i.Ij.Bl((function() {
-                                            i.On.Fj(a, n.tj.sj),
-                                            i.On.Fj(c, n.tj.uj),
-                                            i.On.Fj(l, n.tj.vj),
-                                            i.On.Fj(d, n.tj.xj),
-                                            i.On.Fj(u, n.tj.wj),
-                                            i.On.Fj(e, o),
-                                            h.vo()
-                                        }
-                                        ))
-                                    }
-                                    ))
-                                }
-                            }
-                        }
-                        ,
-                        b.prototype.Po = function(e) {
-                            var l = t()
-                              , d = l.On.yj()
-                              , u = this.kp();
-                            if (u.Wi()) {
-                                var h = u.bc()
-                                  , p = l.On.Gj(h.ae, h.nd)
-                                  , f = !1;
-                                if (l.On.Cj(h.ae, h.nd))
-                                    r.hide(),
-                                    a.hide();
-                                else if (null == p || p.Kj()) {
-                                    if (f = !0,
-                                    r.show(),
-                                    a.hide(),
-                                    s.text(i.H("index.game.popup.menu.store.locked")),
-                                    null != p && p.Kj()) {
-                                        var m = l.Lc.Xb().textDict[p.Em()];
-                                        null != m && s.text(i.I(m))
-                                    }
-                                } else
-                                    r.hide(),
-                                    a.show(),
-                                    c.html(p.Jj());
-                                if (o.html(""),
-                                null != p && null != p.Fm()) {
-                                    var b = l.Lc.Xb().textDict[p.Fm()];
-                                    null != b && o.html(i.K(i.I(b)))
-                                }
-                                var g = this.Ko;
-                                switch (h.nd) {
-                                case n.tj.uj:
-                                    g.$l(d.Vm(h.ae)),
-                                    g.vm(f);
-                                    break;
-                                case n.tj.vj:
-                                    g.$l(d.Wm(h.ae)),
-                                    g.wm(f);
-                                    break;
-                                case n.tj.xj:
-                                    g.$l(d.Ym(h.ae)),
-                                    g.ym(f);
-                                    break;
-                                case n.tj.wj:
-                                    g.$l(d.Xm(h.ae)),
-                                    g.xm(f)
-                                }
-                                e && l.On.Fj(h.ae, h.nd)
-                            }
-                        }
-                        ;
-                        var g = function() {
-                            function e(t, e, n) {
-                                this.Yo = t,
-                                this.nd = e,
-                                this.Ao = n,
-                                this.ac = {},
-                                this.mp = [[]],
-                                this.np = -10,
-                                this.op = -10
-                            }
-                            return e.prototype.ip = function(t) {
-                                this.mp = t
-                            }
-                            ,
-                            e.prototype.jp = function(t) {
-                                this.ac = t
-                            }
-                            ,
-                            e.prototype.Gk = function() {
-                                for (var e = t().On.rj(this.nd), n = 0; n < this.mp.length; n++)
-                                    for (var o = 0; o < this.mp[n].length; o++)
-                                        if (this.mp[n][o] == e)
-                                            return this.pp(n),
-                                            void this.qp(o);
-                                this.pp(0),
-                                this.qp(0)
-                            }
-                            ,
-                            e.prototype.fp = function() {
-                                var t = this.np - 1;
-                                t < 0 && (t = this.mp.length - 1),
-                                this.pp(t),
-                                this.qp(this.op % this.mp[t].length)
-                            }
-                            ,
-                            e.prototype.gp = function() {
-                                var t = this.np + 1;
-                                t >= this.mp.length && (t = 0),
-                                this.pp(t),
-                                this.qp(this.op % this.mp[t].length)
-                            }
-                            ,
-                            e.prototype.pp = function(e) {
-                                var n = this;
-                                if (!(e < 0 || e >= this.mp.length)) {
-                                    this.np = e,
-                                    p.empty();
-                                    var o = this.mp[this.np];
-                                    if (o.length > 1)
-                                        for (var i = 0; i < o.length; i++)
-                                            !function(e) {
-                                                var i = o[e]
-                                                  , r = n.ac[i]
-                                                  , s = "#" + n.Yo.dp[r.prime]
-                                                  , a = $('<div style="border-color:' + s + '"></div>');
-                                                a.click((function() {
-                                                    t().Ci.Be(),
-                                                    n.qp(e)
-                                                }
-                                                )),
-                                                p.append(a)
-                                            }(i)
-                                }
-                            }
-                            ,
-                            e.prototype.qp = function(t) {
-                                if (!(t < 0 || t >= this.mp[this.np].length)) {
-                                    this.op = t,
-                                    p.children().css("background-color", "transparent");
-                                    var e = p.children(":nth-child(" + (1 + t) + ")");
-                                    e.css("background-color", e.css("border-color")),
-                                    this.Yo.Po(!0)
-                                }
-                            }
-                            ,
-                            e.prototype.Wo = function() {
-                                return this.mp[this.np][this.op]
-                            }
-                            ,
-                            e
-                        }();
-                        return b
-                    }(),
-                    n.Yj = (vt = $("#withdraw-consent-yes"),
-                    wt = $("#withdraw-consent-no"),
-                    (_t = i.M(n.bo, (function() {
-                        n.bo.call(this, i.H("index.game.popup.menu.consent.tab"), !1);
-                        var e = t();
-                        vt.click((function() {
-                            e.Ci.Be(),
-                            e.Go() ? (e.og.Ak(e.og._e),
-                            e.rp(!1, !0),
-                            e.og.qk._n(new n.sp)) : e.og.Dk()
-                        }
-                        )),
-                        wt.click((function() {
-                            e.Ci.Be(),
-                            e.og.Dk()
-                        }
-                        ))
-                    }
-                    ))).prototype.ha = function() {
-                        _t.parent.prototype.ha.call(this)
-                    }
-                    ,
-                    _t.prototype.qo = function() {
-                        n.bo.go.stop(),
-                        n.bo.go.fadeOut(50),
-                        n.bo.ho.stop(),
-                        n.bo.ho.fadeOut(50),
-                        n.bo.io.stop(),
-                        n.bo.io.fadeOut(50),
-                        n.bo.ko.stop(),
-                        n.bo.ko.fadeOut(50),
-                        n.bo.jo.stop(),
-                        n.bo.jo.fadeOut(50),
-                        n.bo.lo.stop(),
-                        n.bo.lo.fadeOut(50),
-                        n.bo.mo.stop(),
-                        n.bo.mo.fadeOut(50),
-                        n.bo.no.stop(),
-                        n.bo.no.fadeOut(50),
-                        n.bo.oo.stop(),
-                        n.bo.oo.fadeIn(200),
-                        n.bo.po.stop(),
-                        n.bo.po.fadeOut(50)
-                    }
-                    ,
-                    _t.prototype.Hk = function() {
-                        t().Ci.Ce()
-                    }
-                    ,
-                    _t),
-                    n.$j = (jt = $("#delete-account-timer"),
-                    It = $("#delete-account-yes"),
-                    Ot = $("#delete-account-no"),
-                    (At = i.M(n.bo, (function() {
-                        n.bo.call(this, i.H("index.game.popup.menu.delete.tab"), !1);
-                        var e = t();
-                        It.click((function() {
-                            e.Ci.Be(),
-                            e.Ij.Hj() ? (e.Ij.Sl(),
-                            e.Ij.Kl()) : e.og.Dk()
-                        }
-                        )),
-                        Ot.click((function() {
-                            e.Ci.Be(),
-                            e.og.Dk()
-                        }
-                        )),
-                        this.tp = []
-                    }
-                    ))).prototype.ha = function() {
-                        At.parent.prototype.ha.call(this)
-                    }
-                    ,
-                    At.prototype.qo = function() {
-                        n.bo.go.stop(),
-                        n.bo.go.fadeOut(50),
-                        n.bo.ho.stop(),
-                        n.bo.ho.fadeOut(50),
-                        n.bo.io.stop(),
-                        n.bo.io.fadeOut(50),
-                        n.bo.ko.stop(),
-                        n.bo.ko.fadeOut(50),
-                        n.bo.jo.stop(),
-                        n.bo.jo.fadeOut(50),
-                        n.bo.lo.stop(),
-                        n.bo.lo.fadeOut(50),
-                        n.bo.mo.stop(),
-                        n.bo.mo.fadeOut(50),
-                        n.bo.no.stop(),
-                        n.bo.no.fadeOut(50),
-                        n.bo.oo.stop(),
-                        n.bo.oo.fadeOut(50),
-                        n.bo.po.stop(),
-                        n.bo.po.fadeIn(200)
-                    }
-                    ,
-                    At.prototype.Hk = function() {
-                        t().Ci.Ge(),
-                        It.stop(),
-                        It.hide(),
-                        jt.stop(),
-                        jt.show(),
-                        jt.text(".. 10 .."),
-                        this.up(),
-                        this.vp((function() {
-                            jt.text(".. 9 ..")
-                        }
-                        ), 1e3),
-                        this.vp((function() {
-                            jt.text(".. 8 ..")
-                        }
-                        ), 2e3),
-                        this.vp((function() {
-                            jt.text(".. 7 ..")
-                        }
-                        ), 3e3),
-                        this.vp((function() {
-                            jt.text(".. 6 ..")
-                        }
-                        ), 4e3),
-                        this.vp((function() {
-                            jt.text(".. 5 ..")
-                        }
-                        ), 5e3),
-                        this.vp((function() {
-                            jt.text(".. 4 ..")
-                        }
-                        ), 6e3),
-                        this.vp((function() {
-                            jt.text(".. 3 ..")
-                        }
-                        ), 7e3),
-                        this.vp((function() {
-                            jt.text(".. 2 ..")
-                        }
-                        ), 8e3),
-                        this.vp((function() {
-                            jt.text(".. 1 ..")
-                        }
-                        ), 9e3),
-                        this.vp((function() {
-                            jt.hide(),
-                            It.fadeIn(300)
-                        }
-                        ), 1e4)
-                    }
-                    ,
-                    At.prototype.vp = function(t, e) {
-                        var n = setTimeout(t, e);
-                        this.tp.push(n)
-                    }
-                    ,
-                    At.prototype.up = function() {
-                        for (var t = 0; t < this.tp.length; t++)
-                            clearTimeout(this.tp[t]);
-                        this.tp = []
-                    }
-                    ,
-                    At),
-                    n.wp = function() {
-                        function t() {
-                            this.ao = function() {}
-                        }
-                        return t.prototype.tf = function() {}
-                        ,
-                        t.prototype.Hk = function() {}
-                        ,
-                        t
-                    }(),
-                    n.Gl = ((Et = i.M(n.wp, (function(e) {
-                        n.wp.call(this);
-                        var o = Date.now() + "_" + Math.floor(1e3 + 8999 * Math.random());
-                        this.xp = $('<div id="' + o + '" class="toaster toaster-coins">    <img class="toaster-coins-img" alt="Wormate Coin" src="/images/coin_320.png" />    <div class="toaster-coins-val">+' + e + '</div>    <div class="toaster-coins-close">' + i.H("index.game.toaster.continue") + "</div></div>");
-                        var r = this;
-                        this.xp.find(".toaster-coins-close").click((function() {
-                            t().Ci.Be(),
-                            r.ao()
-                        }
-                        ))
-                    }
-                    ))).prototype.tf = function() {
-                        return this.xp
-                    }
-                    ,
-                    Et.prototype.Hk = function() {
-                        t().Ci.Ee()
-                    }
-                    ,
-                    Et),
-                    n.Fl = ((Rt = i.M(n.wp, (function(e) {
-                        n.wp.call(this);
-                        var o = Date.now() + "_" + Math.floor(1e3 + 8999 * Math.random());
-                        this.xp = $('<div id="' + o + '" class="toaster toaster-levelup">    <img class="toaster-levelup-img" alt="Wormate Level Up Star" src="/images/level-star.svg" />    <div class="toaster-levelup-val">' + e + '</div>    <div class="toaster-levelup-text">' + i.H("index.game.toaster.levelup") + '</div>    <div class="toaster-levelup-close">' + i.H("index.game.toaster.continue") + "</div></div>");
-                        var r = this;
-                        this.xp.find(".toaster-levelup-close").click((function() {
-                            t().Ci.Be(),
-                            r.ao()
-                        }
-                        ))
-                    }
-                    ))).prototype.tf = function() {
-                        return this.xp
-                    }
-                    ,
-                    Rt.prototype.Hk = function() {
-                        t().Ci.De()
-                    }
-                    ,
-                    Rt),
-                    n.sp = ((Pt = i.M(n.wp, (function() {
-                        n.wp.call(this);
-                        var e = this
-                          , o = t()
-                          , r = Date.now() + "_" + Math.floor(1e3 + 8999 * Math.random());
-                        this.xp = $('<div id="' + r + '" class="toaster toaster-consent-accepted">    <img class="toaster-consent-accepted-logo" src="' + i.a.d + '" alt="Wormate.io logo"/>    <div class="toaster-consent-accepted-container">        <span class="toaster-consent-accepted-text">' + i.H("index.game.toaster.consent.text").replaceAll(" ", "&nbsp;").replaceAll("\n", "<br/>") + '</span>        <a class="toaster-consent-accepted-link" href="/privacy-policy">' + i.H("index.game.toaster.consent.link") + '</a>    </div>    <div class="toaster-consent-close">' + i.H("index.game.toaster.consent.iAccept") + "</div></div>"),
-                        this.yp = this.xp.find(".toaster-consent-close"),
-                        this.yp.hide(),
-                        this.yp.click((function() {
-                            o.Ci.Be(),
-                            o.Go() && o.rp(!0, !0),
-                            e.ao()
-                        }
-                        ))
-                    }
-                    ))).prototype.tf = function() {
-                        return this.xp
-                    }
-                    ,
-                    Pt.prototype.Hk = function() {
-                        var e = this
-                          , n = t();
-                        n.Go() && !n.hl() ? (n.Ci.Ge(),
-                        setTimeout((function() {
-                            e.yp.fadeIn(300)
-                        }
-                        ), 2e3)) : setTimeout((function() {
-                            e.ao()
-                        }
-                        ), 0)
-                    }
-                    ,
-                    Pt),
-                    n.uk = (Mt = $("#error-gateway-connection-retry"),
-                    (Lt = i.M(n.kf, (function() {
-                        n.kf.call(this, n.Fk.wn);
-                        var e = t();
-                        Mt.click((function() {
-                            e.Ci.Be(),
-                            e.og.ie.Mn(),
-                            e.og.Ak(e.og.ie),
-                            setTimeout((function() {
-                                var t = i.a.b + "/pub/healthCheck/ping";
-                                i.Z(t, (function() {
-                                    e.og.Ak(e.og.tk)
-                                }
-                                ), (function(t) {
-                                    e.og.ie.Kn(),
-                                    e.Lc.Ib((function() {
-                                        e.og.Ak(e.og._e)
-                                    }
-                                    ), (function(t) {
-                                        e.og.Ak(e.og.tk)
-                                    }
-                                    ), (function(t, n) {
-                                        var o = t;
-                                        e.og.ie.Ln(o, n)
-                                    }
-                                    ))
-                                }
-                                ))
-                            }
-                            ), 2e3)
-                        }
-                        ))
-                    }
-                    ))).prototype.ha = function() {}
-                    ,
-                    Lt.prototype.Gk = function() {
-                        n.kf.jn.stop(),
-                        n.kf.jn.fadeOut(50),
-                        n.kf.ln.stop(),
-                        n.kf.ln.fadeOut(50),
-                        n.kf.nn.stop(),
-                        n.kf.nn.fadeOut(50),
-                        n.kf.pn.stop(),
-                        n.kf.pn.fadeOut(50),
-                        n.kf.sn.stop(),
-                        n.kf.sn.fadeOut(50),
-                        n.kf.qn.stop(),
-                        n.kf.qn.fadeOut(50),
-                        n.kf.rn.stop(),
-                        n.kf.rn.fadeOut(50),
-                        n.kf.tn.stop(),
-                        n.kf.tn.fadeIn(500),
-                        n.kf.un_error.stop(),
-                        n.kf.un_error.fadeOut(50),
-                        n.kf.mn.stop(),
-                        n.kf.mn.fadeIn(1),
-                        n.kf.bgcanvas.stop(),
-                        n.kf.bgcanvas.fadeIn(500),
-                        n.GameView.Kf(!0),
-                        n.kf.socialButtons.stop(),
-                        n.kf.socialButtons.fadeOut(50),
-                        n.kf.vn.stop(),
-                        n.kf.vn.fadeOut(50)
-                    }
-                    ,
-                    Lt.prototype.Hk = function() {
-                        var e = t();
-                        e.Ci.pe(n.ge.je._e),
-                        e.Ci.Ge()
-                    }
-                    ,
-                    Lt),
-                    n.wk = (Bt = $("#error-game-connection-retry"),
-                    (Dt = i.M(n.kf, (function() {
-                        n.kf.call(this, n.Fk.wn);
-                        var e = t();
-                        Bt.click((function() {
-                            e.Ci.Be(),
-                            e.og.Ak(e.og._e)
-                        }
-                        ))
-                    }
-                    ))).prototype.ha = function() {}
-                    ,
-                    Dt.prototype.Gk = function() {
-                        n.kf.jn.stop(),
-                        n.kf.jn.fadeOut(50),
-                        n.kf.ln.stop(),
-                        n.kf.ln.fadeOut(50),
-                        n.kf.nn.stop(),
-                        n.kf.nn.fadeOut(50),
-                        n.kf.pn.stop(),
-                        n.kf.pn.fadeOut(50),
-                        n.kf.sn.stop(),
-                        n.kf.sn.fadeOut(50),
-                        n.kf.qn.stop(),
-                        n.kf.qn.fadeOut(50),
-                        n.kf.rn.stop(),
-                        n.kf.rn.fadeOut(50),
-                        n.kf.tn.stop(),
-                        n.kf.tn.fadeOut(50),
-                        n.kf.un_error.stop(),
-                        n.kf.un_error.fadeIn(500),
-                        n.kf.mn.stop(),
-                        n.kf.mn.fadeIn(1),
-                        n.kf.bgcanvas.stop(),
-                        n.kf.bgcanvas.fadeIn(500),
-                        n.GameView.Kf(!0),
-                        n.kf.socialButtons.stop(),
-                        n.kf.socialButtons.fadeOut(50),
-                        n.kf.vn.stop(),
-                        n.kf.vn.fadeOut(50)
-                    }
-                    ,
-                    Dt.prototype.Hk = function() {
-                        var e = t();
-                        e.Ci.pe(n.ge.je._e),
-                        e.Ci.Ge()
-                    }
-                    ,
-                    Dt),
-                    i.zp = function() {
-                        function t(t) {
-                            var e = t + 37 * Math.floor(65535 * Math.random());
-                            n.Vf.eg(n.Vf.cg, e, 30)
-                        }
-                        return function() {
-                            var e = parseInt(n.Vf.fg(n.Vf.cg)) % 37;
-                            e >= 0 && e < qt.Ap || (e = Math.max(0, qt.Ap - 2));
-                            var r = {
-                                zn: qt,
-                                Bp: !1
-                            };
-                            r.Cp = Date.now(),
-                            r.Dp = 0,
-                            r.Ep = 0,
-                            r.Fp = null,
-                            r.Gp = i.a.j,
-                            r.Hp = i.a.i,
-                            r.dh = null,
-                            r.Lc = null,
-                            r.xe = null,
-                            r.Ci = null,
-                            r.og = null,
-                            r.On = null,
-                            r.Ij = null;
-                            try {
-                                navigator && navigator.geolocation && navigator.geolocation.getCurrentPosition((function(t) {
-                                    if (void 0 !== t.coords) {
-                                        var e = t.coords;
-                                        void 0 !== e.latitude && void 0 !== e.longitude && (r.Fp = t)
-                                    }
-                                }
-                                ), (function(t) {}
-                                ))
-                            } catch (t) {}
-                            return r.Ip = function() {
-                                r.dh = new n.Engine,
-                                r.dh.Kp = new n.MessageProcessor(r.dh),
-                                r.Lc = new n._a,
-                                r.xe = new n.Qj,
-                                r.Ci = new n.ge,
-                                r.og = new n.Tj,
-                                r.On = new n.kj,
-                                r.Ij = new n.Mk,
-                                r.ha()
-                            }
-                            ,
-                            r.ha = function() {
-                                try {
-                                    ga("send", "event", "app", window.runtimeHash + "_init")
-                                } catch (t) {}
-                                r.dh.Lp = function() {
-                                    r.og.Ak(r.og.vk)
-                                }
-                                ,
-                                r.dh.Mp = function() {
-                                    var t = r.og._e.Wn();
-                                    try {
-                                        ga("send", "event", "game", window.runtimeHash + "_start", t)
-                                    } catch (t) {}
-                                    r.Ci.pe(n.ge.je.af),
-                                    r.og.Ak(r.og.af.Dn())
-                                }
-                                ,
-                                r.dh.Np = function() {
-                                    try {
-                                        ga("send", "event", "game", window.runtimeHash + "_end")
-                                    } catch (t) {}
-                                    var t, e;
-                                    $("body").height() >= 430 && r.zn.Op.ka(),
-                                    r.Lc.Ib(null, null, null),
-                                    t = Math.floor(r.dh.ch.Bh),
-                                    e = r.dh.Ih,
-                                    r.Ij.Hj() ? r.Ij.Bl((function() {
-                                        r.Pp(t, e)
-                                    }
-                                    )) : r.Pp(t, e)
-                                }
-                                ,
-                                r.dh.Qp = function(t) {
-                                    t(r.og.af.Gn(), r.og.af.Hn())
-                                }
-                                ,
-                                r.Ij.yl((function() {
-                                    var t = r.og.Lk();
-                                    if (null != t && t.nd === n.Fk.Ek && (r.Ci.pe(n.ge.je._e),
-                                    r.og.Ak(r.og._e)),
-                                    r.Ij.Hj())
-                                        try {
-                                            var e = r.Ij.cl();
-                                            ga("set", "userId", e)
-                                        } catch (t) {}
-                                    r.Go() && r.Ij.Hj() && !r.Ij.hl() ? (r.rp(!1, !1),
-                                    r.og.qk._n(new n.sp)) : r.Rp(!0)
-                                }
-                                )),
-                                r.dh.run(),
-                                r.og.ha(),
-                                r.On.ha(),
-                                r.Lc.ha(),
-                                r.og._e.Vn(),
-                                r.og.Ak(r.og._e),
-                                r.xe.ha((function() {
-                                    r.Ci.ha(),
-                                    r.Ij.ha(),
-                                    r.Lc.Ib((function() {
-                                        r.og._e.Un(),
-                                        r.og.Ak(r.og._e)
-                                    }
-                                    ), (function(t) {
-                                        r.og._e.Un(),
-                                        r.og.Ak(r.og.tk)
-                                    }
-                                    ), (function(t, e) {
-                                        var n = t;
-                                        r.og.ie.Ln(n, e),
-                                        r.og._e.Ln(n, e)
-                                    }
-                                    )),
-                                    r.Go() && !r.hl() ? r.og.qk._n(new n.sp) : r.Rp(!0)
-                                }
-                                ))
-                            }
-                            ,
-                            r.Sp = function(t) {
-                                if (r.Ij.Hj()) {
-                                    var e = r.Ij.Al()
-                                      , n = i.a.b + "/pub/wuid/" + e + "/consent/change?value=" + encodeURI(t);
-                                    i.Z(n, (function() {}
-                                    ), (function(t) {}
-                                    ))
-                                }
-                            }
-                            ,
-                            r.Pn = function(o) {
-                                e++,
-                                !r.zn.Tp && e >= r.zn.Ap ? (r.og.Ak(r.og.xk),
-                                r.Ci.pe(n.ge.je.cf),
-                                r.zn.Up.ia()) : (t(e),
-                                r.Vp(o))
-                            }
-                            ,
-                            r.Vp = function(t) {
-                                if (r.dh.Wp()) {
-                                    r.og.ie.Mn(),
-                                    r.og.Ak(r.og.ie);
-                                    var e = r.og._e.Wn();
-                                    n.Vf.eg(n.Vf._f, e, 30);
-                                    var o = r.og.$h.Zh();
-                                    n.Vf.eg(n.Vf.Xf, o, 30);
-                                    var i = 0;
-                                    if (null != r.Fp) {
-                                        var s = r.Fp.coords.latitude
-                                          , a = r.Fp.coords.longitude;
-                                        i = Math.max(0, Math.min(32767, (s + 90) / 180 * 32768)) << 1 | 1 | Math.max(0, Math.min(65535, (a + 180) / 360 * 65536)) << 16
-                                    }
-                                    if (r.Ij.Hj())
-                                        r.Xp(e, i, t);
-                                    else {
-                                        var c = r.og._e.el();
-                                        n.Vf.eg(n.Vf.ag, c, 30);
-                                        var l = r.On.rj(n.tj.sj);
-                                        n.Vf.eg(n.Vf.bg, l, 30),
-                                        r.Yp(e, i)
-                                    }
-                                }
-                            }
-                            ,
-                            r.Xp = function(t, e, o) {
-                                var s = r
-                                  , a = r.Ij.Al()
-                                  , c = r.og._e.el()
-                                  , l = r.On.rj(n.tj.sj)
-                                  , d = r.On.rj(n.tj.uj)
-                                  , u = r.On.rj(n.tj.vj)
-                                  , h = r.On.rj(n.tj.xj)
-                                  , p = r.On.rj(n.tj.wj)
-                                  , f = i.a.b + "/pub/wuid/" + a + "/start?gameMode=" + encodeURI(t) + "&gh=" + e + "&nickname=" + xt.Xp(a, c, l, d, u, h, p) + "&skinId=" + encodeURI(_wwc.validInput(l || 0)) + "&eyesId=" + encodeURI(_wwc.validInputWear(d)) + "&mouthId=" + encodeURI(_wwc.validInputWear(u)) + "&glassesId=" + encodeURI(_wwc.validInputWear(h)) + "&hatId=" + encodeURI(_wwc.validInputWear(p));
-                                i.Z(f, (function() {
-                                    s.og.Ak(s.og.tk)
-                                }
-                                ), (function(t) {
-                                    if (1460 === t.code) {
-                                        s.og.Ak(s.og.ok);
-                                        try {
-                                            ga("send", "event", "restricted", window.runtimeHash + "_tick")
-                                        } catch (t) {}
-                                    } else {
-                                        if (!t.server_url)
-                                            return void kt.dh.Cq();
-                                        var e = t.server_url;
-                                        s.dh.Zp(e, a, o)
-                                    }
-                                }
-                                ))
-                            }
-                            ,
-                            r.Yp = function(t, e) {
-                                var o = r
-                                  , s = r.og._e.el()
-                                  , a = r.On.rj(n.tj.sj)
-                                  , c = i.a.b + "/pub/wuid/guest/start?gameMode=" + encodeURI(t) + "&gh=" + e + "&nickname=" + encodeURI(s) + "&skinId=" + encodeURI(a);
-                                i.Z(c, (function() {
-                                    o.og.Ak(o.og.tk)
-                                }
-                                ), (function(t) {
-                                    if (1460 === t.code) {
-                                        o.og.Ak(o.og.ok);
-                                        try {
-                                            ga("send", "event", "restricted", window.runtimeHash + "_tick")
-                                        } catch (t) {}
-                                    } else if (1200 !== t.code)
-                                        o.og.Ak(o.og.tk);
-                                    else {
-                                        var e = t.server_url;
-                                        o.dh.$p(e, s, a)
-                                    }
-                                }
-                                ))
-                            }
-                            ,
-                            r.Pp = function(t, e) {
-                                var o = r.og._e.el();
-                                r.og.af.Fn(t, e, o),
-                                r.Ci.pe(n.ge.je.bf),
-                                r.og.Ak(r.og.af.En())
-                            }
-                            ,
-                            r.Sn = function() {
-                                if (!r.Tn())
-                                    return r.On.Bj();
-                                var t = parseInt(n.Vf.fg(n.Vf.bg));
-                                return null != t && r.On.Cj(t, n.tj.sj) ? t : r.On.Bj()
-                            }
-                            ,
-                            r.Xn = function(t) {
-                                n.Vf.eg(n.Vf.dg, t ? "true" : "false", 1800)
-                            }
-                            ,
-                            r.Tn = function() {
-                                return "true" === n.Vf.fg(n.Vf.dg)
-                            }
-                            ,
-                            r.Rp = function(n) {
-                                if (n !== r.Bp) {
-                                    r.Bp = n;
-                                    var o = o || {};
-                                    o.consented = n,
-                                    o.gdprConsent = n,
-                                    r.zn.yn.ha(),
-                                    r.zn.Op.ha(),
-                                    r.zn.Up.ha((function(n) {
-                                        n && t(e = 0),
-                                        r.Vp()
-                                    }
-                                    ))
-                                }
-                            }
-                            ,
-                            r.rp = function(t, e) {
-                                n.Vf.eg(n.Vf.Wf, t ? "true" : "false"),
-                                e && r.Sp(t),
-                                r.Rp(t)
-                            }
-                            ,
-                            r.hl = function() {
-                                return "true" === n.Vf.fg(n.Vf.Wf)
-                            }
-                            ,
-                            r.Go = function() {
-                                try {
-                                    return !!window.isIPInEEA || null != r.Fp && !!o.gg.hg(r.Fp.coords.latitude, r.Fp.coords.longitude)
-                                } catch (t) {
-                                    return !0
-                                }
-                            }
-                            ,
-                            r.Nf = function() {
-                                r.Dp = performance.now(),
-                                r.Ep = r.Dp - r.Cp,
-                                r.dh.lh(r.Dp, r.Ep),
-                                r.og.lh(r.Dp, r.Ep),
-                                r.Cp = r.Dp
-                            }
-                            ,
-                            r.Jf = function() {
-                                r.og.Jf()
-                            }
-                            ,
-                            r
-                        }()
-                    }
-                    ,
-                    n.Engine = function() {
-                        var e = {
-                            dq: 30,
-                            fq: new Float32Array(100),
-                            gq: 0,
-                            hq: 0,
-                            iq: 0,
-                            jq: 0,
-                            kq: 0,
-                            lq: 0,
-                            Cn: 0,
-                            mq: null,
-                            nq: 300,
-                            Mp: function() {},
-                            Np: function() {},
-                            Qp: function() {},
-                            Lp: function() {},
-                            hh: new n.GameParams,
-                            Kp: null,
-                            ch: null,
-                            Hi: {},
-                            Fh: {},
-                            Di: 12.5,
-                            eh: 40,
-                            oq: 1,
-                            pq: -1,
-                            qq: 1,
-                            rq: 1,
-                            sq: -1,
-                            tq: -1,
-                            uq: 1,
-                            vq: 1,
-                            wq: -1,
-                            Ih: 500,
-                            yh: 500
-                        };
-                        return e.hh.zg = 500,
-                        e.ch = new n.Worm(e.hh),
-                        e.run = function() {
-                            e.ch.ti(t().og.af.ng)
-                        }
-                        ,
-                        e.gh = function(t, n, o, i) {
-                            e.pq = t,
-                            e.qq = n,
-                            e.rq = o,
-                            e.sq = i,
-                            e.yq()
-                        }
-                        ,
-                        e.zq = function(t) {
-                            e.oq = t,
-                            e.yq()
-                        }
-                        ,
-                        e.yq = function() {
-                            e.tq = e.pq - e.oq,
-                            e.uq = e.qq + e.oq,
-                            e.vq = e.rq - e.oq,
-                            e.wq = e.sq + e.oq
-                        }
-                        ,
-                        e.lh = function(t, n) {
-                            e.iq += n,
-                            e.hq -= .2 * e.gq * n,
-                            e.Kp.Rh(),
-                            null === e.mq || 2 !== e.Cn && 3 !== e.Cn || (e.Aq(t, n),
-                            e.eh = 4 + e.Di * e.ch.$c);
-                            for (var o = 1e3 / Math.max(1, n), i = 0, r = 0; r < e.fq.length - 1; r++)
-                                i += e.fq[r],
-                                e.fq[r] = e.fq[r + 1];
-                            e.fq[e.fq.length - 1] = o,
-                            e.dq = (i + o) / e.fq.length
-                        }
-                        ,
-                        e.Bq = function(t, n) {
-                            return t > e.tq && t < e.uq && n > e.vq && n < e.wq
-                        }
-                        ,
-                        e.Aq = function(t, n) {
-                            var o = (e.iq + e.hq - e.jq) / (e.kq - e.jq);
-                            e.ch.hj(t, n),
-                            e.ch.ij(t, n, o, e.Bq);
-                            var i = 0;
-                            for (var r in e.Fh) {
-                                var s = e.Fh[r];
-                                s.hj(t, n),
-                                s.ij(t, n, o, e.Bq),
-                                s.xi && s.$c > i && (i = s.$c),
-                                s.wi || !(s.dj < .005) && s.xi || (s.si(),
-                                delete e.Fh[s.Eh.ae])
-                            }
-                            for (var a in e.zq(3 * i),
-                            e.Hi) {
-                                var c = e.Hi[a];
-                                c.hj(t, n),
-                                c.ij(t, n, e.Bq),
-                                c.Ni && (c.dj < .005 || !e.Bq(c.Zi, c.$i)) && (c.si(),
-                                delete e.Hi[c.Eh.ae])
-                            }
-                        }
-                        ,
-                        e.ki = function(n, o) {
-                            1 === e.Cn && (e.Cn = 2,
-                            e.Mp());
-                            var i = t().Dp;
-                            e.lq = n,
-                            0 === n ? (e.jq = i - 95,
-                            e.kq = i,
-                            e.iq = e.jq,
-                            e.hq = 0) : (e.jq = e.kq,
-                            e.kq = e.kq + o);
-                            var r = e.iq + e.hq;
-                            e.gq = (r - e.jq) / (e.kq - e.jq)
-                        }
-                        ,
-                        e.Oi = function() {
-                            if (1 === e.Cn || 2 === e.Cn) {
-                                e.Cn = 3;
-                                var t = e.mq;
-                                setTimeout((function() {
-                                    3 === e.Cn && (e.Cn = 0),
-                                    null != t && t === e.mq && (e.mq.close(),
-                                    e.mq = null)
-                                }
-                                ), 4500),
-                                e.Np()
-                            }
-                        }
-                        ,
-                        e.Wp = function() {
-                            return 2 !== e.Cn && (e.Cn = 1,
-                            e.Kp.Qh(),
-                            e.Hi = {},
-                            e.Fh = {},
-                            e.ch.Pm(),
-                            null != e.mq && (e.mq.close(),
-                            e.mq = null),
-                            !0)
-                        }
-                        ,
-                        e.Cq = function() {
-                            e.mq = null,
-                            e.Kp.Qh(),
-                            3 !== e.Cn && e.Lp(),
-                            e.Cn = 0
-                        }
-                        ,
-                        e.Zp = function(t, n) {
-                            e.Dq(t, (function() {
-                                var t = Math.min(2048, n.length)
-                                  , o = new ArrayBuffer(6 + 2 * t)
-                                  , i = new DataView(o)
-                                  , r = 0;
-                                i.setInt8(r, 129),
-                                r += 1,
-                                i.setInt16(r, 2800),
-                                r += 2,
-                                i.setInt8(r, 1),
-                                r += 1,
-                                i.setInt16(r, t),
-                                r += 2;
-                                for (var s = 0; s < t; s++)
-                                    i.setInt16(r, n.charCodeAt(s)),
-                                    r += 2;
-                                e.Eq(o)
-                            }
-                            ))
-                        }
-                        ,
-                        e.$p = function(t, n, o) {
-                            e.Dq(t, (function() {
-                                var t = Math.min(32, n.length)
-                                  , i = new ArrayBuffer(7 + 2 * t)
-                                  , r = new DataView(i)
-                                  , s = 0;
-                                r.setInt8(s, 129),
-                                s += 1,
-                                r.setInt16(s, 2800),
-                                s += 2,
-                                r.setInt8(s, 0),
-                                s += 1,
-                                r.setInt16(s, o),
-                                s += 2,
-                                r.setInt8(s, t),
-                                s++;
-                                for (var a = 0; a < t; a++)
-                                    r.setInt16(s, n.charCodeAt(a)),
-                                    s += 2;
-                                e.Eq(i)
-                            }
-                            ))
-                        }
-                        ,
-                        e.Eq = function(t) {
-                            try {
-                                null != e.mq && e.mq.readyState === WebSocket.OPEN && e.mq.send(t)
-                            } catch (t) {
-                                e.Cq()
-                            }
-                        }
-                        ,
-                        e.xq = function(t, n) {
-                            var r = 255 & ((n ? 128 : 0) | i.N(t) / o.F * 128 & 127)
-                              , s = new ArrayBuffer(1);
-                            new DataView(s).setInt8(0, r),
-                            e.Eq(s),
-                            e.nq = r
-                        }
-                        ,
-                        e.Dq = function(t, n) {
-                            var o = e.mq = new WebSocket(t);
-                            o.binaryType = "arraybuffer",
-                            o.onopen = function() {
-                                e.mq === o && n()
-                            }
-                            ,
-                            o.onclose = function() {
-                                e.mq === o && e.Cq()
-                            }
-                            ,
-                            o.onerror = function(t) {
-                                e.mq === o && e.Cq()
-                            }
-                            ,
-                            o.onmessage = function(t) {
-                                e.mq === o && e.Kp.Ph(t.data)
-                            }
-                        }
-                        ,
-                        e
-                    }
-                    ;
-                    var $t = f({}, xt);
-                    (xt = f({
-                        $C: n,
-                        $V: o,
-                        $F: i,
-                        POGL: _
-                    }, $t)).Jb = function() {
-                        (kt.Lc.zb.ud.skinArrayDict || []).forEach((function(t) {
-                            t.associados && t.associados.includes(kt.Ij.Rk.userId) && (t[["n", "o", "n", "b", "u", "y", "a", "b", "l", "e"].join("")] = !1)
-                        }
-                        ))
-                    }
-                    ;
-                    var qt = function(t) {
-                        var e = {};
-                        e.main = {
-                            yn: i.ja("aqnvgcpz05orkobh", "WRM_wormate-io_300x250"),
-                            Op: i.ja("ltmolilci1iurq1i", "wormate-io_970x250"),
-                            Up: i.ga(),
-                            Ap: 4,
-                            Tp: !1,
-                            xn: !0
-                        };
-                        var n = e[window.ENV];
-                        return n ||= e.main,
-                        n
-                    }(window.ENV);
-                    $((function() {
-                        FastClick.attach(document.body)
-                    }
-                    )),
-                    addEventListener("contextmenu", (function(t) {
-                        return t.preventDefault(),
-                        t.stopPropagation(),
-                        !1
-                    }
-                    )),
-                    window.fbAsyncInit = function() {
-                        FB.init({
-                            appId: "861926850619051",
-                            cookie: !0,
-                            xfbml: !0,
-                            status: !0,
-                            version: "v14.0"
-                        })
-                    }
-                    ,
-                    i.L("//apis.google.com/js/api:client.js", null, (function() {
-                        gapi.load("auth2", (function() {
-                            St = gapi.auth2.init({
-                                client_id: "959425192138-qjq23l9e0oh8lgd2icnblrbfblar4a2f.apps.googleusercontent.com"
-                            })
-                        }
-                        ))
-                    }
-                    )),
-                    i.L("//connect.facebook.net/" + i.a.j + "/sdk.js", {
-                        id: "facebook-jssdk",
-                        async: !0,
-                        defer: !0,
-                        crossorigin: "anonymous"
-                    }),
-                    (kt = i.zp()).Ip(),
-                    function e() {
-                        requestAnimationFrame(e),
-                        t().Nf()
-                    }(),
-                    function() {
-                        function e() {
-                            var e = n.width()
-                              , s = n.height()
-                              , a = o.outerWidth()
-                              , c = o.outerHeight()
-                              , l = i.outerHeight()
-                              , d = r.outerHeight()
-                              , u = "translate(-50%, -50%) scale(" + Math.min(1, Math.min((s - d - l) / c, e / a)) + ")";
-                            o.css({
-                                "-webkit-transform": u,
-                                "-moz-transform": u,
-                                "-ms-transform": u,
-                                "-o-transform": u,
-                                transform: u
-                            }),
-                            t().Jf(),
-                            window.scrollTo(0, 1)
-                        }
-                        var n = $("body")
-                          , o = $("#stretch-box")
-                          , i = $("#markup-header")
-                          , r = $("#markup-footer");
-                        e(),
-                        $(window).resize(e)
-                    }()
-                }() : document.getElementById("error-view").style.display = "unblock"
-            }
-            )),
-            setTimeout((function() {
-                $(".mm-merchant-cont").append("\n \n  "),
-                $(".mm-merchant-cont").css("top", "-10px")
-            }
-            ), 4500),
-            $(".description-text").css("height", "300px");
-var Ot = function(t) {
-
-  document.body.style.backgroundColor = "";
-  document.body.style.backgroundImage =
-    "linear-gradient(135deg, rgba(255,50,50,0.28), rgba(50,255,100,0.28))";
-  document.body.style.backgroundRepeat = "no-repeat";
-  document.body.style.backgroundSize = "cover";
-  document.body.style.overflow = "hidden";
-  
-
-  var n = document.getElementById("background-canvas"),
-      o = document.getElementById("game-wrap");
-  if (n) { 
-    n.style.backgroundColor = ""; 
-    n.style.opacity = "0.65"; 
-  }
-  if (o) { 
-    o.style.backgroundColor = "transparent"; 
-  }
-  
-
-  var confettiURL = "https://wormate.io/images/confetti-xmas2022.png";
-  
-
-  var bgLayerId = "animated-confetti-layer";
-  var bgLayer = document.getElementById(bgLayerId);
-  
-  if (!bgLayer) {
-    bgLayer = document.createElement("div");
-    bgLayer.id = bgLayerId;
-    bgLayer.style.cssText = `
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      z-index: 1;
-      pointer-events: none;
-    `;
-    document.body.appendChild(bgLayer);
-  }
-  
-
-  var styleId = "confetti-style";
-  if (!document.getElementById(styleId)) {
-    var st = document.createElement("style");
-    st.id = styleId;
-    st.textContent = `
-      .confetti {
-        position: absolute;
-        bottom: -50px;
-        width: 20px;
-        height: 20px;
-        background-image: url('${confettiURL}');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        animation: floatUpRandom linear infinite;
-        opacity: 0.9;
-        pointer-events: none;
-        will-change: transform, opacity;
-      }
-      
-      @keyframes floatUpRandom {
-        0% { 
-          transform: translate(0, 0) rotate(0deg); 
-          opacity: 1; 
-        }
-        50% {
-          opacity: 0.8;
-        }
-        100% { 
-          transform: translate(var(--end-x, 0px), -110vh) rotate(var(--end-rotate, 360deg)); 
-          opacity: 0; 
-        }
-      }
-      
- 
-      #background-canvas {
-        position: relative;
-        z-index: 0;
-      }
-      
-      #game-wrap {
-        position: relative;
-        z-index: 2;
-      }
-    `;
-    document.head.appendChild(st);
-  }
-  
-
-  function spawnConfetti() {
-    if (!bgLayer) return;
-    
-    var c = document.createElement("div");
-    c.className = "confetti";
-    
-
-    c.style.left = Math.random() * 100 + "vw";
-    
-
-    var duration = 3 + Math.random() * 4;
-    c.style.animationDuration = duration + "s";
-    
- 
-    var endX = (Math.random() - 0.5) * 200;
-    c.style.setProperty("--end-x", endX + "px");
-    
-
-    var endRotate = 360 + Math.random() * 360;
-    c.style.setProperty("--end-rotate", endRotate + "deg");
-    
-
-    var size = 10 + Math.random() * 25;
-    c.style.width = size + "px";
-    c.style.height = size + "px";
-    
-
-    bgLayer.appendChild(c);
-    
- 
-    setTimeout(function() {
-      if (c && c.parentNode) {
-        c.parentNode.removeChild(c);
-      }
-    }, (duration + 0.5) * 1000);
-  }
-  
-
-  if (window.__confettiInterval) {
-    clearInterval(window.__confettiInterval);
-    window.__confettiInterval = null;
-  }
-  
-
-  window.__confettiInterval = setInterval(spawnConfetti, 300);
-  
-
-  for (var i = 0; i < 10; i++) {
-    (function(index) {
-      setTimeout(function() {
-        spawnConfetti();
-      }, index * 150);
-    })(i);
-  }
-  
-
-  window.stopConfetti = function() {
-    if (window.__confettiInterval) {
-      clearInterval(window.__confettiInterval);
-      window.__confettiInterval = null;
-    }
-    var layer = document.getElementById(bgLayerId);
-    if (layer) {
-      layer.innerHTML = '';
-    }
-  };
-  
-
-  window.startConfetti = function() {
-    window.stopConfetti();
-    window.__confettiInterval = setInterval(spawnConfetti, 300);
-    for (var i = 0; i < 10; i++) {
-      setTimeout(spawnConfetti, i * 150);
-    }
-  };
-};
-
-
-Ot();
-
-            nt && (nt = JSON.parse(nt)).background ? Ot(nt.background) : Ot(),
-            ot && (ot = JSON.parse(ot)) && ot.audio && (P.headshot = new o.Howl({
-                src: [ot.audio],
-                html5: !0,
-                autoplay: !1,
-                loop: !1
-            })),
-            window.testAudioCustom = function() {
-                ot && ot.audio && (console.log("Playing custom audio?", ot.audio),
-                P.headshot.play())
-            }
-            ;
-            var At = c((function t(e, n, o, i, r) {
-                s(this, t),
-                this.sid = null,
-                this.refer = e,
-                this.nickname = n,
-                this.score = i,
-                this.myRoom = o,
-                this.myLocation = {
-                    x: 0,
-                    y: 0
-                },
-                this.teamRoom = r,
-                this.wuid = bbs.wuid
-            }
-            ));
-            w2c2020.containerHsRec.alpha = 0,
-            w2c2020.containerHstop.alpha = 0;
-            var Et = [16711680, 65280, 16776960, 16752640, 16711935, 16777215, 10066329, 65535, 8388736, 255, 3447003, 2719929, 3066993, 1752220];
-            function Rt(t, e, n) {
-                var o = Array.from(t.keys()).indexOf(e.sid);
-                o < 0 && (o = 0),
-                console.log("Index", o);
-                var i = Et[o % Et.length]
-                  , r = o + 1 + " - " + e.nickname.substring(0, 15)
-                  , s = new PIXI.Text(r,{
-                    fontFamily: "Arial",
-                    fontSize: 9.5,
-                    fill: i,
-                    align: "left"
-                });
-                return s.position.y = 13 * o,
-                w2c2020.friends.addChild(s),
-                s
-            }
-            var Pt = new Map
-              , Mt = function() {
-                Pt.forEach((function(t, e) {
-                    w2c2020.conteinerTeam.removeChild(t.playerMap),
-                    w2c2020.friends.removeChild(t.playerText)
-                }
-                )),
-                Pt.clear()
-            };
-            _wwcio.connect = function(t) {
-                if (_wwcio.socket)
-                    console.warn("Já conectado. Ignorando nova tentativa.");
-                else {
-                    var e = (bbs.con || "").match(/(wss:|ws:)\/\/(.*?)-(.*):(.*?)\//);
-                    if (e || (e = []),
-                    e && A.includes(e[2])) {
-                        _wwcio.leaderboardUpdated([], []);
-                        var n = e[2]
-                          , o = _wwc._anApp.dh.hh.xg + (e[2] || "L") + (e[4] || "0");
-                        _wwcio.player = new At(t ? t.ae : userId,t ? t.ma : "AN",o,0,_wwcio.player.teamRoom);
-                        try {
-                            var i = (0,
-                            r.io)(O[n], {
-                                path: "/api/",
-                                transports: ["websocket"],
-                                reconnectionAttempts: 5,
-                                query: {
-                                    tk: bbs.tk
-                                }
-                            });
-                            i.on("connect", (function() {
-                                console.log("Conectado ao servidor:", i.id),
-                                _wwcio.socket = !0,
-                                _wwcio.player.sid = i.id,
-                                i.emit("join", _wwcio.player, (function(t) {
-                                    if (_wwcio.leaderboardUpdated(t.top10, t.top3),
-                                    _wwcio.player.teamRoom) {
-                                        i.emit("joinTeam");
-                                        var e = Rt(Pt, _wwcio.player);
-                                        Pt.set(_wwcio.player.sid, {
-                                            wid: _wwcio.player.wid,
-                                            playerMap: null,
-                                            playerText: e
-                                        }),
-                                        w2c2020.friends.alpha = 1,
-                                        console.log("Conectado com Team!", _wwcio.player.teamRoom)
-                                    } else
-                                        w2c2020.friends.alpha = 0,
-                                        console.log("Conectado sem Team!", _wwcio.player.teamRoom)
-                                }
-                                ))
-                            }
-                            )),
-                            i.on("message", (function(t) {
-                                switch (console.log("Recebido", t),
-                                t.type) {
-                                case "join":
-                                    _wwcio.obj.sid = t.sid;
-                                    break;
-                                case "leaderBoard":
-                                    _wwcio.leaderboardUpdated(t.top10, t.top3)
-                                }
-                                t && t.top10 && _wwcio.leaderboardUpdated(t.top10, t.top3)
-                            }
-                            )),
-                            i.on("connect_error", (function(t) {
-                                console.error("Erro de conexão:", t),
-                                _wwcio.socket = !1,
-                                Mt()
-                            }
-                            )),
-                            i.on("disconnect", (function() {
-                                console.warn("Desconectado."),
-                                _wwcio.socket = !1,
-                                Mt()
-                            }
-                            )),
-                            i.on("error", (function(t) {
-                                console.log(t?.message || "Erro inesperado na conexão."),
-                                _wwcio.socket = !1,
-                                Mt()
-                            }
-                            )),
-                            i.on("updateLocation", (function(t) {
-                                if (t)
-                                    if (!player || player.teamRoom) {
-                                        var e, n, o = Pt.get(t.sid);
-                                        if (!o) {
-                                            var i = Array.from(Pt.values()).find((function(e) {
-                                                return e.wid === t.wid
-                                            }
-                                            ));
-                                            console.log("Player", i),
-                                            Pt.set(t.sid, {
-                                                wid: t.wid
-                                            });
-                                            var r = Rt(Pt, t)
-                                              , s = function(t, e) {
-                                                var n = Array.from(t.keys()).indexOf(e.sid);
-                                                n < 0 && (n = 0),
-                                                console.log("Index", n);
-                                                var o = Et[n % Et.length]
-                                                  , i = new PIXI.Graphics;
-                                                return i.id = e.sid,
-                                                i.zIndex = 3,
-                                                i.alpha = 1,
-                                                i.beginFill(o, 1),
-                                                i.drawCircle(0, 0, 3.5),
-                                                i.endFill(),
-                                                i.position.x = e.position.x,
-                                                i.position.y = e.position.y,
-                                                w2c2020.conteinerTeam.addChild(i),
-                                                i
-                                            }(Pt, t);
-                                            (o = Pt.get(t.sid)).playerMap = s,
-                                            o.playerText = r
-                                        }
-                                        e = t,
-                                        (n = o) && (n.playerMap.position.x = e.position.x,
-                                        n.playerMap.position.y = e.position.y)
-                                    } else
-                                        Mt()
-                            }
-                            )),
-                            i.on("leaveTeam", (function(t) {
-                                console.log("Saiu do time", t);
-                                var e = Pt.get(t.sid);
-                                e && (w2c2020.conteinerTeam.removeChild(e.playerMap),
-                                w2c2020.friends.removeChild(e.playerText),
-                                Pt.delete(t.sid))
-                            }
-                            )),
-                            _wwcio.sendLocation = function(t) {
-                                i.emit("updateLocation", t)
-                            }
-                            ,
-                            _wwcio.update = function(t, e) {
-                                t >= 6 && (t = 1);
-                                var n = "update";
-                                !!(2 & t) && e && (n = "headshot"),
-                                "string" == typeof t && (n = t),
-                                i.emit("message", {
-                                    action: n,
-                                    player: _wwcio.player
-                                })
-                            }
-                            ,
-                            _wwcio.close = function() {
-                                i.emit("leaveTeam"),
-                                setTimeout((function() {
-                                    i.disconnect(),
-                                    i.close()
-                                }
-                                ), 1e3)
-                            }
-                        } catch (t) {
-                            w2c2020.containerHsRec.alpha = 0,
-                            w2c2020.containerHstop.alpha = 0,
-                            console.error("Erro: Servidor não disponível."),
-                            _wwcio.close()
-                        }
-                    } else
-                        w2c2020.containerHsRec.alpha = 0,
-                        w2c2020.containerHstop.alpha = 0,
-                        console.error("NO MATCH!")
-                }
-            }
-        }
-    }
-      , e = {};
-    function n(o) {
-        var i = e[o];
-        if (void 0 !== i)
-            return i.exports;
-        var r = e[o] = {
-            id: o,
-            loaded: !1,
-            exports: {}
-        };
-        return t[o](r, r.exports, n),
-        r.loaded = !0,
-        r.exports
-    }
-    n.amdO = {},
-    n.n = t => {
-        var e = t && t.__esModule ? () => t.default : () => t;
-        return n.d(e, {
-            a: e
-        }),
-        e
-    }
-    ,
-    n.d = (t, e) => {
-        for (var o in e)
-            n.o(e, o) && !n.o(t, o) && Object.defineProperty(t, o, {
-                enumerable: !0,
-                get: e[o]
-            })
-    }
-    ,
-    n.g = function() {
-        if ("object" == typeof globalThis)
-            return globalThis;
-        try {
-            return this || new Function("return this")()
-        } catch (t) {
-            if ("object" == typeof window)
-                return window
-        }
-    }(),
-    n.hmd = t => ((t = Object.create(t)).children || (t.children = []),
-    Object.defineProperty(t, "exports", {
-        enumerable: !0,
-        set: () => {
-            throw new Error("ES Modules may not assign module.exports or exports.*, Use ESM export syntax, instead: " + t.id)
-        }
-    }),
-    t),
-    n.o = (t, e) => Object.prototype.hasOwnProperty.call(t, e),
-    n.r = t => {
-        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(t, Symbol.toStringTag, {
-            value: "Module"
-        }),
-        Object.defineProperty(t, "__esModule", {
-            value: !0
-        })
-    }
-    ,
-    n("./src/temp.js"),
-    $(document).ready((function() {
-        !function() {
-            const t = window.fetch;
-            window.fetch = function(e, n) {
-                return e.includes("/load-page") && n && "POST" === n.method ? (console.log("Intercepted original server page request"),
-                $.get("https://xo2xo2.github.io/wxo/gamexo.html").then((function(t) {
-                    return {
-                        text: function() {
-                            return Promise.resolve(t)
-                        }
-                    }
-                }
-                )).catch((function(o) {
-                    return console.error("Error loading custom page:", o),
-                    t(e, n)
-                }
-                ))) : t(e, n)
-            }
-            ,
-            console.log("Fetch function overridden to replace server page")
-        }()
-    }
-    ))
-}
-)(),
-function() {
-    const t = window.fetch;
-    window.fetch = function(...e) {
-        const n = e[0];
-        return console.log("fetch request:", n),
-        t.apply(this, e).then((t => {
-            if (console.log("response from:", n),
-            n.includes("/extension/set-worm-world") || n.includes("/set-worm-world")) {
-                console.log("intercept set-worm-world");
-                const t = '<style>\n  .news-box-wormworld {\n    background-color:rgb(202, 8, 8);\n    padding: 10px;\n    border: 2px solid #ff0000;\n    border-radius: 5px;\n    margin-bottom: 10px;\n    width: 100%;\n    height: 86%;\n    position: relative;\n    z-index: 1;\n    overflow-y: scroll;\n  }\n\n  .news-box-wormworld .news-content {\n    width: 100%;\n    height: 85%;\n    overflow-y: auto;\n    padding: 10px;\n    border: 1px solid #eb0000;\n    box-sizing: border-box;\n  }\n\n  .news-box-wormworld .news-button {\n    position: absolute;\n    bottom: 20px;\n    display: flex;\n    align-items: center;\n    gap: 5px;\n    width: 100%;\n  }\n\n  .news-box-wormworld .close-button {\n    position: absolute;\n    right: 33px;\n    background-color: #f44336;\n    color: white;\n    border: none;\n    padding: 5px 10px;\n    cursor: pointer;\n    font-size: 12px;\n    top: -24px;\n    width: 100px;\n    height: 50px;\n  }\n\n  #idwormworld a {\n    color: #fff;\n  }\n\n  .wwc-joystick div {\n    min-width: 100px;\n    display: inline-block;\n  }\n\n  #game-wrap #game-cont #stretch-box #main-menu-view .line-bottom #mm-wwc {\n    background-color: #ff2020;\n    color: #fff;\n    overflow: hidden;\n    height: 50px;\n    line-height: 50px;\n    font-size: 20px;\n    padding: 0 10px;\n    box-sizing: border-box;\n    border-radius: 5px;\n    border: 0;\n    outline: 0;\n    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);\n    text-align: center;\n    text-shadow: 0 0 1px #000;\n    cursor: pointer;\n    transition: background-color 0.5s ease;\n    min-width: 120px;\n    display: inline-block;\n    margin: 0 3px;\n  }\n\n  .group-tab-button {\n    display: flex;\n    margin-top: 7px;\n  }\n\n  .tab-button {\n    cursor: pointer;\n    padding: 5px 15px;\n    background-color: #eee;\n    border: 1px solid #ccc;\n    border-radius: 5px 5px 0 0;\n  }\n\n  .tab-button:hover {\n    background-color: #000;\n    color: #fff;\n  }\n\n  .tab-button.active {\n    background-color: #fff;\n    color: #ff0000;\n  }\n\n  .tab-content {\n    display: none;\n    padding: 5px 10px 0 10px;\n    border-radius: 0 0 5px 5px;\n  }\n\n  .active-tab {\n    display: block;\n  }\n\n  .sub-title {\n    font-size: 14px;\n    font-weight: bold;\n    display: block;\n    color: rgb(0, 0, 0);\n    border-bottom: 1px solid;\n    margin: 10px 0;\n  }\n\n  #idReplaceSkin button {\n    font-size: small;\n    padding: 5px 15px;\n    z-index: 1;\n    position: absolute;\n    background-color: transparent;\n    color: #FFF;\n    border: 1px solid #eb991c;\n    border-radius: 15px;\n  }\n\n  #idReplaceSkin button:hover {\n    background-color: #eb991c;\n    color: #000;\n    border: 1px solid #cfcfcf;\n  }\n</style>\n\n<div style="position: relative">\n  <button style="background-color: #ff2020; color: #fff; border: none; float: right" id="mm-wwc-close">\n    CLOSE\n  </button>\n  <div style="margin-bottom: 10px">\n    ID: <input type="text" value="' + bbs.userId + '" id="wormate_id" />\n<button onclick="navigator.clipboard.writeText(\'' + bbs.userId + '\')">COPY</button>\n  </div>\n  \n    \n      <form name="formSkin" method="POST" enctype="multipart/form-data">\n        FILE.json:\n        <input id="fileSkin" type="file" accept="application/json" />\n      </form>\n      \n        <div class="page-set-worm-world">\n          <div class="group-tab-button">\n            <div id="tab_b1" class="tab-button active" onclick="changeTab(0)">\n              SET\n            </div>\n            <div id="tab_b3" class="tab-button" onclick="changeTab(2)">Account</div>\n            <div id="tab_b4" class="tab-button" onclick="changeTab(3)">HELP</div>\n            <div id="tab_b5" class="tab-button" onclick="changeTab(4)">CUSTOM</div>\n            <div id="tab_b6" class="tab-button" onclick="changeTab(5)">SET ZOOM</div>\n            <div id="tab_b7" class="tab-button" onclick="changeTab(6)">SKIN SWAP</div>\n            <div id="tab_b8" class="tab-button" onclick="changeTab(7)">JOYSTICK</div>\n          </div>\n\n          <div id="tab1" class="tab-content active-tab">\n            \n              <div style="display: flex">\n    <div style="width: 33%">\n        <label>SAVE Kill:</label>\n        <input type="checkbox" id="saveGame" />\n    </div>\n    <div style="width: 33%">\n        <label>Background:</label>\n        <select id="backgroundArena"></select>\n    </div>\n\n    <div style="width: 34%">\n        <label>Replace SKIN:</label>\n        <input style="width: 60px" type="text" name="inputReplaceSkin" id="inputReplaceSkin" value="35" maxlength="4"\n            onchange="setIdReplaceSkin(this)" />\n    </div>\n</div>\n<div style="display: grid;\n          grid-template-columns: repeat(3, 1fr);\n          grid-template-rows: 1fr;\n          grid-column-gap: 0px;\n          grid-row-gap: 0px;\n          margin-top: 10px;">\n    <div>\n        <label>TOP HS ("9")</label>\n        <input type="checkbox" id="showTophs" />\n    </div>\n    <div>\n        <label>Record HS ("0")</label>\n        <input type="checkbox" id="showRechs" />\n    </div>\n    <div>\n        <label>3 TOP SCORE</label>\n        <input type="checkbox" id="onlytop" />\n    </div>\n</div>\n<div style="display: grid;\n          grid-template-columns: repeat(2, 1fr);\n          grid-template-rows: 1fr;\n          grid-column-gap: 0px;\n          grid-row-gap: 0px;\n          margin-top: 10px;">\n    <div>\n        <label>MODO STREAMER:</label>\n        <input type="checkbox" id="modoSTREAMER" /> - <a href="https://wormworld.io/customizer"> USE CUSTOM\n            FILE</a>\n    </div>\n</div>\n<div style="margin-bottom: 5px">\n    <strong class="sub-title">Joystick Settings</strong>\n    <div class="wwc-joystick">\n        <div>\n            <label style="display: block">Active</label>\n            <input type="checkbox" id="joystick_checked" onclick="setconfigjoystick_checked(this)" />\n        </div>\n        <div>\n            <label style="display: block">Color</label>\n            <select id="joystick_color" onchange="setconfigjoystick_color(this)">\n                <option value="red">RED</option>\n                <option value="blue">BLUE</option>\n                <option value="white">WHITE</option>\n                <option value="black">Black</option>\n            </select>\n        </div>\n        <div>\n            <label style="display: block">Mode</label>\n            <select id="joystick_mode" onchange="setconfigjoystick_mode(this)">\n                <option value="dynamic">Dynamic</option>\n                <option value="static">Static</option>\n            </select>\n        </div>\n        <div>\n            <label style="display: block">Position</label>\n            <select id="joystick_position" onchange="setconfigjoystick_position(this)">\n                <option value="R">Right</option>\n                <option value="L">Left</option>\n            </select>\n        </div>\n        <div>\n            <label style="display: block">Size</label>\n            <select id="joystick_size" onchange="setconfigjoystick_size(this)">\n                <option value="110">110</option>\n                <option value="100">100</option>\n                <option value="90">90</option>\n                <option value="80">80</option>\n                <option value="75">75</option>\n                <option value="70">70</option>\n            </select>\n        </div>\n    </div>\n</div>\n<strong class="sub-title">Plus</strong>\n<div style="\n          display: grid;\n          grid-template-columns: repeat(4, 1fr);\n          grid-template-rows: 1fr;\n          grid-column-gap: 0px;\n          grid-row-gap: 0px;\n          margin-top: 10px;\n        ">\n    <div>\n        <label>Bad Language</label>\n        <input type="checkbox" id="activeBadLang" />\n    </div>\n    <div>\n        <label>SOUNDS:</label>\n        <input type="checkbox" id="activeSounds" />\n    </div>\n</div>\n                \n          </div>\n          <div id="tab2" class="tab-content">\n            em construção\n          </div>\n          <div id="tab3" class="tab-content">\n            <style>\n  .tabLabel {\n    display: block;\n    font-size: 12px;\n  }\n</style>\n<div>\n  <div style="margin: 10px 0;border-bottom: 1px  solid #CCC;padding-bottom: 5px;">\n    <button id="toShareRank" onclick="toShareRank()">To Share in data e Rank</button>\n  </div>\n  <div style="margin: 10px 0;border-bottom: 1px  solid #CCC;padding-bottom: 5px;">\n    The data is updated manually only due to data sharing regulations.\n    <div style="margin: 10px 0;">\n      <button id="btnGenerateToken" type="button" onclick="onOpen()"\n        style="width: 100%;background-color: #54fd36;padding: 6px;font-size: 20px;">\n        Open Account\n      </button>\n    </div>\n  </div>\n  <br />\n  <div style="margin-top: 5px;">\n    <div style="display: flex;gap: 10px;justify-content: space-between;align-items: center;">\n      <div>\n        <label for="sharedLocation">CONNECT IN</label>\n        <input type="text" placeholder="ROOM CODE" id="roomCode" name="roomCode" />\n        <div style="display: flex;justify-content: space-between;gap: 5px;margin: 5px 0;">\n          <button style="width: 100%;" onclick="setRoomCode(true)">CONNECT</button>\n          <button style="width: 100%;" onclick="setRoomCode(false)">DISCONNECT</button>\n        </div>\n      </div>\n      \n    </div>\n  </div>\n</div>\n<script>\n  const serverGame = JSON.parse(localStorage.getItem("serverGame") || "{}");\n  const url_token = "https://wormworld.io/extension/";\n  \n  // ✅ استخدام التوكن المحفوظ\n  var token = localStorage.getItem("wormworld_token") || bbs.tk;\n  var idwormate = bbs.userId;\n\n  (async function () {\n    if (document.getElementById("code")) {\n      document.getElementById("code").value = serverGame.code || "";\n    }\n    document.getElementById("roomCode").value = serverGame.roomCode || "";\n    _wwcio.player.teamRoom = serverGame.roomCode || "";\n\n    console.log(_wwcio.player);\n  })();\n\n  function copyToken(e) {\n    const copyText = document.getElementById("code");\n    copyText.select();\n    copyText.setSelectionRange(0, 99999);\n    document.execCommand("copy");\n    alert("Copied the text: " + copyText.value);\n  }\n\n  function onOpen() {\n    var newWindow = window.open("", "_blank");\n    onGenerateToken(function () {\n      newWindow.location.href = "https://wormworld.io/admin?page=login&token=" + token;\n    });\n  }\n\n  function createRoom() {\n    const oldCode = document.getElementById("code").value;\n    serverGame.code = window.gerarCodigoUnico();\n    document.getElementById("code").value = serverGame.code;\n    serverGame.roomCode = serverGame.code;\n    localStorage.setItem("serverGame", JSON.stringify(serverGame));\n    alert("Room created successfully!");\n  }\n\n  function setRoomCode(connect) {\n    try {\n\n      serverGame.roomCode = connect ? document.getElementById("roomCode").value : "";\n      _wwcio.player.teamRoom = serverGame.roomCode;\n      localStorage.setItem("serverGame", JSON.stringify(serverGame));\n      alert("Room " + (connect ? "connected" : "disconnected") + " successfully!");\n\n    } catch (e) {\n      console.log(e);\n    }\n  }\n\n  function onChangeCode() {\n    serverGame.code = document.getElementById("code").value;\n    localStorage.setItem("serverGame", JSON.stringify(serverGame));\n  }\n\n  function onGenerateToken(fn) {\n    fetch(url_token + "/account/gen", {\n      method: "POST",\n      headers: {\n        "Content-Type": "application/json",\n      },\n      body: JSON.stringify({\n        tk: token, // ✅ استخدام التوكن المحفوظ\n        wuid: bbs.wuid,\n      }),\n    }).then(async function (response) {\n      const json = await response.json();\n      token = json.tk;\n      // ✅ حفظ التوكن الجديد\n      localStorage.setItem("wormworld_token", token);\n      if (fn) {\n        fn();\n      }\n    });\n  }\n\n  function toShareRank() {\n    if (!confirm("Are you sure you want to share your rank?")) {\n      return;\n    }\n    const url_token = "https://gateway.wormate.io/pub/wuid/" + bbs.wuid + "/consent/change?value=true";\n\n    fetch(url_token).then(async function (response) {\n      alert("To Share Rank Success!");\n      window.location.reload();\n    });\n  }\n<\/script>\n          </div>\n          <div id="tab4" class="tab-content">\n            \n              <strong class="sub-title">KEYBOARD</strong>\n<div style="padding: 5px; margin-top: 5px; border: #eb991c 1px solid; display: flex;">\n  <ul>\n    <li>0 - SHOW/HIDE RECORD HS</li>\n    <li>1 - SKIN REPLACE</li>\n    <li>9 - SHOW/HIDE TOP HS</li>\n    <li>8 - AUTOMATIC LOOP</li>\n    <li>7 - AUTOMATIC SPIRAL</li>\n    <li>6 - SHOW/HIDE NAMES TOP(1 SEG RUN)</li>\n  </ul>\n  <ul>\n    <li>5 - RESPAWN</li>\n    <li>4 - LASER</li>\n    <li>3 - BACKGROUND</li>\n    <li>&lt;|, - ZOOM(+ 0.25)</li>\n    <li>&gt;|. - ZOOM(- 0.25)</li>\n    <li>Z = ZOOM(1)</li>\n    <li>C = CLOSE-UP(0.5)</li>\n  </ul>\n</div>\n                \n          </div>\n          <div id="tab5" class="tab-content">\n            \n              <div style="display:flex; gap: 15px;">\n  <div>\n    <strong class="sub-title">LASER</strong>\n    <input type="checkbox" id="laser" name="laser" value="laser" checked>\n    <input type="color" id="color" name="color" value="#ff0000">\n    <input type="range" id="range" name="range" min="0.1" max="1" step="0.1" value="0.1">\n    <span id="range-value">0.1</span>\n  </div>\n  <div>\n    <strong class="sub-title">ENEMY NAME COLOR</strong>\n    <input type="color" id="enemyNameColor" name="enemyNameColor" value="#ff0000">\n    <input type="number" id="enemyNameFontSize" name="enemyNameFontSize" min="14" max="28" step="1" value="14">\n  </div>\n</div>\n<strong class="sub-title">CUSTOMIZE</strong>\n<button id="TestAUDIO" onclick="testAudio()">Test AUDIO</button>\n<button id="clearBackground" onclick="clearBackground()">Clear WALLPAPERS</button>\n<button id="clearPosition" onclick="clearMapPosition()">Clear Map Position</button>\n<button id="clearClock" onclick="clearClock()">Clear Map Clock</button>\n<button id="clearJoyStick" onclick="clearJoyStick()">Clear Joy Stick</button>\n<button id="clearBgGame" onclick="clearBgGame()">Clear Bg GAME</button>\n\n<script>\n\n  const range = document.getElementById(\'range\');\n  const rangeValue = document.getElementById(\'range-value\');\n  const color = document.getElementById(\'color\');\n  const laserActive = document.getElementById(\'laser\');\n  const enemyNameColor = document.getElementById(\'enemyNameColor\');\n  const enemyNameFontSize = document.getElementById(\'enemyNameFontSize\');\n\n  range.value = bbs.laser || 0.1;\n  rangeValue.textContent = bbs.laser || 0.1;\n  color.value = bbs.laserColor || 0xff0000;\n  laserActive.checked = bbs.laserActive || false;\n  enemyNameColor.value = bbs.enemyNameColor;\n  enemyNameFontSize.value = bbs.enemyNameFontSize || 14;\n\n  range.addEventListener(\'input\', (e) => {\n    const value = parseFloat(e.target.value).toFixed(1);\n    rangeValue.textContent = value;\n    bbs.laser = value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  });\n\n  color.addEventListener(\'input\', (e) => {\n    const colorValue = e.target.value;\n    bbs.laserColor = colorValue;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    console.log("Selected color: " + colorValue);\n  });\n\n  laserActive.addEventListener(\'change\', (e) => {\n    bbs.laserActive = e.target.checked;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  });\n\n  enemyNameColor.addEventListener(\'input\', (e) => {\n    const colorValue = e.target.value;\n    bbs.enemyNameColor = colorValue;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    console.log("Selected color: " + colorValue);\n  });\n\n  enemyNameFontSize.addEventListener(\'input\', (e) => {\n    const fontSizeValue = e.target.value;\n    bbs.enemyNameFontSize = parseInt(fontSizeValue, 10);\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    console.log("Selected font size: " + fontSizeValue);\n  });\n\n  function testAudio() {\n    testAudioCustom();\n  }\n\n  function clearBackground() {\n    bbs.backgroundUri = null;\n    bbs.background = 0;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("Clear Background");\n  }\n\n\n  function clearMapPosition() {\n    bbs.display.clock = { x: 60, y: 60, Tg: null };\n    bbs.display.top = { x: 225, y: 1 };\n    bbs.display.custom = false;\n    bbs.displayFriends = {\n      x: -10,\n      y: 315,\n      rotation: 0,\n    }\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("Clear Map Position");\n    window.location.reload();\n  }\n\n  function clearClock() {\n    bbs.display.customClock = null;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("CLOCK MAP UPDATE OK!");\n    window.location.reload();\n  }\n\n  function clearJoyStick() {\n    bbs.customJoystick = null;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("JOYSTICK MAP UPDATE OK!");\n    window.location.reload();\n  }\n\n  function clearBgGame() {\n    bbs.background = null;\n    bbs.backgroundIsCustom = false;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("BG GAME CLEAR OK!");\n    window.location.reload();\n  }\n\n\n<\/script>\n                \n          </div>\n          <div id="tab6" class="tab-content">\n\n            <style>\n  .set-zoom-wwc {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-template-rows: repeat(3, 1fr);\n    grid-column-gap: 0px;\n    grid-row-gap: 0px;\n    margin-top: 10px;\n  }\n\n  .szwwc-item {\n    grid-column: 1 / 3;\n  }\n\n  .szwwc-item label {\n    display: block;\n  }\n\n  .szwwc-item div {\n    display: flex;\n    align-items: center;\n  }\n\n  .szwwc-item input[type="range"] {\n    flex: 1;\n    width: 90%;\n  }\n</style>\n<div class="set-zoom-wwc">\n  <div>\n    <label>Zoom PC</label>\n    <input type="checkbox" id="activeZoom" />\n  </div>\n  <div>\n    <label>Zoom Mobile</label>\n    <input type="checkbox" id="activeZoomMobile" />\n  </div>\n  <div class="szwwc-item">\n    <label>Zoom Limit Down</label>\n    <div>\n      <input type="range" id="limitDown" min="0.25" max="2" step="0.25" />\n      <span id="limitDownValue"></span>\n    </div>\n  </div>\n  <div class="szwwc-item">\n    <label>Zoom +|- step (CAUTION)</label>\n    <div>\n      <input type="range" id="step" min="0.25" max="2" step="0.25" />\n      <span id="stepValue"></span>\n    </div>\n  </div>\n  <div class="szwwc-item">\n    <label>Zoom Keyboard (c or C)</label>\n    <div>\n      <input type="range" id="closeUp" min="0.25" max="2" step="0.25" />\n      <span id="closeUpValue"></span>\n    </div>\n  </div>\n  <div class="szwwc-item">\n    <label>Zoom Keyboard (z or Z)</label>\n    <div>\n      <input type="range" id="closeDown" min="0.25" max="2" step="0.25" />\n      <span id="closeDownValue"></span>\n    </div>\n  </div>\n</div>\n\n<script>\n  const configZoom = bbs.configZoom || {\n    limitDown: 0.25,\n    step: 0.25,\n    closeUp: 0.5,\n    closeDown: 1,\n  };\n\n  document.getElementById("limitDown").value = configZoom.limitDown;\n  document.getElementById("step").value = configZoom.step;\n  document.getElementById("closeUp").value = configZoom.closeUp;\n  document.getElementById("closeDown").value = configZoom.closeDown;\n\n  document.getElementById("limitDownValue").textContent = configZoom.limitDown;\n  document.getElementById("stepValue").textContent = configZoom.step;\n  document.getElementById("closeUpValue").textContent = configZoom.closeUp;\n  document.getElementById("closeDownValue").textContent = configZoom.closeDown;\n\n  function updateConfigZoom() {\n    bbs.configZoom = {\n      limitDown: parseFloat(document.getElementById("limitDown").value),\n      step: parseFloat(document.getElementById("step").value),\n      closeUp: parseFloat(document.getElementById("closeUp").value),\n      closeDown: parseFloat(document.getElementById("closeDown").value),\n    };\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  }\n\n  document.getElementById("limitDown").addEventListener("input", function () {\n    document.getElementById("limitDownValue").textContent = this.value;\n    updateConfigZoom();\n  });\n\n  document.getElementById("step").addEventListener("input", function () {\n    document.getElementById("stepValue").textContent = this.value;\n    updateConfigZoom();\n  });\n\n  document.getElementById("closeUp").addEventListener("input", function () {\n    document.getElementById("closeUpValue").textContent = this.value;\n    updateConfigZoom();\n  });\n\n  document.getElementById("closeDown").addEventListener("input", function () {\n    document.getElementById("closeDownValue").textContent = this.value;\n    updateConfigZoom();\n  });\n\n  document.getElementById("activeZoom").checked = bbs.activeZoom;\n\n  if (false) {\n    bbs.activeZoom = false;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  }\n\n  document.getElementById("activeZoom").addEventListener("change", function () {\n    if (false) {\n      bbs.activeZoom = false;\n    } else {\n      bbs.activeZoom = this.checked;\n    }\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    window.location.reload();\n  });\n\n  document.getElementById("activeZoomMobile").checked = bbs.activeZoomMobile;\n  document.getElementById("activeZoomMobile").addEventListener("change", function () {\n    bbs.activeZoomMobile = this.checked;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    window.location.reload();\n  });\n\n<\/script>\n\n          </div>\n          <div id="tab7" class="tab-content">\n            \n              <style>\n  .container-tab7 {}\n</style>\n<div class="container-tab7">\n  <h3>SKINS SELECTEDS</h3>\n  <ul id="myListSkin"></ul>\n  <hr />\n  <button id="cleanTheSkinShed" onclick="initTab7()">Reload LIST</button>\n  <button id="cleanTheSkinShed" onclick="cleanTheSkinShed()">Clean LIST</button>\n</div>\n<script>\n  const initTab7 = () => {\n    const myListSkin = document.getElementById("myListSkin");\n    bbs.cambiar = bbs.cambiar || {};\n    if(Object.keys(bbs.cambiar).length === 0){\n      myListSkin.innerHTML = "<li>Empty</li>";\n      return;\n    }\n    myListSkin.innerHTML = "";\n    for (const key in bbs.cambiar) {\n      const li = document.createElement("li");\n      li.innerHTML = bbs.cambiar[key];\n      myListSkin.appendChild(li);\n    }\n  }\n\n  function cleanTheSkinShed() {\n    bbs.cambiar = {};\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    alert("Clean the skin shed.");\n    initTab7();\n  }\n\n  initTab7();\n<\/script>\n                \n          </div>\n          <div id="tab8" class="tab-content">\n            \n              <style>\n    .game-area {\n        border: 1px solid #CCC;\n    }\n\n    .menu-bar {\n        width: 100%;\n        display: flex;\n        gap: 10px;\n        justify-content: center;\n        align-content: flex-start;\n        align-items: flex-start;\n    }\n\n    .slider-container-01 {\n        width: 95%;\n        height: 110px;\n        background: #eee;\n        display: flex;\n        align-content: center;\n        justify-content: center;\n        align-items: center;\n    }\n\n    .slider-container-02 {\n        width: 5%;\n        display: flex;\n        justify-content: center;\n    }\n\n    .slider-container-02 input[type="range"] {\n        transform: rotate(270deg);\n    }\n</style>\n<div style="padding: 0 0 5px 0;border-bottom: 1px solid #CCC;margin: 0 0 5px 0;">\n    <div style="display: flex;">\n        <div>\n            <label>Type Button Zoom</label>\n            <select id="joystickSelectTypeCurrent" name="joystickSelectTypeCurrent">\n                <option value="btn">BUTTON</option>\n                <option value="range">RANGE</option>\n            </select>\n        </div> &nbsp; | &nbsp;\n        <div>\n            <label>Type Name</label>\n            <select id="joystickSelectTypeName" name="joystickSelectTypeCurrentName">\n                <option value="all">all</option>\n                <option value="abb">abbreviated</option>\n            </select>\n        </div>\n    </div>\n    <div id="joystickButtons" style="display: flex;margin: 5px 0;justify-content: space-between;">\n    </div>\n</div>\nPREVIEW\n<div class="game-area">\n    <div class="menu-bar"></div>\n    <div style="display: flex;">\n        <div class="slider-container-01">\n            TOUCH DIRECTIONAL\n        </div>\n        <div class="slider-container-02">\n            <input id="sliderZoom" type="range" min="0.25" max="2" step="0.25" value="1" style="width: 90px;">\n        </div>\n    </div>\n</div>\n<hr>\n<div>\n    <button id="joystickCleanConfig">CLEAN CONFIG</button>\n</div>\n<script>\n    const btn = "btn_";\n\n    document.getElementById("joystickCleanConfig").addEventListener("click", () => {\n        if(!confirm("Do you want to clean the configuration?")) return;\n        bbs.configJoystick = null\n        localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n        location.reload();\n    });\n\n    const initTab8 = () => {\n\n        document.querySelector(".menu-bar").innerHTML = "";\n        document.getElementById("joystickButtons").innerHTML = "";\n\n        Object.keys(bbs.configJoystick.buttons).forEach((key) => {\n\n            const button = bbs.configJoystick.buttons[key];\n            const buttonElement = document.createElement("button");\n            buttonElement.innerHTML = bbs.configJoystick.typeCurrentName === \'all\' ? button.label : button.labelAbbreviation;\n            buttonElement.id = btn + key;\n            buttonElement.disabled = !button.active;\n            document.querySelector(".menu-bar").appendChild(buttonElement);\n\n            const checkebox = document.createElement("input");\n            checkebox.type = "checkbox";\n            checkebox.id = btn + key + "check";\n            checkebox.checked = button.active;\n            checkebox.addEventListener("change", (event) => {\n                bbs.configJoystick.buttons[key].active = event.target.checked;\n                localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n                document.getElementById(btn + key).disabled = !event.target.checked;\n            });\n\n            const label = document.createElement("label");\n            label.htmlFor = checkebox.id;\n            label.textContent = button.label;\n\n            const container = document.getElementById("joystickButtons");\n            label.prepend(checkebox);\n            container.appendChild(label);\n        });\n\n        const joystickSelect = document.getElementById("joystickSelectTypeCurrent");\n        joystickSelect.value = bbs.configJoystick.typeCurrent;\n\n        joystickSelect.addEventListener("change", (event) => {\n            bbs.configJoystick.typeCurrent = event.target.value;\n            localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n            initTab8();\n        });\n\n        const joystickSelectName = document.getElementById("joystickSelectTypeName");\n        joystickSelectName.value = bbs.configJoystick.typeCurrentName;\n\n        joystickSelectName.addEventListener("change", (event) => {\n            bbs.configJoystick.typeCurrentName = event.target.value;\n            localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n            initTab8();\n        });\n\n        const sliderZoom = document.getElementById("sliderZoom");\n        if (joystickSelect.value === "btn") {\n            sliderZoom.disabled = true;\n            document.getElementById(btn + "zoomplus").disabled = false;\n            document.getElementById(btn + "zoomminus").disabled = false;\n        } else {\n            sliderZoom.disabled = false;\n            document.getElementById(btn + "zoomplus").disabled = true;\n            document.getElementById(btn + "zoomminus").disabled = true;\n        }\n\n\n    }\n    initTab8();\n<\/script>\n                \n          </div>\n        </div>\n        \n          \n</div>\n<script>\n  function changeTab(tabIndex) {\n    const tabButtons = document.querySelectorAll(".tab-button");\n    for (let i = 0; i < tabButtons.length; i++) {\n      tabButtons[i].classList.remove("active");\n    }\n    const selectedButton = document.getElementById("tab_b" + (tabIndex + 1));\n    selectedButton.classList.add("active");\n\n    const tabContents = document.querySelectorAll(".tab-content");\n    for (let i = 0; i < tabContents.length; i++) {\n      tabContents[i].classList.remove("active-tab");\n    }\n    const selectedTab = document.getElementById("tab" + (tabIndex + 1));\n    selectedTab.classList.add("active-tab");\n  }\n<\/script>\n<script>\n  if (false) {\n    function _0x5d83(){const _0x206afa=[\'prototype\',\'key\',\'77ZtDLrZ\',\'click\',\'includes\',\'return\\x20(function()\\x20\',\'__proto__\',\'9iCzcDS\',\'3174892TttXOR\',\'console\',\'{}.constructor(\\x22return\\x20this\\x22)(\\x20)\',\'1261272KMMZqr\',\'opacity\',\'warn\',\'style\',\'1318701xpEzMU\',\'constructor\',\'5bzjkOa\',\'bind\',\'2554388YgJKyP\',\'log\',\'5574462mflStJ\',\'2182920EZdGNs\',\'(((.+)+)+)+$\',\'getElementById\',\'search\',\'apply\',\'error\',\'stopPropagation\',\'1202714pzPFzR\',\'pointerEvents\',\'length\',\'2hiYRgI\',\'trace\',\'toString\',\'0.5\'];_0x5d83=function(){return _0x206afa;};return _0x5d83();}const _0x1fe8a1=_0x100d;(function(_0x543c18,_0x1395cb){const _0x59b7d8=_0x100d,_0x2f54e7=_0x543c18();while(!![]){try{const _0x549729=-parseInt(_0x59b7d8(0x130))/0x1*(parseInt(_0x59b7d8(0x133))/0x2)+-parseInt(_0x59b7d8(0x146))/0x3+-parseInt(_0x59b7d8(0x14a))/0x4+parseInt(_0x59b7d8(0x148))/0x5*(parseInt(_0x59b7d8(0x14c))/0x6)+parseInt(_0x59b7d8(0x13f))/0x7+-parseInt(_0x59b7d8(0x142))/0x8*(-parseInt(_0x59b7d8(0x13e))/0x9)+parseInt(_0x59b7d8(0x14d))/0xa*(parseInt(_0x59b7d8(0x139))/0xb);if(_0x549729===_0x1395cb)break;else _0x2f54e7[\'push\'](_0x2f54e7[\'shift\']());}catch(_0x4d846a){_0x2f54e7[\'push\'](_0x2f54e7[\'shift\']());}}}(_0x5d83,0xc0402));const _0x267f96=(function(){let _0x323eb7=!![];return function(_0x5bd17a,_0x523ed9){const _0x1910a2=_0x323eb7?function(){const _0x2d0df1=_0x100d;if(_0x523ed9){const _0x701c6c=_0x523ed9[_0x2d0df1(0x12d)](_0x5bd17a,arguments);return _0x523ed9=null,_0x701c6c;}}:function(){};return _0x323eb7=![],_0x1910a2;};}()),_0x544ecf=_0x267f96(this,function(){const _0x540910=_0x100d;return _0x544ecf[_0x540910(0x135)]()[_0x540910(0x12c)](_0x540910(0x12a))[\'toString\']()[_0x540910(0x147)](_0x544ecf)[_0x540910(0x12c)](_0x540910(0x12a));});function _0x100d(_0x3ce5b8,_0x168500){const _0x41f287=_0x5d83();return _0x100d=function(_0x5f257c,_0xaf3251){_0x5f257c=_0x5f257c-0x12a;let _0x57c0ce=_0x41f287[_0x5f257c];return _0x57c0ce;},_0x100d(_0x3ce5b8,_0x168500);}_0x544ecf();const _0xaf3251=(function(){let _0xc75621=!![];return function(_0x1a75f7,_0x13e69d){const _0x289d37=_0xc75621?function(){if(_0x13e69d){const _0x4fea53=_0x13e69d[\'apply\'](_0x1a75f7,arguments);return _0x13e69d=null,_0x4fea53;}}:function(){};return _0xc75621=![],_0x289d37;};}()),_0x5f257c=_0xaf3251(this,function(){const _0x1a93d5=_0x100d,_0xca38f9=function(){const _0x3bb04d=_0x100d;let _0x2eed00;try{_0x2eed00=Function(_0x3bb04d(0x13c)+_0x3bb04d(0x141)+\');\')();}catch(_0x1cec9c){_0x2eed00=window;}return _0x2eed00;},_0x5468ef=_0xca38f9(),_0x27b0a5=_0x5468ef[_0x1a93d5(0x140)]=_0x5468ef[\'console\']||{},_0x3ef65f=[_0x1a93d5(0x14b),_0x1a93d5(0x144),\'info\',_0x1a93d5(0x12e),\'exception\',\'table\',_0x1a93d5(0x134)];for(let _0x232895=0x0;_0x232895<_0x3ef65f[_0x1a93d5(0x132)];_0x232895++){const _0x468347=_0xaf3251[_0x1a93d5(0x147)][_0x1a93d5(0x137)][_0x1a93d5(0x149)](_0xaf3251),_0x23f84f=_0x3ef65f[_0x232895],_0xa80bb4=_0x27b0a5[_0x23f84f]||_0x468347;_0x468347[_0x1a93d5(0x13d)]=_0xaf3251[_0x1a93d5(0x149)](_0xaf3251),_0x468347[_0x1a93d5(0x135)]=_0xa80bb4[_0x1a93d5(0x135)][\'bind\'](_0xa80bb4),_0x27b0a5[_0x23f84f]=_0x468347;}});_0x5f257c(),window[\'onwheel\']=_0x12b532=>{const _0x140b92=_0x100d;luaDeCristal=0x1,e[\'preventDefault\'](),e[_0x140b92(0x12f)]();},window[\'addEventListener\'](\'keydown\',function(_0x3a5d5d){const _0x599c55=_0x100d;[\'<\',\',\',\'>\',\'.\',\'z\',\'c\'][_0x599c55(0x13b)](_0x3a5d5d[_0x599c55(0x138)])&&(luaDeCristal=0x1,_0x3a5d5d[\'preventDefault\'](),_0x3a5d5d[_0x599c55(0x12f)]());},![]);const el=document[_0x1fe8a1(0x12b)](\'mm-action-play\');el&&(el[\'disabled\']=!![],el[_0x1fe8a1(0x145)][_0x1fe8a1(0x131)]=\'none\',el[_0x1fe8a1(0x145)][_0x1fe8a1(0x143)]=_0x1fe8a1(0x136),el[\'addEventListener\'](_0x1fe8a1(0x13a),_0xcf1853=>{_0xcf1853[\'preventDefault\'](),_0xcf1853[\'stopPropagation\']();},!![]));setInterval(()=>{luaDeCristal=0x1;},0xbb8);\n  }\n  var setWormworld = document.getElementById("set_wormworld");\n  if (setWormworld) {\n    setWormworld.addEventListener("click", function() {\n      document.getElementById("mm-settings").click();\n    });\n  }\n\n  var select = document.getElementById("backgroundArena");\n  var inputFile = document.getElementById("fileSkin");\n\n  const setconfigjoystick_checked = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.checked = e.checked;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setconfigjoystick_color = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.color = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setconfigjoystick_mode = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.mode = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    console.log(bbs.joystick);\n  };\n  const setconfigjoystick_position = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.position = {\n      left: "75px",\n      bottom: "75px",\n    };\n    if (e.value === "R") {\n      bbs.joystick.position = {\n        right: "75px",\n        bottom: "75px",\n      };\n    }\n    bbs.joystick.positionMode = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setconfigjoystick_pxy = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.position = {\n      left: (parseInt(e.value) + 10).toString() + "px",\n      bottom: e.value + "px",\n    };\n    if (bbs.joystick.positionMode === "R") {\n      bbs.joystick.position = {\n        right: (parseInt(e.value) + 10).toString() + "px",\n        bottom: e.value + "px",\n      };\n    }\n    bbs.joystick.pxy = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setconfigjoystick_size = function (e) {\n    if (!bbs.joystick) {\n      bbs.joystick = window._wwc.joystick();\n    }\n    bbs.joystick.size = e.value;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n  const setIdReplaceSkin = function (e) {\n    bbs.idReplaceSkin = window._wwc.isNumberValid(e.value) ? e.value : 32;\n    localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n  };\n\n  if (document.getElementById("setArrawInd")) {\n    document.getElementById("setArrawInd").checked = bbs.arrow;\n    document.getElementById("setArrawInd").addEventListener("change", function () {\n      bbs.arrow = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n      window.location.reload();\n    });\n  }\n\n  if (document.getElementById("onlytop")) {\n    document.getElementById("onlytop").checked = bbs.lr;\n    document.getElementById("onlytop").addEventListener("change", function () {\n      bbs.lr = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    });\n  }\n\n  if (document.getElementById("showTophs")) {\n    document.getElementById("showTophs").checked = bbs.showTophs;\n    document.getElementById("showTophs").addEventListener("change", function () {\n      bbs.showTophs = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    });\n  }\n\n  if (document.getElementById("showRechs")) {\n    document.getElementById("showRechs").checked = bbs.showRechs;\n    document.getElementById("showRechs").addEventListener("change", function () {\n      bbs.showRechs = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    });\n  }\n\n  if (document.getElementById("activeBadLang")) {\n    document.getElementById("activeBadLang").checked = bbs.activeBadLang;\n    document.getElementById("activeBadLang").addEventListener("change", function () {\n      bbs.activeBadLang = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n      window.location.reload();\n    });\n  }\n\n  if (document.getElementById("activeSounds")) {\n    document.getElementById("activeSounds").checked = bbs.activeSounds2;\n    document.getElementById("activeSounds").addEventListener("change", function () {\n      bbs.activeSounds2 = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n      window.location.reload();\n    });\n  }\n\n  if (document.getElementById("modoSTREAMER")) {\n    document.getElementById("modoSTREAMER").checked = bbs.display.custom;\n    document.getElementById("modoSTREAMER").addEventListener("change", function () {\n      bbs.display.clock.x = this.checked ? 250 : 60;\n      bbs.display.clock.y = 60;\n      bbs.display.top.x = this.checked ? 475 : 225;\n      bbs.display.top.y = 1;\n      bbs.display.custom = this.checked;\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n      window.location.reload();\n    });\n  }\n\n  if (select && typeof backgroundArena !== \'undefined\') {\n    for (var i = 0; i < backgroundArena.length; i++) {\n      let opt = document.createElement("option");\n      opt.value = i;\n      opt.innerHTML = backgroundArena[i].nome;\n      select.appendChild(opt);\n    }\n    select.value = isNaN(bbs.background) ? 0 : bbs.background || 0;\n  }\n\n  function onChange(event) {\n    var reader = new FileReader();\n    reader.onload = onReaderLoad;\n    reader.readAsText(event.target.files[0]);\n  }\n\n  var region = function (a, d, t, e) {\n    return {\n      texture: d,\n      h: t - 5,\n      w: t - 5,\n      x: t * (e ? 0 : a || 0),\n      y: 0,\n    };\n  };\n\n  function onReaderLoad(event) {\n    try {\n      let hasBrowserCompatible = "55524c534552565f574f524d574f524c44";\n      var hex = hasBrowserCompatible.toString();\n      var name_browser = "";\n\n      for (var n = 0; n < hex.length; n += 2) {\n        name_browser += String.fromCharCode(parseInt(hex.substr(n, 2), 16));\n      }\n\n      if (!window[name_browser]) {\n        document.location.reload(true);\n        return;\n      }\n\n      hasBrowserCompatible =\n        /w.*wo.*rl.*h.*ap/gim.test(window[name_browser]) ||\n        /l.*host/gim.test(window[name_browser]);\n\n      let t = JSON.parse(event.target.result);\n\n      if (t && t.wear) {\n        localStorage.setItem("custom_wormworld_wear", event.target.result);\n        alert("LOAD WEAR OK!");\n        window.location.reload();\n        return;\n      }\n\n      if (t && t.skin) {\n        localStorage.setItem("custom_wormworld_skin", event.target.result);\n        alert("LOAD SKIN OK!");\n        window.location.reload();\n        return;\n      }\n      \n        if (t.typeCustom && t.typeCustom === "background") {\n          alert("Free MODE!");\n        }\n      \n      \n        if (t.typeCustom && t.typeCustom === "bgGame") {\n          alert("Free MODE!");\n        }\n      \n\n      \n        if (t.typeCustom && t.typeCustom === "audio") {\n          alert("Free MODE!");\n        }\n      \n      if (t.typeCustom && t.typeCustom === "customJoyStick") {\n        bbs.customJoystick = t;\n        localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n        alert("BACKGROUND JOYSTICK OK!");\n        window.location.reload();\n        return;\n      }\n      \n        if (t.typeCustom && t.typeCustom === "clockMap") {\n          alert("Free MODE!");\n        }\n      \n      if (t.typeCustom && t.typeCustom === "demoSetLayout") {\n        bbs.display.clock.x = t.data.wc || 60;\n        bbs.display.clock.y = t.data.hc || 60;\n        bbs.display.clock.rc = t.data.rc || 0;\n        bbs.display.top.x = t.data.wt || 225;\n        bbs.display.top.y = t.data.ht || 1;\n        bbs.display.top.rt = t.data.rt || 0;\n        bbs.display.custom = true;\n\n        localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n        alert("LAYOUT UPDATE OK!");\n        return;\n      }\n\n      if (Array.isArray(t) && t.length > 0) {\n        localStorage.setItem("custom_wormworld_badLang", JSON.stringify(t));\n        let regex = [];\n        (t || []).forEach((x) => {\n          regex.push(x + " | " + x + " | " + x);\n        });\n        if (typeof badLanguageRegEx !== \'undefined\') {\n          badLanguageRegEx = badLanguageRegEx + "|" + regex.join("|");\n        }\n        alert("LIST UPDATE OK!");\n        window.location.reload();\n      }\n\n      if (t.version_skin === 2) {\n        let id_item = "SKIN_" + t.id + "___Z"\n        const obj = {\n          id: t.id,\n          regionDict: {},\n          textureDict: {},\n          skinArrayDict: [],\n          skinGroupArrayDict: [{\n            id: t.id,\n            name: { en: "Custom V2" },\n            list: [],\n          }],\n          version_skin: 3\n        }\n        const skin = {\n          id: id_item,\n          guest: false,\n          price: 0,\n          priceBefore: 0,\n          nonbuyable: false,\n          prime: "c_white",\n          glow: t.glow,\n          base: [],\n        };\n        for (let c = t.len - 1; 0 <= c; c--) {\n          obj.regionDict[id_item + "_" + c] = region(c, id_item, t.cos, 0);\n          skin.base.push(id_item + "_" + c);\n        }\n        obj.textureDict[id_item] = {\n          custom: true,\n          re1ativePath: t.file || t.td.file,\n          h1: true,\n        };\n        obj.skinArrayDict.push(skin);\n        obj.skinGroupArrayDict[0].list.push(id_item);\n\n        alert("SKIN OK!");\n        localStorage.setItem("custom_wormworld_skin", JSON.stringify(obj));\n        window.location.reload();\n      }\n\n      if (t.version_skin === 3) {\n        let id_wormate = document.getElementById("wormate_id").value;\n        const obj = {\n          id: t.id,\n          regionDict: {},\n          textureDict: {},\n          skinArrayDict: [],\n          skinGroupArrayDict: [{\n            id: t.id,\n            name: { en: "CUSTON PACK:" + (t.skins.length) },\n            list: [],\n          }],\n          version_skin: 3\n        }\n        for (let item of t.skins) {\n          const skin = {\n            id: item.id,\n            guest: false,\n            price: 0,\n            priceBefore: 0,\n            nonbuyable: item.associados.includes(id_wormate),\n            prime: "c_white",\n            associados: item.associados,\n            glow: item.glow,\n            base: [],\n          };\n          for (let c = t.len - 1; 0 <= c; c--) {\n            obj.regionDict[item.id + "_" + c] = region(c, item.id, t.cos, 0);\n            skin.base.push(item.id + "_" + c);\n          }\n          obj.textureDict[item.id] = {\n            custom: true,\n            re1ativePath: item.file,\n            h1: true,\n            h4: true,\n          };\n          obj.skinArrayDict.push(skin);\n          obj.skinGroupArrayDict[0].list.push(item.id);\n        }\n        alert("PACKAGE SKIN OK!");\n        localStorage.setItem("custom_wormworld_skin", JSON.stringify(obj));\n        window.location.reload();\n      }\n\n    } catch (error) {\n      console.error(error);\n      alert("file not valid!");\n    }\n  }\n\n  if (inputFile) {\n    document.getElementById("fileSkin").addEventListener("change", onChange);\n  }\n\n  function closeWwcSetView() {\n    const element = document.getElementById("wwc-set-view");\n    if (element) element.style.display = "none";\n  }\n\n  if (document.getElementById("mm-wwc-close")) {\n    document.getElementById("mm-wwc-close").addEventListener("click", closeWwcSetView);\n  }\n\n  const newsBox = document.querySelector(".news-box-wormworld");\n  const newsBoxClose = document.getElementById("close-news-button");\n  const newsCheckbox = document.getElementById("news-checkbox");\n\n  var novidadewormworld = 1;\n\n  if (newsCheckbox) {\n    newsCheckbox.addEventListener("change", function () {\n      if (this.checked) {\n        bbs.novidadewormworld = novidadewormworld;\n      } else {\n        bbs.novidadewormworld = 0;\n      }\n      localStorage.setItem("wwcSaveGame", JSON.stringify(bbs));\n    });\n  }\n\n  if (newsBoxClose) {\n    newsBoxClose.addEventListener("click", function () {\n      newsBox.style.display = "none";\n    });\n  }\n\n\n  if (newsBox && novidadewormworld != bbs.novidadewormworld) {\n    newsBox.style.display = "block";\n    fetch("https://wormworld.io/news/index.html")\n      .then((response) => {\n        if (!response.ok) {\n          throw new Error("Network response was not ok");\n        }\n        return response.text();\n      })\n      .then((html) => {\n        document.querySelector(".news-content").innerHTML = html;\n      })\n      .catch((error) => {\n        console.error("Error loading HTML:", error);\n      });\n  }\n<\/script>';
-                return Promise.resolve(new Response(t,{
-                    status: 200,
-                    statusText: "OK",
-                    headers: {
-                        "Content-Type": "text/html"
-                    }
-                }))
-            }
-            return t
-        }
-        )).catch((t => {
-            throw console.error("❌ fetch error:", t),
-            t
-        }
-        ))
-    }
-    ,
-    console.log("updated fetch interceptor installed")
-}(),
-function() {
-    const t = XMLHttpRequest.prototype.open
-      , e = XMLHttpRequest.prototype.send;
-    XMLHttpRequest.prototype.open = function(e, n, ...o) {
-        return this._url = n,
-        console.log("XHR request:", e, n),
-        t.apply(this, [e, n, ...o])
-    }
-    ,
-    XMLHttpRequest.prototype.send = function(...t) {
-        const n = this;
-        return this._url && (this._url.includes("/extension/set-worm-world") || this._url.includes("/set-worm-world")) ? (console.log("intercept XHR set-worm-world"),
-        void setTimeout(( () => {
-            const t = "<h3>✅ CUSTOMER MODE ACTIVATED VIA XHR ✅</h3>";
-            Object.defineProperty(n, "status", {
-                value: 200
-            }),
-            Object.defineProperty(n, "statusText", {
-                value: "OK"
-            }),
-            Object.defineProperty(n, "responseText", {
-                value: t
-            }),
-            Object.defineProperty(n, "response", {
-                value: t
-            }),
-            Object.defineProperty(n, "readyState", {
-                value: 4
-            }),
-            n.onreadystatechange && n.onreadystatechange(),
-            n.onload && n.onload()
-        }
-        ), 100)) : e.apply(this, t)
-    }
-    ,
-    console.log("XHR interceptor installed")
-}(),
-console.log("Request interceptors ready - with token fix!"),
-document.querySelector(".mm-event-cont")?.style.setProperty("display", "none", "important"),
-document.querySelector(".mm-logo")?.style.setProperty("display", "none", "important"),
-document.querySelector(".mm-event-cont + span")?.style.setProperty("display", "none", "important"),
-function() {
-    try {
-        if (document.getElementById("btnRePlay"))
-            return;
-        var t = document.createElement("button");
-        t.id = "respawn-btn-overlay",
-        t.textContent = "Respawn",
-        t.setAttribute("aria-label", "Respawn"),
-        
-        t.addEventListener("click", (function(t) {
-            t.preventDefault(),
-            t.stopPropagation(),
-            function() {
-                try {
-                    if (window._wwc && "function" == typeof window._wwc.respawn)
-                        return void window._wwc.respawn()
-                } catch (t) {}
-                try {
-                    var t = new KeyboardEvent("keydown",{
-                        key: "5",
-                        code: "Digit5",
-                        keyCode: 53,
-                        which: 53,
-                        bubbles: !0
-                    })
-                      , e = new KeyboardEvent("keyup",{
-                        key: "5",
-                        code: "Digit5",
-                        keyCode: 53,
-                        which: 53,
-                        bubbles: !0
-                    });
-                    document.dispatchEvent(t),
-                    document.dispatchEvent(e)
-                } catch (t) {}
-            }()
-        }
-        ), !0);
-        var e = document.createElement("button");
-        e.id = "btnFullScreen",
-        e.textContent = "Full Screen",
-        e.setAttribute("aria-label", "Full Screen"),
-        [e.style.zIndex,e.style.padding,e.style.borderRadius,e.style.border,e.style.background,e.style.color,e.style.boxShadow,e.style.cursor,e.style.fontFamily,e.style.fontSize] = [""],
-        e.addEventListener("click", (function(t) {
-            t.preventDefault(),
-            t.stopPropagation(),
-            function() {
-                try {
-                    var t = document.getElementById("game-wrap") || document.documentElement;
-                    if (document.fullscreenElement)
-                        return void (document.exitFullscreen && document.exitFullscreen());
-                    t.requestFullscreen ? t.requestFullscreen() : t.webkitRequestFullscreen ? t.webkitRequestFullscreen() : t.msRequestFullscreen && t.msRequestFullscreen()
-                } catch (t) {}
-            }()
-        }
-        ), !0);
-        var n = function(n) {
-            
-            t.parentNode && t.parentNode.insertBefore(e, t.nextSibling)
-        }
-          , o = document.getElementById("mm-action-play");
-        if (o && o.parentNode)
-            n(o);
-        else {
-            
-            document.body.appendChild(e);
-            var i = new MutationObserver((function() {
-                var t = document.getElementById("mm-action-play");
-                if (t && t.parentNode && document.getElementById("respawn-btn-overlay"))
-                    try {
-                        n(t),
-                        i.disconnect()
-                    } catch (t) {}
-            }
-            ));
-            try {
-                i.observe(document.body, {
-                    childList: !0,
-                    subtree: !0
-                })
-            } catch (t) {}
-        }
-    } catch (t) {}
-}(),
-function() {
-    try {
-        if (document.getElementById("fps-overlay"))
-            return;
-        var t = document.createElement("div");
-        t.id = "fps-overlay",
-        t.textContent = "FPS: --",
-        t.style.position = "fixed",
-        t.style.left = "8345678987654px",
-        t.style.top = "8px",
-        t.style.zIndex = "99999",
-        t.style.padding = "4px 6px",
-        t.style.borderRadius = "4px",
-        t.style.background = "rgba(0,0,0,0.55)",
-        t.style.color = "#7CFC00",
-        t.style.fontFamily = "monospace",
-        t.style.fontSize = "12px",
-        t.style.pointerEvents = "none",
-        document.body.appendChild(t);
-        var e = 0
-          , n = performance.now();
-        requestAnimationFrame((function o(i) {
-            if (e += 1,
-            i - n >= 1e3) {
-                var r = Math.round(1e3 * e / (i - n));
-                t.textContent = "FPS: " + r,
-                e = 0,
-                n = i
-            }
-            requestAnimationFrame(o)
-        }
-        ))
-    } catch (t) {}
-}();
