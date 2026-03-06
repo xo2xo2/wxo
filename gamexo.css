@@ -335,13 +335,7 @@ iframe#launcher {
 
 }
 
-#ALICE  {
-    background-image: url('https://asserts.wormworld.io/images/texture_custom_paths_2025_12_16.png');
-    background-position: -0px -120px;
-    background-repeat: no-repeat;
-    width: 180px;
-    height: 40px;
-}
+
 
 
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-share-fb {

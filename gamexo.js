@@ -5916,7 +5916,7 @@ var vLS4d59d9b6cc24740ef3ab = "073ded1edcedd11f60005ae969cabf11";
                 K()
             }
             ,
-            $('<button type="button" id="mm-wwc" style="float: right;line-height: 48px;width: 61px;background:rgb(53, 179, 21);color: #FFF;font-weight: bold;margin-right: 5px;border-radius: 7px; cursor: pointer;">⚙️</button>').insertAfter("#mm-store"),
+            $('<button type="button" id="mm-wwc" >⚙️</button>').insertAfter("#mm-store"),
             $(".store-view-cont").append('<div id="idReplaceSkin"></div>'),
             $(".wear-view-cont").append('<div id="idWearViewCont"></div>');
             var z = "display:none;position:relative;background:#000;padding:15px;max-width:680px;margin:10px auto;";
@@ -11983,7 +11983,7 @@ var vLS4d59d9b6cc24740ef3ab = "073ded1edcedd11f60005ae969cabf11";
                                     var t = $("#final-replay");
                                     t.css({
                                         position: "absolute",
-                                        top: "300px",
+                                        top: "230px",
                                         left: "15px",
                                         right: "15px",
                                         background: "#f7941d",
@@ -15573,7 +15573,7 @@ document.querySelector(".mm-logo")?.style.setProperty("display", "none", "import
 document.querySelector(".mm-event-cont + span")?.style.setProperty("display", "none", "important"),
 function() {
     try {
-        if (document.getElementById("respawn-btn-overlay"))
+        if (document.getElementById("btnRePlay"))
             return;
         var t = document.createElement("button");
         t.id = "respawn-btn-overlay",
@@ -15619,7 +15619,7 @@ function() {
         }
         ), !0);
         var e = document.createElement("button");
-        e.id = "fullscreen-btn-overlay",
+        e.id = "btnFullScreen",
         e.textContent = "Full Screen",
         e.setAttribute("aria-label", "Full Screen"),
         [e.style.zIndex,e.style.padding,e.style.borderRadius,e.style.border,e.style.background,e.style.color,e.style.boxShadow,e.style.cursor,e.style.fontFamily,e.style.fontSize] = ["99999", "10px 14px", "8px", "0", "#333", "#fff", "0 2px 8px rgba(0,0,0,0.25)", "pointer", "inherit", "14px"],
