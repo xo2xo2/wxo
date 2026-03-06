@@ -15081,7 +15081,7 @@ var Ot = function(t) {
 
   document.body.style.backgroundColor = "";
   document.body.style.backgroundImage =
-    "linear-gradient(135deg, rgba(255,50,50,0.28), rgba(50,255,100,0.28))";
+    "linear-gradient(135deg, rgba(0, 255, 123, 0.73), rgba(68, 0, 255, 0.56))";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
   document.body.style.overflow = "hidden";
@@ -15098,7 +15098,7 @@ var Ot = function(t) {
   }
   
 
-  var confettiURL = "https://wormate.io/images/confetti-xmas2022.png";
+  var confettiURL = "https://timmapwormate.com/images/store/confetti-tmw.png";
   
 
   var bgLayerId = "animated-confetti-layer";
