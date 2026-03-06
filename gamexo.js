@@ -6993,7 +6993,7 @@ btn.onclick = () => {
             w2c2020.killTotal = new PIXI.Text("0",w2c2020.fontStyle.branco),
             w2c2020.killTotal.x = 60,
             w2c2020.killTotal.y = 133,
-            w2c2020.clock = PIXI.Sprite.from(URL_CDN + "https://wormup.in/assets/images/clock.png"),
+            w2c2020.clock = PIXI.Sprite.from("https://wormup.in/assets/images/clock.png");
             w2c2020.clock.width = 100,
             w2c2020.clock.height = 100,
             w2c2020.clock.x = -50,
