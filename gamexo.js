@@ -5929,7 +5929,7 @@ btn.onclick = () => {
 };
               
             $('<button type="button" id="mm-wwc" >⚙️</button>').insertAfter("#mm-store"),
-   $("<button type=\"button\" id=\"mm-wwc\" \">⚙️</button>").insertAfter("#mm-store");
+  
       $("<button type=\"button\" id=\"xo-button\" \">💡</button>").insertAfter("#mm-store");
       document.getElementById('xo-button').addEventListener('click', function() {
     window.open('https://wormworld.io/skinlab/', '_blank');
