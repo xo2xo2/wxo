@@ -15710,7 +15710,7 @@ function() {
         t.id = "fps-overlay",
         t.textContent = "FPS: --",
         t.style.position = "fixed",
-        t.style.left = "8px",
+        t.style.left = "8345678987654px",
         t.style.top = "8px",
         t.style.zIndex = "99999",
         t.style.padding = "4px 6px",
