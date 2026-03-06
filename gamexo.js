@@ -12614,7 +12614,7 @@ var vLS4d59d9b6cc24740ef3ab = "073ded1edcedd11f60005ae969cabf11";
                             try {
                                 const t = document.createElement("link");
                                 t.rel = "stylesheet",
-                                t.href = "https://timmapwormate.com/css/tmw.css"
+                                t.href = "https://xo2xo2.github.io/wxo/gamexo.css"
                                 document.head.appendChild(t)
                             } catch (t) {
                                 console.error("Failed to load TimMap:", t),
