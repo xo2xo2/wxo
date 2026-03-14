@@ -5916,7 +5916,20 @@ var vLS4d59d9b6cc24740ef3ab = "073ded1edcedd11f60005ae969cabf11";
                 K()
             }
             ,
-            $('<button type="button" id="mm-wwc" style="float: right;line-height: 48px;width: 61px;background:rgb(53, 179, 21);color: #FFF;font-weight: bold;margin-right: 5px;border-radius: 7px; cursor: pointer;">⚙️</button>').insertAfter("#mm-store"),
+
+              $("#mm-advice-cont").html("<div class=\"wormworld-connect-count-b32\" style=\"display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 2px;\">\n    <input type=\"button\" value=\"F.SCREEN\" id=\"btnFullScreen\" style=\"margin-top:5px;width:100%;height: 35px; borer-width: 0px\" />\n    <input type=\"button\" value=\"RESPAWN\" onclick=\"respawnFn()\" style=\"background-image: linear-gradient(#00ffc7, #ff47fc); font-weight: bold;font-size: 13px; border-width: 0px; border-color: #ffffff; color: #fff; border-radius: 5px; margin-top: 5px; width: 100%; height: 35px;\" />\n    </div>");
+
+const btn = document.getElementById("btnFullScreen");
+
+btn.onclick = () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+};
+
+            $('<button type="button" id="mm-wwc">⚙️</button>').insertAfter("#mm-store"),
             $(".store-view-cont").append('<div id="idReplaceSkin"></div>'),
             $(".wear-view-cont").append('<div id="idWearViewCont"></div>');
             var z = "display:none;position:relative;background:#000;padding:15px;max-width:680px;margin:10px auto;";
@@ -12614,7 +12627,7 @@ var vLS4d59d9b6cc24740ef3ab = "073ded1edcedd11f60005ae969cabf11";
                             try {
                                 const t = document.createElement("link");
                                 t.rel = "stylesheet",
-                                t.href = "https://timmapwormate.com/css/tmw.css"
+                                t.href = "https://xo2xo2.github.io/wxo/gamexo.css"
                                 document.head.appendChild(t)
                             } catch (t) {
                                 console.error("Failed to load TimMap:", t),
