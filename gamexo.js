@@ -15045,7 +15045,7 @@ var Ot = function(t) {
 
   document.body.style.backgroundColor = "";
   document.body.style.backgroundImage =
-    "linear-gradient(135deg, rgba(255,50,50,0.28), rgba(50,255,100,0.28))";
+    "linear-gradient(135deg, rgb(0 8 255 / 28%), rgb(0 217 240 / 74%))";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
   document.body.style.overflow = "hidden";
