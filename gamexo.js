@@ -6153,8 +6153,8 @@ btn.onclick = () => {
 									this.fc = new app.Wa("magnet_ability", config, 158, 86, 67, 124, 148, 63.5, 128, 128);
 									this.gc = new app.Wa("velocity_ability", config, 158, 4, 87, 74, 203, 63.5, 128, 128);
 									this.hc = new app.Wa("flex_ability", config, 4, 4, 146, 146, 63.5, 63.5, 128, 128);
-									var newTexture1 = utils.k.m.from("https://i.imgur.com/LvJ1RxC.png");
-									this.pwrFlex1 = new app.Wa("flex_ability1", newTexture1, 156, 4, 87, 74, 285, 63.5, 128, 128);
+									var zigzag = utils.k.m.from("https://wormup.in/assets/images/zigzagability.png");
+									this.pwrFlex1 = new app.Wa("flex_ability", zigzag, 158, 4, 87, 74, 203, 63.5, 128, 128);
 									var newTexture = utils.k.m.from("https://i.imgur.com/LFiCido.png");
 									this.pwrFlex = new app.Wa("flex_ability", newTexture, 156, 140, 87, 60, 170, 128.5, 128, 128);
 									var newTexture2 = utils.k.m.from("https://i.imgur.com/LvJ1RxC.png");
@@ -6835,10 +6835,10 @@ btn.onclick = () => {
                 fontStyle: {
                     amarelo: new PIXI.TextStyle({
                         align: "center",
-                        fill: "#ffc800",
+                        fill: "#f8d968",
                         fontSize: 10,
                         lineJoin: "round",
-                        stroke: "",
+                        stroke: "red",
                         strokeThickness: 1,
                         whiteSpace: "normal",
                         wordWrap: !0
