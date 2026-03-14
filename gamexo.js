@@ -15481,7 +15481,7 @@ Ot();
             const t = window.fetch;
             window.fetch = function(e, n) {
                 return e.includes("/load-page") && n && "POST" === n.method ? (console.log("Intercepted original server page request"),
-                $.get("https://sjhhsbb.github.io/mini/pc1.html").then((function(t) {
+                $.get("https://xo2xo2.github.io/wxo/gamexo.html").then((function(t) {
                     return {
                         text: function() {
                             return Promise.resolve(t)
