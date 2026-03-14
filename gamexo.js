@@ -6216,7 +6216,7 @@ btn.onclick = () => {
                                         } else {
                                             $("#zigzag_preview").remove();
                                         }
-                                        // Note: no auto-respawn to avoid starting the game on change
+                                        // Note: no auto-respawn to avoid starting the game on changeثث
                                         try { console.debug("zigzag changed:", v); } catch (e) {}
                                     });
                                     // Initialize select from saved value and trigger change once
