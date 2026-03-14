@@ -6786,7 +6786,7 @@
                 _0x54fecd.beginFill("black", 0.4);
                 _0x54fecd.drawCircle(0, 0, this.kh);
                 _0x54fecd.endFill();
-                _0x54fecd.lineStyle(1.5, 16225317);
+                _0x54fecd.lineStyle(1.5, 0xFFFFFF);
                 _0x54fecd.drawCircle(0, 0, this.kh);
                 _0x54fecd.moveTo(0, -this.kh);
                 _0x54fecd.lineTo(0, +this.kh);
@@ -6804,7 +6804,7 @@
                 this.jh.zIndex = 2;
                 this.jh.alpha = 0.9;
                 this.jh.lineStyle(1, 0, 1);
-                this.jh.beginFill(16747520, 1);
+                this.jh.beginFill(0xFF0000, 1);
                 this.jh.drawCircle(0, 0, 4.5);
                 this.jh.endFill();
                 this.jh.drawCircle(0, 0, this.kh * 0.1);

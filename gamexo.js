@@ -6802,10 +6802,10 @@ btn.onclick = () => {
                 fontStyle: {
                     amarelo: new PIXI.TextStyle({
                         align: "center",
-                        fill: "#f8d968",
+                        fill: "#ffc800",
                         fontSize: 10,
                         lineJoin: "round",
-                        stroke: "red",
+                        stroke: "",
                         strokeThickness: 1,
                         whiteSpace: "normal",
                         wordWrap: !0
