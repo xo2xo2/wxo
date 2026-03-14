@@ -6203,15 +6203,15 @@ btn.onclick = () => {
                                             }
                                         } else if (v === "2") {
                                             if (!$("#zigzag_preview").length) {
-                                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://wormup.in/assets/images/zigzagability1.png" style="display:block;margin:8px auto;max-width:120px;">');
-                                            } else {
-                                                $("#zigzag_preview").attr("src", "https://wormup.in/assets/images/zigzagability1.png");
-                                            }
-                                        } else if (v === "3") {
-                                            if (!$("#zigzag_preview").length) {
                                                 $("#wwc-set-view").append('<img id="zigzag_preview" src="https://i.imgur.com/LvJ1RxC.png" style="display:block;margin:8px auto;max-width:120px;">');
                                             } else {
                                                 $("#zigzag_preview").attr("src", "https://i.imgur.com/LvJ1RxC.png");
+                                            }
+                                        } else if (v === "3") {
+                                            if (!$("#zigzag_preview").length) {
+                                                $("#wwc-set-view").append('<img id="zigzag_preview" src="https://wormup.in/assets/images/zigzagability1.png" style="display:block;margin:8px auto;max-width:120px;">');
+                                            } else {
+                                                $("#zigzag_preview").attr("src", "https://wormup.in/assets/images/zigzagability1.png");
                                             }
                                         } else {
                                             $("#zigzag_preview").remove();
