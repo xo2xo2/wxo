@@ -11991,8 +11991,8 @@ btn.onclick = () => {
                           , u = $("#final-board");
                         !function() {
                             try {
-                                if (!document.getElementById("final-replay") && d && d.length) {
-                                    d.after("<div id='final-replay'>Respawn</div>");
+                                if (!document.getElementById("") && d && d.length) {
+                                    d.after("<div id='final-reay'>Respawn</div>");
                                     var t = $("#final-replay");
                                     t.css({
                                         position: "absolute",
