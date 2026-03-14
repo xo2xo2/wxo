@@ -4494,11 +4494,12 @@ var vLS4d59d9b6cc24740ef3ab = "073ded1edcedd11f60005ae969cabf11";
                 }
                 )(t)
             }
-            t = n.hmd(t),
-            window.URLSERV_WORMWORLD = "https://wormworld.io/extension/",
-            window.URL_CDN = "",
-            window.URL_CDN_B = "asserts.wormworld.io",
-            window.URL_CDN_C = 0,
+             var _0x24c052 = 0;
+            
+            window.URLSERV_WORMWORLD = _0x24c052 ? "http://localhost:3102" : "https://wormworld.io/extension";
+            window.URL_CDN = _0x24c052 ? "http://localhost:3000" : "https://asserts.wormworld.io";
+            window.URL_CDN_B = _0x24c052 ? "localhost:3000" : "asserts.wormworld.io";
+            window.URL_CDN_C = _0x24c052;
             window.URL_CDN_IKIT = "https://ik.imagekit.io/jdfnxk119";
             var _ = /(.{18})(([AB])([0-9A-Za-z_]{2})([0-9A-Za-z]{3})([0-9A-Z_]{2})([0-9A-Z_]{2})([0-9A-Z_]{2})([0-9A-Z_]{2}))/
               , k = 18;
