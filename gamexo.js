@@ -9623,7 +9623,7 @@ btn.onclick = () => {
                             t.beginFill("black", .4),
                             t.drawCircle(0, 0, this.kh),
                             t.endFill(),
-                            t.lineStyle(1.5, 0xADD8E6),
+                            t.lineStyle(1.5, 0xADD8E6),  // خريطة 
                             t.drawCircle(0, 0, this.kh),
                             t.moveTo(0, -this.kh),
                             t.lineTo(0, +this.kh),
@@ -12061,7 +12061,8 @@ btn.onclick = () => {
                             a.toggle(qt.xn),
                             e.text(i.H("index.game.result.title")),
                             o.text(i.H("index.game.result.continue")),
-                            o.html("Continue (Home)"),
+                            c.html(i.H("index.game.result.your"));
+                            o.html("Continue"),
                             o.click((function() {
                                 s.Ci.Be(),
                                 s.zn.yn.ka(),
