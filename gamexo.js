@@ -11986,7 +11986,7 @@ btn.onclick = () => {
                           , s = $("#unl6wj4czdl84o9b");
                         $("#congrats");
                         var a = $("#final-share-fb")
-                          , c = $("#final-message")
+                          var c = $("#final-message")
                           , l = $("#final-score")
                           , d = $("#final-place")
                           , u = $("#final-board");
